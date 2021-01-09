@@ -1,0 +1,25 @@
+Watching for file changes with StatReloader
+[09/Jan/2021 08:56:32] "GET / HTTP/1.1" 200 16351
+[09/Jan/2021 08:56:32] "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[09/Jan/2021 08:56:32] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+Not Found: /favicon.ico
+[09/Jan/2021 08:56:32] "GET /favicon.ico HTTP/1.1" 404 1969
+[09/Jan/2021 08:56:32] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+[09/Jan/2021 08:56:32] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+Not Found: /TP/public/index.php
+[09/Jan/2021 09:11:45] "GET /TP/public/index.php HTTP/1.1" 404 1996
+Not Found: /TP/index.php
+[09/Jan/2021 09:11:46] "GET /TP/index.php HTTP/1.1" 404 1975
+Not Found: /thinkphp/html/public/index.php
+[09/Jan/2021 09:11:48] "GET /thinkphp/html/public/index.php HTTP/1.1" 404 2029
+Not Found: /html/public/index.php
+[09/Jan/2021 09:11:48] "GET /html/public/index.php HTTP/1.1" 404 2002
+[09/Jan/2021 09:11:55] "GET / HTTP/1.1" 200 16351
+Not Found: /login
+[09/Jan/2021 09:32:48] "GET /login HTTP/1.0" 404 1953
+Not Found: /manager/html
+[09/Jan/2021 09:32:48] "GET /manager/html HTTP/1.0" 404 1974
+Not Found: /.env
+[09/Jan/2021 09:43:27] "GET /.env HTTP/1.1" 404 1951
+Not Found: /.env
+[09/Jan/2021 09:43:28] "POST /.env HTTP/1.1" 404 1952
