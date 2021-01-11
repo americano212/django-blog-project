@@ -256,3 +256,36 @@ git init
 ls -a
 source myvenv/bin/activate
 ls -a
+ps -l
+ps -ef | grep manage.py
+kill -9 16262
+kill -9 2239
+kill -9 1577
+source myvenv/bin/activate
+ps -ef | grep manage.py
+nohup python3 manage.py runserver 0:80 &
+ls
+python3 manage.py makemigrations BlogMain
+python3 manage.py migrate
+git add *
+git commit -m "make base.html and connect"
+git push
+git reset HEAD^
+git status
+git add *
+git status
+git reset --hard HEAD^
+git status
+git log
+git commit
+git log
+git reset HEAD^
+git status
+git commit
+git status
+git log
+git commit -m "test"
+git log
+git reset --hard HEAD^
+git log
+git status
