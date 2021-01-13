@@ -1,10 +1,19 @@
 <!DOCTYPE html>
+{% load static %}
+<link rel="stylesheet" type="text/css" href="{% static 'css/blog_base.css' %}">
+
 <html lang="ko" dir="ltr">
     <head>
-        <meta charset="utf-8">
+        <meta charset="utf-8"> <!--문자에 대한 정보를 나타냄 meta-->
         <title>Welcome my Blog</title>
+        <link rel="shortcut icon" type="image/x-icon" href="{% static 'images/favicon_blog.ico' %}"/>
     </head>
     <body>
-        <h1>body</h1>
+        <header>
+            <!--header logo-->
+            <div class="hd_logo">
+                <h1><a href="/">PyPyStory</a></h1>
+            </div>
+        </header>
     </body>
 </html>
