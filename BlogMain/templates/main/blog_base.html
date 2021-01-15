@@ -1,27 +1,39 @@
 <!DOCTYPE html>
 {% load static %}
+<link rel="stylesheet" type="text/css" href="{% static 'css/blog_font.css' %}">
 <link rel="stylesheet" type="text/css" href="{% static 'css/blog_base_total.css' %}">
 <link rel="stylesheet" type="text/css" href="{% static 'css/blog_base_header.css' %}">
 <link rel="stylesheet" type="text/css" href="{% static 'css/blog_base_nav.css' %}">
 <html lang="ko" dir="ltr">
     <head>
         <meta charset="utf-8"> <!--문자에 대한 정보를 나타냄 meta-->
-        <title>Welcome my Blog</title>
+        <title>PyPyStory</title>
         <link rel="shortcut icon" type="image/x-icon" href="{% static 'images/favicon_blog.ico' %}"/>
     </head>
     <body>
         <header>
             <!--header logo-->
-            <div class="hd_logo">
-                <h1><a href="/">PyPyStory</a></h1>
-            </div>
-
+            <a href="/">
+                <div class="hd_logo">
+                    <span style="color:#615E5E;">P</span><span style="color:#A8A0A0;">y</span><span style="color:#615E5E;">P</span><span style="color:#A8A0A0;">y</span><span style="color:#615E5E;">Story</span>
+                </div>
+            </a>
+            <!--로그인 회원가입-->
             <div class="sign_logo">
-                <a href="/"><img src="{% static 'images/logo_signin.png' %}" alt="signin"></a>
-                <a href="/"><img src="{% static 'images/logo_signup.png' %}" alt="signup"></a>
+                <a href="/"><span class="signin">로그인</span></a>
+                <hr>
+                <a href="/"><span class="signup">회원가입</span></a>
             </div>
         </header>
+        <!--상단 메뉴-->
         <nav>
+            <ul class="nav_container">
+                <li class="nav_item"><a href="/">Coding</a></li>
+                <li class="nav_item"><a href="/">Board</a></li>
+                <li class="nav_item"><a href="/">Diary</a></li>
+                <li class="nav_item"><a href="/">Finance</a></li>
+                <li class="nav_item"><a href="/">Profile</a></li>
+            </ul>
         </nav>
     </body>
 </html>

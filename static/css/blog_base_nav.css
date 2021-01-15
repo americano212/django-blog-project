@@ -1,0 +1,41 @@
+/*네비게이션바*/
+nav{
+    position: sticky;
+    top: 0;
+    left: 0;
+    height: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    background: #ffffff;
+    box-shadow: 0 0 10px 1px silver;
+    font-size: 20px;
+}
+nav a{
+    text-decoration: none;
+    text-align: center;
+}
+nav .nav_container{
+    position: absolute;
+    left: 20%;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+nav .nav_item{
+    padding: 0;
+    padding-top: 8px;
+    padding-right: 150px;
+    cursor: pointer;
+    font-family: 'GmarketSansBold';
+    color: #7E727F;
+}
+nav .nav_item a:visited{
+    color: #7E727F;
+}
+nav .nav_item a:hover{
+    color: black;
+}
