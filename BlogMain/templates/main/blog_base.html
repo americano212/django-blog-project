@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 {% load static %}
-<link rel="stylesheet" type="text/css" href="{% static 'css/blog_base.css' %}">
-
+<link rel="stylesheet" type="text/css" href="{% static 'css/blog_base_total.css' %}">
+<link rel="stylesheet" type="text/css" href="{% static 'css/blog_base_header.css' %}">
+<link rel="stylesheet" type="text/css" href="{% static 'css/blog_base_nav.css' %}">
 <html lang="ko" dir="ltr">
     <head>
         <meta charset="utf-8"> <!--문자에 대한 정보를 나타냄 meta-->
@@ -14,6 +15,13 @@
             <div class="hd_logo">
                 <h1><a href="/">PyPyStory</a></h1>
             </div>
+
+            <div class="sign_logo">
+                <a href="/"><img src="{% static 'images/logo_signin.png' %}" alt="signin"></a>
+                <a href="/"><img src="{% static 'images/logo_signup.png' %}" alt="signup"></a>
+            </div>
         </header>
+        <nav>
+        </nav>
     </body>
 </html>

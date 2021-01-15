@@ -1,14 +1,9 @@
-html,body{
-    padding: 0;
-    margin: 0;
-    font-size: 18px;
-}
-
+/*header 부분*/
 header{
     position: sticky;
     top: 0;
     left: 0;
-    height: 70px;
+    height: 50px;
     display: flex;
     flex-wrap: wrap;
     background: #e8eaf6;
@@ -16,7 +11,7 @@ header{
 header .hd_logo{
     padding: 0;
     padding-left: 20px;
-    padding-top: 10px;
+    padding-top: 5px;
 
 }
 header .hd_logo h1{
@@ -42,4 +37,14 @@ header .hd_logo h1 a:visited{
 header .hd_logo h1 a:hover{
     color: blue;
     text-decoration: none;
+}
+
+header .sign_logo{
+    position: absolute;
+    right: 3%;
+    top: 10px;
+}
+header .sign_logo img{
+    weight: 70px;
+    height: 30px;
 }
