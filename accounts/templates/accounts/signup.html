@@ -1,0 +1,40 @@
+{% extends 'blog_base.html' %}
+
+{% block title %}{% endblock %}
+
+{% block content %}
+회원가입 페이지
+
+<form action="" method="POST">
+    {% csrf_token %}
+    <p>아이디</a>
+    <input name="username" type="text">
+    <p>비밀번호</a>
+    <input name="password" type="password">
+    <p>이메일</a>
+    <input name="email" type="text">
+    <p>이름</a>
+    <input name="name" type="text">
+    <p>닉네임</a>
+    <input name="nickname" type="text">
+    <p>전화번호</a>
+    <input name="phone_num" type="text">
+
+    <p>생일</a>
+    <input name="birth_y" type="text">
+    <input name="birth_m" type="text">
+    <input name="birth_d" type="text">
+
+    <p>백준 아이디</a>
+    <input name="id_boj" type="text">
+    <p>코포 아이디</a>
+    <input name="id_cf" type="text">
+    <p>깃헙 계정</a>
+    <input name="id_github" type="text">
+
+    <input type="submit" value="회원가입">
+
+</form>
+
+
+{% endblock %}

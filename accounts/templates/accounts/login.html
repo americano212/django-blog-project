@@ -1,0 +1,20 @@
+{% extends 'blog_base.html' %}
+
+{% block title %}{% endblock %}
+
+{% block content %}
+로그인페이지임
+
+{% if user.is_authenticated %}
+    로그인 성공
+    {{ user.username }}ㅎㅇㅎㅇ
+    <a href="{% url 'accounts:logout' %}">로그아웃</a>
+{% else %}
+    <form action="" method="POST">
+        {% csrf_token %}
+        <input name="username" type="text">
+        <input name="password" type="password">
+        <input type="submit" value="로그인">
+    </form>
+{% endif %}
+{% endblock %}

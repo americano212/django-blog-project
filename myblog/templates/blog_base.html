@@ -7,7 +7,7 @@
 <html lang="ko" dir="ltr">
     <head>
         <meta charset="utf-8"> <!--문자에 대한 정보를 나타냄 meta-->
-        <title>PyPyStory</title>
+        {% block title %}<title>PyPyStory</title>{% endblock %}
         <link rel="shortcut icon" type="image/x-icon" href="{% static 'images/favicon_blog.ico' %}"/>
     </head>
     <body>
@@ -20,9 +20,13 @@
             </a>
             <!--로그인 회원가입-->
             <div class="sign_logo">
-                <a href="/"><span class="signin">로그인</span></a>
-                <hr>
-                <a href="/"><span class="signup">회원가입</span></a>
+                {% if user.is_authenticated %}
+                    <a href="{% url 'accounts:logout' %}"><span class="logout">로그아웃</span></a>
+                {% else %}
+                    <a href="{% url 'accounts:login' %}"><span class="signin">로그인</span></a>
+                    <hr>
+                    <a href="{% url 'accounts:signup' %}"><span class="signup">회원가입</span></a>
+                {% endif %}
             </div>
         </header>
         <!--상단 메뉴-->
@@ -35,5 +39,8 @@
                 <li class="nav_item"><a href="/">Profile</a></li>
             </ul>
         </nav>
+        {% block content %}
+
+        {% endblock %}
     </body>
 </html>
