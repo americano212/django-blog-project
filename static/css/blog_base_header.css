@@ -1,7 +1,7 @@
 /*header 부분*/
 
 header{
-    position: sticky;
+    position: static;
     top: 0;
     left: 0;
     height: 75px;
@@ -19,7 +19,7 @@ header a{
     text-decoration: none;
 }
 header .hd_logo span{
-    position: relative;
+    position: static;
     margin: 0;
     border: 0;
     padding: 0;

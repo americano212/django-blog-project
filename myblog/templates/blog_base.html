@@ -4,8 +4,12 @@
 <link rel="stylesheet" type="text/css" href="{% static 'css/blog_base_total.css' %}">
 <link rel="stylesheet" type="text/css" href="{% static 'css/blog_base_header.css' %}">
 <link rel="stylesheet" type="text/css" href="{% static 'css/blog_base_nav.css' %}">
+{% block extrahead %}
+
+{% endblock %}
 <html lang="ko" dir="ltr">
     <head>
+
         <meta charset="utf-8"> <!--문자에 대한 정보를 나타냄 meta-->
         {% block title %}<title>PyPyStory</title>{% endblock %}
         <link rel="shortcut icon" type="image/x-icon" href="{% static 'images/favicon_blog.ico' %}"/>
@@ -15,13 +19,17 @@
             <!--header logo-->
             <a href="/">
                 <div class="hd_logo">
-                    <span style="color:#615E5E;">P</span><span style="color:#A8A0A0;">y</span><span style="color:#615E5E;">P</span><span style="color:#A8A0A0;">y</span><span style="color:#615E5E;">Story</span>
+                    <span style="color:#306998;">P</span><span style="color:#E6C461;">y</span><span style="color:#306998;">P</span><span style="color:#E6C461;">y</span><span style="color:#306998;">Story</span>
                 </div>
             </a>
             <!--로그인 회원가입-->
             <div class="sign_logo">
                 {% if user.is_authenticated %}
+                    <a href="/"><span class="my_page">마이페이지</span></a>
+                    <hr>
                     <a href="{% url 'accounts:logout' %}"><span class="logout">로그아웃</span></a>
+
+
                 {% else %}
                     <a href="{% url 'accounts:login' %}"><span class="signin">로그인</span></a>
                     <hr>

