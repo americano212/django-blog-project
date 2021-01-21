@@ -9,7 +9,6 @@
 {% endblock %}
 <html lang="ko" dir="ltr">
     <head>
-
         <meta charset="utf-8"> <!--문자에 대한 정보를 나타냄 meta-->
         {% block title %}<title>PyPyStory</title>{% endblock %}
         <link rel="shortcut icon" type="image/x-icon" href="{% static 'images/favicon_blog.ico' %}"/>
@@ -50,5 +49,13 @@
         {% block content %}
 
         {% endblock %}
+        <script type="text/javascript" src="//wcs.naver.net/wcslog.js"></script>
+        <script type="text/javascript">
+        if(!wcs_add) var wcs_add = {};
+        wcs_add["wa"] = "12e145d9725e1b";
+        if(window.wcs) {
+          wcs_do();
+        }
+        </script>
     </body>
 </html>
