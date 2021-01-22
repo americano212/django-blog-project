@@ -10,7 +10,7 @@ class PostLV(ListView):
     model = Post
     template_name = 'board/post_all.html'
     context_object_name = 'posts'
-    paginate_by = 2
+    paginate_by = 10 #한페이지의 갯수인듯
 
 class PostDV(DetailView):
     model = Post
@@ -23,14 +23,17 @@ class PostYAV(YearArchiveView):
     model = Post
     date_field = 'modify_dt'
     make_object_list = True
+    month_format = '%m'
 
 class PostMAV(MonthArchiveView):
     model = Post
     date_field = 'modify_dt'
+    month_format = '%m'
 
 class PostDAV(DayArchiveView):
     model = Post
     date_field = 'modify_dt'
+    month_format = '%m'
 
 class PostTAV(TodayArchiveView):
     model = Post
