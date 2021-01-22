@@ -26,11 +26,4 @@ urlpatterns = [
 
     # Ex /board/archive/today/
     path('archive/today/',views.PostTAV.as_view(),name='post_today_archive'),
-
-    # Ex /board/tag/
-    path('tag/',views.TagCloudTV.as_view(),name='tag_cloud'),
-
-    # Ex /board/tag/tagname/
-    path('tag/<str:tag>/',views.TaggedObjectLV.as_view(),name='tagged_object_list'),
-
 ]
