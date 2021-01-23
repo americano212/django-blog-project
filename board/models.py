@@ -5,6 +5,7 @@ from django.urls import reverse
 
 class Post(models.Model):
     title = models.CharField(verbose_name='TITLE',max_length=50)
+    writer = models.ForeignKey('accounts.Account', verbose_name = "WRITER", on_delete = models.CASCADE, null=True)
     slug = models.SlugField('SLUG',unique=True,allow_unicode=True,help_text='One word for title alias')
     description = models.CharField('DESCRIPTION',max_length=100,blank=True,help_text='Simple description text.')
     content = models.TextField('CONTENT')
