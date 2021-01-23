@@ -1,29 +1,39 @@
 {% extends 'blog_base.html' %}
 
+{% load static %}
+
+{% block extrahead %}
+<link rel="stylesheet" href="{% static "css/post_all.css" %}">
+{% endblock %}
+
 {% block title %}{% endblock %}
 
 {% block content %}
-<h1>Blog List</h1>
-<br>
-{% for post in posts %}
-    <h3><a href="{{ post.get_absolute_url }}">{{ post.title }}</a></h3>
-    {{ post.modify_dt|date:"N d, Y" }}
-    <p>{{ post.description }}</p>
-{% endfor %}
-<br>
-<div>
-    <span>
-        {% if page_obj.has_previous %}
-            <a href="?page={{ page_obj.previous_page_number }}">PreviousPage</a>
-        {% endif %}
 
-        Page {{ page_obj.number }} of {{ page_obj.paginator.num_pages }}
+<div class="post_box">
+    <h1>전체 게시판</h1>
+    <h2>모든 게시판의 글을 모아볼 수 있습니다.</h2>
+    <br>
+    {% for post in posts %}
+        <h3><a href="{{ post.get_absolute_url }}">{{ post.title }}</a></h3>
+        {{ post.modify_dt|date:"N d, Y" }}
+        <p>{{ post.description }}</p>
+    {% endfor %}
+    <br>
+    <div>
+        <span>
+            {% if page_obj.has_previous %}
+                <a href="?page={{ page_obj.previous_page_number }}">PreviousPage</a>
+            {% endif %}
 
-        {% if page_obj.has_next %}
-            <a href="?page={{ page_obj.next_page_number }}">NextPage</a>
-      	{% endif %}
+            Page {{ page_obj.number }} of {{ page_obj.paginator.num_pages }}
 
-    </span>
+            {% if page_obj.has_next %}
+                <a href="?page={{ page_obj.next_page_number }}">NextPage</a>
+          	{% endif %}
+
+        </span>
+    </div>
 </div>
 
 {% endblock %}
