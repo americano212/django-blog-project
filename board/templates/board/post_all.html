@@ -13,37 +13,39 @@
     <h1>전체 게시판</h1>
     <h2>모든 게시판의 글을 모아볼 수 있습니다.</h2>
 </div>
+<br>
 <div class="post_table">
     <table>
         <thead>
             <tr>
-                <th class="thead_text">Index</th>
-                <th class="thead_text">Title</th>
-                <th class="thead_text">Nickname</th>
-                <th class="thead_text">Date</th>
-                <th class="thead_text">Hit</th>
+                <th class="thead_idx">Index</th>
+                <th class="thead_title">Title</th>
+                <th class="thead_description">Description</th>
+                <th class="thead_nickname">Nickname</th>
+                <th class="thead_date">Date</th>
+                <th class="thead_hit">Hit</th>
             </tr>
         </thead>
         {% for post in posts %}
         <tbody>
-            <tr>
+            <tr class="tb">
                 <td class="idx">{{ post.id }}</td>
                 <td class="title"><a href="{{ post.get_absolute_url }}">{{ post.title }}</a></td>
+                <td class="description"><a href="{{ post.get_absolute_url }}">{{ post.description }}</a></td>
                 <td class="nickname">{{ post.writer.nickname }}</td>
-                <td class="date">{{ post.modify_dt|date:"N d, Y" }}</td>
+                <td class="date">{{ post.modify_dt|date:"m/d  h:i" }}</td>
                 <td class="hit">{{ post.hit }}</td>
             </tr>
-            <tr>
-                <td class="description">{{ post.description }}</td>
-            <tr>
 
         </tbody>
+
         {% endfor %}
 
     </table>
-
+    <br>
+    <br>
     <div>
-        <span>
+        <span class="page_text">
             {% if page_obj.has_previous %}
                 <a href="?page={{ page_obj.previous_page_number }}">PreviousPage</a>
             {% endif %}

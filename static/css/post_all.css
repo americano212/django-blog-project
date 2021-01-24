@@ -2,11 +2,13 @@
     text-decoration: none;
     padding: 0;
     margin: 0;
+    overflow-x: hidden;
 }
 
 .explain_table{
+    font-family: 'GmarketSansMedium';
     position: static;
-    padding-left: 20%;
+    padding-left: 10%;
     padding-top: 30px;
 }
 h1 {
@@ -17,4 +19,93 @@ h2{
     font-size: 20px;
     color: #A09E9E;
     margin-top: 10px;
+    font-weight: normal;
+}
+.post_table{
+    position: static;
+    padding-left: 5%;
+    padding-top: 30px;
+}
+
+table{
+    border-top: 1px solid #444444;
+    border-collapse: collapse;
+}
+.thead_idx{
+    width: 40px;
+}
+.thead_title{
+    width: 400px;
+}
+.thead_description{
+    width: 650px;
+}
+thead th {
+  padding: 10px;
+  font-weight: bold;
+  font-size: 15px;
+  vertical-align: top;
+  text-align: left;
+  color: #369;
+  border-bottom: 3px solid #036;
+}
+
+tbody tr{
+  padding: 10px;
+  vertical-align: top;
+  border-bottom: 2px solid #ccc;
+  background: #F6F7FC;
+}
+td {
+  padding: 10px;
+  vertical-align: top;
+  border-bottom: 2px solid #8E8E8F;
+  font-family: 'JSDongkang';
+}
+.tb{
+    font-size: 15px;
+}
+.idx{
+    text-align: center;
+}
+.title{
+    font-size: 18px;
+    font-weight: bold;
+}
+.title a:link{
+    color: #3B1846;
+}
+.title a:visited{
+    color: #3B1846;
+}
+.title a:hover{
+    color: #8782F2;
+}
+.description a:visited{
+    color: black;
+}
+.description a:link{
+    color: black;
+}
+.nickname{
+    text-align: center;
+    font-weight: bold;
+}
+.hit{
+    text-align: center;
+}
+.page_text{
+    font-family: 'GmarketSansMedium';
+    padding-left: 40%;
+    font-size: 15px;
+}
+
+.page_text a:link{
+    color: blue;
+}
+.page_text a:visited{
+    color: blue;
+}
+.page_text a:hover{
+    color: #036;
 }
