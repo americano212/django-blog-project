@@ -40,6 +40,8 @@ INSTALLED_APPS = [
     'BlogMain',
     'accounts',
     'board',
+    'taggit.apps.TaggitAppConfig',
+    'taggit_templatetags2',
 ]
 
 MIDDLEWARE = [
@@ -116,8 +118,8 @@ USE_I18N = True
 
 USE_L10N = True
 
-USE_TZ = True
-
+#USE_TZ = True
+USE_TZ = False
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
@@ -131,3 +133,6 @@ STATICFILES_DIRS = [
 ]
 
 AUTH_USER_MODEL = 'accounts.Account'
+
+TAGGIT_CASE_INSENSITIVE = True
+TAGGIT_LIMIT = 50
