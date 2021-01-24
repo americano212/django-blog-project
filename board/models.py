@@ -37,3 +37,4 @@ class Post(models.Model):
     def update_counter(self):
         self.hit = self.hit + 1
         self.save()
+        return ''

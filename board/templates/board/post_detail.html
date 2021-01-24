@@ -1,5 +1,14 @@
+{% extends 'blog_base.html' %}
 
-{{object.update_counter}}
+{% load static %}
+
+{% block extrahead %}
+{% endblock %}
+
+{% block title %}{% endblock %}
+
+{% block content %}
+{{ object.update_counter }}
 
 <h2>{{ object.title }}</h2>
 
@@ -34,3 +43,4 @@
     &emsp;
     <a href="{% url 'board:tag_cloud' %}"><span class="btn btn-info btn-sm">TagCloud</span></a>
 </div>
+{% endblock %}

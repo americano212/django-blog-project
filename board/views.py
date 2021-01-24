@@ -10,7 +10,7 @@ class PostLV(ListView):
     model = Post
     template_name = 'board/post_all.html'
     context_object_name = 'posts'
-    paginate_by = 10 #한페이지의 갯수인듯
+    paginate_by = 20 #한페이지의 갯수인듯
 
 class PostDV(DetailView):
     model = Post

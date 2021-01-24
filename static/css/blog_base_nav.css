@@ -33,6 +33,9 @@ nav .nav_item{
     font-family: 'GmarketSansBold';
     color: #7E727F;
 }
+nav .nav_item a:link{
+    color: #7E727F;
+}
 nav .nav_item a:visited{
     color: #7E727F;
 }
