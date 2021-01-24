@@ -2,9 +2,10 @@
     text-decoration: none;
     padding: 0;
     margin: 0;
+}
+body{
     overflow-x: hidden;
 }
-
 .explain_table{
     font-family: 'GmarketSansMedium';
     position: static;
@@ -21,10 +22,16 @@ h2{
     margin-top: 10px;
     font-weight: normal;
 }
+.wrapper{
+
+    height: auto;
+}
 .post_table{
+    margin-top: 3%;
+    margin-left: 5%;
+    margin-right: auto;
     position: static;
-    padding-left: 5%;
-    padding-top: 30px;
+    height: auto;
 }
 
 table{

@@ -13,50 +13,51 @@
     <h1>전체 게시판</h1>
     <h2>모든 게시판의 글을 모아볼 수 있습니다.</h2>
 </div>
-<br>
-<div class="post_table">
-    <table>
-        <thead>
-            <tr>
-                <th class="thead_idx">Index</th>
-                <th class="thead_title">Title</th>
-                <th class="thead_description">Description</th>
-                <th class="thead_nickname">Nickname</th>
-                <th class="thead_date">Date</th>
-                <th class="thead_hit">Hit</th>
-            </tr>
-        </thead>
-        {% for post in posts %}
-        <tbody>
-            <tr class="tb">
-                <td class="idx">{{ post.id }}</td>
-                <td class="title"><a href="{{ post.get_absolute_url }}">{{ post.title }}</a></td>
-                <td class="description"><a href="{{ post.get_absolute_url }}">{{ post.description }}</a></td>
-                <td class="nickname">{{ post.writer.nickname }}</td>
-                <td class="date">{{ post.modify_dt|date:"m/d  h:i" }}</td>
-                <td class="hit">{{ post.hit }}</td>
-            </tr>
+<div class="wrapper">
+    <div class="post_table">
+        <table>
+            <thead>
+                <tr>
+                    <th class="thead_idx">Index</th>
+                    <th class="thead_title">Title</th>
+                    <th class="thead_description">Description</th>
+                    <th class="thead_nickname">Nickname</th>
+                    <th class="thead_date">Date</th>
+                    <th class="thead_hit">Hit</th>
+                </tr>
+            </thead>
+            {% for post in posts %}
+            <tbody>
+                <tr class="tb">
+                    <td class="idx">{{ post.id }}</td>
+                    <td class="title"><a href="{{ post.get_absolute_url }}">{{ post.title }}</a></td>
+                    <td class="description"><a href="{{ post.get_absolute_url }}">{{ post.description }}</a></td>
+                    <td class="nickname">{{ post.writer.nickname }}</td>
+                    <td class="date">{{ post.modify_dt|date:"m/d  h:i" }}</td>
+                    <td class="hit">{{ post.hit }}</td>
+                </tr>
 
-        </tbody>
+            </tbody>
 
-        {% endfor %}
+            {% endfor %}
 
-    </table>
-    <br>
-    <br>
-    <div>
-        <span class="page_text">
-            {% if page_obj.has_previous %}
-                <a href="?page={{ page_obj.previous_page_number }}">PreviousPage</a>
-            {% endif %}
+        </table>
+        <br>
+        <br>
+        <div>
+            <span class="page_text">
+                {% if page_obj.has_previous %}
+                    <a href="?page={{ page_obj.previous_page_number }}">PreviousPage</a>
+                {% endif %}
 
-            Page {{ page_obj.number }} of {{ page_obj.paginator.num_pages }}
+                Page {{ page_obj.number }} of {{ page_obj.paginator.num_pages }}
 
-            {% if page_obj.has_next %}
-                <a href="?page={{ page_obj.next_page_number }}">NextPage</a>
-          	{% endif %}
+                {% if page_obj.has_next %}
+                    <a href="?page={{ page_obj.next_page_number }}">NextPage</a>
+              	{% endif %}
 
-        </span>
+            </span>
+        </div>
     </div>
 </div>
 
