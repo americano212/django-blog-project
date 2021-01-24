@@ -13,6 +13,7 @@ class Post(models.Model):
     create_dt = models.DateTimeField('CREATE DATE',auto_now_add = True)
     modify_dt = models.DateTimeField('MODIFY DATE',auto_now = True)
     tags = TaggableManager(blank=True)
+    hit = models.PositiveIntegerField(default=0)
 
     class Meta:
         verbose_name = 'post'
@@ -31,3 +32,8 @@ class Post(models.Model):
 
     def get_next(self):
         return self.get_next_by_modify_dt()
+
+    @property
+    def update_counter(self):
+        self.hit = self.hit + 1
+        self.save()

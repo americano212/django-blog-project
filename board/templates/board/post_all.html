@@ -9,19 +9,39 @@
 {% block title %}{% endblock %}
 
 {% block content %}
-
-<div class="post_box">
+<div class="explain_table">
     <h1>전체 게시판</h1>
     <h2>모든 게시판의 글을 모아볼 수 있습니다.</h2>
-    <br>
-    {% for post in posts %}
-        <h3><a href="{{ post.get_absolute_url }}">{{ post.title }}</a></h3>
-        {{ post.modify_dt|date:"N d, Y" }}
-        {{ post.writer }}
-        <p>{{ post.description }}</p>
-        <br>
-    {% endfor %}
-    <br>
+</div>
+<div class="post_table">
+    <table>
+        <thead>
+            <tr>
+                <th class="thead_text">Index</th>
+                <th class="thead_text">Title</th>
+                <th class="thead_text">Nickname</th>
+                <th class="thead_text">Date</th>
+                <th class="thead_text">Hit</th>
+            </tr>
+        </thead>
+        {% for post in posts %}
+        <tbody>
+            <tr>
+                <td class="idx">{{ post.id }}</td>
+                <td class="title"><a href="{{ post.get_absolute_url }}">{{ post.title }}</a></td>
+                <td class="nickname">{{ post.writer.nickname }}</td>
+                <td class="date">{{ post.modify_dt|date:"N d, Y" }}</td>
+                <td class="hit">{{ post.hit }}</td>
+            </tr>
+            <tr>
+                <td class="description">{{ post.description }}</td>
+            <tr>
+
+        </tbody>
+        {% endfor %}
+
+    </table>
+
     <div>
         <span>
             {% if page_obj.has_previous %}
