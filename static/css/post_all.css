@@ -29,7 +29,7 @@ h2{
 .post_table{
     margin-top: 3%;
     margin-left: 5%;
-    margin-right: auto;
+    margin-right: 5%;
     position: static;
     height: auto;
 }
@@ -39,13 +39,16 @@ table{
     border-collapse: collapse;
 }
 .thead_idx{
-    width: 40px;
+    width: 4%;
 }
 .thead_title{
-    width: 400px;
+    width: 32%;
 }
 .thead_description{
-    width: 650px;
+    width: 50%;
+}
+.thead_date{
+    width: 8%;
 }
 thead th {
   padding: 10px;
