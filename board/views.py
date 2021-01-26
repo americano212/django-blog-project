@@ -1,9 +1,11 @@
-from django.shortcuts import render
+from django.shortcuts import render, redirect
 from django.views.generic import ListView, DetailView, TemplateView
 from django.views.generic.dates import ArchiveIndexView, YearArchiveView, MonthArchiveView
 from django.views.generic.dates import DayArchiveView, TodayArchiveView
+from django.contrib import messages
 
 from board.models import Post
+from board.forms import CreateBlog
 # Create your views here.
 
 class PostLV(ListView):
@@ -53,3 +55,19 @@ class TaggedObjectLV(ListView):
         context = super().get_context_data(**kwargs)
         context['tagname'] = self.kwargs['tag']
         return context
+
+def CreatePost(request):
+    if request.method == 'POST':
+        form = CreateBlog(request.POST)
+
+        if form.is_valid():
+            question = form.save(commit=False)
+            question.writer = request.user
+            form.save()
+            return redirect('/board/')
+        else:
+            messages.info(request, '뭔가 잘못 입력하셨습니닷!!!')
+            return redirect('/board/CreatePost/')
+    else:
+        form = CreateBlog()
+        return render(request,'board/post_create.html', {'form': form})

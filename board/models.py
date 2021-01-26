@@ -8,12 +8,12 @@ from ckeditor_uploader.fields import RichTextUploadingField
 class Post(models.Model):
     title = models.CharField(verbose_name='TITLE',max_length=50)
     writer = models.ForeignKey('accounts.Account', verbose_name = "WRITER", on_delete = models.CASCADE, null=True)
-    slug = models.SlugField('SLUG',unique=True,allow_unicode=True,help_text='One word for title alias')
-    description = models.CharField('DESCRIPTION',max_length=100,blank=True,help_text='Simple description text.')
+    slug = models.SlugField('SLUG',unique=True,allow_unicode=True)
+    description = models.CharField('DESCRIPTION',max_length=100,blank=True)
     content = RichTextUploadingField('CONTENT')
     create_dt = models.DateTimeField('CREATE DATE',auto_now_add = True)
     modify_dt = models.DateTimeField('MODIFY DATE',auto_now = True)
-    tags = TaggableManager(blank=True)
+    tags = TaggableManager(blank=True,help_text=False)
     hit = models.PositiveIntegerField(default=0)
 
     class Meta:

@@ -16,7 +16,7 @@
 {% if user.is_authenticated %}
 <div class="upload_page">
     <div class="btn-effect"></div>
-        <a href="/"> 글쓰기 </a>
+        <a href="{% url 'board:CreatePost' %}"> 글쓰기 </a>
 
 </div>
 {% else %}
