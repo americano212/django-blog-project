@@ -1,6 +1,7 @@
 from django.db import models
 from django.urls import reverse
 from taggit.managers import TaggableManager
+from ckeditor_uploader.fields import RichTextUploadingField
 # Create your models here.
 
 
@@ -9,7 +10,7 @@ class Post(models.Model):
     writer = models.ForeignKey('accounts.Account', verbose_name = "WRITER", on_delete = models.CASCADE, null=True)
     slug = models.SlugField('SLUG',unique=True,allow_unicode=True,help_text='One word for title alias')
     description = models.CharField('DESCRIPTION',max_length=100,blank=True,help_text='Simple description text.')
-    content = models.TextField('CONTENT')
+    content = RichTextUploadingField('CONTENT')
     create_dt = models.DateTimeField('CREATE DATE',auto_now_add = True)
     modify_dt = models.DateTimeField('MODIFY DATE',auto_now = True)
     tags = TaggableManager(blank=True)

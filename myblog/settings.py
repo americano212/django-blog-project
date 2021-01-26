@@ -42,7 +42,11 @@ INSTALLED_APPS = [
     'board',
     'taggit.apps.TaggitAppConfig',
     'taggit_templatetags2',
+    'ckeditor',
+    'ckeditor_uploader',
 ]
+
+CKEDITOR_UPLOAD_PATH = 'uploads/'
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -136,3 +140,6 @@ AUTH_USER_MODEL = 'accounts.Account'
 
 TAGGIT_CASE_INSENSITIVE = True
 TAGGIT_LIMIT = 50
+
+MEDIA_URL = '/media/'
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
