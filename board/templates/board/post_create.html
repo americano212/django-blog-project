@@ -3,17 +3,24 @@
 {% load static %}
 
 {% block extrahead %}
+<link rel="stylesheet" href="{% static "css/post_create.css" %}">
 {% endblock %}
 
 {% block title %}{% endblock %}
 
 {% block content %}
-<form method="post" enctype="multipart/form-data">
-    {% csrf_token %}
-    <div class="create_content">
-        {{ form.media }}
-        {{ form.as_p }}
+<div class="create_box">
+    <div class="form_box">
+        <form method="post" enctype="multipart/form-data">
+            {% csrf_token %}
+            <div class="create_content">
+                {{ form.media }}
+                {{ form.as_p }}
+            </div>
+            <br>
+            <br>
+            <input type="submit" value="저장" class="submit_btn"/>
+        </form>
     </div>
-    <input type="submit" value="저장" class="submit_btn"/>
-</form>
+</div>
 {% endblock %}

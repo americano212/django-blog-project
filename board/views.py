@@ -63,6 +63,7 @@ def CreatePost(request):
         if form.is_valid():
             question = form.save(commit=False)
             question.writer = request.user
+            question.slug = question.title
             form.save()
             return redirect('/board/')
         else:

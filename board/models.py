@@ -6,11 +6,11 @@ from ckeditor_uploader.fields import RichTextUploadingField
 
 
 class Post(models.Model):
-    title = models.CharField(verbose_name='TITLE',max_length=50)
+    title = models.CharField(verbose_name='제목',max_length=50)
     writer = models.ForeignKey('accounts.Account', verbose_name = "WRITER", on_delete = models.CASCADE, null=True)
     slug = models.SlugField('SLUG',unique=True,allow_unicode=True)
-    description = models.CharField('DESCRIPTION',max_length=100,blank=True)
-    content = RichTextUploadingField('CONTENT')
+    description = models.CharField('설명',max_length=100,blank=True)
+    content = RichTextUploadingField('')
     create_dt = models.DateTimeField('CREATE DATE',auto_now_add = True)
     modify_dt = models.DateTimeField('MODIFY DATE',auto_now = True)
     tags = TaggableManager(blank=True,help_text=False)
