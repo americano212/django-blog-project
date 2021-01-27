@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+
+}
+body{
+    overflow-x: hidden;
+    font-family: 'ELAND_Choice_M';
+}
+.post_box{
+    background-color: #CAAC99;
+    padding-left: 10%;
+    padding-top: 50px;
+    padding-right: 10%;
+    height: 1000px;
+}
+.total_box{
+    border: 0px solid;
+    padding: 30px;
+    padding-left: 5%;
+    padding-right: 5%;
+    border-radius: 20px;
+    background-color: #fff;
+}
+.title_box{
+    font-size: 25px;
+}
+
+.info_box span{
+    padding-right: 30px;
+    color: grey;
+}
+.description_box{
+    font-size: 18px;
+}
+.content_box{
+}
+.tags_box p{
+    font-weight: bold;
+    font-size: 20px;
+}
+.tag_box{
+    background-color: green;
+    padding: 5px;
+    width: 100px;
+    text-align: center;
+    border-radius: 5px;
+}
+.tag_box a:link{
+    color: white;
+}
+.tag_box a:visited{
+    color: white;
+}
+.tag_box:hover{
+    background-color: #205E31;
+}
+.tag_cloud_box{
+    background-color: #3E3069;
+    padding: 5px;
+    width: 100px;
+    text-align: center;
+    border-radius: 5px;
+}
+.tag_cloud_box a:link{
+    color: white;
+}
+.tag_cloud_box a:visited{
+    color: white;
+}
+.tag_cloud_box:hover{
+    background-color: #5E4D94;
+}
