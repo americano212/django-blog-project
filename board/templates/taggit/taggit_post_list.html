@@ -29,7 +29,7 @@
             {% for post in object_list %}
             <tbody>
                 <tr class="tb">
-                    <td class="idx">{{ post.id }}</td>
+                    <td class="idx">{{ forloop.revcounter }}</td>
                     <td class="title"><a href="{{ post.get_absolute_url }}">{{ post.title }}</a></td>
                     <td class="description"><a href="{{ post.get_absolute_url }}">{{ post.description }}</a></td>
                     <td class="nickname">{{ post.writer.nickname }}</td>

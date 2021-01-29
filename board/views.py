@@ -14,6 +14,7 @@ class PostLV(ListView):
     context_object_name = 'posts'
     paginate_by = 20 #한페이지의 갯수인듯
 
+
 class PostDV(DetailView):
     model = Post
 

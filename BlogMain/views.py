@@ -1,5 +1,9 @@
 from django.shortcuts import render
+from django.views.generic import ListView
+from board.models import Post
 
 # Create your views here.
-def BlogMainHtml(request):
-    return render(request, 'main/blog_main.html')
+class TopLV(ListView):
+    model = Post
+    template_name = 'main/blog_main.html'
+    context_object_name = 'posts'

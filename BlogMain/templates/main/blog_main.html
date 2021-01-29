@@ -3,7 +3,8 @@
 {% load static %}
 
 {% block extrahead %}
-<link rel="stylesheet" href="{% static "css/blog_main.css" %}">
+<link rel="stylesheet" href="{% static "css/blog_main/blog_main_total.css" %}">
+<link rel="stylesheet" href="{% static "css/blog_main/blog_main_content.css" %}">
 {% endblock %}
 
 {% block title %}{% endblock %}
@@ -13,6 +14,29 @@
     <div class="sidebar">
     </div>
     <div class="main_content">
+        <div class="board_top">
+            <h2>최근 게시글</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th class="thead_title">Title</th>
+                        <th class="thead_nickname">Nickname</th>
+                        <th class="thead_date">Date</th>
+                        <th class="thead_hit">Hit</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for post in posts|slice:":3" %}
+                    <tr class="top_text">
+                        <td class="title"><a href="{{ post.get_absolute_url }}">{{ post.title }}</a></td>
+                        <td class="nickname">{{ post.writer.nickname }}</td>
+                        <td class="date">{{ post.modify_dt|date:"m/d  h:i" }}</td>
+                        <td class="hit">{{ post.hit }}</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
     </div>
     <div class="widget_1">
     </div>
