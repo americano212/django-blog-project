@@ -10,7 +10,7 @@ urlpatterns = [
     path('post/',views.PostLV.as_view(),name='post_list'),
 
     # Ex /board/post/django-example/
-    re_path(r'^post/(?P<slug>[-\w]+)/$',views.PostDV.as_view(),name='post_detail'),
+    re_path(r'^post/(?P<slug>[-\w\d ]+)/$',views.PostDV.as_view(),name='post_detail'),
 
     # Ex /board/archive/
     path('archive/',views.PostAV.as_view(),name='post_archive'),

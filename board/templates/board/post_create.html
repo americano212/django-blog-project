@@ -15,7 +15,12 @@
             {% csrf_token %}
             <div class="create_content">
                 {{ form.media }}
-                {{ form.as_p }}
+                <p><label>제목 : </label>{{ form.title }}</p>
+                <p><label>요약 : </label>{{ form.description }}</p>
+                <p>{{ form.content }}</p>
+                {% if user.user_level > 99 %}
+                <p><label>태그 : </label>{{ form.tags }}</p>
+                {% endif %}
             </div>
             <br>
             <br>

@@ -65,6 +65,7 @@ def CreatePost(request):
             question = form.save(commit=False)
             question.writer = request.user
             question.slug = question.title
+
             form.save()
             return redirect('/board/')
         else:

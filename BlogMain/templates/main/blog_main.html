@@ -5,6 +5,7 @@
 {% block extrahead %}
 <link rel="stylesheet" href="{% static "css/blog_main/blog_main_total.css" %}">
 <link rel="stylesheet" href="{% static "css/blog_main/blog_main_content.css" %}">
+<link rel="stylesheet" href="{% static "css/blog_main/blog_main_ad.css" %}">
 {% endblock %}
 
 {% block title %}{% endblock %}
@@ -43,5 +44,13 @@
     <div class="widget_2">
     </div>
 
+</div>
+<div class="bottom_ad">
+    <ins class="kakao_ad_area" style="display:none;"
+         data-ad-unit    = "DAN-ZEtqwGJdkxqPNnI4"
+         data-ad-width   = "320"
+         data-ad-height  = "100">
+    </ins> 
+    <script type="text/javascript" src="//t1.daumcdn.net/kas/static/ba.min.js" async></script>
 </div>
 {% endblock %}
