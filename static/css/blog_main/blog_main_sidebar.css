@@ -1,0 +1,26 @@
+
+.inside_sidebar{
+    margin: 10px;
+    margin-top: 0;
+    font-family: 'GmarketSansMedium';
+}
+.inside_sidebar{
+    font-weight: normal;
+}
+
+.inside_sidebar h2{
+    text-align: center;
+}
+
+.profile_img img{
+    width: 100%;
+    height: auto;
+}
+.blog_description{
+    margin-top: 20px;
+}
+.blog_description p{
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+}

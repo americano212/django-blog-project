@@ -6,6 +6,8 @@
 <link rel="stylesheet" href="{% static "css/blog_main/blog_main_total.css" %}">
 <link rel="stylesheet" href="{% static "css/blog_main/blog_main_content.css" %}">
 <link rel="stylesheet" href="{% static "css/blog_main/blog_main_ad.css" %}">
+<link rel="stylesheet" href="{% static "css/blog_main/blog_main_widget_1.css" %}">
+<link rel="stylesheet" href="{% static "css/blog_main/blog_main_sidebar.css" %}">
 {% endblock %}
 
 {% block title %}{% endblock %}
@@ -13,6 +15,17 @@
 {% block content %}
 <div class="main_page">
     <div class="sidebar">
+        <div class="inside_sidebar">
+            <h2>Blog Info.</h2>
+            <div class="profile_img">
+                <img src="/static/images/profile_img.png" alt="프로필 이미지">
+            </div>
+
+            <div class="blog_description">
+                <p>This blog made of Django</p>
+                <p>I'll try to post once a day ^^</p>
+            </div>
+        </div>
     </div>
     <div class="main_content">
         <div class="board_top">
@@ -22,7 +35,7 @@
                     <tr>
                         <th class="thead_title">Title</th>
                         <th class="thead_nickname">Nickname</th>
-                        <th class="thead_date">Date</th>
+                        <th class="thead_date">Create Date</th>
                         <th class="thead_hit">Hit</th>
                     </tr>
                 </thead>
@@ -31,7 +44,7 @@
                     <tr class="top_text">
                         <td class="title"><a href="{{ post.get_absolute_url }}">{{ post.title }}</a></td>
                         <td class="nickname">{{ post.writer.nickname }}</td>
-                        <td class="date">{{ post.modify_dt|date:"m/d  h:i" }}</td>
+                        <td class="date">{{ post.create_dt|date:"m/d  h:i" }}</td>
                         <td class="hit">{{ post.hit }}</td>
                     </tr>
                     {% endfor %}
@@ -40,17 +53,22 @@
         </div>
     </div>
     <div class="widget_1">
+        <div class="inside_widget_1">
+            <h2>공지사항</h2>
+        </div>
     </div>
     <div class="widget_2">
     </div>
+    <div class="bottom_ad">
+        <div class="kakao_ad">
+            <ins class="kakao_ad_area" style="display:none;"
+                 data-ad-unit    = "DAN-ZEtqwGJdkxqPNnI4"
+                 data-ad-width   = "320"
+                 data-ad-height  = "100">
+            </ins>
+            <script type="text/javascript" src="//t1.daumcdn.net/kas/static/ba.min.js" async></script>
+        </div>
+    </div>
+</div>
 
-</div>
-<div class="bottom_ad">
-    <ins class="kakao_ad_area" style="display:none;"
-         data-ad-unit    = "DAN-ZEtqwGJdkxqPNnI4"
-         data-ad-width   = "320"
-         data-ad-height  = "100">
-    </ins> 
-    <script type="text/javascript" src="//t1.daumcdn.net/kas/static/ba.min.js" async></script>
-</div>
 {% endblock %}
