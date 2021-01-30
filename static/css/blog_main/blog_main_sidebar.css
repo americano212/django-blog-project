@@ -18,8 +18,10 @@
 }
 .blog_description{
     margin-top: 20px;
+    margin-left: 10px;
 }
 .blog_description p{
+    text-align: center;
     font-size: 15px;
     margin: 0;
     padding: 0;

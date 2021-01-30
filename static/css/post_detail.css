@@ -35,6 +35,7 @@ body{
     font-size: 18px;
 }
 .content_box{
+    line-height: 200%;
 }
 
 .tags_box p{

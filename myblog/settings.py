@@ -44,6 +44,8 @@ INSTALLED_APPS = [
     'taggit_templatetags2',
     'ckeditor',
     'ckeditor_uploader',
+    'django.contrib.sites',
+    'django.contrib.sitemaps',
 ]
 
 CKEDITOR_UPLOAD_PATH = 'uploads/'
@@ -143,3 +145,6 @@ TAGGIT_LIMIT = 50
 
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+
+
+SITE_ID = 1 #사이트맵
