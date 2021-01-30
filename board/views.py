@@ -1,8 +1,12 @@
 from django.shortcuts import render, redirect
-from django.views.generic import ListView, DetailView, TemplateView
+from django.views.generic import ListView, DetailView, TemplateView, CreateView, UpdateView, DeleteView
+from django.contrib.auth.mixins import LoginRequiredMixin
+from django.urls import reverse_lazy
+from accounts.views import OwnerOnlyMixin
 from django.views.generic.dates import ArchiveIndexView, YearArchiveView, MonthArchiveView
 from django.views.generic.dates import DayArchiveView, TodayArchiveView
 from django.contrib import messages
+import re
 
 from board.models import Post
 from board.forms import CreateBlog
@@ -57,15 +61,19 @@ class TaggedObjectLV(ListView):
         context['tagname'] = self.kwargs['tag']
         return context
 
+
+def cleanText(readData):
+    text = re.sub('[-=+,#/\?:^$.@*\"※~&%ㆍ!』\\‘|\(\)\[\]\<\>`\'…》]', '', readData)
+    return text
+
 def CreatePost(request):
     if request.method == 'POST':
         form = CreateBlog(request.POST)
 
         if form.is_valid():
-            question = form.save(commit=False)
+            question = form.instance
             question.writer = request.user
-            question.slug = question.title
-
+            question.slug = cleanText(question.title).replace(' ','-')
             form.save()
             return redirect('/board/')
         else:
@@ -73,4 +81,20 @@ def CreatePost(request):
             return redirect('/board/CreatePost/')
     else:
         form = CreateBlog()
-        return render(request,'board/post_create.html', {'form': form})
+        return render(request,'board/post_form.html', {'form': form})
+
+
+
+class PostChangeLV(LoginRequiredMixin,ListView):
+    template_name = 'blog/post_change_list.html'
+    def get_queryset(self):
+        return Post.objects.filter(writer = self.request.user)
+
+class PostUpdateView(OwnerOnlyMixin, UpdateView):
+    model = Post
+    fields = ['title','description','content','tags']
+    success_url = reverse_lazy('board:index')
+
+class PostDeleteView(OwnerOnlyMixin, DeleteView):
+    model = Post
+    success_url = reverse_lazy('board:index')

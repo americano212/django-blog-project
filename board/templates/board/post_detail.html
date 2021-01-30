@@ -34,21 +34,32 @@
         <br>
         <hr>
         <br>
-        <div class="tags_box">
-            <p>Tags</p>
-            <br>
-            {% load taggit_templatetags2_tags %}
-            {% get_tags_for_object object as "tags" %}
-
-            {% for tag in tags %}
-            <div class="tag_box">
-                <a href="{% url 'board:tagged_object_list' tag.name %}">{{tag.name}}</a>
-
+        <div class="bottom_box">
+            <div class="tags_box">
+                <p>Tags</p>
+                <br>
+                {% load taggit_templatetags2_tags %}
+                {% get_tags_for_object object as "tags" %}
+                {% for tag in tags %}
+                <div class="tag_box">
+                    <a href="{% url 'board:tagged_object_list' tag.name %}">{{tag.name}}</a>
+                </div>
+                {% endfor %}
             </div>
-            <br>
-            {% endfor %}
-
+            {% if user == object.writer %}
+            <div class="fix_btn">
+                <div class="update_btn">
+                    <a href="/board/{{ object.pk }}/update">Update</a>
+                </div>
+                <div class="delete_btn">
+                    <a href="/board/{{ object.pk }}/delete">Delete</a>
+                </btn>
+            </div>
+            {% endif %}
         </div>
+        <br>
+        <br>
+        <br>
         <br>
         <div class="tag_cloud_box">
             <a href="{% url 'board:tag_cloud' %}"><span>TagCloud</span></a>

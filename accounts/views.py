@@ -2,6 +2,10 @@ from django.shortcuts import render
 from django.contrib.auth import authenticate,login,logout
 from django.shortcuts import redirect
 from .models import Account
+
+from django.urls import reverse_lazy
+from django.contrib.auth.mixins import AccessMixin
+
 # Create your views here.
 
 def login_view(request):
@@ -51,3 +55,13 @@ def signup_view(request):
         return redirect("accounts:login")
 
     return render(request,"accounts/signup.html")
+
+class OwnerOnlyMixin(AccessMixin):
+    raise_exception = True
+    permission_denied_message = "Owner only can update/delete the object"
+
+def dispatch(self,request,*args,**kwargs):
+    obj = self.get_object()
+    if request.user != obj.writer:
+        return self.handle_no_permission()
+    return super().dispatch(request,*args,**kwargs)

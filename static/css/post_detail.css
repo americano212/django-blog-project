@@ -36,16 +36,21 @@ body{
 }
 .content_box{
 }
+
 .tags_box p{
     font-weight: bold;
     font-size: 20px;
+
 }
 .tag_box{
     background-color: green;
-    padding: 5px;
     width: 100px;
     text-align: center;
     border-radius: 5px;
+    float: left;
+    padding: 5px;
+    margin-right: 10px;
+
 }
 .tag_box a:link{
     color: white;
@@ -71,4 +76,46 @@ body{
 }
 .tag_cloud_box:hover{
     background-color: #5E4D94;
+}
+.fix_btn{
+    margin-left: 83%;
+}
+.update_btn{
+    background-color: blue;
+    width: 100px;
+    text-align: center;
+    border-radius: 5px;
+    float: left;
+    padding: 5px;
+    margin-right: 10px;
+
+}
+.update_btn a:link{
+    color: white;
+}
+.update_btn a:visited{
+    color: white;
+}
+.update_btn:hover{
+    background-color: #130874;
+}
+
+.delete_btn{
+    background-color: red;
+    width: 100px;
+    text-align: center;
+    border-radius: 5px;
+    float: left;
+    padding: 5px;
+    margin-right: 10px;
+
+}
+.delete_btn a:link{
+    color: white;
+}
+.delete_btn a:visited{
+    color: white;
+}
+.delete_btn:hover{
+    background-color: #6B1A18;
 }

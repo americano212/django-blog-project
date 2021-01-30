@@ -21,6 +21,11 @@ label{
 p{
     padding: 7px;
 }
+input{
+    width: 65%;
+    height: 30px;
+    font-size: 20px;
+}
 .form_box{
     border: 0px solid;
     padding: 30px;
