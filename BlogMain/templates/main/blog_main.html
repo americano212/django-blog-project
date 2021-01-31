@@ -25,6 +25,9 @@
                 <p>This blog made of Django</p>
                 <p>I'll try to post once a day</p>
             </div>
+            <div class="quick_link">
+                
+            </div>
         </div>
     </div>
     <div class="main_content">
@@ -40,7 +43,7 @@
                     </tr>
                 </thead>
                 <tbody>
-                    {% for post in posts|slice:":3" %}
+                    {% for post in posts|slice:":5" %}
                     <tr class="top_text">
                         <td class="title"><a href="{{ post.get_absolute_url }}">{{ post.title }}</a></td>
                         <td class="nickname">{{ post.writer.nickname }}</td>
@@ -55,6 +58,9 @@
     <div class="widget_1">
         <div class="inside_widget_1">
             <h2>공지사항</h2>
+            <br>
+            <p>테스트 운영중입니다</p>
+            <p>로그인 하시면 글도 쓸 수 있습니다!!</p>
         </div>
     </div>
     <div class="widget_2">

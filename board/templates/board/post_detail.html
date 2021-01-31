@@ -9,7 +9,9 @@
 {% block title %}{% endblock %}
 
 {% block content %}
+{% if user.user_level < 100 %}
 {{ object.update_counter }}
+{% endif %}
 <div class="post_box">
     <div class="total_box">
         <div class="title_box">
