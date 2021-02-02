@@ -9,7 +9,11 @@
 {% block title %}{% endblock %}
 
 {% block content %}
-{% if user.user_level < 100 %}
+{% if user.is_authenticated %}
+    {% if user.user_level < 100 %}
+    {{ object.update_counter }}
+    {% endif %}
+{% else %}
 {{ object.update_counter }}
 {% endif %}
 <div class="post_box">

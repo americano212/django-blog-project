@@ -13,7 +13,7 @@ body{
     padding-left: 10%;
     padding-top: 50px;
     padding-right: 10%;
-    height: 1000px;
+    height: auto;
 }
 .total_box{
     border: 0px solid;
