@@ -1,0 +1,102 @@
+openapi: 3.0.3
+info:
+  version: 1.0.0
+  title: Make BSS Great Again (bshs.or.kr)
+  license:
+    name: BSD-3-Clause
+    url: https://opensource.org/licenses/BSD-3-Clause
+  termsOfService: 'https://bshs.or.kr/terms/'
+  contact:
+    email: hyecheol123@gmail.com
+    url: 'http://bshs.or.kr/contact'
+  x-logo:
+    url: 'https://redocly.github.io/openapi-template/logo.png'
+  description:
+    $ref: description/main.md
+externalDocs:
+  description: GitHub repository for this API Documentation.
+  url: 'https://github.com/hyecheol123/MakeBSSGreatAgin_API_Documentation'
+tags:
+  - name: Auth
+    description: Authorization/Authentication operations
+  - name: User
+    description: User account related operations
+servers:
+  - url: 'https://bshs.or.kr/api/v1'
+paths:
+  # auth APIs
+  /auth/login:
+    post:
+      $ref: paths/auth/login/post.yaml
+  /auth/logout:
+    delete:
+      $ref: paths/auth/logout/delete.yaml
+  /auth/logout/other-sessions:
+    delete:
+      $ref: paths/auth/logout/other-sessions/delete.yaml
+  /auth/renew:
+    get:
+      $ref: paths/auth/renew/get.yaml
+  # user APIs
+  /user:
+    post: # New user
+      $ref: paths/user/post.yaml
+  /user/verify-email:
+    post: # Create verification ticket
+      $ref: paths/user/verify-email/post.yaml
+  /user/verify-email/{ticketID}:
+    put: # Verify Email
+      $ref: paths/user/verify-email/{ticketID}/put.yaml
+  /user/find-username:
+    get:
+      $ref: paths/user/find-username/get.yaml
+  /user/find-username/email:
+    post: # Send username to user's email
+      $ref: paths/user/find-username/email/post.yaml
+  /user/password-reset:
+    post: # Send password reset ticket/link to user's email
+      $ref: paths/user/password-reset/post.yaml
+  /user/password-reset/{ticketID}:
+    put: # Use password reset ticket to reset the password
+      $ref: paths/user/password-reset/{ticketID}/put.yaml
+  #comment APIs
+  /comment/create:
+    post:  # New comment
+      $ref: comment/create/create.yaml
+  /comment/erase:
+    delete: # Delete comment
+      $ref: comment/erase/delete.yaml
+  /comment/fixed:
+    patch: # Update comment
+      $ref: comment/fixed/update.yaml
+  /comment/declaration:
+    patch: # Update comment declaration count
+      $ref: comment/declaration/declaration-update.yaml
+  /comment/declaration/admin:
+    post: # post declaration info. to admin
+      $ref: comment/declaration/admin/post.yaml
+components:
+  securitySchemes:
+    idPassword:
+      type: http
+      scheme: basic
+      description: |
+        Basic Authentication will be used to **retrieve tokens**.
+
+        For security reasons, the maximum number of trying signin will be limited.
+        If user failed to login 5 consecutive times, the account will be locked.
+
+        It requires `Authorization` headers that contains the word `Basic` followed by a space and a base64-encoded string `username:password`.
+    accessToken:
+      type: apiKey
+      in: cookie
+      name: X-ACCESS-TOKEN
+      description: |
+        Access token will be used to **authenticate/authorize user to use the API**.
+    refreshToken:
+      type: apiKey
+      in: cookie
+      name: X-REFRESH-TOKEN
+      description: |
+        Refresh token will be used to **renew expired access token**.
+        If the refresh token also expired, the user need to login again by using basic authentication.
