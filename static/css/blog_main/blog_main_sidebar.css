@@ -28,6 +28,9 @@
     margin: 0;
     padding: 0;
 }
+#text1{
+    display: none;
+}
 .quick_link{
     float: left;
     margin-top: 20px;

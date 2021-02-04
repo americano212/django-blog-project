@@ -13,6 +13,19 @@
 {% block title %}{% endblock %}
 
 {% block content %}
+<script>
+function copyToClipboard(elementId) {
+    var aux = document.createElement("input");
+    aux.setAttribute("value", document.getElementById(elementId).innerHTML);
+    document.body.appendChild(aux);
+    aux.select();
+    document.execCommand("copy");
+    document.body.removeChild(aux);
+    window.alert('메일 주소가 클립보드로 복사되었습니다.');
+    return false;
+}
+</script>
+
 <div class="main_page">
     <div class="sidebar">
         <div class="inside_sidebar">
@@ -34,19 +47,20 @@
                         <img src="/static/images/insta_icon.png" alt="인스타">
                     </div>
                 </a>
-                <a href="/" class="move_link">
-                    <div class="imgswap" >
-                        <img src="/static/images/mail_icon_low.png" alt="메일">
-                        <img src="/static/images/mail_icon.png" alt="메일">
-                    </div>
-                </a>
-                <a href="https://web.facebook.com/profile.php?id=100010290605875" class="move_link">
+                <p id="text1">wq0212@naver.com</p>
+
+                <div class="imgswap" onclick="copyToClipboard('text1')" >
+                    <img src="/static/images/mail_icon_low.png" alt="메일">
+                    <img src="/static/images/mail_icon.png" alt="메일">
+                </div>
+
+                <a href="https://web.facebook.com/profile.php?id=100010290605875" target="_blank" class="move_link">
                     <div class="imgswap" >
                         <img src="/static/images/fab_icon_low.png" alt="페북">
                         <img src="/static/images/fab_icon.png" alt="페북">
                     </div>
                 </a>
-                <a href="https://open.kakao.com/o/sozUm4Uc" class="move_link">
+                <a href="https://open.kakao.com/o/sozUm4Uc" target="_blank" class="move_link">
                     <div class="imgswap" >
                         <img src="/static/images/kakao_icon_low.png" alt="카톡">
                         <img src="/static/images/kakao_icon.png" alt="카톡">
