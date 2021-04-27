@@ -773,3 +773,13 @@ git commit -m "update data"
 git push
 source myvenv/bin/activate
 git pull
+clear
+ls
+source myvenv/bin/activate
+ls
+git --version
+git push
+git status
+git commit -am "update db"
+git push
+ls
