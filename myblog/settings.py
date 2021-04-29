@@ -46,7 +46,12 @@ INSTALLED_APPS = [
     'ckeditor_uploader',
     'django.contrib.sites',
     'django.contrib.sitemaps',
+    #'disqus',
 ]
+
+DISQUS_WEBSITE_SHORTNAME = 'pypystory'
+SITE_ID = 1
+
 
 CKEDITOR_UPLOAD_PATH = 'uploads/'
 

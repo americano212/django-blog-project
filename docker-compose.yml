@@ -1,0 +1,11 @@
+version: "3.2"
+
+services:
+  BlogCreate:
+    container_name: BlogCreate
+    image: djangoblog
+    ports:
+      - "8000:8000"
+    command: python3 manage.py runserver 0:8000
+    volumes:
+      - /home/ubuntu/Django_Blog:/Django_Blog
