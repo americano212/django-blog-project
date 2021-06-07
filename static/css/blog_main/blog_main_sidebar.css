@@ -1,0 +1,51 @@
+
+.inside_sidebar{
+    margin: 10px;
+    margin-top: 0;
+    font-family: 'GmarketSansMedium';
+}
+.inside_sidebar{
+    font-weight: normal;
+}
+
+.inside_sidebar h2{
+    text-align: center;
+}
+
+.profile_img img{
+    width: 100%;
+    height: auto;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+.blog_description{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.blog_description p{
+    text-align: center;
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+}
+#text1{
+    display: none;
+}
+.quick_link{
+    float: left;
+    margin-top: 20px;
+}
+.imgswap img{
+    width: 50px;
+    height: 50px;
+    padding: 5%;
+}
+.imgswap img:last-child{
+    display:none
+}
+.imgswap:hover img:first-child{
+    display:none
+}
+.imgswap:hover img:last-child{
+    display:inline-block
+}

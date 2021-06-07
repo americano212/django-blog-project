@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+{% load static %}
+<link rel="stylesheet" type="text/css" href="{% static 'css/blog_font.css' %}">
+<link rel="stylesheet" type="text/css" href="{% static 'css/blog_base_total.css' %}">
+<link rel="stylesheet" type="text/css" href="{% static 'css/blog_base_header.css' %}">
+<link rel="stylesheet" type="text/css" href="{% static 'css/blog_base_nav.css' %}">
+<link rel="stylesheet" type="text/css" href="{% static 'css/blog_base_footer.css' %}">
+{% block extrahead %}
+
+{% endblock %}
+<html lang="ko" dir="ltr">
+    <head>
+        <meta charset="utf-8"> <!--문자에 대한 정보를 나타냄 meta-->
+        {% block title %}<title>PyPyStory</title>{% endblock %}
+        <link rel="shortcut icon" type="image/x-icon" href="{% static 'images/favicon_blog.ico' %}"/>
+        <meta name="google-site-verification" content="6QUFQK-upxA2mAjPxajSqAEqXocRSk0oa5B595ojH9w" />
+        <meta name="naver-site-verification" content="de08aec311ea60093f8ca0511be9939daaa61403" />
+    </head>
+    <body>
+        <header>
+            <!--header logo-->
+            <a href="/">
+                <div class="hd_logo">
+                    <span style="color:#306998;">P</span><span style="color:#E6C461;">y</span><span style="color:#306998;">P</span><span style="color:#E6C461;">y</span><span style="color:#306998;">Story</span>
+                </div>
+            </a>
+            <!--로그인 회원가입-->
+            <div class="sign_logo">
+                {% if user.is_authenticated %}
+                    <a href="/"><span class="my_page">마이페이지</span></a>
+                    <hr>
+                    <a href="{% url 'accounts:logout' %}"><span class="logout">로그아웃</span></a>
+
+
+                {% else %}
+                    <a href="{% url 'accounts:login' %}"><span class="signin">로그인</span></a>
+                    <hr>
+                    <a href="{% url 'accounts:signup' %}"><span class="signup">회원가입</span></a>
+                {% endif %}
+            </div>
+        </header>
+        <!--상단 메뉴-->
+        <nav>
+            <ul class="nav_container">
+                <li class="nav_item"><a href="/board/tag/Coding">Coding</a>
+                    <div class="sub_menu">
+                        <a href="/board/tag/BOJ">BOJ</a>
+                        <a href="/board/tag/Codeforce">Codeforce</a>
+                        <a href="/board/tag/Web">Web</a>
+                        <a href="/board/tag/Server">Server</a>
+                    </div>
+                </li>
+
+                <li class="nav_item"><a href="/board/">Board</a></li>
+                <li class="nav_item"><a href="/board/tag/Diary/">Diary</a></li>
+                <li class="nav_item"><a href="/board/tag/Finance/">Finance</a>
+                    <div class="sub_menu">
+                        <a href="/board/tag/Stock">Stock</a>
+                        <a href="/board/tag/SWIC">SWIC</a>
+                        <a href="/board/tag/Macro">Macro</a>
+                        <a href="/board/tag/Investing">Investing</a>
+                        <a href="/board/tag/Algo Trading">Algo. Trading</a>
+                    </div>
+
+                </li>
+                <li class="nav_item"><a href="/">Profile</a></li>
+            </ul>
+        </nav>
+        {% block content %}
+
+        {% endblock %}
+        <script type="text/javascript" src="//wcs.naver.net/wcslog.js"></script>
+        <script type="text/javascript">
+        if(!wcs_add) var wcs_add = {};
+        wcs_add["wa"] = "12e145d9725e1b";
+        if(window.wcs) {
+          wcs_do();
+        }
+        </script>
+    </body>
+    <div class="down_ad">
+
+    </div>
+    <footer>
+
+    </footer>
+</html>

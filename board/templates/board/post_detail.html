@@ -1,0 +1,80 @@
+{% extends 'blog_base.html' %}
+
+{% load static %}
+
+{% block extrahead %}
+<link rel="stylesheet" href="{% static "css/post_detail.css" %}">
+{% endblock %}
+
+{% block title %}{% endblock %}
+
+{% block content %}
+{% if user.is_authenticated %}
+    {% if user.user_level < 100 %}
+    {{ object.update_counter }}
+    {% endif %}
+{% else %}
+{{ object.update_counter }}
+{% endif %}
+<div class="post_box">
+    <div class="total_box">
+        <div class="title_box">
+            <h2>{{ object.title }}</h2>
+        </div>
+        <br>
+        <div class="info_box">
+            <span>{{ object.create_dt|date:"Y년 F j일 f" }}</span>
+            <span>Writer : {{ object.writer.nickname }}</span>
+            <span>Hit : {{ object.hit }}</span>
+        </div>
+        <br>
+        <hr>
+        <br>
+        <div class="description_box">
+            <span>{{ object.description }}</span>
+        </div>
+        <br>
+        <div class="content_box">
+            {{ object.content | safe}}
+        </div>
+        <br>
+        <hr>
+        <br>
+        <div class="bottom_box">
+            <div class="tags_box">
+                <p>Tags</p>
+                <br>
+                {% load taggit_templatetags2_tags %}
+                {% get_tags_for_object object as "tags" %}
+                {% for tag in tags %}
+                <div class="tag_box">
+                    <a href="{% url 'board:tagged_object_list' tag.name %}">{{tag.name}}</a>
+                </div>
+                {% endfor %}
+            </div>
+            {% if user == object.writer %}
+            <div class="fix_btn">
+                <div class="update_btn">
+                    <a href="/board/{{ object.pk }}/update">Update</a>
+                </div>
+                <div class="delete_btn">
+                    <a href="/board/{{ object.pk }}/delete">Delete</a>
+                </btn>
+            </div>
+            {% endif %}
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="tag_cloud_box">
+            <a href="{% url 'board:tag_cloud' %}"><span>TagCloud</span></a>
+        </div>
+        <div>
+            {% load disqus_tags %}
+            {% set_disqus_url post_absolute_url %}
+            {% disqus_show_comments %}
+        </div>
+    </div>
+</div>
+{% endblock %}

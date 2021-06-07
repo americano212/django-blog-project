@@ -1,0 +1,50 @@
+{% extends 'blog_base.html' %}
+
+{% load static %}
+
+{% block extrahead %}
+<link rel="stylesheet" href="{% static "css/post_all.css" %}">
+{% endblock %}
+
+{% block title %}{% endblock %}
+
+{% block content %}
+<div class="explain_table">
+    <h1>{{tagname}} 게시판</h1>
+    <h2>{{tagname}}가 태그 된 모든 글을 모아볼 수 있습니다.</h2>
+</div>
+<div class="wrapper">
+    <div class="post_table">
+        <table>
+            <thead>
+                <tr>
+                    <th class="thead_idx">Index</th>
+                    <th class="thead_title">Title</th>
+                    <th class="thead_description">Description</th>
+                    <th class="thead_nickname">Nickname</th>
+                    <th class="thead_date">Date</th>
+                    <th class="thead_hit">Hit</th>
+                </tr>
+            </thead>
+            {% for post in object_list %}
+            <tbody>
+                <tr class="tb">
+                    <td class="idx">{{ forloop.revcounter }}</td>
+                    <td class="title"><a href="{{ post.get_absolute_url }}">{{ post.title }}</a></td>
+                    <td class="description"><a href="{{ post.get_absolute_url }}">{{ post.description }}</a></td>
+                    <td class="nickname">{{ post.writer.nickname }}</td>
+                    <td class="date">{{ post.modify_dt|date:"m/d  h:i" }}</td>
+                    <td class="hit">{{ post.hit }}</td>
+                </tr>
+
+            </tbody>
+
+            {% endfor %}
+
+        </table>
+
+    </div>
+</div>
+
+
+{% endblock %}

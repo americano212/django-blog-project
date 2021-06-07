@@ -1,0 +1,93 @@
+{% extends 'blog_base.html' %}
+
+{% load static %}
+
+{% block extrahead %}
+<link rel="stylesheet" href="{% static "css/blog_signup.css" %}">
+{% endblock %}
+
+{% block title %}{% endblock %}
+
+{% block content %}
+
+<form action="" method="POST">
+    {% csrf_token %}
+
+    <div class="header">
+
+    </div>
+    <div class="wrapper">
+        <div class="signup_content">
+            <div>
+                <h3>ID</h3>
+                <span class="box_int">
+                    <input name="username" type="text" class="intext" maxlength="20" placeholder="20자 이하의 사용하실 아이디">
+                </span>
+            </div>
+            <div>
+                <h3>PW</h3>
+                <span class="box_int">
+                    <input name="password" type="password" class="intext" maxlength="20" placeholder="20자 이하의 사용하실 비밀번호">
+                </span>
+            </div>
+            <div>
+                <h3>Email</h3>
+                <span class="box_int">
+                    <input name="email" type="text" class="intext" maxlength="30" placeholder="Ex) example@sogang.ac.kr">
+                </span>
+            </div>
+            <div>
+                <h3>Name</h3>
+                <span class="box_int">
+                    <input name="name" type="text" class="intext" maxlength="5" placeholder="2~5자의 이름">
+                </span>
+            </div>
+            <div>
+                <h3>Nickname</h3>
+                <span class="box_int">
+                    <input name="nickname" type="text" class="intext" maxlength="10" placeholder="10자 이하의 사용하실 닉네임">
+                </span>
+            </div>
+            <div>
+                <h3>Phone Number</h3>
+                <span class="box_int">
+                    <input name="phone_num" type="text" class="intext" maxlength="11" placeholder="Ex) 01012345678">
+                </span>
+            </div>
+            <div>
+                <h3>Birthday</h3>
+                <span class="birth_box_int">
+                    <input name="birth_y" type="text" class="birth_intext" maxlength="4" placeholder="YYYY">
+                </span>
+                <span class="birth_box_int">
+                    <input name="birth_m" type="text" class="birth_intext" maxlength="2" placeholder="MM">
+                </span>
+                <span class="birth_box_int">
+                    <input name="birth_d" type="text" class="birth_intext" maxlength="2" placeholder="DD">
+                </span>
+            </div>
+            <div>
+                <h3>BOJ ID</h3>
+                <span class="box_int">
+                    <input name="id_boj" type="text" class="intext" maxlength="20" placeholder="Baekjoon 아이디가 있다면 입력해주세요">
+                </span>
+            </div>
+            <div>
+                <h3>Codeforce ID</h3>
+                <span class="box_int">
+                    <input name="id_cf" type="text" class="intext" maxlength="20" placeholder="Codeforce 아이디가 있다면 입력해주세요">
+                </span>
+            </div>
+            <div>
+                <h3>Github Account</h3>
+                <span class="box_int">
+                    <input name="id_github" type="text" class="intext" maxlength="20" placeholder="Github 아이디가 있다면 입력해주세요">
+                </span>
+            </div>
+            <div class="btn_area">
+                <input type="submit" value="Join" class="btn">
+            </div>
+        </div>
+    </div>
+</form>
+{% endblock %}
