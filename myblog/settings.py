@@ -46,7 +46,7 @@ INSTALLED_APPS = [
     'ckeditor_uploader',
     'django.contrib.sites',
     'django.contrib.sitemaps',
-    #'disqus',
+    'disqus',
 ]
 
 DISQUS_WEBSITE_SHORTNAME = 'pypystory'

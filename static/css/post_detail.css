@@ -36,6 +36,7 @@ body{
 }
 .content_box{
     line-height: 200%;
+    font-family: 'Nanum Gothic';
 }
 
 .tags_box p{
@@ -118,5 +119,9 @@ body{
     color: white;
 }
 .delete_btn:hover{
+    background-color: #6B1A18;
+}
+.create_comment_box{
+    height: 100px;
     background-color: #6B1A18;
 }

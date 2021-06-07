@@ -36,6 +36,7 @@ urlpatterns = [
     # Ex /blog/CreatePost/
     path('CreatePost/',views.CreatePost,name='CreatePost'),
 
+
     #path('change/',views.PostChangeLV.as_view(),name='change'),
 
     path('<int:pk>/update/',views.PostUpdateView.as_view(),name="update"),

@@ -70,6 +70,11 @@
         <div class="tag_cloud_box">
             <a href="{% url 'board:tag_cloud' %}"><span>TagCloud</span></a>
         </div>
+        <div>
+            {% load disqus_tags %}
+            {% set_disqus_url post_absolute_url %}
+            {% disqus_show_comments %}
+        </div>
     </div>
 </div>
 {% endblock %}
