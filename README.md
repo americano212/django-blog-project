@@ -1,49 +1,61 @@
-# BlogCreate
-Start : 210109~
-Blog ver 1.0.0
+# Make Blog Project use Django
+------------
+#### Start : 210109~
+#### http://blog.pypystory.com/
+------------
+## 프로젝트 계획과 이유
+> 그간 작게 부분부분 웹개발을 연습하다가 하나의 합쳐진 프로젝트를 만들어보고자 블로그를 개발해보고자 했다.
+> 처음엔 어떤 웹 페이지를 만들어볼까 고민하다가 가장 무난하게 1인 user와 여러명의 guest들을 위한, 본인의 활동을 기록하고, 공유할 블로그를 만들어보기로 했다.
+>
+> 개발 기간은 넉넉하게 다음 여름방학까지 틈틈히하면서 6개월 정도로 잡고, HTML/CSS 연습 및 Django 여러 기능 구현을 하려고 한다.
+> 추후 다른 기술 스택(Nodejs, React,...)들도 써보겠지만, 지금 당장 가장 손에 익은 Python 기반의 프레임워크를 선택했다.
+> Python 웹 프레임워크는 크게 본인이 사용한 Django와 Flack 2개 정도가 있는데, flask는 좀 가볍게 쓰는 느낌이고, Django 커뮤니티나 자료가 더 방대하고, 기능적으로 탄탄한 것 같아서 Django 언어를 선택하게 되었다.
+------------
+## 참고한 책(네이버 책 링크 첨부)
+> 파이썬 웹프로그래밍 실전편 Django장고를 활용한 쉽고 빠른 웹 개발
+> https://book.naver.com/bookdb/book_detail.nhn?bid=15654623
+>
+> Do it! 점프 투 장고 파이썬 웹 개발부터 배포까지!
+> https://book.naver.com/bookdb/book_detail.nhn?bid=17690511
+>
+> 이것이 우분투 리눅스다(개정판) 우분투 리눅스 설치부터 네트워크와 서버 구축, 운영까지
+> https://book.naver.com/bookdb/book_detail.nhn?bid=16893958
+------------
+## 구현한 블로그 내 model 설명
+------------
+### [User Model]
+------------
+> name, nickname, phone number, birthday(YMD), BOJ ID, Codeforce ID, GitHub ID를 입력받고, User Level과 User EXP는 내부적으로 할당된다.
+> 로그인, 로그아웃, 회원가입, 유저 레벨에 따른 권한부여, sql DB에 저장 등을 담당하게 된다.
+> from django.contrib.auth.models import AbstractUser를 받아와서 overriding해서 Account라는 클래스를 만들었다.
 
-## 0. 블로그 만들기 시작
- github에 15번째 커밋을 날린후에 readme를 마크다운으로 쓸 수 있는 기능을 발견해버렸다...
- 내 코드 등등 정리를 위해서 + 자소서 느낌으로 블로그를 만들어보기로 했다.
+------------
+### [Board Model]
+------------
+> title, writer, slug(제목을 바탕으로 url을 만듬), description, content, create date, modify date, tags, hit
+> 블로그 게시글을 담당하며, 제목, 작성자, 요약, 본문, 만든시간, 수정시간, 태그, 조회수 등을 포함한다.
+> content는 from ckeditor_uploader.fields import RichTextUploadingField를 직접 사용하였다.
+> CKEditor라는 모듈을 필드로 쓸 수 있어서 content 작업이 훨씬편하게 한줄로 줄어들었다.
+>
+> Class 형의 forms Model을 만들어서 사용하였다.
+>
+> Slug를 만드는 작업이 가장 까다로웠는데, 제목을 그대로 url로 변환하여 사용하는 과정에서 특수문자를 인식하지 못해 Error가 발생하는 경우였다.
+> 결국 regular expression을 사용해서 특수문자를 제거하고 space를 '-'로 replace해서 해결했다.
+>
+> tag 기능은 from taggit.managers import TaggableManager를 가져와서 사용하였는데 큰 게시판의 tag를 만들어 두고 각각에 할당되는(게시판 제목이 태그된) 게시물들을 각 게시판에 뿌려주는 방식이다.
+> 하지만 모든 게시판의 형식이 같아지는 일이 생겼는데, 프로그래밍 설계부터 잘못된 부분이라 다 갈아 엎어야해서 일단은 보류한다.
+>
+> 댓글 기능은 Disqus 서비스를 신청하고 HTML단에 붙여넣음으로써 구현했다. 1:N으로 따로 구현할 수도 있었겠지만 그냥 있는 서비스를 썼다.
+>
+------------
+### [Kakao Adfit]
+------------
+> 카카오 광고 시스템을 넣을 수 있을까해서 Kakao Adfit을 신청하고 결과를 기다렸더니 보완사항에 대한 답변이 왔다.
+> 미완성 카테고리가 있어서 보류함 + 모바일 최적화를 해야 광고를 줄 수 있음
+> 추후에 해당사항들을 보완시켜보고자 한다.
 
-### 0.1 개발 언어
- js를 조금 갖고 놀아본적은 있지만 겉핥기였고.. 그냥 젤 (그나마) 자신있는 언어인 python 기반 프레임워크인 장고로 개발해보기로했다
- flask라는 것도 있는건 알지만 이래저래 찾아보니 django가 좀 더 기능적으로 탄탄한거 같아서 골랐다 (flask는 좀 가볍게 쓰는 느낌?)
-
-### 0.2 지금까지 내용
- base.html을 만들어 놓고 account 기능 구현 후 board 기능 구현 중 readme.를 발견했다..!
-
-
-## 1. 블로그 게시판 구현
- 블로그 게시판 구현하다가 머리가 터져버렸다. CRUD 각각 다 구현해야 하지만 일단 CR까지만 구현해둔상태...!(~210128)
-
-### 1.1 게시판 Create 단계
- class로 title, writer(만들어 놓고 보니, 다른분들은 author이라고 많이하더라), slug, description,content,create_dt
- modify_dt(hit 기능을 만들면서 클릭할 때마다 hit 값이 변하면서 원래 의미를 잃어버렸다...), tags, hit을 인자로 가진다.
- 
- forms.py를 만들고 거기서 통채로 가져오는데 slug 땜에 고생했다... 이건 read에서는 안보이게 처리하고 views.py에서 title과
- 동일하게 만들어주는 back-end로 넘겼다.
- 
- slug가 계속 난장판을 피웠는데 결국 import re를 이용해서 title에서 특수문자를 모두 제거하고 space를 '-'로 replace한 string을 그대로 slug로 사용하기로 했다.
- 단, 이러면 title이 같으면 문제가 되지만 title은 같지않게 하는걸로 하자...
- 
-### 1.2 게시판 Read 단계
- 전체 모든 글 게시판 Board가 있고 아래의 3개 게시판으로 나눠짐
- Coding, Diary, Finance를 기초로 하여 큰 게시판을 만들고 tag 기능을 이용해서 전체 게시판과 연동될 수 있게 했다.
- tag 기능의 아이디어는 좋았으나 모든 게시판의 형식이 같아지는 액시던트가 생겼다.(선천적 똥이라 다 갈아엎지 않으면 수정불가)
- 
- CKEditor라는 고마운 친구를 발견해서 노가다를 줄일 수 있었다. django에선 모듈화 되어있는데, 프레임워크 안쓰면 저걸 일일히 구현하는건가??
- 
-### 1.3 게시판 UD 단계 (210131)
- 그동안 미뤘던 create와 update기능을 구현했다.
- 
-
- ## 2. 블로그 메인페이지 구현
-  블로그 메인페이지는 왼쪽 사이드바, 가운데 메인 컨텐츠, 오른쪽에 widget 2개가 들어갈 예정이다.
-  footer는 base.html에서 작업할 것이며, kakao ad를 넣어서 수익형 웹블로그를 만들어보고자한다.
-  
- ### 2.1 메인 컨텐츠 구성
-  일단 board에 썼던 db를 가져와서 최근 글 상위 3개를 띄워줄 것이다.
-  
- ### 2.2 오른쪽 widget 1 구성
-  공지사항을 widget에 추가해줄것이다.
+------------
+### 서버운영
+------------
+iwinv에서 우분투 리눅스 서버를 구매해서 사용하고 있으며 rCore.P2로 1core / 4GB / SSD 25GB 서버 위에서 돌아가고 있다.
+외부에서 들어오는 port를 nginx 웹서버가 관리하고 있으며, Django Blog 자체는 Dockerfile로 image를 만들고, image를 build한 뒤 volume을 동기화해 가면서 운영되고 있다.
